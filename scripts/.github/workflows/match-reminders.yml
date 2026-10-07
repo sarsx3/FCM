@@ -1,0 +1,43 @@
+name: Match reminders (FCM)
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # GitHub's minimum interval
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (print only, do not send)"
+        type: boolean
+        default: true
+
+# Never run two at once -> no duplicate notifications
+concurrency:
+  group: match-reminders
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Send reminders
+        run: python scripts/send_match_reminders.py
+        env:
+          FIREBASE_DB_BASE: ${{ secrets.FIREBASE_DB_BASE }}
+          FIREBASE_DB_SECRET: ${{ secrets.FIREBASE_DB_SECRET }}
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          FCM_TOPIC: ${{ secrets.FCM_TOPIC }}
+          ANDROID_CHANNEL_ID: ${{ secrets.ANDROID_CHANNEL_ID }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
