@@ -1,0 +1,62 @@
+name: Match reminders (FCM)
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # auto sync + send every 5 minutes (GitHub's minimum)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (print only, do not send FCM)"
+        type: boolean
+        default: true
+
+# Never run two at once -> no duplicate notifications, no push conflicts
+concurrency:
+  group: match-reminders
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # needed to commit preview/upcoming_notifications.json
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      FIREBASE_DB_BASE: ${{ secrets.FIREBASE_DB_BASE }}
+      FIREBASE_DB_SECRET: ${{ secrets.FIREBASE_DB_SECRET }}
+      FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+      FCM_TOPIC: ${{ secrets.FCM_TOPIC }}
+      ANDROID_CHANNEL_ID: ${{ secrets.ANDROID_CHANNEL_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 1) Sync data and send due reminders
+        run: python scripts/send_match_reminders.py
+        env:
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+
+      - name: 2) Build upcoming-notifications preview
+        if: always()
+        run: python scripts/build_preview.py
+
+      - name: 3) Commit preview (only if changed)
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add preview/upcoming_notifications.json || true
+          if git diff --cached --quiet; then
+            echo "Preview unchanged, nothing to commit"
+          else
+            git commit -m "chore: update upcoming notifications preview [skip ci]"
+            git pull --rebase --autostash
+            git push
+          fi
