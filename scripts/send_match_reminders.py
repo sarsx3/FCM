@@ -128,11 +128,13 @@ def build_text(evs, seconds_left):
 
     if n == 1:
         ev = evs[0]
-        title = f"🔥 Big match {phrase}" if is_hot(ev) else f"{emoji_of(ev)} {phrase.capitalize()}"
+        icon = "🔥" if is_hot(ev) else emoji_of(ev)
         if is_versus(ev):
-            body = f"{ev['team1'].strip()} vs {ev['team2'].strip()}\n{league_of(ev)}"
+            title = f"{icon} {ev['team1'].strip()} vs {ev['team2'].strip()}"
+            body = f"{league_of(ev)} · {phrase.capitalize()}"
         else:
-            body = league_of(ev)
+            title = f"{icon} {league_of(ev)}"
+            body = phrase.capitalize()
         return title, body
 
     title = f"⏰ {n} matches {phrase}"
