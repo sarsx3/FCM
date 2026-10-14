@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-14T16:26:47+00:00",
+  "generated_at": "2026-10-14T16:53:56+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "14 Oct 2026, 10:26:13 PM BST",
+    "source_last_updated": "14 Oct 2026, 10:53:14 PM BST",
     "source_events_loaded": 371,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,13 +15,13 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 38,
-    "upcoming_matches": 127,
+    "upcoming_notifications": 39,
+    "upcoming_matches": 131,
     "next_notification_at_local": "2026-10-14 10:43 PM"
   },
   "upcoming_notifications": [
     {
-      "status": "scheduled",
+      "status": "due_now",
       "send_at_local": "2026-10-14 10:43 PM",
       "match_start_local": "2026-10-14 10:45 PM",
       "send_at_utc": "2026-10-14T16:43:00+00:00",
@@ -1692,6 +1692,56 @@
           "team2": "Inter",
           "hot": false,
           "display": "⚽ Bologna vs Inter · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-17 10:28 PM",
+      "match_start_local": "2026-10-17 10:30 PM",
+      "send_at_utc": "2026-10-17T16:28:00+00:00",
+      "match_start_utc": "2026-10-17T16:30:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Bayern vs RB Leipzig · Bundesliga\n⚽ Betis vs Barcelona · LaLiga\n⚽ Sporting Gijon vs Albacete · LaLiga 2\n⚽ Newcastle Utd vs Aston Villa · Premier League"
+      },
+      "matches": [
+        {
+          "id": "1526",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Bayern",
+          "team2": "RB Leipzig",
+          "hot": false,
+          "display": "⚽ Bayern vs RB Leipzig · Bundesliga"
+        },
+        {
+          "id": "1540",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Betis",
+          "team2": "Barcelona",
+          "hot": false,
+          "display": "⚽ Betis vs Barcelona · LaLiga"
+        },
+        {
+          "id": "1544",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Sporting Gijon",
+          "team2": "Albacete",
+          "hot": false,
+          "display": "⚽ Sporting Gijon vs Albacete · LaLiga 2"
+        },
+        {
+          "id": "1494",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Newcastle Utd",
+          "team2": "Aston Villa",
+          "hot": false,
+          "display": "⚽ Newcastle Utd vs Aston Villa · Premier League"
         }
       ]
     }
