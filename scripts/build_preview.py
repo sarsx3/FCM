@@ -48,9 +48,10 @@ def match_entry(ev):
 
 def build_payload(now):
     events = core.load_events()
-    sent_keys = set(core.load_state().keys())
+    state = core.load_state()
 
-    groups = core.group_events(events, now)
+    # include slots that started <= GRACE ago, same as the sender (catch-up window)
+    groups = core.group_events(events, now - timedelta(seconds=core.GRACE_SECONDS))
 
     horizon = now + timedelta(hours=HORIZON_HOURS)
     items = []
@@ -61,7 +62,7 @@ def build_payload(now):
         title, body = core.build_text(evs, core.LEAD_SECONDS)
         key = start.strftime("%Y%m%d%H%M")
         send_at = start - timedelta(seconds=core.LEAD_SECONDS)
-        if key in sent_keys:
+        if not core.pending_events(state, key, evs):
             status = "sent"
         elif send_at <= now:
             status = "due_now"
