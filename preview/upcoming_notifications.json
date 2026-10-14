@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-14T12:46:01+00:00",
+  "generated_at": "2026-10-14T15:13:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "14 Oct 2026, 06:45:19 PM BST",
-    "source_events_loaded": 374,
+    "source_last_updated": "14 Oct 2026, 09:12:14 PM BST",
+    "source_events_loaded": 372,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,57 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 34,
-    "upcoming_matches": 100,
-    "next_notification_at_local": "2026-10-14 07:28 PM"
+    "upcoming_notifications": 37,
+    "upcoming_matches": 128,
+    "next_notification_at_local": "2026-10-14 09:28 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-10-14 07:28 PM",
-      "match_start_local": "2026-10-14 07:30 PM",
-      "send_at_utc": "2026-10-14T13:28:00+00:00",
-      "match_start_utc": "2026-10-14T13:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 India vs West Indies",
-        "body": "India vs West Indies – 4th T20I · Starting in 2 minutes"
-      },
-      "matches": [
-        {
-          "id": "1401",
-          "sport": "Cricket",
-          "league": "India vs West Indies – 4th T20I",
-          "team1": "India",
-          "team2": "West Indies",
-          "hot": false,
-          "display": "🏏 India vs West Indies · India vs West Indies – 4th T20I"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-10-14 07:43 PM",
-      "match_start_local": "2026-10-14 07:45 PM",
-      "send_at_utc": "2026-10-14T13:43:00+00:00",
-      "match_start_utc": "2026-10-14T13:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Nasaf vs Wahda Abu Dhabi",
-        "body": "AFC Champions League Two · Starting in 2 minutes"
-      },
-      "matches": [
-        {
-          "id": "1387",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Nasaf",
-          "team2": "Wahda Abu Dhabi",
-          "hot": false,
-          "display": "⚽ Nasaf vs Wahda Abu Dhabi · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-14 09:28 PM",
@@ -1393,6 +1347,346 @@
           "team2": "Zimbabwe",
           "hot": false,
           "display": "🏏 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-17 06:58 PM",
+      "match_start_local": "2026-10-17 07:00 PM",
+      "send_at_utc": "2026-10-17T12:58:00+00:00",
+      "match_start_utc": "2026-10-17T13:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Venezia vs Napoli",
+        "body": "Serie A · Starting in 2 minutes"
+      },
+      "matches": [
+        {
+          "id": "1531",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Venezia",
+          "team2": "Napoli",
+          "hot": false,
+          "display": "⚽ Venezia vs Napoli · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-17 07:28 PM",
+      "match_start_local": "2026-10-17 07:30 PM",
+      "send_at_utc": "2026-10-17T13:28:00+00:00",
+      "match_start_utc": "2026-10-17T13:30:00+00:00",
+      "match_count": 6,
+      "notification": {
+        "title": "⏰ 6 matches starting in 2 minutes",
+        "body": "⚽ Elversberg vs Augsburg · Bundesliga\n⚽ Hamburger SV vs Stuttgart · Bundesliga\n⚽ Schalke 04 vs Mainz · Bundesliga\n⚽ Union Berlin vs Dortmund · Bundesliga\n⚽ Werder Bremen vs SC Paderborn · Bundesliga\n🏏 India vs West Indies · India vs West Indies – 5th T20I"
+      },
+      "matches": [
+        {
+          "id": "1521",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Elversberg",
+          "team2": "Augsburg",
+          "hot": false,
+          "display": "⚽ Elversberg vs Augsburg · Bundesliga"
+        },
+        {
+          "id": "1524",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Hamburger SV",
+          "team2": "Stuttgart",
+          "hot": false,
+          "display": "⚽ Hamburger SV vs Stuttgart · Bundesliga"
+        },
+        {
+          "id": "1522",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Schalke 04",
+          "team2": "Mainz",
+          "hot": false,
+          "display": "⚽ Schalke 04 vs Mainz · Bundesliga"
+        },
+        {
+          "id": "1525",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Union Berlin",
+          "team2": "Dortmund",
+          "hot": false,
+          "display": "⚽ Union Berlin vs Dortmund · Bundesliga"
+        },
+        {
+          "id": "1523",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Werder Bremen",
+          "team2": "SC Paderborn",
+          "hot": false,
+          "display": "⚽ Werder Bremen vs SC Paderborn · Bundesliga"
+        },
+        {
+          "id": "1546",
+          "sport": "Cricket",
+          "league": "India vs West Indies – 5th T20I",
+          "team1": "India",
+          "team2": "West Indies",
+          "hot": false,
+          "display": "🏏 India vs West Indies · India vs West Indies – 5th T20I"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-17 07:58 PM",
+      "match_start_local": "2026-10-17 08:00 PM",
+      "send_at_utc": "2026-10-17T13:58:00+00:00",
+      "match_start_utc": "2026-10-17T14:00:00+00:00",
+      "match_count": 20,
+      "notification": {
+        "title": "⏰ 20 matches starting in 2 minutes",
+        "body": "⚽ Birmingham vs Queens Park Rangers · Championship\n⚽ Bristol City vs Sheffield Utd · Championship\n⚽ Derby vs Stoke City · Championship\n⚽ Norwich vs Portsmouth · Championship\n⚽ Southampton vs Bolton · Championship\n⚽ Swansea vs West Ham · Championship\n+ 14 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "1506",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Birmingham",
+          "team2": "Queens Park Rangers",
+          "hot": false,
+          "display": "⚽ Birmingham vs Queens Park Rangers · Championship"
+        },
+        {
+          "id": "1505",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Bristol City",
+          "team2": "Sheffield Utd",
+          "hot": false,
+          "display": "⚽ Bristol City vs Sheffield Utd · Championship"
+        },
+        {
+          "id": "1504",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Derby",
+          "team2": "Stoke City",
+          "hot": false,
+          "display": "⚽ Derby vs Stoke City · Championship"
+        },
+        {
+          "id": "1503",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Norwich",
+          "team2": "Portsmouth",
+          "hot": false,
+          "display": "⚽ Norwich vs Portsmouth · Championship"
+        },
+        {
+          "id": "1502",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Southampton",
+          "team2": "Bolton",
+          "hot": false,
+          "display": "⚽ Southampton vs Bolton · Championship"
+        },
+        {
+          "id": "1501",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Swansea",
+          "team2": "West Ham",
+          "hot": false,
+          "display": "⚽ Swansea vs West Ham · Championship"
+        },
+        {
+          "id": "1500",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "West Brom",
+          "team2": "Blackburn",
+          "hot": false,
+          "display": "⚽ West Brom vs Blackburn · Championship"
+        },
+        {
+          "id": "1499",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Wrexham",
+          "team2": "Preston",
+          "hot": false,
+          "display": "⚽ Wrexham vs Preston · Championship"
+        },
+        {
+          "id": "1517",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Barnsley",
+          "team2": "Cambridge",
+          "hot": false,
+          "display": "⚽ Barnsley vs Cambridge · League One"
+        },
+        {
+          "id": "1516",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Bradford",
+          "team2": "Stevenage",
+          "hot": false,
+          "display": "⚽ Bradford vs Stevenage · League One"
+        },
+        {
+          "id": "1515",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Leicester City",
+          "team2": "Doncaster",
+          "hot": false,
+          "display": "⚽ Leicester City vs Doncaster · League One"
+        },
+        {
+          "id": "1514",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Leyton Orient",
+          "team2": "Blackpool",
+          "hot": false,
+          "display": "⚽ Leyton Orient vs Blackpool · League One"
+        },
+        {
+          "id": "1513",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Plymouth",
+          "team2": "Huddersfield",
+          "hot": false,
+          "display": "⚽ Plymouth vs Huddersfield · League One"
+        },
+        {
+          "id": "1512",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Sheffield Wed",
+          "team2": "AFC Wimbledon",
+          "hot": false,
+          "display": "⚽ Sheffield Wed vs AFC Wimbledon · League One"
+        },
+        {
+          "id": "1511",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Stockport",
+          "team2": "Bromley",
+          "hot": false,
+          "display": "⚽ Stockport vs Bromley · League One"
+        },
+        {
+          "id": "1510",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Wigan",
+          "team2": "Reading",
+          "hot": false,
+          "display": "⚽ Wigan vs Reading · League One"
+        },
+        {
+          "id": "1509",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Wycombe",
+          "team2": "Notts County",
+          "hot": false,
+          "display": "⚽ Wycombe vs Notts County · League One"
+        },
+        {
+          "id": "1492",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Brentford",
+          "team2": "Liverpool",
+          "hot": false,
+          "display": "⚽ Brentford vs Liverpool · Premier League"
+        },
+        {
+          "id": "1491",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Fulham",
+          "team2": "Hull City",
+          "hot": false,
+          "display": "⚽ Fulham vs Hull City · Premier League"
+        },
+        {
+          "id": "1493",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Man City",
+          "team2": "Ipswich",
+          "hot": false,
+          "display": "⚽ Man City vs Ipswich · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-17 08:13 PM",
+      "match_start_local": "2026-10-17 08:15 PM",
+      "send_at_utc": "2026-10-17T14:13:00+00:00",
+      "match_start_utc": "2026-10-17T14:15:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting in 2 minutes",
+        "body": "⚽ Villarreal vs Elche · LaLiga\n⚽ Eibar vs Mallorca · LaLiga 2"
+      },
+      "matches": [
+        {
+          "id": "1539",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Villarreal",
+          "team2": "Elche",
+          "hot": false,
+          "display": "⚽ Villarreal vs Elche · LaLiga"
+        },
+        {
+          "id": "1543",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Eibar",
+          "team2": "Mallorca",
+          "hot": false,
+          "display": "⚽ Eibar vs Mallorca · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-17 08:28 PM",
+      "match_start_local": "2026-10-17 08:30 PM",
+      "send_at_utc": "2026-10-17T14:28:00+00:00",
+      "match_start_utc": "2026-10-17T14:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ ADO Den Haag vs PSV",
+        "body": "Eredivisie · Starting in 2 minutes"
+      },
+      "matches": [
+        {
+          "id": "1534",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "ADO Den Haag",
+          "team2": "PSV",
+          "hot": false,
+          "display": "⚽ ADO Den Haag vs PSV · Eredivisie"
         }
       ]
     }
