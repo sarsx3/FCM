@@ -48,9 +48,9 @@ EVENTS_URL = env(
 TOPIC = env("FCM_TOPIC", "match_alerts")
 CHANNEL_ID = env("ANDROID_CHANNEL_ID", "match_alerts")
 SOURCE_UTC_OFFSET = float(env("SOURCE_UTC_OFFSET_HOURS", "6"))  # events.json times = Bangladesh time
-LEAD_SECONDS = int(env("LEAD_SECONDS", "120"))
-LOOKAHEAD_SECONDS = int(env("LOOKAHEAD_SECONDS", "330"))   # wait (sleep) for slots due within this window
-GRACE_SECONDS = int(env("GRACE_SECONDS", "1800"))          # catch-up: still notify if match started <= 30 min ago
+LEAD_SECONDS = int(env("LEAD_SECONDS", "60"))
+LOOKAHEAD_SECONDS = int(env("LOOKAHEAD_SECONDS", "90"))    # wait (sleep) for slots due within this window
+GRACE_SECONDS = int(env("GRACE_SECONDS", "300"))           # catch-up: still notify if match started <= 5 min ago
 TTL_AFTER_START = int(env("FCM_TTL_AFTER_START_SECONDS", "1200"))  # keep message queued for offline phones
 SEND_RETRIES = int(env("SEND_RETRIES", "3"))
 MAX_LINES = int(env("MAX_LINES", "6"))
