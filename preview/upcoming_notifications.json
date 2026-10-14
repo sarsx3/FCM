@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:34:21+00:00",
+  "generated_at": "2026-10-14T23:35:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 133,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 132,
     "next_notification_at_local": "2026-10-15 03:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-15 05:29 AM",
-      "match_start_local": "2026-10-15 05:30 AM",
-      "send_at_utc": "2026-10-14T23:29:00+00:00",
-      "match_start_utc": "2026-10-14T23:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🔥 Inter Miami vs New York City FC",
-        "body": "MLS · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1443",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Inter Miami",
-          "team2": "New York City FC",
-          "hot": true,
-          "display": "🔥 Inter Miami vs New York City FC · MLS"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-15 03:59 PM",
