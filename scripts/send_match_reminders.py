@@ -37,7 +37,8 @@ TOPIC = env("FCM_TOPIC", "match_alerts")
 CHANNEL_ID = env("ANDROID_CHANNEL_ID", "match_alerts")
 SOURCE_UTC_OFFSET = float(env("SOURCE_UTC_OFFSET_HOURS", "6"))  # events.json times = Bangladesh time
 LEAD_SECONDS = int(env("LEAD_SECONDS", "120"))
-LOOKAHEAD_SECONDS = int(env("LOOKAHEAD_SECONDS", "330"))
+LOOKAHEAD_SECONDS = int(env("LOOKAHEAD_SECONDS", "390"))   # bumped 330→390 for GitHub delay headroom
+GRACE_SECONDS = int(env("GRACE_SECONDS", "300"))           # send even if match started ≤5 min ago
 MAX_LINES = int(env("MAX_LINES", "6"))
 DRY_RUN = env("DRY_RUN", "0") == "1"
 TEST_PUSH = env("TEST_PUSH", "0") == "1"
@@ -195,10 +196,12 @@ def sort_key(ev):
 
 # ---------------------------------------------------------------- message ---
 def lead_phrase(seconds_left):
+    if seconds_left <= 0:
+        return "just kicked off"        # grace-window catch: match already started
     if seconds_left <= 45:
         return "starting now"
     m = max(1, round(seconds_left / 60))
-    return f"starting in {m} minute{'s' if m > 1 else ''}"
+    return f"starting soon"             # was "starting in {m} minutes" — cleaner wording
 
 
 def line_for(ev):
@@ -224,7 +227,7 @@ def build_text(evs, seconds_left):
             body = phrase.capitalize()
         return title, body
 
-    title = f"⏰ {n} matches {phrase}"
+    title = f"⏰ {n} matches starting soon"
     lines = [line_for(e) for e in evs[:MAX_LINES]]
     if n > MAX_LINES:
         extra = n - MAX_LINES
@@ -262,7 +265,10 @@ def send_fcm(title, body, evs, start, seconds_left):
     from firebase_admin import messaging
 
     ids = [str(e.get("id", "")) for e in evs if e.get("id")]
-    ttl = timedelta(seconds=max(60, int(seconds_left) + 120))  # drop it if it would arrive stale
+    # For grace-window sends (seconds_left < 0), give a short TTL so stale
+    # devices don't get a "just kicked off" ping hours later.
+    effective = max(0, seconds_left)
+    ttl = timedelta(seconds=max(60, int(effective) + 120))
     key = start.strftime("%Y%m%d%H%M")
 
     kwargs = dict(
@@ -383,9 +389,15 @@ def main():
         seconds_left = (start - utcnow()).total_seconds()
         if env("FAKE_NOW"):
             seconds_left = float(LEAD_SECONDS)
-        if seconds_left <= 0:
-            log(f"[{key}] missed (already started)")
+
+        # Grace window: if match started ≤ GRACE_SECONDS ago, still send
+        # (covers GitHub Actions delays of up to ~5 min)
+        # Beyond grace → truly missed, skip to avoid a stale/confusing notification
+        if seconds_left <= -GRACE_SECONDS:
+            log(f"[{key}] missed beyond grace window ({abs(seconds_left):.0f}s late), skipping")
             continue
+        if seconds_left < 0:
+            log(f"[{key}] delayed by {abs(seconds_left):.0f}s — sending late notification (grace window)")
 
         title, body = build_text(evs, seconds_left)
         try:
