@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-14T16:53:56+00:00",
+  "generated_at": "2026-10-14T19:23:01+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "14 Oct 2026, 10:53:14 PM BST",
-    "source_events_loaded": 371,
+    "source_last_updated": "15 Oct 2026, 01:22:14 AM BST",
+    "source_events_loaded": 364,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,118 +15,13 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 39,
-    "upcoming_matches": 131,
-    "next_notification_at_local": "2026-10-14 10:43 PM"
+    "upcoming_notifications": 40,
+    "upcoming_matches": 134,
+    "next_notification_at_local": "2026-10-15 03:58 AM"
   },
   "upcoming_notifications": [
     {
-      "status": "due_now",
-      "send_at_local": "2026-10-14 10:43 PM",
-      "match_start_local": "2026-10-14 10:45 PM",
-      "send_at_utc": "2026-10-14T16:43:00+00:00",
-      "match_start_utc": "2026-10-14T16:45:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Feyenoord vs Como · UEFA Champions League\n⚽ LASK vs Liverpool · UEFA Champions League"
-      },
-      "matches": [
-        {
-          "id": "1381",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Feyenoord",
-          "team2": "Como",
-          "hot": false,
-          "display": "⚽ Feyenoord vs Como · UEFA Champions League"
-        },
-        {
-          "id": "1380",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "LASK",
-          "team2": "Liverpool",
-          "hot": false,
-          "display": "⚽ LASK vs Liverpool · UEFA Champions League"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-10-15 12:13 AM",
-      "match_start_local": "2026-10-15 12:15 AM",
-      "send_at_utc": "2026-10-14T18:13:00+00:00",
-      "match_start_utc": "2026-10-14T18:15:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Al Faisaly vs Al Nahda · AFC Champions League Two\n⚽ Kuwait SC vs Al Khalidiyah · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "1410",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al Faisaly",
-          "team2": "Al Nahda",
-          "hot": false,
-          "display": "⚽ Al Faisaly vs Al Nahda · AFC Champions League Two"
-        },
-        {
-          "id": "1411",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Kuwait SC",
-          "team2": "Al Khalidiyah",
-          "hot": false,
-          "display": "⚽ Kuwait SC vs Al Khalidiyah · AFC Champions League Two"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-10-15 12:43 AM",
-      "match_start_local": "2026-10-15 12:45 AM",
-      "send_at_utc": "2026-10-14T18:43:00+00:00",
-      "match_start_utc": "2026-10-14T18:45:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Norwich vs Southampton FC · Championship\n⚽ Portsmouth vs Sheffield Utd · Championship\n⚽ QPR vs Derby County · Championship"
-      },
-      "matches": [
-        {
-          "id": "1420",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Norwich",
-          "team2": "Southampton FC",
-          "hot": false,
-          "display": "⚽ Norwich vs Southampton FC · Championship"
-        },
-        {
-          "id": "1419",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Portsmouth",
-          "team2": "Sheffield Utd",
-          "hot": false,
-          "display": "⚽ Portsmouth vs Sheffield Utd · Championship"
-        },
-        {
-          "id": "1418",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "QPR",
-          "team2": "Derby County",
-          "hot": false,
-          "display": "⚽ QPR vs Derby County · Championship"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
+      "status": "sent",
       "send_at_local": "2026-10-15 12:58 AM",
       "match_start_local": "2026-10-15 01:00 AM",
       "send_at_utc": "2026-10-14T18:58:00+00:00",
@@ -1742,6 +1637,152 @@
           "team2": "Aston Villa",
           "hot": false,
           "display": "⚽ Newcastle Utd vs Aston Villa · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-17 11:58 PM",
+      "match_start_local": "2026-10-18 12:00 AM",
+      "send_at_utc": "2026-10-17T17:58:00+00:00",
+      "match_start_utc": "2026-10-17T18:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Telstar vs Feyenoord · Eredivisie\n⚽ Banfield vs Argentinos Juniors · Liga Profesional\n⚽ Diriyah vs Al Taawoun · Saudi League"
+      },
+      "matches": [
+        {
+          "id": "1548",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Telstar",
+          "team2": "Feyenoord",
+          "hot": false,
+          "display": "⚽ Telstar vs Feyenoord · Eredivisie"
+        },
+        {
+          "id": "1547",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Banfield",
+          "team2": "Argentinos Juniors",
+          "hot": false,
+          "display": "⚽ Banfield vs Argentinos Juniors · Liga Profesional"
+        },
+        {
+          "id": "1549",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Diriyah",
+          "team2": "Al Taawoun",
+          "hot": false,
+          "display": "⚽ Diriyah vs Al Taawoun · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-18 12:28 AM",
+      "match_start_local": "2026-10-18 12:30 AM",
+      "send_at_utc": "2026-10-17T18:28:00+00:00",
+      "match_start_utc": "2026-10-17T18:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Hannover vs St. Pauli",
+        "body": "Bundesliga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1550",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Hannover",
+          "team2": "St. Pauli",
+          "hot": false,
+          "display": "⚽ Hannover vs St. Pauli · Bundesliga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-18 12:43 AM",
+      "match_start_local": "2026-10-18 12:45 AM",
+      "send_at_utc": "2026-10-17T18:43:00+00:00",
+      "match_start_utc": "2026-10-17T18:45:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Lille vs Brest · Ligue 1\n⚽ Troyes vs Lens · Ligue 1\n⚽ AS Roma vs Genoa · Serie A"
+      },
+      "matches": [
+        {
+          "id": "1591",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Lille",
+          "team2": "Brest",
+          "hot": false,
+          "display": "⚽ Lille vs Brest · Ligue 1"
+        },
+        {
+          "id": "1590",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Troyes",
+          "team2": "Lens",
+          "hot": false,
+          "display": "⚽ Troyes vs Lens · Ligue 1"
+        },
+        {
+          "id": "1592",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "AS Roma",
+          "team2": "Genoa",
+          "hot": false,
+          "display": "⚽ AS Roma vs Genoa · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-18 12:58 AM",
+      "match_start_local": "2026-10-18 01:00 AM",
+      "send_at_utc": "2026-10-17T18:58:00+00:00",
+      "match_start_utc": "2026-10-17T19:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Sparta Rotterdam vs Willem II · Eredivisie\n⚽ Valencia vs Athletic Bilbao · LaLiga\n⚽ Las Palmas vs Castellon · LaLiga 2"
+      },
+      "matches": [
+        {
+          "id": "1553",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Sparta Rotterdam",
+          "team2": "Willem II",
+          "hot": false,
+          "display": "⚽ Sparta Rotterdam vs Willem II · Eredivisie"
+        },
+        {
+          "id": "1551",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Valencia",
+          "team2": "Athletic Bilbao",
+          "hot": false,
+          "display": "⚽ Valencia vs Athletic Bilbao · LaLiga"
+        },
+        {
+          "id": "1552",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Las Palmas",
+          "team2": "Castellon",
+          "hot": false,
+          "display": "⚽ Las Palmas vs Castellon · LaLiga 2"
         }
       ]
     }
