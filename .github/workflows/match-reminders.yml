@@ -2,13 +2,17 @@ name: Match reminders (FCM)
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # auto sync + send every 5 minutes (GitHub's minimum)
+    - cron: "*/5 * * * *"   # sync events.json + send every 5 minutes (GitHub's minimum)
   workflow_dispatch:
     inputs:
       dry_run:
         description: "Dry run (print only, do not send FCM)"
         type: boolean
         default: true
+      test_push:
+        description: "Send ONE test notification to the topic now (turn dry run OFF to really send)"
+        type: boolean
+        default: false
 
 # Never run two at once -> no duplicate notifications, no push conflicts
 concurrency:
@@ -16,18 +20,20 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write   # needed to commit preview/upcoming_notifications.json
+  contents: write   # needed to commit state/ and preview/
 
 jobs:
   notify:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     env:
-      FIREBASE_DB_BASE: ${{ secrets.FIREBASE_DB_BASE }}
-      FIREBASE_DB_SECRET: ${{ secrets.FIREBASE_DB_SECRET }}
+      PYTHONUNBUFFERED: "1"
+      # Only the service account is required. Topic/channel are optional (defaults: match_alerts).
       FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
       FCM_TOPIC: ${{ secrets.FCM_TOPIC }}
       ANDROID_CHANNEL_ID: ${{ secrets.ANDROID_CHANNEL_ID }}
+      # Optional: override the data source (repo variable), default is built into the script
+      EVENTS_URL: ${{ vars.EVENTS_URL }}
     steps:
       - uses: actions/checkout@v4
 
@@ -38,25 +44,30 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: 1) Sync data and send due reminders
+      - name: 1) Sync events.json and send due reminders
         run: python scripts/send_match_reminders.py
         env:
+          # scheduled runs have no inputs -> dry_run is empty -> real send
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+          TEST_PUSH: ${{ inputs.test_push && '1' || '0' }}
 
       - name: 2) Build upcoming-notifications preview
         if: always()
         run: python scripts/build_preview.py
 
-      - name: 3) Commit preview (only if changed)
+      - name: 3) Commit state + preview (only if changed)
         if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add preview/upcoming_notifications.json || true
+          git add -A preview state
           if git diff --cached --quiet; then
-            echo "Preview unchanged, nothing to commit"
-          else
-            git commit -m "chore: update upcoming notifications preview [skip ci]"
-            git pull --rebase --autostash
-            git push
+            echo "Nothing to commit"
+            exit 0
           fi
+          git commit -m "chore: update notification state/preview [skip ci]"
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "push failed (try $i), retrying..."; sleep $((i * 3))
+          done
+          echo "::error::could not push state/preview"; exit 1
