@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-14T16:16:10+00:00",
+  "generated_at": "2026-10-14T16:26:47+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "14 Oct 2026, 10:15:20 PM BST",
+    "source_last_updated": "14 Oct 2026, 10:26:13 PM BST",
     "source_events_loaded": 371,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -28,7 +28,7 @@
       "match_start_utc": "2026-10-14T16:45:00+00:00",
       "match_count": 2,
       "notification": {
-        "title": "⏰ 2 matches starting in 2 minutes",
+        "title": "⏰ 2 matches starting soon",
         "body": "⚽ Feyenoord vs Como · UEFA Champions League\n⚽ LASK vs Liverpool · UEFA Champions League"
       },
       "matches": [
@@ -60,7 +60,7 @@
       "match_start_utc": "2026-10-14T18:15:00+00:00",
       "match_count": 2,
       "notification": {
-        "title": "⏰ 2 matches starting in 2 minutes",
+        "title": "⏰ 2 matches starting soon",
         "body": "⚽ Al Faisaly vs Al Nahda · AFC Champions League Two\n⚽ Kuwait SC vs Al Khalidiyah · AFC Champions League Two"
       },
       "matches": [
@@ -92,7 +92,7 @@
       "match_start_utc": "2026-10-14T18:45:00+00:00",
       "match_count": 3,
       "notification": {
-        "title": "⏰ 3 matches starting in 2 minutes",
+        "title": "⏰ 3 matches starting soon",
         "body": "⚽ Norwich vs Southampton FC · Championship\n⚽ Portsmouth vs Sheffield Utd · Championship\n⚽ QPR vs Derby County · Championship"
       },
       "matches": [
@@ -133,7 +133,7 @@
       "match_start_utc": "2026-10-14T19:00:00+00:00",
       "match_count": 8,
       "notification": {
-        "title": "⏰ 8 matches starting in 2 minutes",
+        "title": "⏰ 8 matches starting soon",
         "body": "⚽ Lincoln vs West Ham United FC · Championship\n⚽ AS Roma vs Real Madrid CF · UEFA Champions League\n⚽ Aston Villa vs Fenerbahce Istanbul · UEFA Champions League\n⚽ Betis vs FC Porto · UEFA Champions League\n⚽ Bodo Glimt vs Borussia Dortmund · UEFA Champions League\n⚽ Man City vs Paris Saint-Germain · UEFA Champions League\n+ 2 more matches in the app"
       },
       "matches": [
@@ -220,7 +220,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Sarmiento Junin vs River Plate arg",
-        "body": "Liga Profesional · Starting in 2 minutes"
+        "body": "Liga Profesional · Starting soon"
       },
       "matches": [
         {
@@ -243,7 +243,7 @@
       "match_count": 1,
       "notification": {
         "title": "🔥 Inter Miami vs New York City FC",
-        "body": "MLS · Starting in 2 minutes"
+        "body": "MLS · Starting soon"
       },
       "matches": [
         {
@@ -265,7 +265,7 @@
       "match_start_utc": "2026-10-15T10:00:00+00:00",
       "match_count": 2,
       "notification": {
-        "title": "⏰ 2 matches starting in 2 minutes",
+        "title": "⏰ 2 matches starting soon",
         "body": "⚽ Gangwon FC vs Phnom Penh Crown · AFC Champions League Two\n⚽ Tai Po FC vs Lion City · AFC Champions League Two"
       },
       "matches": [
@@ -297,7 +297,7 @@
       "match_start_utc": "2026-10-15T12:15:00+00:00",
       "match_count": 4,
       "notification": {
-        "title": "⏰ 4 matches starting in 2 minutes",
+        "title": "⏰ 4 matches starting soon",
         "body": "⚽ BG Pathum United vs Adelaide United FC · AFC Champions League Two\n⚽ Kuching City FC vs Kitchee · AFC Champions League Two\n⚽ Svay Rieng vs Shanghai Shenhua FC · AFC Champions League Two\n⚽ Tampines Rovers vs Machida Zelvia · AFC Champions League Two"
       },
       "matches": [
@@ -348,7 +348,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Al Faysaly vs Al-Kholood",
-        "body": "Saudi League · Starting in 2 minutes"
+        "body": "Saudi League · Starting soon"
       },
       "matches": [
         {
@@ -371,7 +371,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Al-Khaleej vs Al-Fayha FC",
-        "body": "Saudi League · Starting in 2 minutes"
+        "body": "Saudi League · Starting soon"
       },
       "matches": [
         {
@@ -394,7 +394,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Al Hazm vs Al Fateh SC",
-        "body": "Saudi League · Starting in 2 minutes"
+        "body": "Saudi League · Starting soon"
       },
       "matches": [
         {
@@ -416,7 +416,7 @@
       "match_start_utc": "2026-10-15T16:45:00+00:00",
       "match_count": 18,
       "notification": {
-        "title": "⏰ 18 matches starting in 2 minutes",
+        "title": "⏰ 18 matches starting soon",
         "body": "⚽ CSKA Sofia vs AS Monaco · UEFA Conference League\n⚽ Craiova vs Getafe CF · UEFA Conference League\n⚽ Gent vs AGF Aarhus · UEFA Conference League\n⚽ Hajduk Split vs Ajax Amsterdam · UEFA Conference League\n⚽ KF Egnatia vs FC Midtjylland · UEFA Conference League\n⚽ KuPS vs Trabzonspor · UEFA Conference League\n+ 12 more matches in the app"
       },
       "matches": [
@@ -593,7 +593,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Al Ahli vs Al Nassr",
-        "body": "Saudi League · Starting in 2 minutes"
+        "body": "Saudi League · Starting soon"
       },
       "matches": [
         {
@@ -615,7 +615,7 @@
       "match_start_utc": "2026-10-15T19:00:00+00:00",
       "match_count": 19,
       "notification": {
-        "title": "⏰ 19 matches starting in 2 minutes",
+        "title": "⏰ 19 matches starting soon",
         "body": "⚽ Mansfield vs Oxford United · League One\n⚽ Atalanta vs Pafos FC · UEFA Conference League\n⚽ Brann vs Lincoln Red Imps · UEFA Conference League\n⚽ Brighton vs FK Kauno Žalgiris · UEFA Conference League\n⚽ FC Copenhagen vs SC Braga · UEFA Conference League\n⚽ Freiburg vs FK Jablonec · UEFA Conference League\n+ 13 more matches in the app"
       },
       "matches": [
@@ -801,7 +801,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Huracan vs Gimnasia La Plata",
-        "body": "Liga Profesional · Starting in 2 minutes"
+        "body": "Liga Profesional · Starting soon"
       },
       "matches": [
         {
@@ -824,7 +824,7 @@
       "match_count": 1,
       "notification": {
         "title": "🏏 World Championship of Legends – Semi Final 1",
-        "body": "Starting in 2 minutes"
+        "body": "Starting soon"
       },
       "matches": [
         {
@@ -847,7 +847,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Al Qadsiah vs Abha Club",
-        "body": "Saudi League · Starting in 2 minutes"
+        "body": "Saudi League · Starting soon"
       },
       "matches": [
         {
@@ -870,7 +870,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Al Riyadh vs Al Hilal",
-        "body": "Saudi League · Starting in 2 minutes"
+        "body": "Saudi League · Starting soon"
       },
       "matches": [
         {
@@ -893,7 +893,7 @@
       "match_count": 1,
       "notification": {
         "title": "🏏 World Championship of Legends – Semi Final 2",
-        "body": "Starting in 2 minutes"
+        "body": "Starting soon"
       },
       "matches": [
         {
@@ -915,7 +915,7 @@
       "match_start_utc": "2026-10-16T16:30:00+00:00",
       "match_count": 2,
       "notification": {
-        "title": "⏰ 2 matches starting in 2 minutes",
+        "title": "⏰ 2 matches starting soon",
         "body": "⚽ Energie Cottbus vs Nurnberg · Bundesliga 2\n⚽ Holstein Kiel vs Hertha BSC · Bundesliga 2"
       },
       "matches": [
@@ -947,7 +947,7 @@
       "match_start_utc": "2026-10-16T18:00:00+00:00",
       "match_count": 2,
       "notification": {
-        "title": "⏰ 2 matches starting in 2 minutes",
+        "title": "⏰ 2 matches starting soon",
         "body": "⚽ Heerenveen vs SBV Excelsior · Eredivisie\n⚽ Al Ittihad vs Al Shabab · Saudi League"
       },
       "matches": [
@@ -979,7 +979,7 @@
       "match_start_utc": "2026-10-16T18:30:00+00:00",
       "match_count": 2,
       "notification": {
-        "title": "⏰ 2 matches starting in 2 minutes",
+        "title": "⏰ 2 matches starting soon",
         "body": "⚽ Eintracht vs Köln · Bundesliga\n⚽ Leganés vs Cordoba · LaLiga 2"
       },
       "matches": [
@@ -1011,7 +1011,7 @@
       "match_start_utc": "2026-10-16T18:45:00+00:00",
       "match_count": 2,
       "notification": {
-        "title": "⏰ 2 matches starting in 2 minutes",
+        "title": "⏰ 2 matches starting soon",
         "body": "⚽ Le Mans vs Toulouse · Ligue 1\n⚽ Frosinone vs Sassuolo · Serie A"
       },
       "matches": [
@@ -1043,7 +1043,7 @@
       "match_start_utc": "2026-10-16T19:00:00+00:00",
       "match_count": 2,
       "notification": {
-        "title": "⏰ 2 matches starting in 2 minutes",
+        "title": "⏰ 2 matches starting soon",
         "body": "⚽ Burnley vs Wolverhampton Wanderers · Championship\n⚽ Deportivo vs Levante · LaLiga"
       },
       "matches": [
@@ -1076,7 +1076,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Defensa Y Justicia vs Instituto AC Cordoba",
-        "body": "Liga Profesional · Starting in 2 minutes"
+        "body": "Liga Profesional · Starting soon"
       },
       "matches": [
         {
@@ -1099,7 +1099,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Mirassol vs SC Internacional",
-        "body": "Brasileirão Série A · Starting in 2 minutes"
+        "body": "Brasileirão Série A · Starting soon"
       },
       "matches": [
         {
@@ -1122,7 +1122,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Boca Jrs. vs Talleres de Cordoba",
-        "body": "Liga Profesional · Starting in 2 minutes"
+        "body": "Liga Profesional · Starting soon"
       },
       "matches": [
         {
@@ -1144,7 +1144,7 @@
       "match_start_utc": "2026-10-17T11:00:00+00:00",
       "match_count": 3,
       "notification": {
-        "title": "⏰ 3 matches starting in 2 minutes",
+        "title": "⏰ 3 matches starting soon",
         "body": "⚽ FC Kaiserslautern vs Bochum · Bundesliga 2\n⚽ Furth vs Braunschweig · Bundesliga 2\n⚽ Wolfsburg vs FC Heidenheim · Bundesliga 2"
       },
       "matches": [
@@ -1185,7 +1185,7 @@
       "match_start_utc": "2026-10-17T11:30:00+00:00",
       "match_count": 6,
       "notification": {
-        "title": "⏰ 6 matches starting in 2 minutes",
+        "title": "⏰ 6 matches starting soon",
         "body": "⚽ Middlesbrough vs Cardiff City · Championship\n⚽ Millwall vs Lincoln · Championship\n⚽ Watford vs Charlton · Championship\n⚽ MK Dons vs Luton · League One\n⚽ Peterborough vs Burton · League One\n⚽ Everton vs Chelsea · Premier League"
       },
       "matches": [
@@ -1253,7 +1253,7 @@
       "match_start_utc": "2026-10-17T12:00:00+00:00",
       "match_count": 3,
       "notification": {
-        "title": "⏰ 3 matches starting in 2 minutes",
+        "title": "⏰ 3 matches starting soon",
         "body": "⚽ Espanyol vs Atl. Madrid · LaLiga\n⚽ Real Sociedad B vs Almeria · LaLiga 2\n🏏 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026"
       },
       "matches": [
@@ -1295,7 +1295,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Venezia vs Napoli",
-        "body": "Serie A · Starting in 2 minutes"
+        "body": "Serie A · Starting soon"
       },
       "matches": [
         {
@@ -1317,7 +1317,7 @@
       "match_start_utc": "2026-10-17T13:30:00+00:00",
       "match_count": 6,
       "notification": {
-        "title": "⏰ 6 matches starting in 2 minutes",
+        "title": "⏰ 6 matches starting soon",
         "body": "⚽ Elversberg vs Augsburg · Bundesliga\n⚽ Hamburger SV vs Stuttgart · Bundesliga\n⚽ Schalke 04 vs Mainz · Bundesliga\n⚽ Union Berlin vs Dortmund · Bundesliga\n⚽ Werder Bremen vs SC Paderborn · Bundesliga\n🏏 India vs West Indies · India vs West Indies – 5th T20I"
       },
       "matches": [
@@ -1385,7 +1385,7 @@
       "match_start_utc": "2026-10-17T14:00:00+00:00",
       "match_count": 20,
       "notification": {
-        "title": "⏰ 20 matches starting in 2 minutes",
+        "title": "⏰ 20 matches starting soon",
         "body": "⚽ Birmingham vs Queens Park Rangers · Championship\n⚽ Bristol City vs Sheffield Utd · Championship\n⚽ Derby vs Stoke City · Championship\n⚽ Norwich vs Portsmouth · Championship\n⚽ Southampton vs Bolton · Championship\n⚽ Swansea vs West Ham · Championship\n+ 14 more matches in the app"
       },
       "matches": [
@@ -1579,7 +1579,7 @@
       "match_start_utc": "2026-10-17T14:15:00+00:00",
       "match_count": 2,
       "notification": {
-        "title": "⏰ 2 matches starting in 2 minutes",
+        "title": "⏰ 2 matches starting soon",
         "body": "⚽ Villarreal vs Elche · LaLiga\n⚽ Eibar vs Mallorca · LaLiga 2"
       },
       "matches": [
@@ -1612,7 +1612,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ ADO Den Haag vs PSV",
-        "body": "Eredivisie · Starting in 2 minutes"
+        "body": "Eredivisie · Starting soon"
       },
       "matches": [
         {
@@ -1635,7 +1635,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Strasbourg vs Paris Saint-Germain",
-        "body": "Ligue 1 · Starting in 2 minutes"
+        "body": "Ligue 1 · Starting soon"
       },
       "matches": [
         {
@@ -1658,7 +1658,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ NEOM SC vs Al Ettifaq",
-        "body": "Saudi League · Starting in 2 minutes"
+        "body": "Saudi League · Starting soon"
       },
       "matches": [
         {
@@ -1681,7 +1681,7 @@
       "match_count": 1,
       "notification": {
         "title": "⚽ Bologna vs Inter",
-        "body": "Serie A · Starting in 2 minutes"
+        "body": "Serie A · Starting soon"
       },
       "matches": [
         {
