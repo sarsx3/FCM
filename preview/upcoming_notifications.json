@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-14T15:13:31+00:00",
+  "generated_at": "2026-10-14T16:16:10+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "14 Oct 2026, 09:12:14 PM BST",
-    "source_events_loaded": 372,
+    "source_last_updated": "14 Oct 2026, 10:15:20 PM BST",
+    "source_events_loaded": 371,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,75 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 37,
-    "upcoming_matches": 128,
-    "next_notification_at_local": "2026-10-14 09:28 PM"
+    "upcoming_notifications": 38,
+    "upcoming_matches": 127,
+    "next_notification_at_local": "2026-10-14 10:43 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-10-14 09:28 PM",
-      "match_start_local": "2026-10-14 09:30 PM",
-      "send_at_utc": "2026-10-14T15:28:00+00:00",
-      "match_start_utc": "2026-10-14T15:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Bangladesh Champions vs South Africa Champions",
-        "body": "World Championship of Legends · Starting in 2 minutes"
-      },
-      "matches": [
-        {
-          "id": "1400",
-          "sport": "Cricket",
-          "league": "World Championship of Legends",
-          "team1": "Bangladesh Champions",
-          "team2": "South Africa Champions",
-          "hot": false,
-          "display": "🏏 Bangladesh Champions vs South Africa Champions · World Championship of Legends"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-10-14 09:58 PM",
-      "match_start_local": "2026-10-14 10:00 PM",
-      "send_at_utc": "2026-10-14T15:58:00+00:00",
-      "match_start_utc": "2026-10-14T16:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting in 2 minutes",
-        "body": "⚽ Al-Jazira vs Arkadag · AFC Champions League Two\n⚽ Al-Taawon vs Al Rayyan · AFC Champions League Two\n⚽ Muharraq SC vs Gol Gohar · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "1390",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al-Jazira",
-          "team2": "Arkadag",
-          "hot": false,
-          "display": "⚽ Al-Jazira vs Arkadag · AFC Champions League Two"
-        },
-        {
-          "id": "1388",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al-Taawon",
-          "team2": "Al Rayyan",
-          "hot": false,
-          "display": "⚽ Al-Taawon vs Al Rayyan · AFC Champions League Two"
-        },
-        {
-          "id": "1389",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Muharraq SC",
-          "team2": "Gol Gohar",
-          "hot": false,
-          "display": "⚽ Muharraq SC vs Gol Gohar · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-14 10:43 PM",
@@ -1687,6 +1623,75 @@
           "team2": "PSV",
           "hot": false,
           "display": "⚽ ADO Den Haag vs PSV · Eredivisie"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-17 09:13 PM",
+      "match_start_local": "2026-10-17 09:15 PM",
+      "send_at_utc": "2026-10-17T15:13:00+00:00",
+      "match_start_utc": "2026-10-17T15:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Strasbourg vs Paris Saint-Germain",
+        "body": "Ligue 1 · Starting in 2 minutes"
+      },
+      "matches": [
+        {
+          "id": "1519",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Strasbourg",
+          "team2": "Paris Saint-Germain",
+          "hot": false,
+          "display": "⚽ Strasbourg vs Paris Saint-Germain · Ligue 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-17 09:38 PM",
+      "match_start_local": "2026-10-17 09:40 PM",
+      "send_at_utc": "2026-10-17T15:38:00+00:00",
+      "match_start_utc": "2026-10-17T15:40:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ NEOM SC vs Al Ettifaq",
+        "body": "Saudi League · Starting in 2 minutes"
+      },
+      "matches": [
+        {
+          "id": "1536",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "NEOM SC",
+          "team2": "Al Ettifaq",
+          "hot": false,
+          "display": "⚽ NEOM SC vs Al Ettifaq · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-17 09:58 PM",
+      "match_start_local": "2026-10-17 10:00 PM",
+      "send_at_utc": "2026-10-17T15:58:00+00:00",
+      "match_start_utc": "2026-10-17T16:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Bologna vs Inter",
+        "body": "Serie A · Starting in 2 minutes"
+      },
+      "matches": [
+        {
+          "id": "1532",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Bologna",
+          "team2": "Inter",
+          "hot": false,
+          "display": "⚽ Bologna vs Inter · Serie A"
         }
       ]
     }
