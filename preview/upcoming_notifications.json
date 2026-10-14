@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-14T19:23:01+00:00",
+  "generated_at": "2026-10-14T19:53:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 01:22:14 AM BST",
-    "source_events_loaded": 364,
+    "source_last_updated": "15 Oct 2026, 01:53:12 AM BST",
+    "source_events_loaded": 363,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,97 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 40,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 39,
+    "upcoming_matches": 126,
     "next_notification_at_local": "2026-10-15 03:58 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-15 12:58 AM",
-      "match_start_local": "2026-10-15 01:00 AM",
-      "send_at_utc": "2026-10-14T18:58:00+00:00",
-      "match_start_utc": "2026-10-14T19:00:00+00:00",
-      "match_count": 8,
-      "notification": {
-        "title": "⏰ 8 matches starting soon",
-        "body": "⚽ Lincoln vs West Ham United FC · Championship\n⚽ AS Roma vs Real Madrid CF · UEFA Champions League\n⚽ Aston Villa vs Fenerbahce Istanbul · UEFA Champions League\n⚽ Betis vs FC Porto · UEFA Champions League\n⚽ Bodo Glimt vs Borussia Dortmund · UEFA Champions League\n⚽ Man City vs Paris Saint-Germain · UEFA Champions League\n+ 2 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "1421",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Lincoln",
-          "team2": "West Ham United FC",
-          "hot": false,
-          "display": "⚽ Lincoln vs West Ham United FC · Championship"
-        },
-        {
-          "id": "1406",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "AS Roma",
-          "team2": "Real Madrid CF",
-          "hot": false,
-          "display": "⚽ AS Roma vs Real Madrid CF · UEFA Champions League"
-        },
-        {
-          "id": "1408",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Aston Villa",
-          "team2": "Fenerbahce Istanbul",
-          "hot": false,
-          "display": "⚽ Aston Villa vs Fenerbahce Istanbul · UEFA Champions League"
-        },
-        {
-          "id": "1407",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Betis",
-          "team2": "FC Porto",
-          "hot": false,
-          "display": "⚽ Betis vs FC Porto · UEFA Champions League"
-        },
-        {
-          "id": "1403",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Bodo Glimt",
-          "team2": "Borussia Dortmund",
-          "hot": false,
-          "display": "⚽ Bodo Glimt vs Borussia Dortmund · UEFA Champions League"
-        },
-        {
-          "id": "1405",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Man City",
-          "team2": "Paris Saint-Germain",
-          "hot": false,
-          "display": "⚽ Man City vs Paris Saint-Germain · UEFA Champions League"
-        },
-        {
-          "id": "1404",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Shakhtar",
-          "team2": "AEK Athens FC",
-          "hot": false,
-          "display": "⚽ Shakhtar vs AEK Athens FC · UEFA Champions League"
-        },
-        {
-          "id": "1402",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Slovan Bratislava",
-          "team2": "VfB Stuttgart",
-          "hot": false,
-          "display": "⚽ Slovan Bratislava vs VfB Stuttgart · UEFA Champions League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-15 03:58 AM",
