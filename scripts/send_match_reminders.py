@@ -3,6 +3,18 @@
 Sends ONE FCM notification per kick-off time, LEAD_SECONDS (default 120s)
 before the matches start. All matches starting at the same minute are grouped.
 
+Reliability design (goal: no reminder is ever lost):
+  * CATCH-UP   : every run also handles matches that started up to GRACE_SECONDS
+                 ago (default 30 min), so a delayed/skipped GitHub run is healed
+                 by the next one.
+  * PER-MATCH DEDUPE : state remembers each match id, so a match that is added
+                 to events.json AFTER its slot was already notified still gets
+                 its own notification (and nothing is ever sent twice).
+  * FCM RETRIES + LONG TTL : transient FCM errors are retried; offline phones
+                 still receive the push when they come back online.
+  * NO collapse_key : two different kick-off times can never overwrite each
+                 other while a phone is offline.
+
 Data source : events.json on GitHub (EVENTS_URL)  -> no Firebase database needed
 State       : state/sent_notifications.json (committed by the workflow) -> dedupe
 Delivery    : FCM HTTP v1 via firebase-admin (topic message)
@@ -37,8 +49,10 @@ TOPIC = env("FCM_TOPIC", "match_alerts")
 CHANNEL_ID = env("ANDROID_CHANNEL_ID", "match_alerts")
 SOURCE_UTC_OFFSET = float(env("SOURCE_UTC_OFFSET_HOURS", "6"))  # events.json times = Bangladesh time
 LEAD_SECONDS = int(env("LEAD_SECONDS", "120"))
-LOOKAHEAD_SECONDS = int(env("LOOKAHEAD_SECONDS", "390"))   # bumped 330→390 for GitHub delay headroom
-GRACE_SECONDS = int(env("GRACE_SECONDS", "300"))           # send even if match started ≤5 min ago
+LOOKAHEAD_SECONDS = int(env("LOOKAHEAD_SECONDS", "330"))   # wait (sleep) for slots due within this window
+GRACE_SECONDS = int(env("GRACE_SECONDS", "1800"))          # catch-up: still notify if match started <= 30 min ago
+TTL_AFTER_START = int(env("FCM_TTL_AFTER_START_SECONDS", "1200"))  # keep message queued for offline phones
+SEND_RETRIES = int(env("SEND_RETRIES", "3"))
 MAX_LINES = int(env("MAX_LINES", "6"))
 DRY_RUN = env("DRY_RUN", "0") == "1"
 TEST_PUSH = env("TEST_PUSH", "0") == "1"
@@ -52,6 +66,8 @@ SPORT_EMOJI = {
     "basketball": "🏀", "tennis": "🎾", "hockey": "🏒", "rugby": "🏉",
     "mma": "🥊", "boxing": "🥊", "volleyball": "🏐",
 }
+
+EVENTS_FILE = env("EVENTS_FILE")  # local file instead of EVENTS_URL (testing only)
 
 LAST_SOURCE_META = {}  # filled by load_events() (used by the preview)
 
@@ -73,7 +89,11 @@ def load_events():
     """Download events.json (with retries + cache-busting) and return a list of dicts."""
     last_exc = None
     data = None
+    if EVENTS_FILE:
+        data = json.loads(Path(EVENTS_FILE).read_text(encoding="utf-8-sig"))
     for attempt in range(1, 5):
+        if data is not None:
+            break
         try:
             r = requests.get(
                 EVENTS_URL,
@@ -123,6 +143,38 @@ def save_state(state):
     tmp = STATE_PATH.with_suffix(".tmp")
     tmp.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     tmp.replace(STATE_PATH)
+
+
+def event_id(ev):
+    """Stable id of one match (falls back to a fingerprint when the feed has no id)."""
+    if ev.get("id") not in (None, ""):
+        return str(ev["id"])
+    return "|".join(
+        [team(ev, 1), team(ev, 2), league_of(ev), str(ev.get("date", "")), str(ev.get("time", ""))]
+    )
+
+
+def pending_events(state, key, evs):
+    """Matches of this kick-off slot that have NOT been notified yet."""
+    entry = state.get(key)
+    if not entry:
+        return list(evs)
+    if not isinstance(entry, dict) or "ids" not in entry:
+        return []  # legacy state entry (whole slot was sent)
+    done = set(entry["ids"])
+    return [e for e in evs if event_id(e) not in done]
+
+
+def mark_sent(state, key, evs, title, now):
+    entry = state.get(key)
+    if not isinstance(entry, dict) or "ids" not in entry:
+        entry = {"ids": [], "batches": 0}
+    entry["ids"] = sorted(set(entry["ids"]) | {event_id(e) for e in evs})
+    entry["batches"] = int(entry.get("batches", 0)) + 1
+    entry["count"] = len(entry["ids"])
+    entry["title"] = title
+    entry["at"] = now.isoformat(timespec="seconds")
+    state[key] = entry
 
 
 def prune_state(state, now):
@@ -196,12 +248,13 @@ def sort_key(ev):
 
 # ---------------------------------------------------------------- message ---
 def lead_phrase(seconds_left):
+    if seconds_left <= -300:
+        return "already live"           # catch-up: started more than 5 min ago
     if seconds_left <= 0:
-        return "just kicked off"        # grace-window catch: match already started
+        return "just kicked off"        # catch-up: started a moment ago
     if seconds_left <= 45:
         return "starting now"
-    m = max(1, round(seconds_left / 60))
-    return f"starting soon"             # was "starting in {m} minutes" — cleaner wording
+    return "starting soon"
 
 
 def line_for(ev):
@@ -227,7 +280,12 @@ def build_text(evs, seconds_left):
             body = phrase.capitalize()
         return title, body
 
-    title = f"⏰ {n} matches starting soon"
+    if seconds_left <= -300:
+        title = f"🔴 {n} matches are live now"
+    elif seconds_left <= 0:
+        title = f"🔴 {n} matches just kicked off"
+    else:
+        title = f"⏰ {n} matches starting soon"
     lines = [line_for(e) for e in evs[:MAX_LINES]]
     if n > MAX_LINES:
         extra = n - MAX_LINES
@@ -252,24 +310,34 @@ def init_firebase():
 
 
 def dispatch(message_kwargs, title, body):
-    """Build + send (or print in dry-run) one FCM topic message."""
+    """Build + send (or print in dry-run) one FCM topic message, with retries."""
     from firebase_admin import messaging
 
     if DRY_RUN:
         log(f"[DRY RUN] topic={TOPIC}\n  title: {title}\n  body :\n    " + body.replace("\n", "\n    "))
         return "dry-run"
-    return messaging.send(messaging.Message(**message_kwargs))
+
+    last_exc = None
+    for attempt in range(1, SEND_RETRIES + 1):
+        try:
+            return messaging.send(messaging.Message(**message_kwargs))
+        except Exception as exc:  # noqa: BLE001
+            last_exc = exc
+            log(f"  FCM send failed (try {attempt}/{SEND_RETRIES}): {exc}")
+            if attempt < SEND_RETRIES:
+                time.sleep(2 * attempt)
+    raise last_exc
 
 
-def send_fcm(title, body, evs, start, seconds_left):
+def send_fcm(title, body, evs, start, seconds_left, batch=0):
     from firebase_admin import messaging
 
     ids = [str(e.get("id", "")) for e in evs if e.get("id")]
-    # For grace-window sends (seconds_left < 0), give a short TTL so stale
-    # devices don't get a "just kicked off" ping hours later.
-    effective = max(0, seconds_left)
-    ttl = timedelta(seconds=max(60, int(effective) + 120))
+    # TTL: how long FCM keeps the message for a phone that is offline/dozing.
+    # On-time send -> lives until ~20 min after kick-off; late send -> at least 10 min.
+    ttl = timedelta(seconds=max(600, int(seconds_left) + TTL_AFTER_START))
     key = start.strftime("%Y%m%d%H%M")
+    tag = f"match_{key}" if batch == 0 else f"match_{key}_{batch}"
 
     kwargs = dict(
         topic=TOPIC,
@@ -284,10 +352,11 @@ def send_fcm(title, body, evs, start, seconds_left):
         android=messaging.AndroidConfig(
             priority="high",
             ttl=ttl,
-            collapse_key="match_reminder",
+            # NO collapse_key on purpose: with a collapse key, a phone that was
+            # offline would only receive the LAST of several queued reminders.
             notification=messaging.AndroidNotification(
                 channel_id=CHANNEL_ID,
-                tag=f"match_{key}",
+                tag=tag,  # same tag = Android shows ONE notification even if delivered twice
                 sound="default",
                 default_vibrate_timings=True,
                 priority="high",
@@ -324,8 +393,8 @@ def send_test():
 
 
 # ------------------------------------------------------------------- main ---
-def group_events(events, now=None):
-    """-> {start_utc: [events]} for public events with a valid time (and start > now, if given)."""
+def group_events(events, earliest=None):
+    """-> {start_utc: [events]} for public events with a valid time and start >= earliest (if given)."""
     groups = defaultdict(list)
     skipped = 0
     for ev in events:
@@ -335,7 +404,7 @@ def group_events(events, now=None):
         if not start:
             skipped += 1
             continue
-        if now is None or start > now:
+        if earliest is None or start >= earliest:
             groups[start].append(ev)
     if skipped:
         log(f"Warning: {skipped} event(s) skipped (unreadable date/time)")
@@ -352,17 +421,23 @@ def main():
 
     now = utcnow()
     events = load_events()
-    log(f"Loaded {len(events)} events from {EVENTS_URL}")
+    log(f"Loaded {len(events)} events from {EVENTS_FILE or EVENTS_URL}")
 
     state = load_state()
     prune_state(state, now)
 
+    # Include slots that already started (<= GRACE ago) -> catch-up for delayed runs.
+    earliest = now - timedelta(seconds=GRACE_SECONDS)
     due = []
-    for start, evs in group_events(events, now).items():
+    for start, evs in group_events(events, earliest).items():
+        key = start.strftime("%Y%m%d%H%M")
+        todo = pending_events(state, key, evs)
+        if not todo:
+            continue
         send_at = start - timedelta(seconds=LEAD_SECONDS)
         if send_at > now + timedelta(seconds=LOOKAHEAD_SECONDS):
             continue  # a later run will handle it
-        due.append((send_at, start, evs))
+        due.append((send_at, start, todo))
     due.sort(key=lambda x: x[0])
 
     if not due:
@@ -377,9 +452,6 @@ def main():
     failures = 0
     for send_at, start, evs in due:
         key = start.strftime("%Y%m%d%H%M")
-        if key in state:
-            log(f"[{key}] already sent, skipping")
-            continue
 
         wait = (send_at - utcnow()).total_seconds()
         if wait > 0 and not env("FAKE_NOW"):
@@ -387,28 +459,24 @@ def main():
             time.sleep(wait)
 
         seconds_left = (start - utcnow()).total_seconds()
-        if env("FAKE_NOW"):
-            seconds_left = float(LEAD_SECONDS)
 
-        # Grace window: if match started ≤ GRACE_SECONDS ago, still send
-        # (covers GitHub Actions delays of up to ~5 min)
-        # Beyond grace → truly missed, skip to avoid a stale/confusing notification
         if seconds_left <= -GRACE_SECONDS:
-            log(f"[{key}] missed beyond grace window ({abs(seconds_left):.0f}s late), skipping")
+            log(f"[{key}] older than grace window ({abs(seconds_left):.0f}s late), skipping")
             continue
         if seconds_left < 0:
-            log(f"[{key}] delayed by {abs(seconds_left):.0f}s — sending late notification (grace window)")
+            log(f"[{key}] run was late by {abs(seconds_left):.0f}s -> sending catch-up notification")
 
+        batch = int((state.get(key) or {}).get("batches", 0)) if isinstance(state.get(key), dict) else 0
         title, body = build_text(evs, seconds_left)
         try:
-            msg_id = send_fcm(title, body, evs, start, seconds_left)
+            msg_id = send_fcm(title, body, evs, start, seconds_left, batch)
             log(f"[{key}] sent: {title} -> {msg_id}")
             if not DRY_RUN:
-                state[key] = {"at": utcnow().isoformat(timespec="seconds"), "count": len(evs), "title": title}
+                mark_sent(state, key, evs, title, utcnow())
                 save_state(state)  # saved immediately after every successful send
         except Exception as exc:  # noqa: BLE001
             failures += 1
-            log(f"[{key}] FAILED: {exc}")
+            log(f"[{key}] FAILED after retries (next run will retry): {exc}")
 
     if not DRY_RUN:
         save_state(state)
