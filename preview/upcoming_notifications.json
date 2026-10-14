@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-14T22:28:23+00:00",
+  "generated_at": "2026-10-14T22:30:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 04:28:14 AM BST",
+    "source_last_updated": "15 Oct 2026, 04:30:24 AM BST",
     "source_events_loaded": 351,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 41,
-    "upcoming_matches": 129,
+    "upcoming_notifications": 42,
+    "upcoming_matches": 130,
     "next_notification_at_local": "2026-10-15 05:29 AM"
   },
   "upcoming_notifications": [
@@ -1752,6 +1752,29 @@
           "team2": "Coritiba",
           "hot": false,
           "display": "⚽ Atlético-MG vs Coritiba · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-18 04:29 AM",
+      "match_start_local": "2026-10-18 04:30 AM",
+      "send_at_utc": "2026-10-17T22:29:00+00:00",
+      "match_start_utc": "2026-10-17T22:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Athletico-PR vs Palmeiras",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1558",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Athletico-PR",
+          "team2": "Palmeiras",
+          "hot": false,
+          "display": "⚽ Athletico-PR vs Palmeiras · Brasileirão Série A"
         }
       ]
     }
