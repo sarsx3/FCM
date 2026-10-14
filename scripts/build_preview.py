@@ -8,6 +8,7 @@ will push in the future (title, body, matches, send time, status).
 * Writes the file only when something really changed (or every
   PREVIEW_HEARTBEAT_MINUTES as a heartbeat) -> no commit spam.
 * Also prints a nice table into the GitHub Actions run summary.
+* Needs NO secrets: events come from events.json, "sent" status from state/.
 """
 import json
 import os
@@ -38,8 +39,8 @@ def match_entry(ev):
         "id": str(ev.get("id", "")),
         "sport": core.sport_of(ev),
         "league": core.league_of(ev),
-        "team1": (ev.get("team1") or "").strip() if versus else None,
-        "team2": (ev.get("team2") or "").strip() if versus else None,
+        "team1": core.team(ev, 1) if versus else None,
+        "team2": core.team(ev, 2) if versus else None,
         "hot": core.is_hot(ev),
         "display": core.line_for(ev),
     }
@@ -47,25 +48,16 @@ def match_entry(ev):
 
 def build_payload(now):
     events = core.load_events()
-    sent_keys = set((core.db_request("GET", "notif_sent", params={"shallow": "true"}) or {}).keys())
+    sent_keys = set(core.load_state().keys())
 
-    groups = defaultdict(list)
-    for ev in events:
-        if (ev.get("visibility") or "public") != "public":
-            continue
-        start = core.parse_start(ev)
-        if start and start > now:
-            groups[start].append(ev)
+    groups = core.group_events(events, now)
 
     horizon = now + timedelta(hours=HORIZON_HOURS)
     items = []
     for start in sorted(groups):
         if start > horizon or len(items) >= MAX_GROUPS:
             break
-        evs = sorted(
-            groups[start],
-            key=lambda e: (not core.is_hot(e), core.league_of(e), e.get("team1", "")),
-        )
+        evs = sorted(groups[start], key=core.sort_key)
         title, body = core.build_text(evs, core.LEAD_SECONDS)
         key = start.strftime("%Y%m%d%H%M")
         send_at = start - timedelta(seconds=core.LEAD_SECONDS)
@@ -93,6 +85,8 @@ def build_payload(now):
         "sync": {
             "schedule": f"every {SYNC_INTERVAL_MIN} minutes (GitHub Actions cron)",
             "interval_minutes": SYNC_INTERVAL_MIN,
+            "source": core.EVENTS_URL,
+            "source_last_updated": core.LAST_SOURCE_META.get("last_updated"),
             "source_events_loaded": len(events),
             "timezone": TZ_LABEL,
             "note": "GitHub may delay scheduled runs by a few minutes at busy times.",
@@ -171,7 +165,7 @@ def write_step_summary(payload):
 
 
 def main():
-    now = datetime.now(timezone.utc)
+    now = core.utcnow()
     payload = build_payload(now)
     write_if_needed(payload, now)
     write_step_summary(payload)
