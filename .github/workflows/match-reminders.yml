@@ -1,14 +1,12 @@
 name: Match reminders (FCM)
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"   # sync events.json + send every 5 minutes (GitHub's minimum)
   workflow_dispatch:
     inputs:
       dry_run:
         description: "Dry run (print only, do not send FCM)"
         type: boolean
-        default: true
+        default: false
       test_push:
         description: "Send ONE test notification to the topic now (turn dry run OFF to really send)"
         type: boolean
@@ -28,11 +26,9 @@ jobs:
     timeout-minutes: 12
     env:
       PYTHONUNBUFFERED: "1"
-      # Only the service account is required. Topic/channel are optional (defaults: match_alerts).
       FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
       FCM_TOPIC: ${{ secrets.FCM_TOPIC }}
       ANDROID_CHANNEL_ID: ${{ secrets.ANDROID_CHANNEL_ID }}
-      # Optional: override the data source (repo variable), default is built into the script
       EVENTS_URL: ${{ vars.EVENTS_URL }}
     steps:
       - uses: actions/checkout@v4
@@ -47,7 +43,6 @@ jobs:
       - name: 1) Sync events.json and send due reminders
         run: python scripts/send_match_reminders.py
         env:
-          # scheduled runs have no inputs -> dry_run is empty -> real send
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
           TEST_PUSH: ${{ inputs.test_push && '1' || '0' }}
 
