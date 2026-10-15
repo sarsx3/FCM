@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T15:14:20+00:00",
+  "generated_at": "2026-10-15T15:15:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 09:14:14 PM BST",
+    "source_last_updated": "15 Oct 2026, 09:15:25 PM BST",
     "source_events_loaded": 421,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 143,
+    "upcoming_notifications": 51,
+    "upcoming_matches": 146,
     "next_notification_at_local": "2026-10-15 10:44 PM"
   },
   "upcoming_notifications": [
@@ -2004,6 +2004,47 @@
           "team2": "Ajax Amsterdam",
           "hot": false,
           "display": "⚽ Groningen vs Ajax Amsterdam · Eredivisie"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-18 09:14 PM",
+      "match_start_local": "2026-10-18 09:15 PM",
+      "send_at_utc": "2026-10-18T15:14:00+00:00",
+      "match_start_utc": "2026-10-18T15:15:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Le Havre vs Auxerre · Ligue 1\n⚽ Lorient vs Monaco · Ligue 1\n⚽ Paris FC vs Rennes · Ligue 1"
+      },
+      "matches": [
+        {
+          "id": "1582",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Le Havre",
+          "team2": "Auxerre",
+          "hot": false,
+          "display": "⚽ Le Havre vs Auxerre · Ligue 1"
+        },
+        {
+          "id": "1581",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Lorient",
+          "team2": "Monaco",
+          "hot": false,
+          "display": "⚽ Lorient vs Monaco · Ligue 1"
+        },
+        {
+          "id": "1580",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Paris FC",
+          "team2": "Rennes",
+          "hot": false,
+          "display": "⚽ Paris FC vs Rennes · Ligue 1"
         }
       ]
     }
