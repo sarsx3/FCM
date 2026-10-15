@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T17:44:23+00:00",
+  "generated_at": "2026-10-15T17:45:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 11:44:13 PM BST",
+    "source_last_updated": "15 Oct 2026, 11:45:19 PM BST",
     "source_events_loaded": 418,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 52,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 53,
+    "upcoming_matches": 135,
     "next_notification_at_local": "2026-10-15 11:59 PM"
   },
   "upcoming_notifications": [
@@ -1951,6 +1951,29 @@
           "team2": "CD Eldense",
           "hot": false,
           "display": "⚽ Valladolid vs CD Eldense · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-18 11:44 PM",
+      "match_start_local": "2026-10-18 11:45 PM",
+      "send_at_utc": "2026-10-18T17:44:00+00:00",
+      "match_start_utc": "2026-10-18T17:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Racing Club vs Independiente",
+        "body": "Liga Profesional · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1589",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Racing Club",
+          "team2": "Independiente",
+          "hot": false,
+          "display": "⚽ Racing Club vs Independiente · Liga Profesional"
         }
       ]
     }
