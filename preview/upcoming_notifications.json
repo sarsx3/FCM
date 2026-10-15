@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T13:29:26+00:00",
+  "generated_at": "2026-10-15T13:30:36+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 07:29:16 PM BST",
+    "source_last_updated": "15 Oct 2026, 07:30:27 PM BST",
     "source_events_loaded": 425,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 49,
-    "upcoming_matches": 141,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 142,
     "next_notification_at_local": "2026-10-15 07:39 PM"
   },
   "upcoming_notifications": [
@@ -1972,6 +1972,29 @@
           "team2": "Como",
           "hot": false,
           "display": "⚽ Fiorentina vs Como · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-18 07:29 PM",
+      "match_start_local": "2026-10-18 07:30 PM",
+      "send_at_utc": "2026-10-18T13:29:00+00:00",
+      "match_start_utc": "2026-10-18T13:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Leverkusen vs Freiburg",
+        "body": "Bundesliga · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1576",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Leverkusen",
+          "team2": "Freiburg",
+          "hot": false,
+          "display": "⚽ Leverkusen vs Freiburg · Bundesliga"
         }
       ]
     }
