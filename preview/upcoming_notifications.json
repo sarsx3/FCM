@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T07:59:18+00:00",
+  "generated_at": "2026-10-15T08:00:43+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 01:56:14 PM BST",
+    "source_last_updated": "15 Oct 2026, 02:00:28 PM BST",
     "source_events_loaded": 349,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 133,
+    "upcoming_notifications": 45,
+    "upcoming_matches": 134,
     "next_notification_at_local": "2026-10-15 03:59 PM"
   },
   "upcoming_notifications": [
@@ -1830,6 +1830,29 @@
           "team2": "Vasco",
           "hot": false,
           "display": "⚽ São Paulo vs Vasco · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-18 01:59 PM",
+      "match_start_local": "2026-10-18 02:00 PM",
+      "send_at_utc": "2026-10-18T07:59:00+00:00",
+      "match_start_utc": "2026-10-18T08:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Pakistan vs Sri Lanka",
+        "body": "Pakistan vs Sri Lanka – 1st Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1593",
+          "sport": "Cricket",
+          "league": "Pakistan vs Sri Lanka – 1st Match",
+          "team1": "Pakistan",
+          "team2": "Sri Lanka",
+          "hot": false,
+          "display": "🏏 Pakistan vs Sri Lanka · Pakistan vs Sri Lanka – 1st Match"
         }
       ]
     }
