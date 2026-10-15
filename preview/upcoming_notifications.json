@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T13:44:24+00:00",
+  "generated_at": "2026-10-15T13:45:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 07:44:16 PM BST",
+    "source_last_updated": "15 Oct 2026, 07:42:13 PM BST",
     "source_events_loaded": 425,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 142,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 141,
     "next_notification_at_local": "2026-10-15 08:49 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-15 07:39 PM",
-      "match_start_local": "2026-10-15 07:40 PM",
-      "send_at_utc": "2026-10-15T13:39:00+00:00",
-      "match_start_utc": "2026-10-15T13:40:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Al Faysaly vs Al-Kholood",
-        "body": "Saudi League · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1440",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al Faysaly",
-          "team2": "Al-Kholood",
-          "hot": false,
-          "display": "⚽ Al Faysaly vs Al-Kholood · Saudi League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-15 08:49 PM",
