@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T16:49:23+00:00",
+  "generated_at": "2026-10-15T16:50:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 10:49:15 PM BST",
+    "source_last_updated": "15 Oct 2026, 10:50:19 PM BST",
     "source_events_loaded": 420,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,187 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 53,
-    "upcoming_matches": 152,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 134,
     "next_notification_at_local": "2026-10-15 11:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-15 10:44 PM",
-      "match_start_local": "2026-10-15 10:45 PM",
-      "send_at_utc": "2026-10-15T16:44:00+00:00",
-      "match_start_utc": "2026-10-15T16:45:00+00:00",
-      "match_count": 18,
-      "notification": {
-        "title": "⏰ 18 matches starting soon",
-        "body": "⚽ CSKA Sofia vs AS Monaco · UEFA Conference League\n⚽ Craiova vs Getafe CF · UEFA Conference League\n⚽ Gent vs AGF Aarhus · UEFA Conference League\n⚽ Hajduk Split vs Ajax Amsterdam · UEFA Conference League\n⚽ KF Egnatia vs FC Midtjylland · UEFA Conference League\n⚽ KuPS vs Trabzonspor · UEFA Conference League\n+ 12 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "1432",
-          "sport": "Football",
-          "league": "UEFA Conference League",
-          "team1": "CSKA Sofia",
-          "team2": "AS Monaco",
-          "hot": false,
-          "display": "⚽ CSKA Sofia vs AS Monaco · UEFA Conference League"
-        },
-        {
-          "id": "1430",
-          "sport": "Football",
-          "league": "UEFA Conference League",
-          "team1": "Craiova",
-          "team2": "Getafe CF",
-          "hot": false,
-          "display": "⚽ Craiova vs Getafe CF · UEFA Conference League"
-        },
-        {
-          "id": "1436",
-          "sport": "Football",
-          "league": "UEFA Conference League",
-          "team1": "Gent",
-          "team2": "AGF Aarhus",
-          "hot": false,
-          "display": "⚽ Gent vs AGF Aarhus · UEFA Conference League"
-        },
-        {
-          "id": "1438",
-          "sport": "Football",
-          "league": "UEFA Conference League",
-          "team1": "Hajduk Split",
-          "team2": "Ajax Amsterdam",
-          "hot": false,
-          "display": "⚽ Hajduk Split vs Ajax Amsterdam · UEFA Conference League"
-        },
-        {
-          "id": "1437",
-          "sport": "Football",
-          "league": "UEFA Conference League",
-          "team1": "KF Egnatia",
-          "team2": "FC Midtjylland",
-          "hot": false,
-          "display": "⚽ KF Egnatia vs FC Midtjylland · UEFA Conference League"
-        },
-        {
-          "id": "1435",
-          "sport": "Football",
-          "league": "UEFA Conference League",
-          "team1": "KuPS",
-          "team2": "Trabzonspor",
-          "hot": false,
-          "display": "⚽ KuPS vs Trabzonspor · UEFA Conference League"
-        },
-        {
-          "id": "1439",
-          "sport": "Football",
-          "league": "UEFA Conference League",
-          "team1": "Lugano",
-          "team2": "FK Crvena zvezda",
-          "hot": false,
-          "display": "⚽ Lugano vs FK Crvena zvezda · UEFA Conference League"
-        },
-        {
-          "id": "1434",
-          "sport": "Football",
-          "league": "UEFA Conference League",
-          "team1": "Mjällby AIF",
-          "team2": "Inter Club de Escaldes",
-          "hot": false,
-          "display": "⚽ Mjällby AIF vs Inter Club de Escaldes · UEFA Conference League"
-        },
-        {
-          "id": "1433",
-          "sport": "Football",
-          "league": "UEFA Conference League",
-          "team1": "Panathinaikos",
-          "team2": "FK Borac Banja Luka",
-          "hot": false,
-          "display": "⚽ Panathinaikos vs FK Borac Banja Luka · UEFA Conference League"
-        },
-        {
-          "id": "1431",
-          "sport": "Football",
-          "league": "UEFA Conference League",
-          "team1": "Riga",
-          "team2": "FC Kairat Almaty",
-          "hot": false,
-          "display": "⚽ Riga vs FC Kairat Almaty · UEFA Conference League"
-        },
-        {
-          "id": "1422",
-          "sport": "Football",
-          "league": "UEFA Europa League",
-          "team1": "AZ Alkmaar",
-          "team2": "Hapoel Be'er Sheva FC",
-          "hot": false,
-          "display": "⚽ AZ Alkmaar vs Hapoel Be'er Sheva FC · UEFA Europa League"
-        },
-        {
-          "id": "1428",
-          "sport": "Football",
-          "league": "UEFA Europa League",
-          "team1": "Celje",
-          "team2": "Omonia",
-          "hot": false,
-          "display": "⚽ Celje vs Omonia · UEFA Europa League"
-        },
-        {
-          "id": "1424",
-          "sport": "Football",
-          "league": "UEFA Europa League",
-          "team1": "Lech Poznan",
-          "team2": "Bayer 04 Leverkusen",
-          "hot": false,
-          "display": "⚽ Lech Poznan vs Bayer 04 Leverkusen · UEFA Europa League"
-        },
-        {
-          "id": "1426",
-          "sport": "Football",
-          "league": "UEFA Europa League",
-          "team1": "Lyon",
-          "team2": "Crystal Palace FC",
-          "hot": false,
-          "display": "⚽ Lyon vs Crystal Palace FC · UEFA Europa League"
-        },
-        {
-          "id": "1429",
-          "sport": "Football",
-          "league": "UEFA Europa League",
-          "team1": "Salzburg",
-          "team2": "AC Milan",
-          "hot": false,
-          "display": "⚽ Salzburg vs AC Milan · UEFA Europa League"
-        },
-        {
-          "id": "1427",
-          "sport": "Football",
-          "league": "UEFA Europa League",
-          "team1": "Sparta Praha",
-          "team2": "Lillestrom",
-          "hot": false,
-          "display": "⚽ Sparta Praha vs Lillestrom · UEFA Europa League"
-        },
-        {
-          "id": "1423",
-          "sport": "Football",
-          "league": "UEFA Europa League",
-          "team1": "St. Gilloise",
-          "team2": "Real Sociedad",
-          "hot": false,
-          "display": "⚽ St. Gilloise vs Real Sociedad · UEFA Europa League"
-        },
-        {
-          "id": "1425",
-          "sport": "Football",
-          "league": "UEFA Europa League",
-          "team1": "Torreense",
-          "team2": "Sunderland AFC",
-          "hot": false,
-          "display": "⚽ Torreense vs Sunderland AFC · UEFA Europa League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-15 11:59 PM",
