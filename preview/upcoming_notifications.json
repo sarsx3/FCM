@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T10:03:19+00:00",
+  "generated_at": "2026-10-15T10:05:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 04:03:11 PM BST",
+    "source_last_updated": "15 Oct 2026, 04:05:20 PM BST",
     "source_events_loaded": 348,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 45,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 44,
+    "upcoming_matches": 132,
     "next_notification_at_local": "2026-10-15 06:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-15 03:59 PM",
-      "match_start_local": "2026-10-15 04:00 PM",
-      "send_at_utc": "2026-10-15T09:59:00+00:00",
-      "match_start_utc": "2026-10-15T10:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Gangwon FC vs Phnom Penh Crown · AFC Champions League Two\n⚽ Tai Po FC vs Lion City · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "1412",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Gangwon FC",
-          "team2": "Phnom Penh Crown",
-          "hot": false,
-          "display": "⚽ Gangwon FC vs Phnom Penh Crown · AFC Champions League Two"
-        },
-        {
-          "id": "1413",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Tai Po FC",
-          "team2": "Lion City",
-          "hot": false,
-          "display": "⚽ Tai Po FC vs Lion City · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-15 06:14 PM",
