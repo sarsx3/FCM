@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T14:54:22+00:00",
+  "generated_at": "2026-10-15T14:55:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 08:53:12 PM BST",
+    "source_last_updated": "15 Oct 2026, 08:55:14 PM BST",
     "source_events_loaded": 421,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 144,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 143,
     "next_notification_at_local": "2026-10-15 09:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-15 08:49 PM",
-      "match_start_local": "2026-10-15 08:50 PM",
-      "send_at_utc": "2026-10-15T14:49:00+00:00",
-      "match_start_utc": "2026-10-15T14:50:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Al-Khaleej vs Al-Fayha FC",
-        "body": "Saudi League · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1441",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al-Khaleej",
-          "team2": "Al-Fayha FC",
-          "hot": false,
-          "display": "⚽ Al-Khaleej vs Al-Fayha FC · Saudi League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-15 09:14 PM",
