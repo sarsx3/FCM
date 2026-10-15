@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T11:29:25+00:00",
+  "generated_at": "2026-10-15T11:30:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 05:29:11 PM BST",
+    "source_last_updated": "15 Oct 2026, 05:26:18 PM BST",
     "source_events_loaded": 348,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 46,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 47,
+    "upcoming_matches": 137,
     "next_notification_at_local": "2026-10-15 06:14 PM"
   },
   "upcoming_notifications": [
@@ -1867,6 +1867,47 @@
           "team2": "Lecce",
           "hot": false,
           "display": "⚽ Udinese vs Lecce · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-18 05:29 PM",
+      "match_start_local": "2026-10-18 05:30 PM",
+      "send_at_utc": "2026-10-18T11:29:00+00:00",
+      "match_start_utc": "2026-10-18T11:30:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Arminia vs Osnabrück · Bundesliga 2\n⚽ Dresden vs Magdeburg · Bundesliga 2\n⚽ Karlsruhe vs Darmstadt 98 · Bundesliga 2"
+      },
+      "matches": [
+        {
+          "id": "1565",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Arminia",
+          "team2": "Osnabrück",
+          "hot": false,
+          "display": "⚽ Arminia vs Osnabrück · Bundesliga 2"
+        },
+        {
+          "id": "1566",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Dresden",
+          "team2": "Magdeburg",
+          "hot": false,
+          "display": "⚽ Dresden vs Magdeburg · Bundesliga 2"
+        },
+        {
+          "id": "1567",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Karlsruhe",
+          "team2": "Darmstadt 98",
+          "hot": false,
+          "display": "⚽ Karlsruhe vs Darmstadt 98 · Bundesliga 2"
         }
       ]
     }
