@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T17:58:22+00:00",
+  "generated_at": "2026-10-15T18:00:42+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 11:58:13 PM BST",
+    "source_last_updated": "16 Oct 2026, 12:00:31 AM BST",
     "source_events_loaded": 417,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 52,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 53,
+    "upcoming_matches": 137,
     "next_notification_at_local": "2026-10-16 12:59 AM"
   },
   "upcoming_notifications": [
@@ -1951,6 +1951,47 @@
           "team2": "Independiente",
           "hot": false,
           "display": "⚽ Racing Club vs Independiente · Liga Profesional"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-18 11:59 PM",
+      "match_start_local": "2026-10-19 12:00 AM",
+      "send_at_utc": "2026-10-18T17:59:00+00:00",
+      "match_start_utc": "2026-10-18T18:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ N.E.C. vs Fortuna Sittard · Eredivisie\n⚽ Twente vs Utrecht · Eredivisie\n⚽ Al Fateh vs Al Khaleej · Saudi League"
+      },
+      "matches": [
+        {
+          "id": "1603",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "N.E.C.",
+          "team2": "Fortuna Sittard",
+          "hot": false,
+          "display": "⚽ N.E.C. vs Fortuna Sittard · Eredivisie"
+        },
+        {
+          "id": "1602",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Twente",
+          "team2": "Utrecht",
+          "hot": false,
+          "display": "⚽ Twente vs Utrecht · Eredivisie"
+        },
+        {
+          "id": "1604",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Fateh",
+          "team2": "Al Khaleej",
+          "hot": false,
+          "display": "⚽ Al Fateh vs Al Khaleej · Saudi League"
         }
       ]
     }
