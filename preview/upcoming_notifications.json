@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T12:19:21+00:00",
+  "generated_at": "2026-10-15T12:20:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Oct 2026, 06:15:22 PM BST",
+    "source_last_updated": "15 Oct 2026, 06:20:19 PM BST",
     "source_events_loaded": 346,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,61 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 48,
-    "upcoming_matches": 139,
+    "upcoming_notifications": 47,
+    "upcoming_matches": 135,
     "next_notification_at_local": "2026-10-15 07:39 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-15 06:14 PM",
-      "match_start_local": "2026-10-15 06:15 PM",
-      "send_at_utc": "2026-10-15T12:14:00+00:00",
-      "match_start_utc": "2026-10-15T12:15:00+00:00",
-      "match_count": 4,
-      "notification": {
-        "title": "⏰ 4 matches starting soon",
-        "body": "⚽ BG Pathum United vs Adelaide United FC · AFC Champions League Two\n⚽ Kuching City FC vs Kitchee · AFC Champions League Two\n⚽ Svay Rieng vs Shanghai Shenhua FC · AFC Champions League Two\n⚽ Tampines Rovers vs Machida Zelvia · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "1417",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "BG Pathum United",
-          "team2": "Adelaide United FC",
-          "hot": false,
-          "display": "⚽ BG Pathum United vs Adelaide United FC · AFC Champions League Two"
-        },
-        {
-          "id": "1414",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Kuching City FC",
-          "team2": "Kitchee",
-          "hot": false,
-          "display": "⚽ Kuching City FC vs Kitchee · AFC Champions League Two"
-        },
-        {
-          "id": "1416",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Svay Rieng",
-          "team2": "Shanghai Shenhua FC",
-          "hot": false,
-          "display": "⚽ Svay Rieng vs Shanghai Shenhua FC · AFC Champions League Two"
-        },
-        {
-          "id": "1415",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Tampines Rovers",
-          "team2": "Machida Zelvia",
-          "hot": false,
-          "display": "⚽ Tampines Rovers vs Machida Zelvia · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-15 07:39 PM",
