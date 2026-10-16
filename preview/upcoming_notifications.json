@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-16T06:52:23+00:00",
+  "generated_at": "2026-10-16T06:53:17+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "16 Oct 2026, 12:52:13 PM BST",
+    "source_last_updated": "16 Oct 2026, 12:53:11 PM BST",
     "source_events_loaded": 379,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -28,7 +28,7 @@
       "match_start_utc": "2026-10-16T11:30:00+00:00",
       "match_count": 1,
       "notification": {
-        "title": "🏏 South Africa Champions vs England Champions",
+        "title": "🔥 South Africa Champions vs England Champions",
         "body": "World Championship of Legends – Semi Final 1 · Starting soon"
       },
       "matches": [
@@ -38,8 +38,8 @@
           "league": "World Championship of Legends – Semi Final 1",
           "team1": "South Africa Champions",
           "team2": "England Champions",
-          "hot": false,
-          "display": "🏏 South Africa Champions vs England Champions · World Championship of Legends – Semi Final 1"
+          "hot": true,
+          "display": "🔥 South Africa Champions vs England Champions · World Championship of Legends – Semi Final 1"
         }
       ]
     },
@@ -97,7 +97,7 @@
       "match_start_utc": "2026-10-16T15:30:00+00:00",
       "match_count": 1,
       "notification": {
-        "title": "🏏 Australia Champions vs West Indies Champions",
+        "title": "🔥 Australia Champions vs West Indies Champions",
         "body": "World Championship of Legends – Semi Final 2 · Starting soon"
       },
       "matches": [
@@ -107,8 +107,8 @@
           "league": "World Championship of Legends – Semi Final 2",
           "team1": "Australia Champions",
           "team2": "West Indies Champions",
-          "hot": false,
-          "display": "🏏 Australia Champions vs West Indies Champions · World Championship of Legends – Semi Final 2"
+          "hot": true,
+          "display": "🔥 Australia Champions vs West Indies Champions · World Championship of Legends – Semi Final 2"
         }
       ]
     },
