@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T18:48:28+00:00",
+  "generated_at": "2026-10-16T18:50:29+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 123,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 121,
     "next_notification_at_local": "2026-10-17 12:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-17 12:44 AM",
-      "match_start_local": "2026-10-17 12:45 AM",
-      "send_at_utc": "2026-10-16T18:44:00+00:00",
-      "match_start_utc": "2026-10-16T18:45:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Le Mans vs Toulouse · Ligue 1\n⚽ Frosinone vs Sassuolo · Serie A"
-      },
-      "matches": [
-        {
-          "id": "1518",
-          "sport": "Football",
-          "league": "Ligue 1",
-          "team1": "Le Mans",
-          "team2": "Toulouse",
-          "hot": false,
-          "display": "⚽ Le Mans vs Toulouse · Ligue 1"
-        },
-        {
-          "id": "1530",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Frosinone",
-          "team2": "Sassuolo",
-          "hot": false,
-          "display": "⚽ Frosinone vs Sassuolo · Serie A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-17 12:59 AM",
