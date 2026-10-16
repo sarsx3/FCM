@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-16T17:41:35+00:00",
+  "generated_at": "2026-10-16T17:42:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "16 Oct 2026, 11:41:11 PM BST",
-    "source_events_loaded": 405,
+    "source_last_updated": "16 Oct 2026, 11:42:13 PM BST",
+    "source_events_loaded": 404,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 55,
-    "upcoming_matches": 123,
+    "upcoming_matches": 122,
     "next_notification_at_local": "2026-10-16 11:59 PM"
   },
   "upcoming_notifications": [
@@ -26,10 +26,10 @@
       "match_start_local": "2026-10-17 12:00 AM",
       "send_at_utc": "2026-10-16T17:59:00+00:00",
       "match_start_utc": "2026-10-16T18:00:00+00:00",
-      "match_count": 2,
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Heerenveen vs SBV Excelsior · Eredivisie\n⚽ Al Ittihad vs Al Shabab · Saudi League"
+        "title": "⚽ Heerenveen vs SBV Excelsior",
+        "body": "Eredivisie · Starting soon"
       },
       "matches": [
         {
@@ -40,15 +40,6 @@
           "team2": "SBV Excelsior",
           "hot": false,
           "display": "⚽ Heerenveen vs SBV Excelsior · Eredivisie"
-        },
-        {
-          "id": "1535",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al Ittihad",
-          "team2": "Al Shabab",
-          "hot": false,
-          "display": "⚽ Al Ittihad vs Al Shabab · Saudi League"
         }
       ]
     },
