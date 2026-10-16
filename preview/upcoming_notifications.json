@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T18:34:22+00:00",
+  "generated_at": "2026-10-16T18:35:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 124,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 122,
     "next_notification_at_local": "2026-10-17 12:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-17 12:29 AM",
-      "match_start_local": "2026-10-17 12:30 AM",
-      "send_at_utc": "2026-10-16T18:29:00+00:00",
-      "match_start_utc": "2026-10-16T18:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Eintracht vs Köln · Bundesliga\n⚽ Leganés vs Cordoba · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "1520",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "Eintracht",
-          "team2": "Köln",
-          "hot": false,
-          "display": "⚽ Eintracht vs Köln · Bundesliga"
-        },
-        {
-          "id": "1541",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Leganés",
-          "team2": "Cordoba",
-          "hot": false,
-          "display": "⚽ Leganés vs Cordoba · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-17 12:44 AM",
