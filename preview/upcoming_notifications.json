@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-16T11:34:22+00:00",
+  "generated_at": "2026-10-16T11:35:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "16 Oct 2026, 05:31:13 PM BST",
+    "source_last_updated": "16 Oct 2026, 05:32:13 PM BST",
     "source_events_loaded": 379,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 125,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 124,
     "next_notification_at_local": "2026-10-16 07:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-16 05:29 PM",
-      "match_start_local": "2026-10-16 05:30 PM",
-      "send_at_utc": "2026-10-16T11:29:00+00:00",
-      "match_start_utc": "2026-10-16T11:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🔥 South Africa Champions vs England Champions",
-        "body": "World Championship of Legends – Semi Final 1 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1485",
-          "sport": "Cricket",
-          "league": "World Championship of Legends – Semi Final 1",
-          "team1": "South Africa Champions",
-          "team2": "England Champions",
-          "hot": true,
-          "display": "🔥 South Africa Champions vs England Champions · World Championship of Legends – Semi Final 1"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-16 07:14 PM",
