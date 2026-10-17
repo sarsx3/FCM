@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:19:16+00:00",
+  "generated_at": "2026-10-17T15:20:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 83,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 82,
     "next_notification_at_local": "2026-10-17 09:39 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-17 09:14 PM",
-      "match_start_local": "2026-10-17 09:15 PM",
-      "send_at_utc": "2026-10-17T15:14:00+00:00",
-      "match_start_utc": "2026-10-17T15:15:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Strasbourg vs Paris Saint-Germain",
-        "body": "Ligue 1 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1519",
-          "sport": "Football",
-          "league": "Ligue 1",
-          "team1": "Strasbourg",
-          "team2": "Paris Saint-Germain",
-          "hot": false,
-          "display": "⚽ Strasbourg vs Paris Saint-Germain · Ligue 1"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-17 09:39 PM",
