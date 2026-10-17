@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:30:35+00:00",
+  "generated_at": "2026-10-17T11:35:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,88 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 55,
-    "upcoming_matches": 120,
+    "upcoming_notifications": 54,
+    "upcoming_matches": 113,
     "next_notification_at_local": "2026-10-17 05:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-17 05:29 PM",
-      "match_start_local": "2026-10-17 05:30 PM",
-      "send_at_utc": "2026-10-17T11:29:00+00:00",
-      "match_start_utc": "2026-10-17T11:30:00+00:00",
-      "match_count": 7,
-      "notification": {
-        "title": "⏰ 7 matches starting soon",
-        "body": "🔥 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026\n⚽ Middlesbrough vs Cardiff City · Championship\n⚽ Millwall vs Lincoln · Championship\n⚽ Watford vs Charlton · Championship\n⚽ MK Dons vs Luton · League One\n⚽ Peterborough vs Burton · League One\n+ 1 more match in the app"
-      },
-      "matches": [
-        {
-          "id": "1545",
-          "sport": "Cricket",
-          "league": "ODI Tri-Nation Series in UAE- 2026",
-          "team1": "Bangladesh",
-          "team2": "Zimbabwe",
-          "hot": true,
-          "display": "🔥 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026"
-        },
-        {
-          "id": "1498",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Middlesbrough",
-          "team2": "Cardiff City",
-          "hot": false,
-          "display": "⚽ Middlesbrough vs Cardiff City · Championship"
-        },
-        {
-          "id": "1497",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Millwall",
-          "team2": "Lincoln",
-          "hot": false,
-          "display": "⚽ Millwall vs Lincoln · Championship"
-        },
-        {
-          "id": "1496",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Watford",
-          "team2": "Charlton",
-          "hot": false,
-          "display": "⚽ Watford vs Charlton · Championship"
-        },
-        {
-          "id": "1508",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "MK Dons",
-          "team2": "Luton",
-          "hot": false,
-          "display": "⚽ MK Dons vs Luton · League One"
-        },
-        {
-          "id": "1507",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Peterborough",
-          "team2": "Burton",
-          "hot": false,
-          "display": "⚽ Peterborough vs Burton · League One"
-        },
-        {
-          "id": "1490",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Everton",
-          "team2": "Chelsea",
-          "hot": false,
-          "display": "⚽ Everton vs Chelsea · Premier League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-17 05:59 PM",
