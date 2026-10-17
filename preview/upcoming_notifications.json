@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T23:34:20+00:00",
+  "generated_at": "2026-10-17T23:35:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 41,
-    "upcoming_matches": 82,
+    "upcoming_notifications": 40,
+    "upcoming_matches": 81,
     "next_notification_at_local": "2026-10-18 05:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-18 05:29 AM",
-      "match_start_local": "2026-10-18 05:30 AM",
-      "send_at_utc": "2026-10-17T23:29:00+00:00",
-      "match_start_utc": "2026-10-17T23:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Atlanta United vs Inter Miami",
-        "body": "MLS · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1561",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Atlanta United",
-          "team2": "Inter Miami",
-          "hot": false,
-          "display": "⚽ Atlanta United vs Inter Miami · MLS"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-18 05:59 AM",
