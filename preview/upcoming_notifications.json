@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:04:21+00:00",
+  "generated_at": "2026-10-17T12:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 54,
-    "upcoming_matches": 113,
+    "upcoming_notifications": 53,
+    "upcoming_matches": 111,
     "next_notification_at_local": "2026-10-17 06:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-17 05:59 PM",
-      "match_start_local": "2026-10-17 06:00 PM",
-      "send_at_utc": "2026-10-17T11:59:00+00:00",
-      "match_start_utc": "2026-10-17T12:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Espanyol vs Atl. Madrid · LaLiga\n⚽ Real Sociedad B vs Almeria · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "1538",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Espanyol",
-          "team2": "Atl. Madrid",
-          "hot": false,
-          "display": "⚽ Espanyol vs Atl. Madrid · LaLiga"
-        },
-        {
-          "id": "1542",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Real Sociedad B",
-          "team2": "Almeria",
-          "hot": false,
-          "display": "⚽ Real Sociedad B vs Almeria · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-17 06:59 PM",
