@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-17T16:34:18+00:00",
+  "generated_at": "2026-10-17T16:35:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "17 Oct 2026, 10:34:15 PM BST",
+    "source_last_updated": "17 Oct 2026, 10:35:15 PM BST",
     "source_events_loaded": 351,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,61 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 47,
-    "upcoming_matches": 80,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 76,
     "next_notification_at_local": "2026-10-17 11:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-17 10:29 PM",
-      "match_start_local": "2026-10-17 10:30 PM",
-      "send_at_utc": "2026-10-17T16:29:00+00:00",
-      "match_start_utc": "2026-10-17T16:30:00+00:00",
-      "match_count": 4,
-      "notification": {
-        "title": "⏰ 4 matches starting soon",
-        "body": "⚽ Bayern vs RB Leipzig · Bundesliga\n⚽ Betis vs Barcelona · LaLiga\n⚽ Sporting Gijon vs Albacete · LaLiga 2\n⚽ Newcastle Utd vs Aston Villa · Premier League"
-      },
-      "matches": [
-        {
-          "id": "1526",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "Bayern",
-          "team2": "RB Leipzig",
-          "hot": false,
-          "display": "⚽ Bayern vs RB Leipzig · Bundesliga"
-        },
-        {
-          "id": "1540",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Betis",
-          "team2": "Barcelona",
-          "hot": false,
-          "display": "⚽ Betis vs Barcelona · LaLiga"
-        },
-        {
-          "id": "1544",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Sporting Gijon",
-          "team2": "Albacete",
-          "hot": false,
-          "display": "⚽ Sporting Gijon vs Albacete · LaLiga 2"
-        },
-        {
-          "id": "1494",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Newcastle Utd",
-          "team2": "Aston Villa",
-          "hot": false,
-          "display": "⚽ Newcastle Utd vs Aston Villa · Premier League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-17 11:59 PM",
