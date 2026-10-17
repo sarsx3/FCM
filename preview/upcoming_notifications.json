@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T00:34:22+00:00",
+  "generated_at": "2026-10-17T00:35:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 122,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 121,
     "next_notification_at_local": "2026-10-17 04:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-17 06:29 AM",
-      "match_start_local": "2026-10-17 06:30 AM",
-      "send_at_utc": "2026-10-17T00:29:00+00:00",
-      "match_start_utc": "2026-10-17T00:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Boca Jrs. vs Talleres de Cordoba",
-        "body": "Liga Profesional · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1488",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Boca Jrs.",
-          "team2": "Talleres de Cordoba",
-          "hot": false,
-          "display": "⚽ Boca Jrs. vs Talleres de Cordoba · Liga Profesional"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-17 04:59 PM",
