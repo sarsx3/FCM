@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-17T20:32:21+00:00",
+  "generated_at": "2026-10-17T20:34:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "18 Oct 2026, 02:32:12 AM BST",
-    "source_events_loaded": 373,
+    "source_last_updated": "18 Oct 2026, 02:34:14 AM BST",
+    "source_events_loaded": 370,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 46,
-    "upcoming_matches": 89,
+    "upcoming_notifications": 45,
+    "upcoming_matches": 87,
     "next_notification_at_local": "2026-10-18 02:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-18 02:29 AM",
-      "match_start_local": "2026-10-18 02:30 AM",
-      "send_at_utc": "2026-10-17T20:29:00+00:00",
-      "match_start_utc": "2026-10-17T20:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Independiente Rivadavia vs Tigre · Liga Profesional\n⚽ Platense vs Lanus · Liga Profesional"
-      },
-      "matches": [
-        {
-          "id": "1554",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Independiente Rivadavia",
-          "team2": "Tigre",
-          "hot": false,
-          "display": "⚽ Independiente Rivadavia vs Tigre · Liga Profesional"
-        },
-        {
-          "id": "1555",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Platense",
-          "team2": "Lanus",
-          "hot": false,
-          "display": "⚽ Platense vs Lanus · Liga Profesional"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-18 02:59 AM",
