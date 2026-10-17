@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T18:34:20+00:00",
+  "generated_at": "2026-10-17T18:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 47,
-    "upcoming_matches": 77,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 76,
     "next_notification_at_local": "2026-10-18 12:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-18 12:29 AM",
-      "match_start_local": "2026-10-18 12:30 AM",
-      "send_at_utc": "2026-10-17T18:29:00+00:00",
-      "match_start_utc": "2026-10-17T18:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Hannover vs St. Pauli",
-        "body": "Bundesliga 2 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1550",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "Hannover",
-          "team2": "St. Pauli",
-          "hot": false,
-          "display": "⚽ Hannover vs St. Pauli · Bundesliga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-18 12:44 AM",
