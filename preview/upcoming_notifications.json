@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:09:20+00:00",
+  "generated_at": "2026-10-17T15:10:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 49,
-    "upcoming_matches": 82,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 83,
     "next_notification_at_local": "2026-10-17 09:14 PM"
   },
   "upcoming_notifications": [
@@ -1441,6 +1441,29 @@
           "team2": "Al Riyadh",
           "hot": false,
           "display": "⚽ Diriyah vs Al Riyadh · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-20 09:09 PM",
+      "match_start_local": "2026-10-20 09:10 PM",
+      "send_at_utc": "2026-10-20T15:09:00+00:00",
+      "match_start_utc": "2026-10-20T15:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Al-Taawon vs Al Qadsiah",
+        "body": "Saudi League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1618",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al-Taawon",
+          "team2": "Al Qadsiah",
+          "hot": false,
+          "display": "⚽ Al-Taawon vs Al Qadsiah · Saudi League"
         }
       ]
     }
