@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-17T11:21:15+00:00",
+  "generated_at": "2026-10-17T11:23:15+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "17 Oct 2026, 05:17:13 PM BST",
+    "source_last_updated": "17 Oct 2026, 05:22:11 PM BST",
     "source_events_loaded": 391,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -26,12 +26,21 @@
       "match_start_local": "2026-10-17 05:30 PM",
       "send_at_utc": "2026-10-17T11:29:00+00:00",
       "match_start_utc": "2026-10-17T11:30:00+00:00",
-      "match_count": 6,
+      "match_count": 7,
       "notification": {
-        "title": "⏰ 6 matches starting soon",
-        "body": "⚽ Middlesbrough vs Cardiff City · Championship\n⚽ Millwall vs Lincoln · Championship\n⚽ Watford vs Charlton · Championship\n⚽ MK Dons vs Luton · League One\n⚽ Peterborough vs Burton · League One\n⚽ Everton vs Chelsea · Premier League"
+        "title": "⏰ 7 matches starting soon",
+        "body": "🔥 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026\n⚽ Middlesbrough vs Cardiff City · Championship\n⚽ Millwall vs Lincoln · Championship\n⚽ Watford vs Charlton · Championship\n⚽ MK Dons vs Luton · League One\n⚽ Peterborough vs Burton · League One\n+ 1 more match in the app"
       },
       "matches": [
+        {
+          "id": "1545",
+          "sport": "Cricket",
+          "league": "ODI Tri-Nation Series in UAE- 2026",
+          "team1": "Bangladesh",
+          "team2": "Zimbabwe",
+          "hot": true,
+          "display": "🔥 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026"
+        },
         {
           "id": "1498",
           "sport": "Football",
@@ -94,21 +103,12 @@
       "match_start_local": "2026-10-17 06:00 PM",
       "send_at_utc": "2026-10-17T11:59:00+00:00",
       "match_start_utc": "2026-10-17T12:00:00+00:00",
-      "match_count": 3,
+      "match_count": 2,
       "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "🔥 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026\n⚽ Espanyol vs Atl. Madrid · LaLiga\n⚽ Real Sociedad B vs Almeria · LaLiga 2"
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Espanyol vs Atl. Madrid · LaLiga\n⚽ Real Sociedad B vs Almeria · LaLiga 2"
       },
       "matches": [
-        {
-          "id": "1545",
-          "sport": "Cricket",
-          "league": "ODI Tri-Nation Series in UAE- 2026",
-          "team1": "Bangladesh",
-          "team2": "Zimbabwe",
-          "hot": true,
-          "display": "🔥 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026"
-        },
         {
           "id": "1538",
           "sport": "Football",
