@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-17T07:27:17+00:00",
+  "generated_at": "2026-10-17T07:28:17+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "17 Oct 2026, 01:22:16 PM BST",
+    "source_last_updated": "17 Oct 2026, 01:28:13 PM BST",
     "source_events_loaded": 391,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -138,9 +138,18 @@
       "match_count": 3,
       "notification": {
         "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Espanyol vs Atl. Madrid · LaLiga\n⚽ Real Sociedad B vs Almeria · LaLiga 2\n🏏 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026"
+        "body": "🔥 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026\n⚽ Espanyol vs Atl. Madrid · LaLiga\n⚽ Real Sociedad B vs Almeria · LaLiga 2"
       },
       "matches": [
+        {
+          "id": "1545",
+          "sport": "Cricket",
+          "league": "ODI Tri-Nation Series in UAE- 2026",
+          "team1": "Bangladesh",
+          "team2": "Zimbabwe",
+          "hot": true,
+          "display": "🔥 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026"
+        },
         {
           "id": "1538",
           "sport": "Football",
@@ -158,15 +167,6 @@
           "team2": "Almeria",
           "hot": false,
           "display": "⚽ Real Sociedad B vs Almeria · LaLiga 2"
-        },
-        {
-          "id": "1545",
-          "sport": "Cricket",
-          "league": "ODI Tri-Nation Series in UAE- 2026",
-          "team1": "Bangladesh",
-          "team2": "Zimbabwe",
-          "hot": false,
-          "display": "🏏 Bangladesh vs Zimbabwe · ODI Tri-Nation Series in UAE- 2026"
         }
       ]
     },
