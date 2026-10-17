@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-17T14:04:19+00:00",
+  "generated_at": "2026-10-17T14:05:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "17 Oct 2026, 08:04:13 PM BST",
-    "source_events_loaded": 380,
+    "source_last_updated": "17 Oct 2026, 08:00:27 PM BST",
+    "source_events_loaded": 383,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,205 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 104,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 84,
     "next_notification_at_local": "2026-10-17 08:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-17 07:59 PM",
-      "match_start_local": "2026-10-17 08:00 PM",
-      "send_at_utc": "2026-10-17T13:59:00+00:00",
-      "match_start_utc": "2026-10-17T14:00:00+00:00",
-      "match_count": 20,
-      "notification": {
-        "title": "⏰ 20 matches starting soon",
-        "body": "⚽ Birmingham vs Queens Park Rangers · Championship\n⚽ Bristol City vs Sheffield Utd · Championship\n⚽ Derby vs Stoke City · Championship\n⚽ Norwich vs Portsmouth · Championship\n⚽ Southampton vs Bolton · Championship\n⚽ Swansea vs West Ham · Championship\n+ 14 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "1506",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Birmingham",
-          "team2": "Queens Park Rangers",
-          "hot": false,
-          "display": "⚽ Birmingham vs Queens Park Rangers · Championship"
-        },
-        {
-          "id": "1505",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Bristol City",
-          "team2": "Sheffield Utd",
-          "hot": false,
-          "display": "⚽ Bristol City vs Sheffield Utd · Championship"
-        },
-        {
-          "id": "1504",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Derby",
-          "team2": "Stoke City",
-          "hot": false,
-          "display": "⚽ Derby vs Stoke City · Championship"
-        },
-        {
-          "id": "1503",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Norwich",
-          "team2": "Portsmouth",
-          "hot": false,
-          "display": "⚽ Norwich vs Portsmouth · Championship"
-        },
-        {
-          "id": "1502",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Southampton",
-          "team2": "Bolton",
-          "hot": false,
-          "display": "⚽ Southampton vs Bolton · Championship"
-        },
-        {
-          "id": "1501",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Swansea",
-          "team2": "West Ham",
-          "hot": false,
-          "display": "⚽ Swansea vs West Ham · Championship"
-        },
-        {
-          "id": "1500",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "West Brom",
-          "team2": "Blackburn",
-          "hot": false,
-          "display": "⚽ West Brom vs Blackburn · Championship"
-        },
-        {
-          "id": "1499",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Wrexham",
-          "team2": "Preston",
-          "hot": false,
-          "display": "⚽ Wrexham vs Preston · Championship"
-        },
-        {
-          "id": "1517",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Barnsley",
-          "team2": "Cambridge",
-          "hot": false,
-          "display": "⚽ Barnsley vs Cambridge · League One"
-        },
-        {
-          "id": "1516",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Bradford",
-          "team2": "Stevenage",
-          "hot": false,
-          "display": "⚽ Bradford vs Stevenage · League One"
-        },
-        {
-          "id": "1515",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Leicester City",
-          "team2": "Doncaster",
-          "hot": false,
-          "display": "⚽ Leicester City vs Doncaster · League One"
-        },
-        {
-          "id": "1514",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Leyton Orient",
-          "team2": "Blackpool",
-          "hot": false,
-          "display": "⚽ Leyton Orient vs Blackpool · League One"
-        },
-        {
-          "id": "1513",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Plymouth",
-          "team2": "Huddersfield",
-          "hot": false,
-          "display": "⚽ Plymouth vs Huddersfield · League One"
-        },
-        {
-          "id": "1512",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Sheffield Wed",
-          "team2": "AFC Wimbledon",
-          "hot": false,
-          "display": "⚽ Sheffield Wed vs AFC Wimbledon · League One"
-        },
-        {
-          "id": "1511",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Stockport",
-          "team2": "Bromley",
-          "hot": false,
-          "display": "⚽ Stockport vs Bromley · League One"
-        },
-        {
-          "id": "1510",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Wigan",
-          "team2": "Reading",
-          "hot": false,
-          "display": "⚽ Wigan vs Reading · League One"
-        },
-        {
-          "id": "1509",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Wycombe",
-          "team2": "Notts County",
-          "hot": false,
-          "display": "⚽ Wycombe vs Notts County · League One"
-        },
-        {
-          "id": "1492",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Brentford",
-          "team2": "Liverpool",
-          "hot": false,
-          "display": "⚽ Brentford vs Liverpool · Premier League"
-        },
-        {
-          "id": "1491",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Fulham",
-          "team2": "Hull City",
-          "hot": false,
-          "display": "⚽ Fulham vs Hull City · Premier League"
-        },
-        {
-          "id": "1493",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Man City",
-          "team2": "Ipswich",
-          "hot": false,
-          "display": "⚽ Man City vs Ipswich · Premier League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-17 08:14 PM",
