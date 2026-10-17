@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-17T23:04:20+00:00",
+  "generated_at": "2026-10-17T23:05:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "18 Oct 2026, 05:04:16 AM BST",
+    "source_last_updated": "18 Oct 2026, 05:00:25 AM BST",
     "source_events_loaded": 364,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 42,
-    "upcoming_matches": 84,
+    "upcoming_notifications": 41,
+    "upcoming_matches": 82,
     "next_notification_at_local": "2026-10-18 05:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-18 04:59 AM",
-      "match_start_local": "2026-10-18 05:00 AM",
-      "send_at_utc": "2026-10-17T22:59:00+00:00",
-      "match_start_utc": "2026-10-17T23:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Atletico Tucuman vs Rosario Central · Liga Profesional\n⚽ Velez Sarsfield vs Gimnasia Mendoza · Liga Profesional"
-      },
-      "matches": [
-        {
-          "id": "1559",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Atletico Tucuman",
-          "team2": "Rosario Central",
-          "hot": false,
-          "display": "⚽ Atletico Tucuman vs Rosario Central · Liga Profesional"
-        },
-        {
-          "id": "1560",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Velez Sarsfield",
-          "team2": "Gimnasia Mendoza",
-          "hot": false,
-          "display": "⚽ Velez Sarsfield vs Gimnasia Mendoza · Liga Profesional"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-18 05:29 AM",
