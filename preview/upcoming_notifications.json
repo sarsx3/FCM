@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-17T17:59:17+00:00",
+  "generated_at": "2026-10-17T18:00:36+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "17 Oct 2026, 11:55:14 PM BST",
-    "source_events_loaded": 349,
+    "source_last_updated": "18 Oct 2026, 12:00:26 AM BST",
+    "source_events_loaded": 348,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 47,
-    "upcoming_matches": 78,
+    "upcoming_notifications": 48,
+    "upcoming_matches": 80,
     "next_notification_at_local": "2026-10-18 12:29 AM"
   },
   "upcoming_notifications": [
@@ -1377,6 +1377,38 @@
           "team2": "Dortmund",
           "hot": false,
           "display": "⚽ Sabah vs Dortmund · UEFA Champions League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-20 11:59 PM",
+      "match_start_local": "2026-10-21 12:00 AM",
+      "send_at_utc": "2026-10-20T17:59:00+00:00",
+      "match_start_utc": "2026-10-20T18:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Al Ettifaq vs Al Ittihad · Saudi League\n⚽ Al-Nassr vs NEOM SC · Saudi League"
+      },
+      "matches": [
+        {
+          "id": "1647",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Ettifaq",
+          "team2": "Al Ittihad",
+          "hot": false,
+          "display": "⚽ Al Ettifaq vs Al Ittihad · Saudi League"
+        },
+        {
+          "id": "1646",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al-Nassr",
+          "team2": "NEOM SC",
+          "hot": false,
+          "display": "⚽ Al-Nassr vs NEOM SC · Saudi League"
         }
       ]
     }
