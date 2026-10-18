@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-18T13:34:20+00:00",
+  "generated_at": "2026-10-18T13:35:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "18 Oct 2026, 07:34:12 PM BST",
+    "source_last_updated": "18 Oct 2026, 07:35:14 PM BST",
     "source_events_loaded": 351,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 33,
-    "upcoming_matches": 68,
+    "upcoming_notifications": 32,
+    "upcoming_matches": 66,
     "next_notification_at_local": "2026-10-18 08:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-18 07:29 PM",
-      "match_start_local": "2026-10-18 07:30 PM",
-      "send_at_utc": "2026-10-18T13:29:00+00:00",
-      "match_start_utc": "2026-10-18T13:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Leverkusen vs Freiburg · Bundesliga\n🏏 India Women vs Zimbabwe Women · Twenty20 International Women - 2nd T20I"
-      },
-      "matches": [
-        {
-          "id": "1576",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "Leverkusen",
-          "team2": "Freiburg",
-          "hot": false,
-          "display": "⚽ Leverkusen vs Freiburg · Bundesliga"
-        },
-        {
-          "id": "1920",
-          "sport": "Cricket",
-          "league": "Twenty20 International Women - 2nd T20I",
-          "team1": "India Women",
-          "team2": "Zimbabwe Women",
-          "hot": false,
-          "display": "🏏 India Women vs Zimbabwe Women · Twenty20 International Women - 2nd T20I"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-18 08:14 PM",
