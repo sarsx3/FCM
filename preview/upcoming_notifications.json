@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T11:34:21+00:00",
+  "generated_at": "2026-10-18T11:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 36,
-    "upcoming_matches": 78,
+    "upcoming_notifications": 35,
+    "upcoming_matches": 75,
     "next_notification_at_local": "2026-10-18 05:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-18 05:29 PM",
-      "match_start_local": "2026-10-18 05:30 PM",
-      "send_at_utc": "2026-10-18T11:29:00+00:00",
-      "match_start_utc": "2026-10-18T11:30:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Arminia vs Osnabrück · Bundesliga 2\n⚽ Dresden vs Magdeburg · Bundesliga 2\n⚽ Karlsruhe vs Darmstadt 98 · Bundesliga 2"
-      },
-      "matches": [
-        {
-          "id": "1565",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "Arminia",
-          "team2": "Osnabrück",
-          "hot": false,
-          "display": "⚽ Arminia vs Osnabrück · Bundesliga 2"
-        },
-        {
-          "id": "1566",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "Dresden",
-          "team2": "Magdeburg",
-          "hot": false,
-          "display": "⚽ Dresden vs Magdeburg · Bundesliga 2"
-        },
-        {
-          "id": "1567",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "Karlsruhe",
-          "team2": "Darmstadt 98",
-          "hot": false,
-          "display": "⚽ Karlsruhe vs Darmstadt 98 · Bundesliga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-18 05:59 PM",
