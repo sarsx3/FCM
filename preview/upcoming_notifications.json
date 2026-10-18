@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T11:59:00+00:00",
+  "generated_at": "2026-10-18T12:00:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 35,
-    "upcoming_matches": 75,
+    "upcoming_notifications": 36,
+    "upcoming_matches": 76,
     "next_notification_at_local": "2026-10-18 06:29 PM"
   },
   "upcoming_notifications": [
@@ -1182,6 +1182,29 @@
           "team2": "Australia",
           "hot": false,
           "display": "🏏 South Africa vs Australia · South Africa vs Australia – 2nd Test, Day 4"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-21 05:59 PM",
+      "match_start_local": "2026-10-21 06:00 PM",
+      "send_at_utc": "2026-10-21T11:59:00+00:00",
+      "match_start_utc": "2026-10-21T12:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Afghanistan vs Bangladesh",
+        "body": "ODI Tri-Nation Series in UAE, 2026 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1649",
+          "sport": "Cricket",
+          "league": "ODI Tri-Nation Series in UAE, 2026",
+          "team1": "Afghanistan",
+          "team2": "Bangladesh",
+          "hot": false,
+          "display": "🏏 Afghanistan vs Bangladesh · ODI Tri-Nation Series in UAE, 2026"
         }
       ]
     }
