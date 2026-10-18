@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:33:18+00:00",
+  "generated_at": "2026-10-18T16:35:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 27,
-    "upcoming_matches": 56,
+    "upcoming_notifications": 26,
+    "upcoming_matches": 53,
     "next_notification_at_local": "2026-10-18 11:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-18 10:29 PM",
-      "match_start_local": "2026-10-18 10:30 PM",
-      "send_at_utc": "2026-10-18T16:29:00+00:00",
-      "match_start_utc": "2026-10-18T16:30:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Malaga vs Real Sociedad · LaLiga\n⚽ Girona vs Andorra · LaLiga 2\n⚽ Valladolid vs CD Eldense · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "1586",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Malaga",
-          "team2": "Real Sociedad",
-          "hot": false,
-          "display": "⚽ Malaga vs Real Sociedad · LaLiga"
-        },
-        {
-          "id": "1587",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Girona",
-          "team2": "Andorra",
-          "hot": false,
-          "display": "⚽ Girona vs Andorra · LaLiga 2"
-        },
-        {
-          "id": "1588",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Valladolid",
-          "team2": "CD Eldense",
-          "hot": false,
-          "display": "⚽ Valladolid vs CD Eldense · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-18 11:44 PM",
