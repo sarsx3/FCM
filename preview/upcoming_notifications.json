@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:49:21+00:00",
+  "generated_at": "2026-10-18T17:50:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 27,
-    "upcoming_matches": 55,
+    "upcoming_notifications": 26,
+    "upcoming_matches": 54,
     "next_notification_at_local": "2026-10-18 11:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-18 11:44 PM",
-      "match_start_local": "2026-10-18 11:45 PM",
-      "send_at_utc": "2026-10-18T17:44:00+00:00",
-      "match_start_utc": "2026-10-18T17:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Racing Club vs Independiente",
-        "body": "Liga Profesional · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1589",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Racing Club",
-          "team2": "Independiente",
-          "hot": false,
-          "display": "⚽ Racing Club vs Independiente · Liga Profesional"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-18 11:59 PM",
