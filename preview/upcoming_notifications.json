@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-18T14:19:20+00:00",
+  "generated_at": "2026-10-18T14:20:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "18 Oct 2026, 08:14:15 PM BST",
-    "source_events_loaded": 351,
+    "source_last_updated": "18 Oct 2026, 08:16:11 PM BST",
+    "source_events_loaded": 349,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 32,
-    "upcoming_matches": 66,
+    "upcoming_notifications": 31,
+    "upcoming_matches": 64,
     "next_notification_at_local": "2026-10-18 08:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-18 08:14 PM",
-      "match_start_local": "2026-10-18 08:15 PM",
-      "send_at_utc": "2026-10-18T14:14:00+00:00",
-      "match_start_utc": "2026-10-18T14:15:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ RC Celta vs Alaves · LaLiga\n⚽ Granada vs Cadiz · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "1577",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "RC Celta",
-          "team2": "Alaves",
-          "hot": false,
-          "display": "⚽ RC Celta vs Alaves · LaLiga"
-        },
-        {
-          "id": "1578",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Granada",
-          "team2": "Cadiz",
-          "hot": false,
-          "display": "⚽ Granada vs Cadiz · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-18 08:44 PM",
