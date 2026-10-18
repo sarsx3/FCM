@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T22:58:18+00:00",
+  "generated_at": "2026-10-18T23:00:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 22,
-    "upcoming_matches": 52,
+    "upcoming_notifications": 23,
+    "upcoming_matches": 53,
     "next_notification_at_local": "2026-10-19 05:59 PM"
   },
   "upcoming_notifications": [
@@ -793,6 +793,29 @@
           "team2": "LASK",
           "hot": false,
           "display": "⚽ Sporting Lisbon vs LASK · UEFA Champions League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-22 04:59 AM",
+      "match_start_local": "2026-10-22 05:00 AM",
+      "send_at_utc": "2026-10-21T22:59:00+00:00",
+      "match_start_utc": "2026-10-21T23:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ FC Cincinnati vs DC United",
+        "body": "MLS · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1678",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "FC Cincinnati",
+          "team2": "DC United",
+          "hot": false,
+          "display": "⚽ FC Cincinnati vs DC United · MLS"
         }
       ]
     }
