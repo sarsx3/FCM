@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T17:59:22+00:00",
+  "generated_at": "2026-10-19T18:00:41+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 25,
-    "upcoming_matches": 72,
+    "upcoming_notifications": 26,
+    "upcoming_matches": 73,
     "next_notification_at_local": "2026-10-20 12:29 AM"
   },
   "upcoming_notifications": [
@@ -1015,6 +1015,29 @@
           "team2": "Hapoel Beer Sheva",
           "hot": false,
           "display": "⚽ Union Saint-Gilloise vs Hapoel Beer Sheva · UEFA Europa League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-22 11:59 PM",
+      "match_start_local": "2026-10-23 12:00 AM",
+      "send_at_utc": "2026-10-22T17:59:00+00:00",
+      "match_start_utc": "2026-10-22T18:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Al Ahli Jeddah vs Al Khaleej Club",
+        "body": "Saudi League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1703",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Ahli Jeddah",
+          "team2": "Al Khaleej Club",
+          "hot": false,
+          "display": "⚽ Al Ahli Jeddah vs Al Khaleej Club · Saudi League"
         }
       ]
     }
