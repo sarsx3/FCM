@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:04:21+00:00",
+  "generated_at": "2026-10-19T18:05:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 26,
-    "upcoming_matches": 73,
+    "upcoming_notifications": 25,
+    "upcoming_matches": 71,
     "next_notification_at_local": "2026-10-20 12:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-19 11:59 PM",
-      "match_start_local": "2026-10-20 12:00 AM",
-      "send_at_utc": "2026-10-19T17:59:00+00:00",
-      "match_start_utc": "2026-10-19T18:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Al Shabab vs Al Faysaly · Saudi League\n⚽ Al-Hilal vs Al Hazm · Saudi League"
-      },
-      "matches": [
-        {
-          "id": "1615",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al Shabab",
-          "team2": "Al Faysaly",
-          "hot": false,
-          "display": "⚽ Al Shabab vs Al Faysaly · Saudi League"
-        },
-        {
-          "id": "1616",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al-Hilal",
-          "team2": "Al Hazm",
-          "hot": false,
-          "display": "⚽ Al-Hilal vs Al Hazm · Saudi League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-20 12:29 AM",
