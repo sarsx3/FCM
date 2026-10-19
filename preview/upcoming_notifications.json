@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T12:02:25+00:00",
+  "generated_at": "2026-10-19T12:05:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 25,
-    "upcoming_matches": 56,
+    "upcoming_notifications": 24,
+    "upcoming_matches": 55,
     "next_notification_at_local": "2026-10-19 09:04 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-19 05:59 PM",
-      "match_start_local": "2026-10-19 06:00 PM",
-      "send_at_utc": "2026-10-19T11:59:00+00:00",
-      "match_start_utc": "2026-10-19T12:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Afghanistan vs Zimbabwe",
-        "body": "ODI Tri-Nation Series in UAE, 2026 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1609",
-          "sport": "Cricket",
-          "league": "ODI Tri-Nation Series in UAE, 2026",
-          "team1": "Afghanistan",
-          "team2": "Zimbabwe",
-          "hot": false,
-          "display": "🏏 Afghanistan vs Zimbabwe · ODI Tri-Nation Series in UAE, 2026"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-19 09:04 PM",
