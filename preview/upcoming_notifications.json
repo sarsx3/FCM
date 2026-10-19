@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-19T14:28:24+00:00",
+  "generated_at": "2026-10-19T14:30:36+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "19 Oct 2026, 08:27:14 PM BST",
+    "source_last_updated": "19 Oct 2026, 08:30:23 PM BST",
     "source_events_loaded": 434,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 25,
-    "upcoming_matches": 56,
+    "upcoming_notifications": 26,
+    "upcoming_matches": 57,
     "next_notification_at_local": "2026-10-19 09:04 PM"
   },
   "upcoming_notifications": [
@@ -871,6 +871,29 @@
           "team2": "Al Feiha",
           "hot": false,
           "display": "⚽ Al Hazm FC vs Al Feiha · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-22 08:29 PM",
+      "match_start_local": "2026-10-22 08:30 PM",
+      "send_at_utc": "2026-10-22T14:29:00+00:00",
+      "match_start_utc": "2026-10-22T14:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ FC Kairat Almaty vs Panathinaikos",
+        "body": "UEFA Conference League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1666",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "FC Kairat Almaty",
+          "team2": "Panathinaikos",
+          "hot": false,
+          "display": "⚽ FC Kairat Almaty vs Panathinaikos · UEFA Conference League"
         }
       ]
     }
