@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:04:25+00:00",
+  "generated_at": "2026-10-19T19:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 24,
-    "upcoming_matches": 87,
+    "upcoming_notifications": 23,
+    "upcoming_matches": 85,
     "next_notification_at_local": "2026-10-20 01:14 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-20 12:59 AM",
-      "match_start_local": "2026-10-20 01:00 AM",
-      "send_at_utc": "2026-10-19T18:59:00+00:00",
-      "match_start_utc": "2026-10-19T19:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Getafe vs Rayo · LaLiga\n⚽ Tottenham vs Coventry · Premier League"
-      },
-      "matches": [
-        {
-          "id": "1619",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Getafe",
-          "team2": "Rayo",
-          "hot": false,
-          "display": "⚽ Getafe vs Rayo · LaLiga"
-        },
-        {
-          "id": "1612",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Tottenham",
-          "team2": "Coventry",
-          "hot": false,
-          "display": "⚽ Tottenham vs Coventry · Premier League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-20 01:14 AM",
