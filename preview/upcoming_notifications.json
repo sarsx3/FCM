@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:04:19+00:00",
+  "generated_at": "2026-10-19T22:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 22,
-    "upcoming_matches": 84,
+    "upcoming_notifications": 21,
+    "upcoming_matches": 83,
     "next_notification_at_local": "2026-10-20 04:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-20 03:59 AM",
-      "match_start_local": "2026-10-20 04:00 AM",
-      "send_at_utc": "2026-10-19T21:59:00+00:00",
-      "match_start_utc": "2026-10-19T22:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Newell's vs Central Córdoba",
-        "body": "Liga Profesional · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1610",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Newell's",
-          "team2": "Central Córdoba",
-          "hot": false,
-          "display": "⚽ Newell's vs Central Córdoba · Liga Profesional"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-20 04:59 AM",
