@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-20T19:04:23+00:00",
+  "generated_at": "2026-10-20T19:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Oct 2026, 01:00:27 AM BST",
+    "source_last_updated": "21 Oct 2026, 01:05:15 AM BST",
     "source_events_loaded": 414,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,88 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 21,
-    "upcoming_matches": 76,
+    "upcoming_notifications": 20,
+    "upcoming_matches": 69,
     "next_notification_at_local": "2026-10-21 05:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-21 12:59 AM",
-      "match_start_local": "2026-10-21 01:00 AM",
-      "send_at_utc": "2026-10-20T18:59:00+00:00",
-      "match_start_utc": "2026-10-20T19:00:00+00:00",
-      "match_count": 7,
-      "notification": {
-        "title": "⏰ 7 matches starting soon",
-        "body": "⚽ AS Roma vs Slovan Bratislava · UEFA Champions League\n⚽ Liverpool vs Villarreal · UEFA Champions League\n⚽ Man City vs AEK · UEFA Champions League\n⚽ Napoli vs Bodo Glimt · UEFA Champions League\n⚽ PSG vs Barcelona · UEFA Champions League\n⚽ Porto vs PSV · UEFA Champions League\n+ 1 more match in the app"
-      },
-      "matches": [
-        {
-          "id": "1631",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "AS Roma",
-          "team2": "Slovan Bratislava",
-          "hot": false,
-          "display": "⚽ AS Roma vs Slovan Bratislava · UEFA Champions League"
-        },
-        {
-          "id": "1625",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Liverpool",
-          "team2": "Villarreal",
-          "hot": false,
-          "display": "⚽ Liverpool vs Villarreal · UEFA Champions League"
-        },
-        {
-          "id": "1630",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Man City",
-          "team2": "AEK",
-          "hot": false,
-          "display": "⚽ Man City vs AEK · UEFA Champions League"
-        },
-        {
-          "id": "1629",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Napoli",
-          "team2": "Bodo Glimt",
-          "hot": false,
-          "display": "⚽ Napoli vs Bodo Glimt · UEFA Champions League"
-        },
-        {
-          "id": "1628",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "PSG",
-          "team2": "Barcelona",
-          "hot": false,
-          "display": "⚽ PSG vs Barcelona · UEFA Champions League"
-        },
-        {
-          "id": "1626",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Porto",
-          "team2": "PSV",
-          "hot": false,
-          "display": "⚽ Porto vs PSV · UEFA Champions League"
-        },
-        {
-          "id": "1627",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Stuttgart",
-          "team2": "Atl. Madrid",
-          "hot": false,
-          "display": "⚽ Stuttgart vs Atl. Madrid · UEFA Champions League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-21 05:59 PM",
