@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T19:42:23+00:00",
+  "generated_at": "2026-10-20T19:45:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 20,
-    "upcoming_matches": 69,
+    "upcoming_notifications": 21,
+    "upcoming_matches": 70,
     "next_notification_at_local": "2026-10-21 05:59 PM"
   },
   "upcoming_notifications": [
@@ -918,6 +918,29 @@
           "team2": "Nottingham Forest",
           "hot": false,
           "display": "⚽ Ipswich vs Nottingham Forest · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-24 01:44 AM",
+      "match_start_local": "2026-10-24 01:45 AM",
+      "send_at_utc": "2026-10-23T19:44:00+00:00",
+      "match_start_utc": "2026-10-23T19:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Guimarães vs Maritimo",
+        "body": "Liga Portugal · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1760",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Guimarães",
+          "team2": "Maritimo",
+          "hot": false,
+          "display": "⚽ Guimarães vs Maritimo · Liga Portugal"
         }
       ]
     }
