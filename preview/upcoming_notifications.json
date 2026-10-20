@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-20T18:44:24+00:00",
+  "generated_at": "2026-10-20T18:45:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Oct 2026, 12:44:18 AM BST",
+    "source_last_updated": "21 Oct 2026, 12:40:18 AM BST",
     "source_events_loaded": 416,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 20,
-    "upcoming_matches": 83,
+    "upcoming_notifications": 21,
+    "upcoming_matches": 85,
     "next_notification_at_local": "2026-10-21 12:59 AM"
   },
   "upcoming_notifications": [
@@ -1044,6 +1044,38 @@
           "team2": "Valladolid",
           "hot": false,
           "display": "⚽ Granada vs Valladolid · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-24 12:44 AM",
+      "match_start_local": "2026-10-24 12:45 AM",
+      "send_at_utc": "2026-10-23T18:44:00+00:00",
+      "match_start_utc": "2026-10-23T18:45:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Brest vs OGC Nice · Ligue 1\n⚽ Torino vs Monza · Serie A"
+      },
+      "matches": [
+        {
+          "id": "1741",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Brest",
+          "team2": "OGC Nice",
+          "hot": false,
+          "display": "⚽ Brest vs OGC Nice · Ligue 1"
+        },
+        {
+          "id": "1753",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Torino",
+          "team2": "Monza",
+          "hot": false,
+          "display": "⚽ Torino vs Monza · Serie A"
         }
       ]
     }
