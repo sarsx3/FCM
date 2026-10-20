@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-20T08:04:21+00:00",
+  "generated_at": "2026-10-20T08:05:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "20 Oct 2026, 02:04:13 PM BST",
+    "source_last_updated": "20 Oct 2026, 02:05:16 PM BST",
     "source_events_loaded": 420,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 20,
-    "upcoming_matches": 82,
+    "upcoming_notifications": 19,
+    "upcoming_matches": 81,
     "next_notification_at_local": "2026-10-20 08:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-20 01:59 PM",
-      "match_start_local": "2026-10-20 02:00 PM",
-      "send_at_utc": "2026-10-20T07:59:00+00:00",
-      "match_start_utc": "2026-10-20T08:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Pakistan vs England",
-        "body": "Pakistan vs England – 2nd Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1624",
-          "sport": "Cricket",
-          "league": "Pakistan vs England – 2nd Match",
-          "team1": "Pakistan",
-          "team2": "England",
-          "hot": false,
-          "display": "🏏 Pakistan vs England · Pakistan vs England – 2nd Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-20 08:59 PM",
