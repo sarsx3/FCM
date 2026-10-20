@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-20T18:49:21+00:00",
+  "generated_at": "2026-10-20T18:50:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Oct 2026, 12:44:18 AM BST",
-    "source_events_loaded": 416,
+    "source_last_updated": "21 Oct 2026, 12:50:20 AM BST",
+    "source_events_loaded": 414,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,133 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 21,
-    "upcoming_matches": 85,
+    "upcoming_notifications": 20,
+    "upcoming_matches": 73,
     "next_notification_at_local": "2026-10-21 12:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-21 12:44 AM",
-      "match_start_local": "2026-10-21 12:45 AM",
-      "send_at_utc": "2026-10-20T18:44:00+00:00",
-      "match_start_utc": "2026-10-20T18:45:00+00:00",
-      "match_count": 12,
-      "notification": {
-        "title": "⏰ 12 matches starting soon",
-        "body": "⚽ Wolves vs Portsmouth · Championship\n⚽ AFC Wimbledon vs Mansfield · League One\n⚽ Blackpool vs MK Dons · League One\n⚽ Bromley vs Leicester City · League One\n⚽ Burton vs Bradford · League One\n⚽ Cambridge vs Wycombe · League One\n+ 6 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "1634",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Wolves",
-          "team2": "Portsmouth",
-          "hot": false,
-          "display": "⚽ Wolves vs Portsmouth · Championship"
-        },
-        {
-          "id": "1645",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "AFC Wimbledon",
-          "team2": "Mansfield",
-          "hot": false,
-          "display": "⚽ AFC Wimbledon vs Mansfield · League One"
-        },
-        {
-          "id": "1644",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Blackpool",
-          "team2": "MK Dons",
-          "hot": false,
-          "display": "⚽ Blackpool vs MK Dons · League One"
-        },
-        {
-          "id": "1643",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Bromley",
-          "team2": "Leicester City",
-          "hot": false,
-          "display": "⚽ Bromley vs Leicester City · League One"
-        },
-        {
-          "id": "1642",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Burton",
-          "team2": "Bradford",
-          "hot": false,
-          "display": "⚽ Burton vs Bradford · League One"
-        },
-        {
-          "id": "1641",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Cambridge",
-          "team2": "Wycombe",
-          "hot": false,
-          "display": "⚽ Cambridge vs Wycombe · League One"
-        },
-        {
-          "id": "1639",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Doncaster",
-          "team2": "Stockport",
-          "hot": false,
-          "display": "⚽ Doncaster vs Stockport · League One"
-        },
-        {
-          "id": "1640",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Huddersfield",
-          "team2": "Peterborough",
-          "hot": false,
-          "display": "⚽ Huddersfield vs Peterborough · League One"
-        },
-        {
-          "id": "1638",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Luton",
-          "team2": "Barnsley",
-          "hot": false,
-          "display": "⚽ Luton vs Barnsley · League One"
-        },
-        {
-          "id": "1637",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Notts County",
-          "team2": "Sheffield Wed",
-          "hot": false,
-          "display": "⚽ Notts County vs Sheffield Wed · League One"
-        },
-        {
-          "id": "1636",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Oxford Utd",
-          "team2": "Wigan",
-          "hot": false,
-          "display": "⚽ Oxford Utd vs Wigan · League One"
-        },
-        {
-          "id": "1635",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Stevenage",
-          "team2": "Plymouth",
-          "hot": false,
-          "display": "⚽ Stevenage vs Plymouth · League One"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-21 12:59 AM",
