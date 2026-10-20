@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-20T18:59:17+00:00",
+  "generated_at": "2026-10-20T19:00:41+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Oct 2026, 12:59:13 AM BST",
+    "source_last_updated": "21 Oct 2026, 01:00:27 AM BST",
     "source_events_loaded": 414,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 20,
-    "upcoming_matches": 73,
+    "upcoming_notifications": 21,
+    "upcoming_matches": 76,
     "next_notification_at_local": "2026-10-21 05:59 PM"
   },
   "upcoming_notifications": [
@@ -954,6 +954,47 @@
           "team2": "Monza",
           "hot": false,
           "display": "⚽ Torino vs Monza · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-24 12:59 AM",
+      "match_start_local": "2026-10-24 01:00 AM",
+      "send_at_utc": "2026-10-23T18:59:00+00:00",
+      "match_start_utc": "2026-10-23T19:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Bolton vs Middlesbrough · Championship\n⚽ Alaves vs Malaga · LaLiga\n⚽ Ipswich vs Nottingham Forest · Premier League"
+      },
+      "matches": [
+        {
+          "id": "1717",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Bolton",
+          "team2": "Middlesbrough",
+          "hot": false,
+          "display": "⚽ Bolton vs Middlesbrough · Championship"
+        },
+        {
+          "id": "1766",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Alaves",
+          "team2": "Malaga",
+          "hot": false,
+          "display": "⚽ Alaves vs Malaga · LaLiga"
+        },
+        {
+          "id": "1712",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Ipswich",
+          "team2": "Nottingham Forest",
+          "hot": false,
+          "display": "⚽ Ipswich vs Nottingham Forest · Premier League"
         }
       ]
     }
