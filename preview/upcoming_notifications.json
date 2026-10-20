@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:28:27+00:00",
+  "generated_at": "2026-10-20T16:30:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 19,
-    "upcoming_matches": 81,
+    "upcoming_notifications": 20,
+    "upcoming_matches": 83,
     "next_notification_at_local": "2026-10-20 10:44 PM"
   },
   "upcoming_notifications": [
@@ -1012,6 +1012,38 @@
           "team2": "Diriyah",
           "hot": false,
           "display": "⚽ Al Ittihad vs Diriyah · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-23 10:29 PM",
+      "match_start_local": "2026-10-23 10:30 PM",
+      "send_at_utc": "2026-10-23T16:29:00+00:00",
+      "match_start_utc": "2026-10-23T16:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Bochum vs Wolfsburg · Bundesliga 2\n⚽ Darmstadt 98 vs St. Pauli · Bundesliga 2"
+      },
+      "matches": [
+        {
+          "id": "1701",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Bochum",
+          "team2": "Wolfsburg",
+          "hot": false,
+          "display": "⚽ Bochum vs Wolfsburg · Bundesliga 2"
+        },
+        {
+          "id": "1702",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Darmstadt 98",
+          "team2": "St. Pauli",
+          "hot": false,
+          "display": "⚽ Darmstadt 98 vs St. Pauli · Bundesliga 2"
         }
       ]
     }
