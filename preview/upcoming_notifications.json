@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:58:21+00:00",
+  "generated_at": "2026-10-21T16:00:43+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 36,
-    "upcoming_matches": 119,
+    "upcoming_notifications": 37,
+    "upcoming_matches": 120,
     "next_notification_at_local": "2026-10-21 10:44 PM"
   },
   "upcoming_notifications": [
@@ -1592,6 +1592,29 @@
           "team2": "Troyes",
           "hot": false,
           "display": "⚽ Toulouse vs Troyes · Ligue 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-24 09:59 PM",
+      "match_start_local": "2026-10-24 10:00 PM",
+      "send_at_utc": "2026-10-24T15:59:00+00:00",
+      "match_start_utc": "2026-10-24T16:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Napoli vs AS Roma",
+        "body": "Serie A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1756",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Napoli",
+          "team2": "AS Roma",
+          "hot": false,
+          "display": "⚽ Napoli vs AS Roma · Serie A"
         }
       ]
     }
