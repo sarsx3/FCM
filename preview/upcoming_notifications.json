@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:49:19+00:00",
+  "generated_at": "2026-10-21T16:50:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 39,
-    "upcoming_matches": 126,
+    "upcoming_notifications": 38,
+    "upcoming_matches": 124,
     "next_notification_at_local": "2026-10-22 12:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-21 10:44 PM",
-      "match_start_local": "2026-10-21 10:45 PM",
-      "send_at_utc": "2026-10-21T16:44:00+00:00",
-      "match_start_utc": "2026-10-21T16:45:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Como vs Man Utd · UEFA Champions League\n⚽ Lille vs Galatasaray · UEFA Champions League"
-      },
-      "matches": [
-        {
-          "id": "1632",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Como",
-          "team2": "Man Utd",
-          "hot": false,
-          "display": "⚽ Como vs Man Utd · UEFA Champions League"
-        },
-        {
-          "id": "1633",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Lille",
-          "team2": "Galatasaray",
-          "hot": false,
-          "display": "⚽ Lille vs Galatasaray · UEFA Champions League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-22 12:59 AM",
