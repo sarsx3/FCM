@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T22:14:21+00:00",
+  "generated_at": "2026-10-21T22:15:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Oct 2026, 04:14:12 AM BST",
+    "source_last_updated": "22 Oct 2026, 04:15:18 AM BST",
     "source_events_loaded": 384,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 46,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 47,
+    "upcoming_matches": 135,
     "next_notification_at_local": "2026-10-22 12:59 PM"
   },
   "upcoming_notifications": [
@@ -1867,6 +1867,29 @@
           "team2": "Inter Miami",
           "hot": false,
           "display": "⚽ New York RB vs Inter Miami · MLS"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 04:14 AM",
+      "match_start_local": "2026-10-25 04:15 AM",
+      "send_at_utc": "2026-10-24T22:14:00+00:00",
+      "match_start_utc": "2026-10-24T22:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ San Lorenzo vs Newell's Old Boys",
+        "body": "Liga Profesional · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1779",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "San Lorenzo",
+          "team2": "Newell's Old Boys",
+          "hot": false,
+          "display": "⚽ San Lorenzo vs Newell's Old Boys · Liga Profesional"
         }
       ]
     }
