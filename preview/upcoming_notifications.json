@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T10:59:23+00:00",
+  "generated_at": "2026-10-21T11:00:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Oct 2026, 04:59:14 PM BST",
+    "source_last_updated": "21 Oct 2026, 04:57:12 PM BST",
     "source_events_loaded": 393,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 27,
-    "upcoming_matches": 75,
+    "upcoming_notifications": 28,
+    "upcoming_matches": 78,
     "next_notification_at_local": "2026-10-21 05:59 PM"
   },
   "upcoming_notifications": [
@@ -1070,6 +1070,47 @@
           "team2": "Ireland",
           "hot": false,
           "display": "🏏 Namibia vs Ireland · Namibia vs Ireland – 2nd ODI"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-24 04:59 PM",
+      "match_start_local": "2026-10-24 05:00 PM",
+      "send_at_utc": "2026-10-24T10:59:00+00:00",
+      "match_start_utc": "2026-10-24T11:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ FC Heidenheim vs Energie Cottbus · Bundesliga 2\n⚽ Hertha BSC vs Arminia · Bundesliga 2\n⚽ Magdeburg vs Karlsruher · Bundesliga 2"
+      },
+      "matches": [
+        {
+          "id": "1752",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "FC Heidenheim",
+          "team2": "Energie Cottbus",
+          "hot": false,
+          "display": "⚽ FC Heidenheim vs Energie Cottbus · Bundesliga 2"
+        },
+        {
+          "id": "1751",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Hertha BSC",
+          "team2": "Arminia",
+          "hot": false,
+          "display": "⚽ Hertha BSC vs Arminia · Bundesliga 2"
+        },
+        {
+          "id": "1750",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Magdeburg",
+          "team2": "Karlsruher",
+          "hot": false,
+          "display": "⚽ Magdeburg vs Karlsruher · Bundesliga 2"
         }
       ]
     }
