@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T21:28:20+00:00",
+  "generated_at": "2026-10-21T21:30:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Oct 2026, 03:25:15 AM BST",
+    "source_last_updated": "22 Oct 2026, 03:30:23 AM BST",
     "source_events_loaded": 384,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 45,
-    "upcoming_matches": 131,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 134,
     "next_notification_at_local": "2026-10-22 12:59 PM"
   },
   "upcoming_notifications": [
@@ -1826,6 +1826,47 @@
           "team2": "Defensa Y Justicia",
           "hot": false,
           "display": "⚽ Talleres vs Defensa Y Justicia · Liga Profesional"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 03:29 AM",
+      "match_start_local": "2026-10-25 03:30 AM",
+      "send_at_utc": "2026-10-24T21:29:00+00:00",
+      "match_start_utc": "2026-10-24T21:30:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Palmeiras vs Red Bull Bragantino · Brasileirão Série A\n⚽ Vasco vs Corinthians · Brasileirão Série A\n⚽ New York RB vs Inter Miami · MLS"
+      },
+      "matches": [
+        {
+          "id": "1785",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Palmeiras",
+          "team2": "Red Bull Bragantino",
+          "hot": false,
+          "display": "⚽ Palmeiras vs Red Bull Bragantino · Brasileirão Série A"
+        },
+        {
+          "id": "1786",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Vasco",
+          "team2": "Corinthians",
+          "hot": false,
+          "display": "⚽ Vasco vs Corinthians · Brasileirão Série A"
+        },
+        {
+          "id": "1829",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "New York RB",
+          "team2": "Inter Miami",
+          "hot": false,
+          "display": "⚽ New York RB vs Inter Miami · MLS"
         }
       ]
     }
