@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:02:20+00:00",
+  "generated_at": "2026-10-21T15:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 34,
-    "upcoming_matches": 117,
+    "upcoming_notifications": 35,
+    "upcoming_matches": 118,
     "next_notification_at_local": "2026-10-21 10:44 PM"
   },
   "upcoming_notifications": [
@@ -1546,6 +1546,29 @@
           "team2": "Casa Pia",
           "hot": false,
           "display": "⚽ Amadora vs Casa Pia · Liga Portugal"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-24 09:04 PM",
+      "match_start_local": "2026-10-24 09:05 PM",
+      "send_at_utc": "2026-10-24T15:04:00+00:00",
+      "match_start_utc": "2026-10-24T15:05:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Al-Kholood vs Al Ettifaq",
+        "body": "Saudi League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1765",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al-Kholood",
+          "team2": "Al Ettifaq",
+          "hot": false,
+          "display": "⚽ Al-Kholood vs Al Ettifaq · Saudi League"
         }
       ]
     }
