@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T18:27:17+00:00",
+  "generated_at": "2026-10-21T18:30:34+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Oct 2026, 12:27:12 AM BST",
+    "source_last_updated": "22 Oct 2026, 12:30:28 AM BST",
     "source_events_loaded": 396,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 42,
-    "upcoming_matches": 128,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 129,
     "next_notification_at_local": "2026-10-22 12:59 AM"
   },
   "upcoming_notifications": [
@@ -1757,6 +1757,29 @@
           "team2": "Al Taawoun",
           "hot": false,
           "display": "⚽ Al Riyadh vs Al Taawoun · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 12:29 AM",
+      "match_start_local": "2026-10-25 12:30 AM",
+      "send_at_utc": "2026-10-24T18:29:00+00:00",
+      "match_start_utc": "2026-10-24T18:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Nurnberg vs FC Kaiserslautern",
+        "body": "Bundesliga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1802",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Nurnberg",
+          "team2": "FC Kaiserslautern",
+          "hot": false,
+          "display": "⚽ Nurnberg vs FC Kaiserslautern · Bundesliga 2"
         }
       ]
     }
