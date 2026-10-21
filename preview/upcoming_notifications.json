@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:58:21+00:00",
+  "generated_at": "2026-10-21T17:00:42+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 38,
-    "upcoming_matches": 124,
+    "upcoming_notifications": 39,
+    "upcoming_matches": 125,
     "next_notification_at_local": "2026-10-22 12:59 AM"
   },
   "upcoming_notifications": [
@@ -1665,6 +1665,29 @@
           "team2": "Cambuur",
           "hot": false,
           "display": "⚽ Willem II vs Cambuur · Eredivisie"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-24 10:59 PM",
+      "match_start_local": "2026-10-24 11:00 PM",
+      "send_at_utc": "2026-10-24T16:59:00+00:00",
+      "match_start_utc": "2026-10-24T17:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Alverca vs Arouca",
+        "body": "Liga Portugal · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1762",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Alverca",
+          "team2": "Arouca",
+          "hot": false,
+          "display": "⚽ Alverca vs Arouca · Liga Portugal"
         }
       ]
     }
