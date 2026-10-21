@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T16:29:18+00:00",
+  "generated_at": "2026-10-21T16:30:34+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Oct 2026, 10:26:14 PM BST",
+    "source_last_updated": "21 Oct 2026, 10:30:23 PM BST",
     "source_events_loaded": 396,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 37,
-    "upcoming_matches": 120,
+    "upcoming_notifications": 38,
+    "upcoming_matches": 125,
     "next_notification_at_local": "2026-10-21 10:44 PM"
   },
   "upcoming_notifications": [
@@ -1615,6 +1615,65 @@
           "team2": "AS Roma",
           "hot": false,
           "display": "⚽ Napoli vs AS Roma · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-24 10:29 PM",
+      "match_start_local": "2026-10-24 10:30 PM",
+      "send_at_utc": "2026-10-24T16:29:00+00:00",
+      "match_start_utc": "2026-10-24T16:30:00+00:00",
+      "match_count": 5,
+      "notification": {
+        "title": "⏰ 5 matches starting soon",
+        "body": "⚽ Dortmund vs Eintracht · Bundesliga\n⚽ Valencia vs Villarreal · LaLiga\n⚽ Girona vs Celta Vigo B · LaLiga 2\n⚽ Las Palmas vs Real Sociedad B · LaLiga 2\n⚽ Chelsea vs Tottenham · Premier League"
+      },
+      "matches": [
+        {
+          "id": "1749",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Dortmund",
+          "team2": "Eintracht",
+          "hot": false,
+          "display": "⚽ Dortmund vs Eintracht · Bundesliga"
+        },
+        {
+          "id": "1769",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Valencia",
+          "team2": "Villarreal",
+          "hot": false,
+          "display": "⚽ Valencia vs Villarreal · LaLiga"
+        },
+        {
+          "id": "1773",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Girona",
+          "team2": "Celta Vigo B",
+          "hot": false,
+          "display": "⚽ Girona vs Celta Vigo B · LaLiga 2"
+        },
+        {
+          "id": "1774",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Las Palmas",
+          "team2": "Real Sociedad B",
+          "hot": false,
+          "display": "⚽ Las Palmas vs Real Sociedad B · LaLiga 2"
+        },
+        {
+          "id": "1716",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Chelsea",
+          "team2": "Tottenham",
+          "hot": false,
+          "display": "⚽ Chelsea vs Tottenham · Premier League"
         }
       ]
     }
