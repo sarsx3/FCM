@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:58:22+00:00",
+  "generated_at": "2026-10-21T14:00:41+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 31,
-    "upcoming_matches": 92,
+    "upcoming_notifications": 32,
+    "upcoming_matches": 113,
     "next_notification_at_local": "2026-10-21 10:44 PM"
   },
   "upcoming_notifications": [
@@ -1279,6 +1279,209 @@
           "team2": "Hamburger SV",
           "hot": false,
           "display": "⚽ SC Paderborn vs Hamburger SV · Bundesliga"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-24 07:59 PM",
+      "match_start_local": "2026-10-24 08:00 PM",
+      "send_at_utc": "2026-10-24T13:59:00+00:00",
+      "match_start_utc": "2026-10-24T14:00:00+00:00",
+      "match_count": 21,
+      "notification": {
+        "title": "⏰ 21 matches starting soon",
+        "body": "⚽ Blackburn vs Wrexham · Championship\n⚽ Cardiff vs Birmingham · Championship\n⚽ Lincoln vs Burnley · Championship\n⚽ Preston vs West Brom · Championship\n⚽ QPR vs Swansea · Championship\n⚽ Stoke City vs Bristol City · Championship\n+ 15 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "1728",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Blackburn",
+          "team2": "Wrexham",
+          "hot": false,
+          "display": "⚽ Blackburn vs Wrexham · Championship"
+        },
+        {
+          "id": "1727",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Cardiff",
+          "team2": "Birmingham",
+          "hot": false,
+          "display": "⚽ Cardiff vs Birmingham · Championship"
+        },
+        {
+          "id": "1726",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Lincoln",
+          "team2": "Burnley",
+          "hot": false,
+          "display": "⚽ Lincoln vs Burnley · Championship"
+        },
+        {
+          "id": "1725",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Preston",
+          "team2": "West Brom",
+          "hot": false,
+          "display": "⚽ Preston vs West Brom · Championship"
+        },
+        {
+          "id": "1724",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "QPR",
+          "team2": "Swansea",
+          "hot": false,
+          "display": "⚽ QPR vs Swansea · Championship"
+        },
+        {
+          "id": "1723",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Stoke City",
+          "team2": "Bristol City",
+          "hot": false,
+          "display": "⚽ Stoke City vs Bristol City · Championship"
+        },
+        {
+          "id": "1722",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "West Ham",
+          "team2": "Southampton",
+          "hot": false,
+          "display": "⚽ West Ham vs Southampton · Championship"
+        },
+        {
+          "id": "1721",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Wolves",
+          "team2": "Watford",
+          "hot": false,
+          "display": "⚽ Wolves vs Watford · Championship"
+        },
+        {
+          "id": "1739",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "AFC Wimbledon",
+          "team2": "Wycombe",
+          "hot": false,
+          "display": "⚽ AFC Wimbledon vs Wycombe · League One"
+        },
+        {
+          "id": "1740",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Blackpool",
+          "team2": "Mansfield",
+          "hot": false,
+          "display": "⚽ Blackpool vs Mansfield · League One"
+        },
+        {
+          "id": "1738",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Bromley",
+          "team2": "Peterborough",
+          "hot": false,
+          "display": "⚽ Bromley vs Peterborough · League One"
+        },
+        {
+          "id": "1737",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Burton",
+          "team2": "Leyton Orient",
+          "hot": false,
+          "display": "⚽ Burton vs Leyton Orient · League One"
+        },
+        {
+          "id": "1736",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Cambridge",
+          "team2": "Plymouth",
+          "hot": false,
+          "display": "⚽ Cambridge vs Plymouth · League One"
+        },
+        {
+          "id": "1735",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Doncaster",
+          "team2": "Sheffield Wed",
+          "hot": false,
+          "display": "⚽ Doncaster vs Sheffield Wed · League One"
+        },
+        {
+          "id": "1734",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Notts County",
+          "team2": "Stockport",
+          "hot": false,
+          "display": "⚽ Notts County vs Stockport · League One"
+        },
+        {
+          "id": "1733",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Oxford Utd",
+          "team2": "Bradford",
+          "hot": false,
+          "display": "⚽ Oxford Utd vs Bradford · League One"
+        },
+        {
+          "id": "1732",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Reading",
+          "team2": "Barnsley",
+          "hot": false,
+          "display": "⚽ Reading vs Barnsley · League One"
+        },
+        {
+          "id": "1731",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Stevenage",
+          "team2": "MK Dons",
+          "hot": false,
+          "display": "⚽ Stevenage vs MK Dons · League One"
+        },
+        {
+          "id": "1715",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Arsenal",
+          "team2": "Everton",
+          "hot": false,
+          "display": "⚽ Arsenal vs Everton · Premier League"
+        },
+        {
+          "id": "1714",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Coventry",
+          "team2": "Fulham",
+          "hot": false,
+          "display": "⚽ Coventry vs Fulham · Premier League"
+        },
+        {
+          "id": "1764",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "NEOM SC",
+          "team2": "Abha Club",
+          "hot": false,
+          "display": "⚽ NEOM SC vs Abha Club · Saudi League"
         }
       ]
     }
