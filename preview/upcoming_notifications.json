@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T18:44:19+00:00",
+  "generated_at": "2026-10-21T18:45:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Oct 2026, 12:40:17 AM BST",
+    "source_last_updated": "22 Oct 2026, 12:42:13 AM BST",
     "source_events_loaded": 396,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 43,
-    "upcoming_matches": 129,
+    "upcoming_notifications": 44,
+    "upcoming_matches": 131,
     "next_notification_at_local": "2026-10-22 12:59 AM"
   },
   "upcoming_notifications": [
@@ -1780,6 +1780,38 @@
           "team2": "FC Kaiserslautern",
           "hot": false,
           "display": "⚽ Nurnberg vs FC Kaiserslautern · Bundesliga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 12:44 AM",
+      "match_start_local": "2026-10-25 12:45 AM",
+      "send_at_utc": "2026-10-24T18:44:00+00:00",
+      "match_start_utc": "2026-10-24T18:45:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Lens vs Paris FC · Ligue 1\n⚽ Lazio vs Parma · Serie A"
+      },
+      "matches": [
+        {
+          "id": "1794",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Lens",
+          "team2": "Paris FC",
+          "hot": false,
+          "display": "⚽ Lens vs Paris FC · Ligue 1"
+        },
+        {
+          "id": "1806",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Lazio",
+          "team2": "Parma",
+          "hot": false,
+          "display": "⚽ Lazio vs Parma · Serie A"
         }
       ]
     }
