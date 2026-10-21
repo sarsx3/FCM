@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T23:29:18+00:00",
+  "generated_at": "2026-10-21T23:30:44+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Oct 2026, 05:24:14 AM BST",
+    "source_last_updated": "22 Oct 2026, 05:30:23 AM BST",
     "source_events_loaded": 384,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 48,
-    "upcoming_matches": 136,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 140,
     "next_notification_at_local": "2026-10-22 12:59 PM"
   },
   "upcoming_notifications": [
@@ -1913,6 +1913,56 @@
           "team2": "Fluminense",
           "hot": false,
           "display": "⚽ Chapecoense vs Fluminense · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 05:29 AM",
+      "match_start_local": "2026-10-25 05:30 AM",
+      "send_at_utc": "2026-10-24T23:29:00+00:00",
+      "match_start_utc": "2026-10-24T23:30:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Atlanta United vs Chicago Fire · MLS\n⚽ DC United vs FC Cincinnati · MLS\n⚽ Orlando City vs New York City · MLS\n⚽ Philadelphia Union vs Revolution · MLS"
+      },
+      "matches": [
+        {
+          "id": "1833",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Atlanta United",
+          "team2": "Chicago Fire",
+          "hot": false,
+          "display": "⚽ Atlanta United vs Chicago Fire · MLS"
+        },
+        {
+          "id": "1832",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "DC United",
+          "team2": "FC Cincinnati",
+          "hot": false,
+          "display": "⚽ DC United vs FC Cincinnati · MLS"
+        },
+        {
+          "id": "1831",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Orlando City",
+          "team2": "New York City",
+          "hot": false,
+          "display": "⚽ Orlando City vs New York City · MLS"
+        },
+        {
+          "id": "1830",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Philadelphia Union",
+          "team2": "Revolution",
+          "hot": false,
+          "display": "⚽ Philadelphia Union vs Revolution · MLS"
         }
       ]
     }
