@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T11:29:20+00:00",
+  "generated_at": "2026-10-21T11:30:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Oct 2026, 05:29:12 PM BST",
+    "source_last_updated": "21 Oct 2026, 05:30:23 PM BST",
     "source_events_loaded": 393,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 28,
-    "upcoming_matches": 78,
+    "upcoming_notifications": 29,
+    "upcoming_matches": 84,
     "next_notification_at_local": "2026-10-21 05:59 PM"
   },
   "upcoming_notifications": [
@@ -1111,6 +1111,74 @@
           "team2": "Karlsruher",
           "hot": false,
           "display": "⚽ Magdeburg vs Karlsruher · Bundesliga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-24 05:29 PM",
+      "match_start_local": "2026-10-24 05:30 PM",
+      "send_at_utc": "2026-10-24T11:29:00+00:00",
+      "match_start_utc": "2026-10-24T11:30:00+00:00",
+      "match_count": 6,
+      "notification": {
+        "title": "⏰ 6 matches starting soon",
+        "body": "⚽ Charlton vs Norwich · Championship\n⚽ Portsmouth vs Millwall · Championship\n⚽ Sheff Utd vs Derby · Championship\n⚽ Huddersfield vs Wigan · League One\n⚽ Luton vs Leicester City · League One\n⚽ Aston Villa vs Manchester City · Premier League"
+      },
+      "matches": [
+        {
+          "id": "1720",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Charlton",
+          "team2": "Norwich",
+          "hot": false,
+          "display": "⚽ Charlton vs Norwich · Championship"
+        },
+        {
+          "id": "1719",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Portsmouth",
+          "team2": "Millwall",
+          "hot": false,
+          "display": "⚽ Portsmouth vs Millwall · Championship"
+        },
+        {
+          "id": "1718",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Sheff Utd",
+          "team2": "Derby",
+          "hot": false,
+          "display": "⚽ Sheff Utd vs Derby · Championship"
+        },
+        {
+          "id": "1730",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Huddersfield",
+          "team2": "Wigan",
+          "hot": false,
+          "display": "⚽ Huddersfield vs Wigan · League One"
+        },
+        {
+          "id": "1729",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Luton",
+          "team2": "Leicester City",
+          "hot": false,
+          "display": "⚽ Luton vs Leicester City · League One"
+        },
+        {
+          "id": "1713",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Aston Villa",
+          "team2": "Manchester City",
+          "hot": false,
+          "display": "⚽ Aston Villa vs Manchester City · Premier League"
         }
       ]
     }
