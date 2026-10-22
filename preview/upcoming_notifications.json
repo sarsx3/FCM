@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T15:12:25+00:00",
+  "generated_at": "2026-10-22T15:15:29+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 55,
-    "upcoming_matches": 161,
+    "upcoming_notifications": 56,
+    "upcoming_matches": 164,
     "next_notification_at_local": "2026-10-22 10:44 PM"
   },
   "upcoming_notifications": [
@@ -2236,6 +2236,47 @@
           "team2": "Leverkusen",
           "hot": false,
           "display": "⚽ Hoffenheim vs Leverkusen · Bundesliga"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 09:14 PM",
+      "match_start_local": "2026-10-25 09:15 PM",
+      "send_at_utc": "2026-10-25T15:14:00+00:00",
+      "match_start_utc": "2026-10-25T15:15:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ RC Celta vs Betis · LaLiga\n⚽ Albacete vs CD Eldense · LaLiga 2\n⚽ Cadiz vs AD Ceuta · LaLiga 2"
+      },
+      "matches": [
+        {
+          "id": "1821",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "RC Celta",
+          "team2": "Betis",
+          "hot": false,
+          "display": "⚽ RC Celta vs Betis · LaLiga"
+        },
+        {
+          "id": "1825",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Albacete",
+          "team2": "CD Eldense",
+          "hot": false,
+          "display": "⚽ Albacete vs CD Eldense · LaLiga 2"
+        },
+        {
+          "id": "1826",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Cadiz",
+          "team2": "AD Ceuta",
+          "hot": false,
+          "display": "⚽ Cadiz vs AD Ceuta · LaLiga 2"
         }
       ]
     }
