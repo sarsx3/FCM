@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-22T17:58:20+00:00",
+  "generated_at": "2026-10-22T18:00:41+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Oct 2026, 11:58:12 PM BST",
+    "source_last_updated": "23 Oct 2026, 12:00:28 AM BST",
     "source_events_loaded": 377,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 158,
+    "upcoming_notifications": 62,
+    "upcoming_matches": 160,
     "next_notification_at_local": "2026-10-23 12:59 AM"
   },
   "upcoming_notifications": [
@@ -2293,6 +2293,38 @@
           "team2": "Belgrano",
           "hot": false,
           "display": "⚽ Aldosivi vs Belgrano · Liga Profesional"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 11:59 PM",
+      "match_start_local": "2026-10-26 12:00 AM",
+      "send_at_utc": "2026-10-25T17:59:00+00:00",
+      "match_start_utc": "2026-10-25T18:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Nacional vs SC Braga · Liga Portugal\n⚽ Rio Ave vs Famalicão · Liga Portugal"
+      },
+      "matches": [
+        {
+          "id": "1852",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Nacional",
+          "team2": "SC Braga",
+          "hot": false,
+          "display": "⚽ Nacional vs SC Braga · Liga Portugal"
+        },
+        {
+          "id": "1853",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Rio Ave",
+          "team2": "Famalicão",
+          "hot": false,
+          "display": "⚽ Rio Ave vs Famalicão · Liga Portugal"
         }
       ]
     }
