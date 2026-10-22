@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T12:59:17+00:00",
+  "generated_at": "2026-10-22T13:00:44+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 54,
-    "upcoming_matches": 152,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 154,
     "next_notification_at_local": "2026-10-22 07:39 PM"
   },
   "upcoming_notifications": [
@@ -2141,6 +2141,38 @@
           "team2": "Furth",
           "hot": false,
           "display": "⚽ Osnabrück vs Furth · Bundesliga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 06:59 PM",
+      "match_start_local": "2026-10-25 07:00 PM",
+      "send_at_utc": "2026-10-25T12:59:00+00:00",
+      "match_start_utc": "2026-10-25T13:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Ath. Bilbao vs Getafe · LaLiga\n⚽ Sabadell vs Tenerife · LaLiga 2"
+      },
+      "matches": [
+        {
+          "id": "1820",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Ath. Bilbao",
+          "team2": "Getafe",
+          "hot": false,
+          "display": "⚽ Ath. Bilbao vs Getafe · LaLiga"
+        },
+        {
+          "id": "1824",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Sabadell",
+          "team2": "Tenerife",
+          "hot": false,
+          "display": "⚽ Sabadell vs Tenerife · LaLiga 2"
         }
       ]
     }
