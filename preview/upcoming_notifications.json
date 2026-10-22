@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-22T19:44:20+00:00",
+  "generated_at": "2026-10-22T19:45:32+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "23 Oct 2026, 01:40:19 AM BST",
+    "source_last_updated": "23 Oct 2026, 01:45:18 AM BST",
     "source_events_loaded": 356,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 142,
+    "upcoming_notifications": 62,
+    "upcoming_matches": 144,
     "next_notification_at_local": "2026-10-23 05:59 PM"
   },
   "upcoming_notifications": [
@@ -2149,6 +2149,38 @@
           "team2": "FC Twente",
           "hot": false,
           "display": "⚽ AZ Alkmaar vs FC Twente · Eredivisie"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-26 01:44 AM",
+      "match_start_local": "2026-10-26 01:45 AM",
+      "send_at_utc": "2026-10-25T19:44:00+00:00",
+      "match_start_utc": "2026-10-25T19:45:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ PSG vs Olympique Lyonnais · Ligue 1\n⚽ Udinese vs AC Milan · Serie A"
+      },
+      "matches": [
+        {
+          "id": "1849",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "PSG",
+          "team2": "Olympique Lyonnais",
+          "hot": false,
+          "display": "⚽ PSG vs Olympique Lyonnais · Ligue 1"
+        },
+        {
+          "id": "1850",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Udinese",
+          "team2": "AC Milan",
+          "hot": false,
+          "display": "⚽ Udinese vs AC Milan · Serie A"
         }
       ]
     }
