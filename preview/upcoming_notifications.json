@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-22T14:48:20+00:00",
+  "generated_at": "2026-10-22T14:50:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Oct 2026, 08:48:14 PM BST",
+    "source_last_updated": "22 Oct 2026, 08:50:19 PM BST",
     "source_events_loaded": 381,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 162,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 161,
     "next_notification_at_local": "2026-10-22 10:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-22 08:44 PM",
-      "match_start_local": "2026-10-22 08:45 PM",
-      "send_at_utc": "2026-10-22T14:44:00+00:00",
-      "match_start_utc": "2026-10-22T14:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Al Fateh SC vs Al Shabab",
-        "body": "Saudi League · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1677",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al Fateh SC",
-          "team2": "Al Shabab",
-          "hot": false,
-          "display": "⚽ Al Fateh SC vs Al Shabab · Saudi League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-22 10:44 PM",
