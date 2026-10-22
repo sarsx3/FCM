@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:57:18+00:00",
+  "generated_at": "2026-10-22T20:00:41+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 62,
-    "upcoming_matches": 144,
+    "upcoming_notifications": 63,
+    "upcoming_matches": 146,
     "next_notification_at_local": "2026-10-23 05:59 PM"
   },
   "upcoming_notifications": [
@@ -2181,6 +2181,38 @@
           "team2": "AC Milan",
           "hot": false,
           "display": "⚽ Udinese vs AC Milan · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-26 01:59 AM",
+      "match_start_local": "2026-10-26 02:00 AM",
+      "send_at_utc": "2026-10-25T19:59:00+00:00",
+      "match_start_utc": "2026-10-25T20:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Barcelona vs Real Madrid · LaLiga\n⚽ Independiente vs Boca Juniors · Liga Profesional"
+      },
+      "matches": [
+        {
+          "id": "1855",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Barcelona",
+          "team2": "Real Madrid",
+          "hot": false,
+          "display": "⚽ Barcelona vs Real Madrid · LaLiga"
+        },
+        {
+          "id": "1842",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Independiente",
+          "team2": "Boca Juniors",
+          "hot": false,
+          "display": "⚽ Independiente vs Boca Juniors · Liga Profesional"
         }
       ]
     }
