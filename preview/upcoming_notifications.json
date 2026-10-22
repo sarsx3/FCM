@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-22T11:29:20+00:00",
+  "generated_at": "2026-10-22T11:30:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Oct 2026, 05:24:13 PM BST",
+    "source_last_updated": "22 Oct 2026, 05:30:24 PM BST",
     "source_events_loaded": 384,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 52,
-    "upcoming_matches": 148,
+    "upcoming_notifications": 53,
+    "upcoming_matches": 149,
     "next_notification_at_local": "2026-10-22 07:39 PM"
   },
   "upcoming_notifications": [
@@ -2077,6 +2077,29 @@
           "team2": "Excelsior",
           "hot": false,
           "display": "⚽ Fortuna Sittard vs Excelsior · Eredivisie"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 05:29 PM",
+      "match_start_local": "2026-10-25 05:30 PM",
+      "send_at_utc": "2026-10-25T11:29:00+00:00",
+      "match_start_utc": "2026-10-25T11:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Inter vs Fiorentina",
+        "body": "Serie A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1807",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Inter",
+          "team2": "Fiorentina",
+          "hot": false,
+          "display": "⚽ Inter vs Fiorentina · Serie A"
         }
       ]
     }
