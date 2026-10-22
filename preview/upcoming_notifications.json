@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T13:29:21+00:00",
+  "generated_at": "2026-10-22T13:30:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 55,
-    "upcoming_matches": 154,
+    "upcoming_notifications": 56,
+    "upcoming_matches": 156,
     "next_notification_at_local": "2026-10-22 07:39 PM"
   },
   "upcoming_notifications": [
@@ -2173,6 +2173,38 @@
           "team2": "Tenerife",
           "hot": false,
           "display": "⚽ Sabadell vs Tenerife · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 07:29 PM",
+      "match_start_local": "2026-10-25 07:30 PM",
+      "send_at_utc": "2026-10-25T13:29:00+00:00",
+      "match_start_utc": "2026-10-25T13:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ N.E.C. vs Groningen · Eredivisie\n⚽ PSV vs Feyenoord · Eredivisie"
+      },
+      "matches": [
+        {
+          "id": "1814",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "N.E.C.",
+          "team2": "Groningen",
+          "hot": false,
+          "display": "⚽ N.E.C. vs Groningen · Eredivisie"
+        },
+        {
+          "id": "1813",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "PSV",
+          "team2": "Feyenoord",
+          "hot": false,
+          "display": "⚽ PSV vs Feyenoord · Eredivisie"
         }
       ]
     }
