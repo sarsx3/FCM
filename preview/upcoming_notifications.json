@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-22T11:14:19+00:00",
+  "generated_at": "2026-10-22T11:15:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Oct 2026, 05:14:13 PM BST",
+    "source_last_updated": "22 Oct 2026, 05:15:19 PM BST",
     "source_events_loaded": 384,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 147,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 148,
     "next_notification_at_local": "2026-10-22 07:39 PM"
   },
   "upcoming_notifications": [
@@ -2054,6 +2054,29 @@
           "team2": "England",
           "hot": false,
           "display": "🏏 Pakistan vs England · Pakistan vs England – 4th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 05:14 PM",
+      "match_start_local": "2026-10-25 05:15 PM",
+      "send_at_utc": "2026-10-25T11:14:00+00:00",
+      "match_start_utc": "2026-10-25T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Fortuna Sittard vs Excelsior",
+        "body": "Eredivisie · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1812",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Fortuna Sittard",
+          "team2": "Excelsior",
+          "hot": false,
+          "display": "⚽ Fortuna Sittard vs Excelsior · Eredivisie"
         }
       ]
     }
