@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-22T15:29:18+00:00",
+  "generated_at": "2026-10-22T15:30:59+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Oct 2026, 09:29:11 PM BST",
+    "source_last_updated": "22 Oct 2026, 09:30:24 PM BST",
     "source_events_loaded": 381,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 164,
+    "upcoming_notifications": 57,
+    "upcoming_matches": 165,
     "next_notification_at_local": "2026-10-22 10:44 PM"
   },
   "upcoming_notifications": [
@@ -2277,6 +2277,29 @@
           "team2": "AD Ceuta",
           "hot": false,
           "display": "⚽ Cadiz vs AD Ceuta · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-25 09:29 PM",
+      "match_start_local": "2026-10-25 09:30 PM",
+      "send_at_utc": "2026-10-25T15:29:00+00:00",
+      "match_start_utc": "2026-10-25T15:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Estoril vs Moreirense",
+        "body": "Liga Portugal · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1817",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Estoril",
+          "team2": "Moreirense",
+          "hot": false,
+          "display": "⚽ Estoril vs Moreirense · Liga Portugal"
         }
       ]
     }
