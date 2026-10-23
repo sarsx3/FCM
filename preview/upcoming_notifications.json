@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-23T18:12:19+00:00",
+  "generated_at": "2026-10-23T18:15:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Oct 2026, 12:12:14 AM BST",
+    "source_last_updated": "24 Oct 2026, 12:15:19 AM BST",
     "source_events_loaded": 335,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 65,
-    "upcoming_matches": 148,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 151,
     "next_notification_at_local": "2026-10-24 12:29 AM"
   },
   "upcoming_notifications": [
@@ -2259,6 +2259,47 @@
           "team2": "Tractor FC",
           "hot": false,
           "display": "⚽ Al Ain vs Tractor FC · AFC Champions League Elite"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-27 12:14 AM",
+      "match_start_local": "2026-10-27 12:15 AM",
+      "send_at_utc": "2026-10-26T18:14:00+00:00",
+      "match_start_utc": "2026-10-26T18:15:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Al-Nassr vs Al Wasl · AFC Champions League Elite\n⚽ Qadisiya vs Al Sadd · AFC Champions League Elite\n⚽ Quwa Al Jawiya vs Pakhtakor · AFC Champions League Elite"
+      },
+      "matches": [
+        {
+          "id": "1860",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Al-Nassr",
+          "team2": "Al Wasl",
+          "hot": false,
+          "display": "⚽ Al-Nassr vs Al Wasl · AFC Champions League Elite"
+        },
+        {
+          "id": "1861",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Qadisiya",
+          "team2": "Al Sadd",
+          "hot": false,
+          "display": "⚽ Qadisiya vs Al Sadd · AFC Champions League Elite"
+        },
+        {
+          "id": "1859",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Quwa Al Jawiya",
+          "team2": "Pakhtakor",
+          "hot": false,
+          "display": "⚽ Quwa Al Jawiya vs Pakhtakor · AFC Champions League Elite"
         }
       ]
     }
