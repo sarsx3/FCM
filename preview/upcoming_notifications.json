@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T00:59:17+00:00",
+  "generated_at": "2026-10-23T01:00:38+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 150,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 151,
     "next_notification_at_local": "2026-10-23 05:59 PM"
   },
   "upcoming_notifications": [
@@ -2291,6 +2291,29 @@
           "team2": "Velez Sarsfield",
           "hot": false,
           "display": "⚽ Central Córdoba vs Velez Sarsfield · Liga Profesional"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-26 06:59 AM",
+      "match_start_local": "2026-10-26 07:00 AM",
+      "send_at_utc": "2026-10-26T00:59:00+00:00",
+      "match_start_utc": "2026-10-26T01:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Los Angeles FC vs Los Angeles Galaxy",
+        "body": "MLS · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1856",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Los Angeles FC",
+          "team2": "Los Angeles Galaxy",
+          "hot": false,
+          "display": "⚽ Los Angeles FC vs Los Angeles Galaxy · MLS"
         }
       ]
     }
