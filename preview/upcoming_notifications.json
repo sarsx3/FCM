@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-23T19:42:22+00:00",
+  "generated_at": "2026-10-23T19:44:00+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Oct 2026, 01:42:13 AM BST",
+    "source_last_updated": "24 Oct 2026, 01:41:11 AM BST",
     "source_events_loaded": 332,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -17,11 +17,11 @@
   "summary": {
     "upcoming_notifications": 65,
     "upcoming_matches": 146,
-    "next_notification_at_local": "2026-10-24 01:44 AM"
+    "next_notification_at_local": "2026-10-24 03:29 AM"
   },
   "upcoming_notifications": [
     {
-      "status": "scheduled",
+      "status": "sent",
       "send_at_local": "2026-10-24 01:44 AM",
       "match_start_local": "2026-10-24 01:45 AM",
       "send_at_utc": "2026-10-23T19:44:00+00:00",
