@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:28:21+00:00",
+  "generated_at": "2026-10-23T19:30:34+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 64,
-    "upcoming_matches": 145,
+    "upcoming_notifications": 65,
+    "upcoming_matches": 146,
     "next_notification_at_local": "2026-10-24 01:44 AM"
   },
   "upcoming_notifications": [
@@ -2218,6 +2218,29 @@
           "team2": "SL Benfica FC",
           "hot": false,
           "display": "⚽ Santa Clara vs SL Benfica FC · Liga Portugal"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-27 01:29 AM",
+      "match_start_local": "2026-10-27 01:30 AM",
+      "send_at_utc": "2026-10-26T19:29:00+00:00",
+      "match_start_utc": "2026-10-26T19:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Andorra vs Burgos",
+        "body": "LaLiga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1881",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Andorra",
+          "team2": "Burgos",
+          "hot": false,
+          "display": "⚽ Andorra vs Burgos · LaLiga 2"
         }
       ]
     }
