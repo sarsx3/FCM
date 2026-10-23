@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:34:21+00:00",
+  "generated_at": "2026-10-23T15:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 67,
-    "upcoming_matches": 151,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 150,
     "next_notification_at_local": "2026-10-23 10:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-23 09:29 PM",
-      "match_start_local": "2026-10-23 09:30 PM",
-      "send_at_utc": "2026-10-23T15:29:00+00:00",
-      "match_start_utc": "2026-10-23T15:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Al Ittihad vs Diriyah",
-        "body": "Saudi League · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1705",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al Ittihad",
-          "team2": "Diriyah",
-          "hot": false,
-          "display": "⚽ Al Ittihad vs Diriyah · Saudi League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-23 10:29 PM",
