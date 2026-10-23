@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-23T18:44:22+00:00",
+  "generated_at": "2026-10-23T18:45:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Oct 2026, 12:44:13 AM BST",
+    "source_last_updated": "24 Oct 2026, 12:41:13 AM BST",
     "source_events_loaded": 332,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 65,
-    "upcoming_matches": 149,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 150,
     "next_notification_at_local": "2026-10-24 12:59 AM"
   },
   "upcoming_notifications": [
@@ -2268,6 +2268,29 @@
           "team2": "Pakhtakor",
           "hot": false,
           "display": "⚽ Quwa Al Jawiya vs Pakhtakor · AFC Champions League Elite"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-27 12:44 AM",
+      "match_start_local": "2026-10-27 12:45 AM",
+      "send_at_utc": "2026-10-26T18:44:00+00:00",
+      "match_start_utc": "2026-10-26T18:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Santa Clara vs SL Benfica FC",
+        "body": "Liga Portugal · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1877",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Santa Clara",
+          "team2": "SL Benfica FC",
+          "hot": false,
+          "display": "⚽ Santa Clara vs SL Benfica FC · Liga Portugal"
         }
       ]
     }
