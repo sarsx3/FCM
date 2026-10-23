@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T18:34:18+00:00",
+  "generated_at": "2026-10-23T18:35:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 151,
+    "upcoming_notifications": 65,
+    "upcoming_matches": 149,
     "next_notification_at_local": "2026-10-24 12:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-24 12:29 AM",
-      "match_start_local": "2026-10-24 12:30 AM",
-      "send_at_utc": "2026-10-23T18:29:00+00:00",
-      "match_start_utc": "2026-10-23T18:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Stuttgart vs Gladbach · Bundesliga\n⚽ Granada vs Valladolid · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "1743",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "Stuttgart",
-          "team2": "Gladbach",
-          "hot": false,
-          "display": "⚽ Stuttgart vs Gladbach · Bundesliga"
-        },
-        {
-          "id": "1770",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Granada",
-          "team2": "Valladolid",
-          "hot": false,
-          "display": "⚽ Granada vs Valladolid · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-24 12:44 AM",
