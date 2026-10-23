@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-23T08:25:22+00:00",
+  "generated_at": "2026-10-23T08:29:19+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "23 Oct 2026, 02:25:15 PM BST",
+    "source_last_updated": "23 Oct 2026, 02:29:12 PM BST",
     "source_events_loaded": 338,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,11 +15,34 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 68,
-    "upcoming_matches": 152,
+    "upcoming_notifications": 69,
+    "upcoming_matches": 153,
     "next_notification_at_local": "2026-10-23 05:59 PM"
   },
   "upcoming_notifications": [
+    {
+      "status": "sent",
+      "send_at_local": "2026-10-23 02:29 PM",
+      "match_start_local": "2026-10-23 02:30 PM",
+      "send_at_utc": "2026-10-23T08:29:00+00:00",
+      "match_start_utc": "2026-10-23T08:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 India Women vs Zimbabwe Women",
+        "body": "ICC Women's Championship · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2",
+          "sport": "Cricket",
+          "league": "ICC Women's Championship",
+          "team1": "India Women",
+          "team2": "Zimbabwe Women",
+          "hot": false,
+          "display": "🏏 India Women vs Zimbabwe Women · ICC Women's Championship"
+        }
+      ]
+    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-23 05:59 PM",
