@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T17:29:22+00:00",
+  "generated_at": "2026-10-24T17:30:34+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Oct 2026, 11:29:14 PM BST",
+    "source_last_updated": "24 Oct 2026, 11:30:22 PM BST",
     "source_events_loaded": 274,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 59,
-    "upcoming_matches": 109,
+    "upcoming_notifications": 60,
+    "upcoming_matches": 111,
     "next_notification_at_local": "2026-10-24 11:44 PM"
   },
   "upcoming_notifications": [
@@ -1824,6 +1824,38 @@
           "team2": "FC Augsburg",
           "hot": false,
           "display": "⚽ Sonnenhof Großaspach vs FC Augsburg · DFB-Pokal"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-27 11:29 PM",
+      "match_start_local": "2026-10-27 11:30 PM",
+      "send_at_utc": "2026-10-27T17:29:00+00:00",
+      "match_start_utc": "2026-10-27T17:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Cd Cuarte Industrial vs Girona FC · Copa del Rey\n⚽ Sassuolo vs Lazio · Serie A"
+      },
+      "matches": [
+        {
+          "id": "1880",
+          "sport": "Football",
+          "league": "Copa del Rey",
+          "team1": "Cd Cuarte Industrial",
+          "team2": "Girona FC",
+          "hot": false,
+          "display": "⚽ Cd Cuarte Industrial vs Girona FC · Copa del Rey"
+        },
+        {
+          "id": "1876",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Sassuolo",
+          "team2": "Lazio",
+          "hot": false,
+          "display": "⚽ Sassuolo vs Lazio · Serie A"
         }
       ]
     }
