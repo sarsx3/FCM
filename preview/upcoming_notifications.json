@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:29:20+00:00",
+  "generated_at": "2026-10-24T14:30:34+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 63,
-    "upcoming_matches": 114,
+    "upcoming_notifications": 64,
+    "upcoming_matches": 115,
     "next_notification_at_local": "2026-10-24 09:04 PM"
   },
   "upcoming_notifications": [
@@ -1925,6 +1925,29 @@
           "team2": "Al Faysaly",
           "hot": false,
           "display": "⚽ Abha Club vs Al Faysaly · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-27 08:29 PM",
+      "match_start_local": "2026-10-27 08:30 PM",
+      "send_at_utc": "2026-10-27T14:29:00+00:00",
+      "match_start_utc": "2026-10-27T14:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Afghanistan vs Zimbabwe",
+        "body": "Afghanistan vs Zimbabwe – 1st T20I · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1886",
+          "sport": "Cricket",
+          "league": "Afghanistan vs Zimbabwe – 1st T20I",
+          "team1": "Afghanistan",
+          "team2": "Zimbabwe",
+          "hot": false,
+          "display": "🏏 Afghanistan vs Zimbabwe · Afghanistan vs Zimbabwe – 1st T20I"
         }
       ]
     }
