@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T18:14:19+00:00",
+  "generated_at": "2026-10-24T18:15:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "25 Oct 2026, 12:10:19 AM BST",
+    "source_last_updated": "25 Oct 2026, 12:15:23 AM BST",
     "source_events_loaded": 272,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 57,
-    "upcoming_matches": 108,
+    "upcoming_notifications": 58,
+    "upcoming_matches": 110,
     "next_notification_at_local": "2026-10-25 12:29 AM"
   },
   "upcoming_notifications": [
@@ -1787,6 +1787,38 @@
           "team2": "Lazio",
           "hot": false,
           "display": "⚽ Sassuolo vs Lazio · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-28 12:14 AM",
+      "match_start_local": "2026-10-28 12:15 AM",
+      "send_at_utc": "2026-10-27T18:14:00+00:00",
+      "match_start_utc": "2026-10-27T18:15:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Al Shamal vs Al-Hilal · AFC Champions League Elite\n⚽ Al Shorta Baghdad vs Al Hussein · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "1888",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Al Shamal",
+          "team2": "Al-Hilal",
+          "hot": false,
+          "display": "⚽ Al Shamal vs Al-Hilal · AFC Champions League Elite"
+        },
+        {
+          "id": "1891",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Al Shorta Baghdad",
+          "team2": "Al Hussein",
+          "hot": false,
+          "display": "⚽ Al Shorta Baghdad vs Al Hussein · AFC Champions League Two"
         }
       ]
     }
