@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-24T17:34:20+00:00",
+  "generated_at": "2026-10-24T17:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Oct 2026, 11:29:14 PM BST",
-    "source_events_loaded": 274,
+    "source_last_updated": "24 Oct 2026, 11:34:13 PM BST",
+    "source_events_loaded": 273,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 60,
-    "upcoming_matches": 111,
+    "upcoming_notifications": 59,
+    "upcoming_matches": 110,
     "next_notification_at_local": "2026-10-24 11:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-24 11:29 PM",
-      "match_start_local": "2026-10-24 11:30 PM",
-      "send_at_utc": "2026-10-24T17:29:00+00:00",
-      "match_start_utc": "2026-10-24T17:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ CF Montréal vs Nashville SC",
-        "body": "MLS · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1775",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "CF Montréal",
-          "team2": "Nashville SC",
-          "hot": false,
-          "display": "⚽ CF Montréal vs Nashville SC · MLS"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-24 11:44 PM",
