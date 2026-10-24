@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T12:04:21+00:00",
+  "generated_at": "2026-10-24T12:05:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Oct 2026, 06:04:13 PM BST",
+    "source_last_updated": "24 Oct 2026, 06:00:28 PM BST",
     "source_events_loaded": 317,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 143,
+    "upcoming_notifications": 65,
+    "upcoming_matches": 141,
     "next_notification_at_local": "2026-10-24 06:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-24 05:59 PM",
-      "match_start_local": "2026-10-24 06:00 PM",
-      "send_at_utc": "2026-10-24T11:59:00+00:00",
-      "match_start_utc": "2026-10-24T12:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Rayo vs Elche · LaLiga\n⚽ Cordoba vs SD Eibar · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "1767",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Rayo",
-          "team2": "Elche",
-          "hot": false,
-          "display": "⚽ Rayo vs Elche · LaLiga"
-        },
-        {
-          "id": "1771",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Cordoba",
-          "team2": "SD Eibar",
-          "hot": false,
-          "display": "⚽ Cordoba vs SD Eibar · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-24 06:59 PM",
