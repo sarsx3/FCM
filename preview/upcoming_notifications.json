@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:04:24+00:00",
+  "generated_at": "2026-10-24T13:05:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 67,
-    "upcoming_matches": 144,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 142,
     "next_notification_at_local": "2026-10-24 07:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-24 06:59 PM",
-      "match_start_local": "2026-10-24 07:00 PM",
-      "send_at_utc": "2026-10-24T12:59:00+00:00",
-      "match_start_utc": "2026-10-24T13:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Cagliari vs Bologna · Serie A\n⚽ Como vs Sassuolo · Serie A"
-      },
-      "matches": [
-        {
-          "id": "1755",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Cagliari",
-          "team2": "Bologna",
-          "hot": false,
-          "display": "⚽ Cagliari vs Bologna · Serie A"
-        },
-        {
-          "id": "1754",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Como",
-          "team2": "Sassuolo",
-          "hot": false,
-          "display": "⚽ Como vs Sassuolo · Serie A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-24 07:29 PM",
