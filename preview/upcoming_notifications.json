@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:19:22+00:00",
+  "generated_at": "2026-10-24T15:20:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 62,
-    "upcoming_matches": 112,
+    "upcoming_notifications": 61,
+    "upcoming_matches": 111,
     "next_notification_at_local": "2026-10-24 09:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-24 09:14 PM",
-      "match_start_local": "2026-10-24 09:15 PM",
-      "send_at_utc": "2026-10-24T15:14:00+00:00",
-      "match_start_utc": "2026-10-24T15:15:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Toulouse vs Troyes",
-        "body": "Ligue 1 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1742",
-          "sport": "Football",
-          "league": "Ligue 1",
-          "team1": "Toulouse",
-          "team2": "Troyes",
-          "hot": false,
-          "display": "⚽ Toulouse vs Troyes · Ligue 1"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-24 09:59 PM",
