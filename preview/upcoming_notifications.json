@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T18:34:21+00:00",
+  "generated_at": "2026-10-24T18:35:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 58,
-    "upcoming_matches": 110,
+    "upcoming_notifications": 57,
+    "upcoming_matches": 109,
     "next_notification_at_local": "2026-10-25 12:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-25 12:29 AM",
-      "match_start_local": "2026-10-25 12:30 AM",
-      "send_at_utc": "2026-10-24T18:29:00+00:00",
-      "match_start_utc": "2026-10-24T18:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Nurnberg vs FC Kaiserslautern",
-        "body": "Bundesliga 2 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1802",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "Nurnberg",
-          "team2": "FC Kaiserslautern",
-          "hot": false,
-          "display": "⚽ Nurnberg vs FC Kaiserslautern · Bundesliga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-25 12:44 AM",
