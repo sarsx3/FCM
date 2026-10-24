@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-24T23:52:21+00:00",
+  "generated_at": "2026-10-24T23:53:16+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "25 Oct 2026, 05:52:16 AM BST",
-    "source_events_loaded": 247,
+    "source_last_updated": "25 Oct 2026, 05:53:10 AM BST",
+    "source_events_loaded": 239,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 52,
-    "upcoming_matches": 103,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 95,
     "next_notification_at_local": "2026-10-25 05:59 AM"
   },
   "upcoming_notifications": [
@@ -40,106 +40,6 @@
           "team2": "Bahia",
           "hot": false,
           "display": "⚽ Santos vs Bahia · Brasileirão Série A"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-10-25 06:29 AM",
-      "match_start_local": "2026-10-25 06:30 AM",
-      "send_at_utc": "2026-10-25T00:29:00+00:00",
-      "match_start_utc": "2026-10-25T00:30:00+00:00",
-      "match_count": 6,
-      "notification": {
-        "title": "⏰ 6 matches starting soon",
-        "body": "⚽ Rosario Central vs Huracan · Liga Profesional\n⚽ Colorado Rapids vs Vancouver Whitecaps · MLS\n⚽ FC Dallas vs San Jose · MLS\n⚽ Houston Dynamo vs Minnesota United · MLS\n⚽ Real Salt Lake vs St. Louis City · MLS\n⚽ Sporting KC vs Austin · MLS"
-      },
-      "matches": [
-        {
-          "id": "1780",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Rosario Central",
-          "team2": "Huracan",
-          "hot": false,
-          "display": "⚽ Rosario Central vs Huracan · Liga Profesional"
-        },
-        {
-          "id": "1835",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Colorado Rapids",
-          "team2": "Vancouver Whitecaps",
-          "hot": false,
-          "display": "⚽ Colorado Rapids vs Vancouver Whitecaps · MLS"
-        },
-        {
-          "id": "1838",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "FC Dallas",
-          "team2": "San Jose",
-          "hot": false,
-          "display": "⚽ FC Dallas vs San Jose · MLS"
-        },
-        {
-          "id": "1837",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Houston Dynamo",
-          "team2": "Minnesota United",
-          "hot": false,
-          "display": "⚽ Houston Dynamo vs Minnesota United · MLS"
-        },
-        {
-          "id": "1834",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Real Salt Lake",
-          "team2": "St. Louis City",
-          "hot": false,
-          "display": "⚽ Real Salt Lake vs St. Louis City · MLS"
-        },
-        {
-          "id": "1836",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Sporting KC",
-          "team2": "Austin",
-          "hot": false,
-          "display": "⚽ Sporting KC vs Austin · MLS"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-10-25 08:29 AM",
-      "match_start_local": "2026-10-25 08:30 AM",
-      "send_at_utc": "2026-10-25T02:29:00+00:00",
-      "match_start_utc": "2026-10-25T02:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Portland vs Charlotte FC · MLS\n⚽ San Diego vs Seattle Sounders · MLS"
-      },
-      "matches": [
-        {
-          "id": "1840",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Portland",
-          "team2": "Charlotte FC",
-          "hot": false,
-          "display": "⚽ Portland vs Charlotte FC · MLS"
-        },
-        {
-          "id": "1839",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "San Diego",
-          "team2": "Seattle Sounders",
-          "hot": false,
-          "display": "⚽ San Diego vs Seattle Sounders · MLS"
         }
       ]
     },
