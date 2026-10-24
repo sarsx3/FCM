@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T19:34:21+00:00",
+  "generated_at": "2026-10-24T19:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,70 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 55,
-    "upcoming_matches": 104,
+    "upcoming_notifications": 54,
+    "upcoming_matches": 99,
     "next_notification_at_local": "2026-10-25 01:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-25 01:29 AM",
-      "match_start_local": "2026-10-25 01:30 AM",
-      "send_at_utc": "2026-10-24T19:29:00+00:00",
-      "match_start_utc": "2026-10-24T19:30:00+00:00",
-      "match_count": 5,
-      "notification": {
-        "title": "⏰ 5 matches starting soon",
-        "body": "⚽ Internacional vs Botafogo · Brasileirão Série A\n⚽ Mirassol vs São Paulo · Brasileirão Série A\n⚽ Vitoria vs Athletico Paranaense · Brasileirão Série A\n⚽ Gil Vicente vs FC Porto · Liga Portugal\n⚽ Columbus Crew vs Toronto · MLS"
-      },
-      "matches": [
-        {
-          "id": "1783",
-          "sport": "Football",
-          "league": "Brasileirão Série A",
-          "team1": "Internacional",
-          "team2": "Botafogo",
-          "hot": false,
-          "display": "⚽ Internacional vs Botafogo · Brasileirão Série A"
-        },
-        {
-          "id": "1784",
-          "sport": "Football",
-          "league": "Brasileirão Série A",
-          "team1": "Mirassol",
-          "team2": "São Paulo",
-          "hot": false,
-          "display": "⚽ Mirassol vs São Paulo · Brasileirão Série A"
-        },
-        {
-          "id": "1782",
-          "sport": "Football",
-          "league": "Brasileirão Série A",
-          "team1": "Vitoria",
-          "team2": "Athletico Paranaense",
-          "hot": false,
-          "display": "⚽ Vitoria vs Athletico Paranaense · Brasileirão Série A"
-        },
-        {
-          "id": "1816",
-          "sport": "Football",
-          "league": "Liga Portugal",
-          "team1": "Gil Vicente",
-          "team2": "FC Porto",
-          "hot": false,
-          "display": "⚽ Gil Vicente vs FC Porto · Liga Portugal"
-        },
-        {
-          "id": "1828",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Columbus Crew",
-          "team2": "Toronto",
-          "hot": false,
-          "display": "⚽ Columbus Crew vs Toronto · MLS"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-25 01:59 AM",
