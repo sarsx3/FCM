@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T09:59:21+00:00",
+  "generated_at": "2026-10-24T10:00:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Oct 2026, 03:59:13 PM BST",
+    "source_last_updated": "24 Oct 2026, 04:00:27 PM BST",
     "source_events_loaded": 318,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 67,
-    "upcoming_matches": 148,
+    "upcoming_notifications": 68,
+    "upcoming_matches": 152,
     "next_notification_at_local": "2026-10-24 04:59 PM"
   },
   "upcoming_notifications": [
@@ -2287,6 +2287,56 @@
           "team2": "Australia",
           "hot": false,
           "display": "🏏 South Africa vs Australia · South Africa vs Australia – 3rd Test, Day 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-27 03:59 PM",
+      "match_start_local": "2026-10-27 04:00 PM",
+      "send_at_utc": "2026-10-27T09:59:00+00:00",
+      "match_start_utc": "2026-10-27T10:00:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Daejeon Citizen vs Vissel Kobe · AFC Champions League Elite\n⚽ Johor Darul Ta’zim vs Thai Port FC · AFC Champions League Elite\n⚽ Kyoto vs Newcastle Jets · AFC Champions League Elite\n⚽ Shanghai Port vs Công An Hà Nội · AFC Champions League Elite"
+      },
+      "matches": [
+        {
+          "id": "1862",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Daejeon Citizen",
+          "team2": "Vissel Kobe",
+          "hot": false,
+          "display": "⚽ Daejeon Citizen vs Vissel Kobe · AFC Champions League Elite"
+        },
+        {
+          "id": "1864",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Johor Darul Ta’zim",
+          "team2": "Thai Port FC",
+          "hot": false,
+          "display": "⚽ Johor Darul Ta’zim vs Thai Port FC · AFC Champions League Elite"
+        },
+        {
+          "id": "1863",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Kyoto",
+          "team2": "Newcastle Jets",
+          "hot": false,
+          "display": "⚽ Kyoto vs Newcastle Jets · AFC Champions League Elite"
+        },
+        {
+          "id": "1865",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Shanghai Port",
+          "team2": "Công An Hà Nội",
+          "hot": false,
+          "display": "⚽ Shanghai Port vs Công An Hà Nội · AFC Champions League Elite"
         }
       ]
     }
