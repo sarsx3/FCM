@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T12:39:18+00:00",
+  "generated_at": "2026-10-24T12:40:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Oct 2026, 06:34:14 PM BST",
+    "source_last_updated": "24 Oct 2026, 06:40:18 PM BST",
     "source_events_loaded": 317,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 143,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 144,
     "next_notification_at_local": "2026-10-24 06:59 PM"
   },
   "upcoming_notifications": [
@@ -2228,6 +2228,29 @@
           "team2": "Kashiwa Reysol",
           "hot": false,
           "display": "⚽ Ratchaburi FC vs Kashiwa Reysol · AFC Champions League Elite"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-27 06:39 PM",
+      "match_start_local": "2026-10-27 06:40 PM",
+      "send_at_utc": "2026-10-27T12:39:00+00:00",
+      "match_start_utc": "2026-10-27T12:40:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Abha Club vs Al Faysaly",
+        "body": "Saudi League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1878",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Abha Club",
+          "team2": "Al Faysaly",
+          "hot": false,
+          "display": "⚽ Abha Club vs Al Faysaly · Saudi League"
         }
       ]
     }
