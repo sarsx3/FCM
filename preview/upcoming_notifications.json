@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T22:17:18+00:00",
+  "generated_at": "2026-10-25T22:20:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 40,
-    "upcoming_matches": 83,
+    "upcoming_notifications": 39,
+    "upcoming_matches": 82,
     "next_notification_at_local": "2026-10-26 06:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-26 04:14 AM",
-      "match_start_local": "2026-10-26 04:15 AM",
-      "send_at_utc": "2026-10-25T22:14:00+00:00",
-      "match_start_utc": "2026-10-25T22:15:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ River vs Racing Club",
-        "body": "Liga Profesional · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1843",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "River",
-          "team2": "Racing Club",
-          "hot": false,
-          "display": "⚽ River vs Racing Club · Liga Profesional"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-26 06:29 AM",
