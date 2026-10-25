@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T14:04:19+00:00",
+  "generated_at": "2026-10-25T14:05:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,88 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 48,
-    "upcoming_matches": 92,
+    "upcoming_notifications": 47,
+    "upcoming_matches": 85,
     "next_notification_at_local": "2026-10-25 08:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-25 07:59 PM",
-      "match_start_local": "2026-10-25 08:00 PM",
-      "send_at_utc": "2026-10-25T13:59:00+00:00",
-      "match_start_utc": "2026-10-25T14:00:00+00:00",
-      "match_count": 7,
-      "notification": {
-        "title": "⏰ 7 matches starting soon",
-        "body": "⚽ Monaco vs Lille · Ligue 1\n⚽ Crystal Palace vs Newcastle Utd · Premier League\n⚽ Hull City vs Brentford · Premier League\n⚽ Liverpool vs Brighton · Premier League\n⚽ Man Utd vs Bournemouth · Premier League\n⚽ Atalanta vs Frosinone · Serie A\n+ 1 more match in the app"
-      },
-      "matches": [
-        {
-          "id": "1795",
-          "sport": "Football",
-          "league": "Ligue 1",
-          "team1": "Monaco",
-          "team2": "Lille",
-          "hot": false,
-          "display": "⚽ Monaco vs Lille · Ligue 1"
-        },
-        {
-          "id": "1792",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Crystal Palace",
-          "team2": "Newcastle Utd",
-          "hot": false,
-          "display": "⚽ Crystal Palace vs Newcastle Utd · Premier League"
-        },
-        {
-          "id": "1791",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Hull City",
-          "team2": "Brentford",
-          "hot": false,
-          "display": "⚽ Hull City vs Brentford · Premier League"
-        },
-        {
-          "id": "1790",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Liverpool",
-          "team2": "Brighton",
-          "hot": false,
-          "display": "⚽ Liverpool vs Brighton · Premier League"
-        },
-        {
-          "id": "1789",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Man Utd",
-          "team2": "Bournemouth",
-          "hot": false,
-          "display": "⚽ Man Utd vs Bournemouth · Premier League"
-        },
-        {
-          "id": "1809",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Atalanta",
-          "team2": "Frosinone",
-          "hot": false,
-          "display": "⚽ Atalanta vs Frosinone · Serie A"
-        },
-        {
-          "id": "1808",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Genoa",
-          "team2": "Venezia",
-          "hot": false,
-          "display": "⚽ Genoa vs Venezia · Serie A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-25 08:29 PM",
