@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-25T09:58:23+00:00",
+  "generated_at": "2026-10-25T10:00:36+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "25 Oct 2026, 03:58:13 PM BST",
+    "source_last_updated": "25 Oct 2026, 03:57:15 PM BST",
     "source_events_loaded": 232,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 95,
+    "upcoming_notifications": 51,
+    "upcoming_matches": 97,
     "next_notification_at_local": "2026-10-25 05:14 PM"
   },
   "upcoming_notifications": [
@@ -1572,6 +1572,38 @@
           "team2": "Australia",
           "hot": false,
           "display": "🏏 South Africa vs Australia · Australia tour of South Africa, 2026 - 3rd Test, Day 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-28 03:59 PM",
+      "match_start_local": "2026-10-28 04:00 PM",
+      "send_at_utc": "2026-10-28T09:59:00+00:00",
+      "match_start_utc": "2026-10-28T10:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Gamba Osaka vs Buriram United · AFC Champions League Elite\n⚽ Kashima Antlers vs Pohang Steelers · AFC Champions League Elite"
+      },
+      "matches": [
+        {
+          "id": "1889",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Gamba Osaka",
+          "team2": "Buriram United",
+          "hot": false,
+          "display": "⚽ Gamba Osaka vs Buriram United · AFC Champions League Elite"
+        },
+        {
+          "id": "1890",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Kashima Antlers",
+          "team2": "Pohang Steelers",
+          "hot": false,
+          "display": "⚽ Kashima Antlers vs Pohang Steelers · AFC Champions League Elite"
         }
       ]
     }
