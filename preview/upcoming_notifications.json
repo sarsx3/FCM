@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T19:04:37+00:00",
+  "generated_at": "2026-10-25T19:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 41,
-    "upcoming_matches": 78,
+    "upcoming_notifications": 40,
+    "upcoming_matches": 77,
     "next_notification_at_local": "2026-10-26 01:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-26 12:59 AM",
-      "match_start_local": "2026-10-26 01:00 AM",
-      "send_at_utc": "2026-10-25T18:59:00+00:00",
-      "match_start_utc": "2026-10-25T19:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ AZ Alkmaar vs FC Twente",
-        "body": "Eredivisie · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1851",
-          "sport": "Football",
-          "league": "Eredivisie",
-          "team1": "AZ Alkmaar",
-          "team2": "FC Twente",
-          "hot": false,
-          "display": "⚽ AZ Alkmaar vs FC Twente · Eredivisie"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-26 01:44 AM",
