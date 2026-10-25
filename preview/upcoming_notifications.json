@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-25T18:17:20+00:00",
+  "generated_at": "2026-10-25T18:18:19+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "26 Oct 2026, 12:13:12 AM BST",
+    "source_last_updated": "26 Oct 2026, 12:18:14 AM BST",
     "source_events_loaded": 288,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -84,7 +84,7 @@
       "match_count": 2,
       "notification": {
         "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Barcelona vs Real Madrid · LaLiga\n⚽ Independiente vs Boca Juniors · Liga Profesional"
+        "body": "🔥 Barcelona vs Real Madrid · LaLiga\n⚽ Independiente vs Boca Juniors · Liga Profesional"
       },
       "matches": [
         {
@@ -93,8 +93,8 @@
           "league": "LaLiga",
           "team1": "Barcelona",
           "team2": "Real Madrid",
-          "hot": false,
-          "display": "⚽ Barcelona vs Real Madrid · LaLiga"
+          "hot": true,
+          "display": "🔥 Barcelona vs Real Madrid · LaLiga"
         },
         {
           "id": "1842",
