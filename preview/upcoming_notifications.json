@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-25T15:49:18+00:00",
+  "generated_at": "2026-10-25T15:50:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "25 Oct 2026, 09:46:12 PM BST",
+    "source_last_updated": "25 Oct 2026, 09:48:13 PM BST",
     "source_events_loaded": 223,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 80,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 79,
     "next_notification_at_local": "2026-10-25 10:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-25 09:44 PM",
-      "match_start_local": "2026-10-25 09:45 PM",
-      "send_at_utc": "2026-10-25T15:44:00+00:00",
-      "match_start_utc": "2026-10-25T15:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Sparta Rotterdam vs Ajax",
-        "body": "Eredivisie · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1815",
-          "sport": "Football",
-          "league": "Eredivisie",
-          "team1": "Sparta Rotterdam",
-          "team2": "Ajax",
-          "hot": false,
-          "display": "⚽ Sparta Rotterdam vs Ajax · Eredivisie"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-25 10:14 PM",
