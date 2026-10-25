@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:34:18+00:00",
+  "generated_at": "2026-10-25T17:35:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 43,
-    "upcoming_matches": 81,
+    "upcoming_notifications": 42,
+    "upcoming_matches": 79,
     "next_notification_at_local": "2026-10-25 11:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-25 11:29 PM",
-      "match_start_local": "2026-10-25 11:30 PM",
-      "send_at_utc": "2026-10-25T17:29:00+00:00",
-      "match_start_utc": "2026-10-25T17:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Real Sociedad vs Levante · LaLiga\n⚽ Castellon vs Sporting Gijon · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "1822",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Real Sociedad",
-          "team2": "Levante",
-          "hot": false,
-          "display": "⚽ Real Sociedad vs Levante · LaLiga"
-        },
-        {
-          "id": "1827",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Castellon",
-          "team2": "Sporting Gijon",
-          "hot": false,
-          "display": "⚽ Castellon vs Sporting Gijon · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-25 11:44 PM",
