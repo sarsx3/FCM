@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T18:49:20+00:00",
+  "generated_at": "2026-10-26T18:50:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 102,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 101,
     "next_notification_at_local": "2026-10-27 01:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-27 12:44 AM",
-      "match_start_local": "2026-10-27 12:45 AM",
-      "send_at_utc": "2026-10-26T18:44:00+00:00",
-      "match_start_utc": "2026-10-26T18:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Santa Clara vs SL Benfica FC",
-        "body": "Liga Portugal · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1877",
-          "sport": "Football",
-          "league": "Liga Portugal",
-          "team1": "Santa Clara",
-          "team2": "SL Benfica FC",
-          "hot": false,
-          "display": "⚽ Santa Clara vs SL Benfica FC · Liga Portugal"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-27 01:29 AM",
