@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-26T14:34:24+00:00",
+  "generated_at": "2026-10-26T14:35:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "26 Oct 2026, 08:34:14 PM BST",
+    "source_last_updated": "26 Oct 2026, 08:30:30 PM BST",
     "source_events_loaded": 408,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 104,
+    "upcoming_notifications": 57,
+    "upcoming_matches": 105,
     "next_notification_at_local": "2026-10-26 09:59 PM"
   },
   "upcoming_notifications": [
@@ -1737,6 +1737,29 @@
           "team2": "Zimbabwe",
           "hot": false,
           "display": "🏏 Afghanistan vs Zimbabwe · Afghanistan vs Zimbabwe in UAE, 2026 - 2nd T20I"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-29 08:34 PM",
+      "match_start_local": "2026-10-29 08:35 PM",
+      "send_at_utc": "2026-10-29T14:34:00+00:00",
+      "match_start_utc": "2026-10-29T14:35:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Al-Khaleej vs Al Hazm",
+        "body": "Saudi League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1946",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al-Khaleej",
+          "team2": "Al Hazm",
+          "hot": false,
+          "display": "⚽ Al-Khaleej vs Al Hazm · Saudi League"
         }
       ]
     }
