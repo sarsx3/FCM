@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-26T13:53:21+00:00",
+  "generated_at": "2026-10-26T13:54:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "26 Oct 2026, 07:50:21 PM BST",
+    "source_last_updated": "26 Oct 2026, 07:54:13 PM BST",
     "source_events_loaded": 402,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,11 +15,34 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 47,
-    "upcoming_matches": 95,
-    "next_notification_at_local": "2026-10-26 09:59 PM"
+    "upcoming_notifications": 56,
+    "upcoming_matches": 104,
+    "next_notification_at_local": "2026-10-26 07:59 PM"
   },
   "upcoming_notifications": [
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-26 07:59 PM",
+      "match_start_local": "2026-10-26 08:00 PM",
+      "send_at_utc": "2026-10-26T13:59:00+00:00",
+      "match_start_utc": "2026-10-26T14:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Mohun Bagan vs Chennaiyin",
+        "body": "Indian Super League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2232",
+          "sport": "Football",
+          "league": "Indian Super League",
+          "team1": "Mohun Bagan",
+          "team2": "Chennaiyin",
+          "hot": false,
+          "display": "⚽ Mohun Bagan vs Chennaiyin · Indian Super League"
+        }
+      ]
+    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-26 09:59 PM",
@@ -49,6 +72,29 @@
           "team2": "Tractor FC",
           "hot": false,
           "display": "⚽ Al Ain vs Tractor FC · AFC Champions League Elite"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-26 10:59 PM",
+      "match_start_local": "2026-10-26 11:00 PM",
+      "send_at_utc": "2026-10-26T16:59:00+00:00",
+      "match_start_utc": "2026-10-26T17:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Ballon Dor Show",
+        "body": "Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1",
+          "sport": "Football",
+          "league": "Ballon Dor Show",
+          "team1": null,
+          "team2": null,
+          "hot": false,
+          "display": "⚽ Ballon Dor Show"
         }
       ]
     },
@@ -136,6 +182,29 @@
           "team2": "Burgos",
           "hot": false,
           "display": "⚽ Andorra vs Burgos · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-27 01:44 AM",
+      "match_start_local": "2026-10-27 01:45 AM",
+      "send_at_utc": "2026-10-26T19:44:00+00:00",
+      "match_start_utc": "2026-10-26T19:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ PSG vs Olympique Lyonnais",
+        "body": "Ligue 1 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1849",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "PSG",
+          "team2": "Olympique Lyonnais",
+          "hot": false,
+          "display": "⚽ PSG vs Olympique Lyonnais · Ligue 1"
         }
       ]
     },
@@ -256,6 +325,29 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-10-27 12:44 PM",
+      "match_start_local": "2026-10-27 12:45 PM",
+      "send_at_utc": "2026-10-27T06:44:00+00:00",
+      "match_start_utc": "2026-10-27T06:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Biratnagar Kings vs Chitwan Rhinos",
+        "body": "NPL 2026 - 2nd T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2242",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 2nd T20",
+          "team1": "Biratnagar Kings",
+          "team2": "Chitwan Rhinos",
+          "hot": false,
+          "display": "🏏 Biratnagar Kings vs Chitwan Rhinos · NPL 2026 - 2nd T20"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-10-27 12:59 PM",
       "match_start_local": "2026-10-27 01:00 PM",
       "send_at_utc": "2026-10-27T06:59:00+00:00",
@@ -370,6 +462,29 @@
           "team2": "Công An Hà Nội",
           "hot": false,
           "display": "⚽ Shanghai Port vs Công An Hà Nội · AFC Champions League Elite"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-27 05:14 PM",
+      "match_start_local": "2026-10-27 05:15 PM",
+      "send_at_utc": "2026-10-27T11:14:00+00:00",
+      "match_start_utc": "2026-10-27T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Karnali Yaks vs Janakpur Bolts",
+        "body": "NPL 2026 - 3rd T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2243",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 3rd T20",
+          "team1": "Karnali Yaks",
+          "team2": "Janakpur Bolts",
+          "hot": false,
+          "display": "🏏 Karnali Yaks vs Janakpur Bolts · NPL 2026 - 3rd T20"
         }
       ]
     },
@@ -868,6 +983,29 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-10-28 05:14 PM",
+      "match_start_local": "2026-10-28 05:15 PM",
+      "send_at_utc": "2026-10-28T11:14:00+00:00",
+      "match_start_utc": "2026-10-28T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Pokhara Avengers vs Sudurpaschim Royals",
+        "body": "NPL 2026 - 4th T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2244",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 4th T20",
+          "team1": "Pokhara Avengers",
+          "team2": "Sudurpaschim Royals",
+          "hot": false,
+          "display": "🏏 Pokhara Avengers vs Sudurpaschim Royals · NPL 2026 - 4th T20"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-10-28 06:14 PM",
       "match_start_local": "2026-10-28 06:15 PM",
       "send_at_utc": "2026-10-28T12:14:00+00:00",
@@ -927,6 +1065,29 @@
           "team2": "Kuwait SC",
           "hot": false,
           "display": "⚽ Nasaf vs Kuwait SC · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-28 07:59 PM",
+      "match_start_local": "2026-10-28 08:00 PM",
+      "send_at_utc": "2026-10-28T13:59:00+00:00",
+      "match_start_utc": "2026-10-28T14:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Goa vs SC Delhi",
+        "body": "Indian Super League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2233",
+          "sport": "Football",
+          "league": "Indian Super League",
+          "team1": "Goa",
+          "team2": "SC Delhi",
+          "hot": false,
+          "display": "⚽ Goa vs SC Delhi · Indian Super League"
         }
       ]
     },
@@ -1370,6 +1531,29 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-10-29 12:44 PM",
+      "match_start_local": "2026-10-29 12:45 PM",
+      "send_at_utc": "2026-10-29T06:44:00+00:00",
+      "match_start_utc": "2026-10-29T06:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Janakpur Bolts vs Kathmandu Gorkhas",
+        "body": "NPL 2026 - 5th T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2245",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 5th T20",
+          "team1": "Janakpur Bolts",
+          "team2": "Kathmandu Gorkhas",
+          "hot": false,
+          "display": "🏏 Janakpur Bolts vs Kathmandu Gorkhas · NPL 2026 - 5th T20"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-10-29 01:44 PM",
       "match_start_local": "2026-10-29 01:45 PM",
       "send_at_utc": "2026-10-29T07:44:00+00:00",
@@ -1489,6 +1673,29 @@
           "team2": "Svay Rieng",
           "hot": false,
           "display": "⚽ Tampines Rovers vs Svay Rieng · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-29 05:14 PM",
+      "match_start_local": "2026-10-29 05:15 PM",
+      "send_at_utc": "2026-10-29T11:14:00+00:00",
+      "match_start_utc": "2026-10-29T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Karnali Yaks vs Biratnagar Kings",
+        "body": "NPL 2026 - 6th T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2246",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 6th T20",
+          "team1": "Karnali Yaks",
+          "team2": "Biratnagar Kings",
+          "hot": false,
+          "display": "🏏 Karnali Yaks vs Biratnagar Kings · NPL 2026 - 6th T20"
         }
       ]
     },
