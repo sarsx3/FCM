@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-26T09:59:16+00:00",
+  "generated_at": "2026-10-26T10:00:42+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "26 Oct 2026, 03:59:11 PM BST",
+    "source_last_updated": "26 Oct 2026, 04:00:35 PM BST",
     "source_events_loaded": 387,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 46,
-    "upcoming_matches": 91,
+    "upcoming_notifications": 47,
+    "upcoming_matches": 93,
     "next_notification_at_local": "2026-10-26 07:44 PM"
   },
   "upcoming_notifications": [
@@ -1480,6 +1480,38 @@
           "team2": "Australia",
           "hot": false,
           "display": "🏏 South Africa vs Australia · Australia tour of South Africa, 2026 - 3rd Test, Day 3"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-29 03:59 PM",
+      "match_start_local": "2026-10-29 04:00 PM",
+      "send_at_utc": "2026-10-29T09:59:00+00:00",
+      "match_start_utc": "2026-10-29T10:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Gangwon FC vs Kuching City FC · AFC Champions League Two\n⚽ Tampines Rovers vs Svay Rieng · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "1924",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Gangwon FC",
+          "team2": "Kuching City FC",
+          "hot": false,
+          "display": "⚽ Gangwon FC vs Kuching City FC · AFC Champions League Two"
+        },
+        {
+          "id": "1925",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Tampines Rovers",
+          "team2": "Svay Rieng",
+          "hot": false,
+          "display": "⚽ Tampines Rovers vs Svay Rieng · AFC Champions League Two"
         }
       ]
     }
