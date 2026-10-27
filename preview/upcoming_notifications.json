@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T19:59:01+00:00",
+  "generated_at": "2026-10-27T20:00:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 49,
-    "upcoming_matches": 78,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 80,
     "next_notification_at_local": "2026-10-28 03:59 AM"
   },
   "upcoming_notifications": [
@@ -1405,6 +1405,38 @@
           "team2": "Mainz",
           "hot": false,
           "display": "⚽ Elversberg vs Mainz · Bundesliga"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 01:59 AM",
+      "match_start_local": "2026-10-31 02:00 AM",
+      "send_at_utc": "2026-10-30T19:59:00+00:00",
+      "match_start_utc": "2026-10-30T20:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Sheff Utd vs Wrexham · Championship\n⚽ Villarreal vs Espanyol · LaLiga"
+      },
+      "matches": [
+        {
+          "id": "1983",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Sheff Utd",
+          "team2": "Wrexham",
+          "hot": false,
+          "display": "⚽ Sheff Utd vs Wrexham · Championship"
+        },
+        {
+          "id": "2029",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Villarreal",
+          "team2": "Espanyol",
+          "hot": false,
+          "display": "⚽ Villarreal vs Espanyol · LaLiga"
         }
       ]
     }
