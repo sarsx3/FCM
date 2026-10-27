@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T00:29:19+00:00",
+  "generated_at": "2026-10-27T00:30:34+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 99,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 100,
     "next_notification_at_local": "2026-10-27 12:44 PM"
   },
   "upcoming_notifications": [
@@ -1622,6 +1622,29 @@
           "team2": "Flamengo",
           "hot": false,
           "display": "⚽ Vasco vs Flamengo · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-30 06:29 AM",
+      "match_start_local": "2026-10-30 06:30 AM",
+      "send_at_utc": "2026-10-30T00:29:00+00:00",
+      "match_start_utc": "2026-10-30T00:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Gremio vs Athletico Paranaense",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1957",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Gremio",
+          "team2": "Athletico Paranaense",
+          "hot": false,
+          "display": "⚽ Gremio vs Athletico Paranaense · Brasileirão Série A"
         }
       ]
     }
