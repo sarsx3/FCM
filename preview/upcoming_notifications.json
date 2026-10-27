@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-27T16:03:21+00:00",
+  "generated_at": "2026-10-27T16:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "27 Oct 2026, 10:03:13 PM BST",
+    "source_last_updated": "27 Oct 2026, 10:00:31 PM BST",
     "source_events_loaded": 389,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 94,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 92,
     "next_notification_at_local": "2026-10-27 10:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-27 09:59 PM",
-      "match_start_local": "2026-10-27 10:00 PM",
-      "send_at_utc": "2026-10-27T15:59:00+00:00",
-      "match_start_utc": "2026-10-27T16:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Shabab Al Ahly vs Esteghlal FC Tehran · AFC Champions League Elite\n⚽ Al Seeb SC vs East Bengal · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "1868",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Shabab Al Ahly",
-          "team2": "Esteghlal FC Tehran",
-          "hot": false,
-          "display": "⚽ Shabab Al Ahly vs Esteghlal FC Tehran · AFC Champions League Elite"
-        },
-        {
-          "id": "1869",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al Seeb SC",
-          "team2": "East Bengal",
-          "hot": false,
-          "display": "⚽ Al Seeb SC vs East Bengal · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-27 10:59 PM",
