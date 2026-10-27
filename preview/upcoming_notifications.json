@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:14:22+00:00",
+  "generated_at": "2026-10-27T20:15:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 80,
+    "upcoming_notifications": 51,
+    "upcoming_matches": 81,
     "next_notification_at_local": "2026-10-28 03:59 AM"
   },
   "upcoming_notifications": [
@@ -1437,6 +1437,29 @@
           "team2": "Lens",
           "hot": false,
           "display": "⚽ Lille vs Lens · Ligue 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 02:14 AM",
+      "match_start_local": "2026-10-31 02:15 AM",
+      "send_at_utc": "2026-10-30T20:14:00+00:00",
+      "match_start_utc": "2026-10-30T20:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Casa Pia vs Sporting",
+        "body": "Liga Portugal · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2024",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Casa Pia",
+          "team2": "Sporting",
+          "hot": false,
+          "display": "⚽ Casa Pia vs Sporting · Liga Portugal"
         }
       ]
     }
