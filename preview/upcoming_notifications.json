@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-27T20:02:22+00:00",
+  "generated_at": "2026-10-27T20:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "28 Oct 2026, 02:02:15 AM BST",
+    "source_last_updated": "28 Oct 2026, 02:05:16 AM BST",
     "source_events_loaded": 403,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -20,29 +20,6 @@
     "next_notification_at_local": "2026-10-28 03:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-28 01:59 AM",
-      "match_start_local": "2026-10-28 02:00 AM",
-      "send_at_utc": "2026-10-27T19:59:00+00:00",
-      "match_start_utc": "2026-10-27T20:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Fleetwood Town vs Arsenal",
-        "body": "EFL Cup · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1899",
-          "sport": "Football",
-          "league": "EFL Cup",
-          "team1": "Fleetwood Town",
-          "team2": "Arsenal",
-          "hot": false,
-          "display": "⚽ Fleetwood Town vs Arsenal · EFL Cup"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-28 03:59 AM",
@@ -1437,6 +1414,29 @@
           "team2": "Espanyol",
           "hot": false,
           "display": "⚽ Villarreal vs Espanyol · LaLiga"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 02:04 AM",
+      "match_start_local": "2026-10-31 02:05 AM",
+      "send_at_utc": "2026-10-30T20:04:00+00:00",
+      "match_start_utc": "2026-10-30T20:05:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Lille vs Lens",
+        "body": "Ligue 1 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2007",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Lille",
+          "team2": "Lens",
+          "hot": false,
+          "display": "⚽ Lille vs Lens · Ligue 1"
         }
       ]
     }
