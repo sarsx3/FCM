@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-27T17:03:21+00:00",
+  "generated_at": "2026-10-27T17:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "27 Oct 2026, 11:03:12 PM BST",
+    "source_last_updated": "27 Oct 2026, 11:05:18 PM BST",
     "source_events_loaded": 388,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,61 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 49,
-    "upcoming_matches": 92,
+    "upcoming_notifications": 48,
+    "upcoming_matches": 88,
     "next_notification_at_local": "2026-10-27 11:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-27 10:59 PM",
-      "match_start_local": "2026-10-27 11:00 PM",
-      "send_at_utc": "2026-10-27T16:59:00+00:00",
-      "match_start_utc": "2026-10-27T17:00:00+00:00",
-      "match_count": 4,
-      "notification": {
-        "title": "⏰ 4 matches starting soon",
-        "body": "⚽ Bochum vs Mainz · DFB-Pokal\n⚽ Hamburger SV vs Eintracht Frankfurt · DFB-Pokal\n⚽ Rot-Weiss Essen vs RB Leipzig · DFB-Pokal\n⚽ Sonnenhof Großaspach vs FC Augsburg · DFB-Pokal"
-      },
-      "matches": [
-        {
-          "id": "1875",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Bochum",
-          "team2": "Mainz",
-          "hot": false,
-          "display": "⚽ Bochum vs Mainz · DFB-Pokal"
-        },
-        {
-          "id": "1873",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Hamburger SV",
-          "team2": "Eintracht Frankfurt",
-          "hot": false,
-          "display": "⚽ Hamburger SV vs Eintracht Frankfurt · DFB-Pokal"
-        },
-        {
-          "id": "1872",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Rot-Weiss Essen",
-          "team2": "RB Leipzig",
-          "hot": false,
-          "display": "⚽ Rot-Weiss Essen vs RB Leipzig · DFB-Pokal"
-        },
-        {
-          "id": "1874",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Sonnenhof Großaspach",
-          "team2": "FC Augsburg",
-          "hot": false,
-          "display": "⚽ Sonnenhof Großaspach vs FC Augsburg · DFB-Pokal"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-27 11:29 PM",
