@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:57:19+00:00",
+  "generated_at": "2026-10-27T23:00:39+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 82,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 83,
     "next_notification_at_local": "2026-10-28 08:59 AM"
   },
   "upcoming_notifications": [
@@ -1469,6 +1469,29 @@
           "team2": "Tigre",
           "hot": false,
           "display": "⚽ Huracan vs Tigre · Liga Profesional"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 04:59 AM",
+      "match_start_local": "2026-10-31 05:00 AM",
+      "send_at_utc": "2026-10-30T22:59:00+00:00",
+      "match_start_utc": "2026-10-30T23:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Corinthians vs Mirassol",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1975",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Corinthians",
+          "team2": "Mirassol",
+          "hot": false,
+          "display": "⚽ Corinthians vs Mirassol · Brasileirão Série A"
         }
       ]
     }
