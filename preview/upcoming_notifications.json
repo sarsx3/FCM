@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:29:20+00:00",
+  "generated_at": "2026-10-27T03:30:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 52,
-    "upcoming_matches": 100,
+    "upcoming_notifications": 53,
+    "upcoming_matches": 101,
     "next_notification_at_local": "2026-10-27 12:44 PM"
   },
   "upcoming_notifications": [
@@ -1645,6 +1645,29 @@
           "team2": "Athletico Paranaense",
           "hot": false,
           "display": "⚽ Gremio vs Athletico Paranaense · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-30 09:29 AM",
+      "match_start_local": "2026-10-30 09:30 AM",
+      "send_at_utc": "2026-10-30T03:29:00+00:00",
+      "match_start_utc": "2026-10-30T03:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Bangladesh vs West Indies",
+        "body": "West Indies tour of Bangladesh, 2026 - 1st Test, Day 3 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "1966",
+          "sport": "Cricket",
+          "league": "West Indies tour of Bangladesh, 2026 - 1st Test, Day 3",
+          "team1": "Bangladesh",
+          "team2": "West Indies",
+          "hot": false,
+          "display": "🏏 Bangladesh vs West Indies · West Indies tour of Bangladesh, 2026 - 1st Test, Day 3"
         }
       ]
     }
