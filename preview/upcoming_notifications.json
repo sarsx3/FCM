@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-27T19:49:19+00:00",
+  "generated_at": "2026-10-27T19:50:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "28 Oct 2026, 01:44:14 AM BST",
+    "source_last_updated": "28 Oct 2026, 01:50:24 AM BST",
     "source_events_loaded": 403,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,133 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 90,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 78,
     "next_notification_at_local": "2026-10-28 01:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-28 01:44 AM",
-      "match_start_local": "2026-10-28 01:45 AM",
-      "send_at_utc": "2026-10-27T19:44:00+00:00",
-      "match_start_utc": "2026-10-27T19:45:00+00:00",
-      "match_count": 12,
-      "notification": {
-        "title": "⏰ 12 matches starting soon",
-        "body": "⚽ Dortmund vs SV Werder Bremen · DFB-Pokal\n⚽ Elversberg vs SV Darmstadt 98 · DFB-Pokal\n⚽ Gladbach vs Karlsruher · DFB-Pokal\n⚽ Köln vs Union Berlin · DFB-Pokal\n⚽ Bradford vs Peterborough · EFL Cup\n⚽ Leicester City vs Wigan · League One\n+ 6 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "1907",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Dortmund",
-          "team2": "SV Werder Bremen",
-          "hot": false,
-          "display": "⚽ Dortmund vs SV Werder Bremen · DFB-Pokal"
-        },
-        {
-          "id": "1908",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Elversberg",
-          "team2": "SV Darmstadt 98",
-          "hot": false,
-          "display": "⚽ Elversberg vs SV Darmstadt 98 · DFB-Pokal"
-        },
-        {
-          "id": "1906",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Gladbach",
-          "team2": "Karlsruher",
-          "hot": false,
-          "display": "⚽ Gladbach vs Karlsruher · DFB-Pokal"
-        },
-        {
-          "id": "1905",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Köln",
-          "team2": "Union Berlin",
-          "hot": false,
-          "display": "⚽ Köln vs Union Berlin · DFB-Pokal"
-        },
-        {
-          "id": "1898",
-          "sport": "Football",
-          "league": "EFL Cup",
-          "team1": "Bradford",
-          "team2": "Peterborough",
-          "hot": false,
-          "display": "⚽ Bradford vs Peterborough · EFL Cup"
-        },
-        {
-          "id": "1904",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Leicester City",
-          "team2": "Wigan",
-          "hot": false,
-          "display": "⚽ Leicester City vs Wigan · League One"
-        },
-        {
-          "id": "1902",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Luton",
-          "team2": "Doncaster",
-          "hot": false,
-          "display": "⚽ Luton vs Doncaster · League One"
-        },
-        {
-          "id": "1903",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "MK Dons",
-          "team2": "Bromley",
-          "hot": false,
-          "display": "⚽ MK Dons vs Bromley · League One"
-        },
-        {
-          "id": "1901",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Oxford Utd",
-          "team2": "Stockport",
-          "hot": false,
-          "display": "⚽ Oxford Utd vs Stockport · League One"
-        },
-        {
-          "id": "1900",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Sheffield Wed",
-          "team2": "Cambridge",
-          "hot": false,
-          "display": "⚽ Sheffield Wed vs Cambridge · League One"
-        },
-        {
-          "id": "1914",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "AS Roma",
-          "team2": "Cagliari",
-          "hot": false,
-          "display": "⚽ AS Roma vs Cagliari · Serie A"
-        },
-        {
-          "id": "1913",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Torino",
-          "team2": "Como",
-          "hot": false,
-          "display": "⚽ Torino vs Como · Serie A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-28 01:59 AM",
