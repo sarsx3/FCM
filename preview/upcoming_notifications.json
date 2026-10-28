@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T18:18:20+00:00",
+  "generated_at": "2026-10-28T18:20:32+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 12:15:21 AM BST",
+    "source_last_updated": "29 Oct 2026, 12:20:21 AM BST",
     "source_events_loaded": 374,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 67,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 132,
     "next_notification_at_local": "2026-10-29 01:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-29 12:14 AM",
-      "match_start_local": "2026-10-29 12:15 AM",
-      "send_at_utc": "2026-10-28T18:14:00+00:00",
-      "match_start_utc": "2026-10-28T18:15:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Al Faisaly vs Al Taawoun · AFC Champions League Two\n⚽ Al Khalidiyah vs Wahda Abu Dhabi · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "1921",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al Faisaly",
-          "team2": "Al Taawoun",
-          "hot": false,
-          "display": "⚽ Al Faisaly vs Al Taawoun · AFC Champions League Two"
-        },
-        {
-          "id": "1922",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al Khalidiyah",
-          "team2": "Wahda Abu Dhabi",
-          "hot": false,
-          "display": "⚽ Al Khalidiyah vs Wahda Abu Dhabi · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-29 01:29 AM",
