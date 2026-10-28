@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T19:44:22+00:00",
+  "generated_at": "2026-10-28T19:45:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 01:44:13 AM BST",
+    "source_last_updated": "29 Oct 2026, 01:40:25 AM BST",
     "source_events_loaded": 367,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 67,
-    "upcoming_matches": 135,
+    "upcoming_notifications": 68,
+    "upcoming_matches": 139,
     "next_notification_at_local": "2026-10-29 01:59 AM"
   },
   "upcoming_notifications": [
@@ -2170,6 +2170,56 @@
           "team2": "Heidenheim",
           "hot": false,
           "display": "⚽ Karlsruhe vs Heidenheim · Bundesliga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 01:44 AM",
+      "match_start_local": "2026-11-01 01:45 AM",
+      "send_at_utc": "2026-10-31T19:44:00+00:00",
+      "match_start_utc": "2026-10-31T19:45:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Lorient vs Brest · Ligue 1\n⚽ Lyon vs Angers · Ligue 1\n⚽ Troyes vs Le Mans · Ligue 1\n⚽ AC Milan vs Inter · Serie A"
+      },
+      "matches": [
+        {
+          "id": "2050",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Lorient",
+          "team2": "Brest",
+          "hot": false,
+          "display": "⚽ Lorient vs Brest · Ligue 1"
+        },
+        {
+          "id": "2049",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Lyon",
+          "team2": "Angers",
+          "hot": false,
+          "display": "⚽ Lyon vs Angers · Ligue 1"
+        },
+        {
+          "id": "2048",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Troyes",
+          "team2": "Le Mans",
+          "hot": false,
+          "display": "⚽ Troyes vs Le Mans · Ligue 1"
+        },
+        {
+          "id": "2059",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "AC Milan",
+          "team2": "Inter",
+          "hot": false,
+          "display": "⚽ AC Milan vs Inter · Serie A"
         }
       ]
     }
