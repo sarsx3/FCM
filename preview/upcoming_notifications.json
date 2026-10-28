@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:44:21+00:00",
+  "generated_at": "2026-10-28T17:45:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 65,
-    "upcoming_matches": 128,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 130,
     "next_notification_at_local": "2026-10-29 12:14 AM"
   },
   "upcoming_notifications": [
@@ -2079,6 +2079,38 @@
           "team2": "Crystal Palace",
           "hot": false,
           "display": "⚽ Tottenham vs Crystal Palace · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 11:44 PM",
+      "match_start_local": "2026-10-31 11:45 PM",
+      "send_at_utc": "2026-10-31T17:44:00+00:00",
+      "match_start_utc": "2026-10-31T17:45:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Heerenveen vs N.E.C. · Eredivisie\n⚽ PSV vs Willem II · Eredivisie"
+      },
+      "matches": [
+        {
+          "id": "2022",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Heerenveen",
+          "team2": "N.E.C.",
+          "hot": false,
+          "display": "⚽ Heerenveen vs N.E.C. · Eredivisie"
+        },
+        {
+          "id": "2023",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "PSV",
+          "team2": "Willem II",
+          "hot": false,
+          "display": "⚽ PSV vs Willem II · Eredivisie"
         }
       ]
     }
