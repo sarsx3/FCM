@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T19:59:00+00:00",
+  "generated_at": "2026-10-28T20:00:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 01:58:17 AM BST",
+    "source_last_updated": "29 Oct 2026, 02:00:30 AM BST",
     "source_events_loaded": 367,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 67,
-    "upcoming_matches": 130,
+    "upcoming_notifications": 68,
+    "upcoming_matches": 136,
     "next_notification_at_local": "2026-10-29 04:29 AM"
   },
   "upcoming_notifications": [
@@ -2125,6 +2125,74 @@
           "team2": "Inter",
           "hot": false,
           "display": "⚽ AC Milan vs Inter · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 01:59 AM",
+      "match_start_local": "2026-11-01 02:00 AM",
+      "send_at_utc": "2026-10-31T19:59:00+00:00",
+      "match_start_utc": "2026-10-31T20:00:00+00:00",
+      "match_count": 6,
+      "notification": {
+        "title": "⏰ 6 matches starting soon",
+        "body": "⚽ Ajax vs AZ Alkmaar · Eredivisie\n⚽ Cambuur vs Go Ahead · Eredivisie\n⚽ Barcelona vs Alaves · LaLiga\n⚽ Albacete vs Sabadell · LaLiga 2\n⚽ Riestra vs Talleres · Liga Profesional\n⚽ Aston Villa vs Fulham · Premier League"
+      },
+      "matches": [
+        {
+          "id": "2065",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Ajax",
+          "team2": "AZ Alkmaar",
+          "hot": false,
+          "display": "⚽ Ajax vs AZ Alkmaar · Eredivisie"
+        },
+        {
+          "id": "2064",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Cambuur",
+          "team2": "Go Ahead",
+          "hot": false,
+          "display": "⚽ Cambuur vs Go Ahead · Eredivisie"
+        },
+        {
+          "id": "2073",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Barcelona",
+          "team2": "Alaves",
+          "hot": false,
+          "display": "⚽ Barcelona vs Alaves · LaLiga"
+        },
+        {
+          "id": "2077",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Albacete",
+          "team2": "Sabadell",
+          "hot": false,
+          "display": "⚽ Albacete vs Sabadell · LaLiga 2"
+        },
+        {
+          "id": "2041",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Riestra",
+          "team2": "Talleres",
+          "hot": false,
+          "display": "⚽ Riestra vs Talleres · Liga Profesional"
+        },
+        {
+          "id": "2045",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Aston Villa",
+          "team2": "Fulham",
+          "hot": false,
+          "display": "⚽ Aston Villa vs Fulham · Premier League"
         }
       ]
     }
