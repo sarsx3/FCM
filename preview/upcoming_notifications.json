@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T19:49:20+00:00",
+  "generated_at": "2026-10-28T19:50:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 01:47:12 AM BST",
+    "source_last_updated": "29 Oct 2026, 01:50:20 AM BST",
     "source_events_loaded": 367,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,106 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 68,
-    "upcoming_matches": 139,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 130,
     "next_notification_at_local": "2026-10-29 01:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-29 01:44 AM",
-      "match_start_local": "2026-10-29 01:45 AM",
-      "send_at_utc": "2026-10-28T19:44:00+00:00",
-      "match_start_utc": "2026-10-28T19:45:00+00:00",
-      "match_count": 9,
-      "notification": {
-        "title": "⏰ 9 matches starting soon",
-        "body": "⚽ Bayern vs Magdeburg · DFB-Pokal\n⚽ Hannover vs FC Kaiserslautern · DFB-Pokal\n⚽ Holstein Kiel vs Hoffenheim · DFB-Pokal\n⚽ Leverkusen vs Nurnberg · DFB-Pokal\n⚽ Bournemouth vs Aston Villa · EFL Cup\n⚽ Fulham vs Crystal Palace · EFL Cup\n+ 3 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "1942",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Bayern",
-          "team2": "Magdeburg",
-          "hot": false,
-          "display": "⚽ Bayern vs Magdeburg · DFB-Pokal"
-        },
-        {
-          "id": "1939",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Hannover",
-          "team2": "FC Kaiserslautern",
-          "hot": false,
-          "display": "⚽ Hannover vs FC Kaiserslautern · DFB-Pokal"
-        },
-        {
-          "id": "1941",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Holstein Kiel",
-          "team2": "Hoffenheim",
-          "hot": false,
-          "display": "⚽ Holstein Kiel vs Hoffenheim · DFB-Pokal"
-        },
-        {
-          "id": "1940",
-          "sport": "Football",
-          "league": "DFB-Pokal",
-          "team1": "Leverkusen",
-          "team2": "Nurnberg",
-          "hot": false,
-          "display": "⚽ Leverkusen vs Nurnberg · DFB-Pokal"
-        },
-        {
-          "id": "1937",
-          "sport": "Football",
-          "league": "EFL Cup",
-          "team1": "Bournemouth",
-          "team2": "Aston Villa",
-          "hot": false,
-          "display": "⚽ Bournemouth vs Aston Villa · EFL Cup"
-        },
-        {
-          "id": "1936",
-          "sport": "Football",
-          "league": "EFL Cup",
-          "team1": "Fulham",
-          "team2": "Crystal Palace",
-          "hot": false,
-          "display": "⚽ Fulham vs Crystal Palace · EFL Cup"
-        },
-        {
-          "id": "1935",
-          "sport": "Football",
-          "league": "EFL Cup",
-          "team1": "Sunderland",
-          "team2": "Brentford",
-          "hot": false,
-          "display": "⚽ Sunderland vs Brentford · EFL Cup"
-        },
-        {
-          "id": "1944",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Genoa",
-          "team2": "Juventus",
-          "hot": false,
-          "display": "⚽ Genoa vs Juventus · Serie A"
-        },
-        {
-          "id": "1943",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Monza",
-          "team2": "Napoli",
-          "hot": false,
-          "display": "⚽ Monza vs Napoli · Serie A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-29 01:59 AM",
