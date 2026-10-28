@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T15:14:23+00:00",
+  "generated_at": "2026-10-28T15:15:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 62,
-    "upcoming_matches": 126,
+    "upcoming_notifications": 63,
+    "upcoming_matches": 128,
     "next_notification_at_local": "2026-10-28 09:59 PM"
   },
   "upcoming_notifications": [
@@ -2019,6 +2019,38 @@
           "team2": "Brighton",
           "hot": false,
           "display": "⚽ Man City vs Brighton · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 09:14 PM",
+      "match_start_local": "2026-10-31 09:15 PM",
+      "send_at_utc": "2026-10-31T15:14:00+00:00",
+      "match_start_utc": "2026-10-31T15:15:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Rayo vs RC Celta · LaLiga\n⚽ Eibar vs Almeria · LaLiga 2"
+      },
+      "matches": [
+        {
+          "id": "2031",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Rayo",
+          "team2": "RC Celta",
+          "hot": false,
+          "display": "⚽ Rayo vs RC Celta · LaLiga"
+        },
+        {
+          "id": "2034",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Eibar",
+          "team2": "Almeria",
+          "hot": false,
+          "display": "⚽ Eibar vs Almeria · LaLiga 2"
         }
       ]
     }
