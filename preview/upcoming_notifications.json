@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:34:25+00:00",
+  "generated_at": "2026-10-28T22:35:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 70,
-    "upcoming_matches": 139,
+    "upcoming_notifications": 69,
+    "upcoming_matches": 136,
     "next_notification_at_local": "2026-10-29 05:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-29 04:29 AM",
-      "match_start_local": "2026-10-29 04:30 AM",
-      "send_at_utc": "2026-10-28T22:29:00+00:00",
-      "match_start_utc": "2026-10-28T22:30:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Bragantino vs Chapecoense · Brasileirão Série A\n⚽ Fluminense vs Internacional · Brasileirão Série A\n⚽ Santos vs Palmeiras · Brasileirão Série A"
-      },
-      "matches": [
-        {
-          "id": "1929",
-          "sport": "Football",
-          "league": "Brasileirão Série A",
-          "team1": "Bragantino",
-          "team2": "Chapecoense",
-          "hot": false,
-          "display": "⚽ Bragantino vs Chapecoense · Brasileirão Série A"
-        },
-        {
-          "id": "1931",
-          "sport": "Football",
-          "league": "Brasileirão Série A",
-          "team1": "Fluminense",
-          "team2": "Internacional",
-          "hot": false,
-          "display": "⚽ Fluminense vs Internacional · Brasileirão Série A"
-        },
-        {
-          "id": "1930",
-          "sport": "Football",
-          "league": "Brasileirão Série A",
-          "team1": "Santos",
-          "team2": "Palmeiras",
-          "hot": false,
-          "display": "⚽ Santos vs Palmeiras · Brasileirão Série A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-29 05:29 AM",
