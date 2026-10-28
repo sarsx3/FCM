@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T17:34:27+00:00",
+  "generated_at": "2026-10-28T17:35:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "28 Oct 2026, 11:34:15 PM BST",
+    "source_last_updated": "28 Oct 2026, 11:35:16 PM BST",
     "source_events_loaded": 376,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 131,
+    "upcoming_notifications": 65,
+    "upcoming_matches": 128,
     "next_notification_at_local": "2026-10-29 12:14 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-28 11:29 PM",
-      "match_start_local": "2026-10-28 11:30 PM",
-      "send_at_utc": "2026-10-28T17:29:00+00:00",
-      "match_start_utc": "2026-10-28T17:30:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ AC Milan vs Bologna · Serie A\n⚽ Parma vs Udinese · Serie A\n⚽ Venezia vs Inter · Serie A"
-      },
-      "matches": [
-        {
-          "id": "1917",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "AC Milan",
-          "team2": "Bologna",
-          "hot": false,
-          "display": "⚽ AC Milan vs Bologna · Serie A"
-        },
-        {
-          "id": "1916",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Parma",
-          "team2": "Udinese",
-          "hot": false,
-          "display": "⚽ Parma vs Udinese · Serie A"
-        },
-        {
-          "id": "1915",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Venezia",
-          "team2": "Inter",
-          "hot": false,
-          "display": "⚽ Venezia vs Inter · Serie A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-29 12:14 AM",
