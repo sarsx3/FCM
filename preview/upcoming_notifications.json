@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:29:17+00:00",
+  "generated_at": "2026-10-28T14:30:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 59,
-    "upcoming_matches": 99,
+    "upcoming_notifications": 60,
+    "upcoming_matches": 104,
     "next_notification_at_local": "2026-10-28 09:59 PM"
   },
   "upcoming_notifications": [
@@ -1734,6 +1734,65 @@
           "team2": "Monza",
           "hot": false,
           "display": "⚽ Bologna vs Monza · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 08:29 PM",
+      "match_start_local": "2026-10-31 08:30 PM",
+      "send_at_utc": "2026-10-31T14:29:00+00:00",
+      "match_start_utc": "2026-10-31T14:30:00+00:00",
+      "match_count": 5,
+      "notification": {
+        "title": "⏰ 5 matches starting soon",
+        "body": "⚽ Augsburg vs Freiburg · Bundesliga\n⚽ Gladbach vs SC Paderborn · Bundesliga\n⚽ Leverkusen vs Stuttgart · Bundesliga\n⚽ Schalke 04 vs RB Leipzig · Bundesliga\n⚽ Werder Bremen vs Hoffenheim · Bundesliga"
+      },
+      "matches": [
+        {
+          "id": "2013",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Augsburg",
+          "team2": "Freiburg",
+          "hot": false,
+          "display": "⚽ Augsburg vs Freiburg · Bundesliga"
+        },
+        {
+          "id": "2012",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Gladbach",
+          "team2": "SC Paderborn",
+          "hot": false,
+          "display": "⚽ Gladbach vs SC Paderborn · Bundesliga"
+        },
+        {
+          "id": "2014",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Leverkusen",
+          "team2": "Stuttgart",
+          "hot": false,
+          "display": "⚽ Leverkusen vs Stuttgart · Bundesliga"
+        },
+        {
+          "id": "2010",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Schalke 04",
+          "team2": "RB Leipzig",
+          "hot": false,
+          "display": "⚽ Schalke 04 vs RB Leipzig · Bundesliga"
+        },
+        {
+          "id": "2011",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Werder Bremen",
+          "team2": "Hoffenheim",
+          "hot": false,
+          "display": "⚽ Werder Bremen vs Hoffenheim · Bundesliga"
         }
       ]
     }
