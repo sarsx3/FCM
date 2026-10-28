@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:29:00+00:00",
+  "generated_at": "2026-10-28T17:30:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 65,
-    "upcoming_matches": 127,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 131,
     "next_notification_at_local": "2026-10-29 12:14 AM"
   },
   "upcoming_notifications": [
@@ -2070,6 +2070,56 @@
           "team2": "AS Roma",
           "hot": false,
           "display": "⚽ Udinese vs AS Roma · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 11:29 PM",
+      "match_start_local": "2026-10-31 11:30 PM",
+      "send_at_utc": "2026-10-31T17:29:00+00:00",
+      "match_start_utc": "2026-10-31T17:30:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Bayern vs Dortmund · Bundesliga\n⚽ Betis vs Malaga · LaLiga\n⚽ Celta Vigo B vs Cordoba · LaLiga 2\n⚽ Tottenham vs Crystal Palace · Premier League"
+      },
+      "matches": [
+        {
+          "id": "2015",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Bayern",
+          "team2": "Dortmund",
+          "hot": false,
+          "display": "⚽ Bayern vs Dortmund · Bundesliga"
+        },
+        {
+          "id": "2032",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Betis",
+          "team2": "Malaga",
+          "hot": false,
+          "display": "⚽ Betis vs Malaga · LaLiga"
+        },
+        {
+          "id": "2035",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Celta Vigo B",
+          "team2": "Cordoba",
+          "hot": false,
+          "display": "⚽ Celta Vigo B vs Cordoba · LaLiga 2"
+        },
+        {
+          "id": "1982",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Tottenham",
+          "team2": "Crystal Palace",
+          "hot": false,
+          "display": "⚽ Tottenham vs Crystal Palace · Premier League"
         }
       ]
     }
