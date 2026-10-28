@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T00:11:20+00:00",
+  "generated_at": "2026-10-28T00:15:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 52,
-    "upcoming_matches": 83,
+    "upcoming_notifications": 53,
+    "upcoming_matches": 85,
     "next_notification_at_local": "2026-10-28 08:59 AM"
   },
   "upcoming_notifications": [
@@ -1492,6 +1492,38 @@
           "team2": "Mirassol",
           "hot": false,
           "display": "⚽ Corinthians vs Mirassol · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 06:14 AM",
+      "match_start_local": "2026-10-31 06:15 AM",
+      "send_at_utc": "2026-10-31T00:14:00+00:00",
+      "match_start_utc": "2026-10-31T00:15:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Racing Club vs Aldosivi · Liga Profesional\n⚽ Sarmiento Junin vs Rosario Central · Liga Profesional"
+      },
+      "matches": [
+        {
+          "id": "1974",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Racing Club",
+          "team2": "Aldosivi",
+          "hot": false,
+          "display": "⚽ Racing Club vs Aldosivi · Liga Profesional"
+        },
+        {
+          "id": "1973",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Sarmiento Junin",
+          "team2": "Rosario Central",
+          "hot": false,
+          "display": "⚽ Sarmiento Junin vs Rosario Central · Liga Profesional"
         }
       ]
     }
