@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T12:59:20+00:00",
+  "generated_at": "2026-10-28T13:00:43+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "28 Oct 2026, 06:54:15 PM BST",
+    "source_last_updated": "28 Oct 2026, 07:00:33 PM BST",
     "source_events_loaded": 384,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 58,
-    "upcoming_matches": 96,
+    "upcoming_notifications": 59,
+    "upcoming_matches": 99,
     "next_notification_at_local": "2026-10-28 07:44 PM"
   },
   "upcoming_notifications": [
@@ -1693,6 +1693,47 @@
           "team2": "Manchester United",
           "hot": false,
           "display": "⚽ Chelsea vs Manchester United · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 06:59 PM",
+      "match_start_local": "2026-10-31 07:00 PM",
+      "send_at_utc": "2026-10-31T12:59:00+00:00",
+      "match_start_utc": "2026-10-31T13:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Levante vs Atl. Madrid · LaLiga\n⚽ Real Sociedad B vs Girona · LaLiga 2\n⚽ Kocaelispor vs Caykur Rizespor · Super Lig"
+      },
+      "matches": [
+        {
+          "id": "2030",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Levante",
+          "team2": "Atl. Madrid",
+          "hot": false,
+          "display": "⚽ Levante vs Atl. Madrid · LaLiga"
+        },
+        {
+          "id": "2033",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Real Sociedad B",
+          "team2": "Girona",
+          "hot": false,
+          "display": "⚽ Real Sociedad B vs Girona · LaLiga 2"
+        },
+        {
+          "id": "2264",
+          "sport": "Football",
+          "league": "Super Lig",
+          "team1": "Kocaelispor",
+          "team2": "Caykur Rizespor",
+          "hot": false,
+          "display": "⚽ Kocaelispor vs Caykur Rizespor · Super Lig"
         }
       ]
     }
