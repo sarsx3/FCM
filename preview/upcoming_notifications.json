@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:04:29+00:00",
+  "generated_at": "2026-10-28T16:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 65,
-    "upcoming_matches": 131,
+    "upcoming_notifications": 64,
+    "upcoming_matches": 129,
     "next_notification_at_local": "2026-10-28 10:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-28 09:59 PM",
-      "match_start_local": "2026-10-28 10:00 PM",
-      "send_at_utc": "2026-10-28T15:59:00+00:00",
-      "match_start_utc": "2026-10-28T16:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Al Nahda vs Al Rayyan · AFC Champions League Two\n⚽ Al-Jazira vs Muharraq SC · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "1896",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al Nahda",
-          "team2": "Al Rayyan",
-          "hot": false,
-          "display": "⚽ Al Nahda vs Al Rayyan · AFC Champions League Two"
-        },
-        {
-          "id": "1897",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al-Jazira",
-          "team2": "Muharraq SC",
-          "hot": false,
-          "display": "⚽ Al-Jazira vs Muharraq SC · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-28 10:59 PM",
