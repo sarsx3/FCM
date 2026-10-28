@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T23:34:24+00:00",
+  "generated_at": "2026-10-28T23:35:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 69,
-    "upcoming_matches": 136,
+    "upcoming_notifications": 68,
+    "upcoming_matches": 135,
     "next_notification_at_local": "2026-10-29 06:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-29 05:29 AM",
-      "match_start_local": "2026-10-29 05:30 AM",
-      "send_at_utc": "2026-10-28T23:29:00+00:00",
-      "match_start_utc": "2026-10-28T23:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🔥 Inter Miami vs FC Cincinnati",
-        "body": "MLS · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1947",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Inter Miami",
-          "team2": "FC Cincinnati",
-          "hot": true,
-          "display": "🔥 Inter Miami vs FC Cincinnati · MLS"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-29 06:29 AM",
