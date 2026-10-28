@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T22:14:19+00:00",
+  "generated_at": "2026-10-28T22:15:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 04:14:14 AM BST",
+    "source_last_updated": "29 Oct 2026, 04:15:21 AM BST",
     "source_events_loaded": 355,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 69,
-    "upcoming_matches": 138,
+    "upcoming_notifications": 70,
+    "upcoming_matches": 139,
     "next_notification_at_local": "2026-10-29 04:29 AM"
   },
   "upcoming_notifications": [
@@ -2225,6 +2225,29 @@
           "team2": "Real Salt Lake",
           "hot": false,
           "display": "⚽ San Jose vs Real Salt Lake · MLS"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 04:14 AM",
+      "match_start_local": "2026-11-01 04:15 AM",
+      "send_at_utc": "2026-10-31T22:14:00+00:00",
+      "match_start_utc": "2026-10-31T22:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Velez Sarsfield vs San Lorenzo",
+        "body": "Liga Profesional · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2042",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Velez Sarsfield",
+          "team2": "San Lorenzo",
+          "hot": false,
+          "display": "⚽ Velez Sarsfield vs San Lorenzo · Liga Profesional"
         }
       ]
     }
