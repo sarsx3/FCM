@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T15:29:21+00:00",
+  "generated_at": "2026-10-28T15:30:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "28 Oct 2026, 09:29:14 PM BST",
+    "source_last_updated": "28 Oct 2026, 09:30:26 PM BST",
     "source_events_loaded": 380,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 63,
-    "upcoming_matches": 128,
+    "upcoming_notifications": 64,
+    "upcoming_matches": 130,
     "next_notification_at_local": "2026-10-28 09:59 PM"
   },
   "upcoming_notifications": [
@@ -2051,6 +2051,38 @@
           "team2": "Almeria",
           "hot": false,
           "display": "⚽ Eibar vs Almeria · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 09:29 PM",
+      "match_start_local": "2026-10-31 09:30 PM",
+      "send_at_utc": "2026-10-31T15:29:00+00:00",
+      "match_start_utc": "2026-10-31T15:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Feyenoord vs Fortuna Sittard · Eredivisie\n⚽ Moreirense vs Amadora · Liga Portugal"
+      },
+      "matches": [
+        {
+          "id": "2021",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Feyenoord",
+          "team2": "Fortuna Sittard",
+          "hot": false,
+          "display": "⚽ Feyenoord vs Fortuna Sittard · Eredivisie"
+        },
+        {
+          "id": "2025",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Moreirense",
+          "team2": "Amadora",
+          "hot": false,
+          "display": "⚽ Moreirense vs Amadora · Liga Portugal"
         }
       ]
     }
