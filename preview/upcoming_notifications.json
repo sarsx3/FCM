@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T18:59:22+00:00",
+  "generated_at": "2026-10-28T19:00:44+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 12:59:13 AM BST",
+    "source_last_updated": "29 Oct 2026, 12:58:17 AM BST",
     "source_events_loaded": 374,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 132,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 135,
     "next_notification_at_local": "2026-10-29 01:29 AM"
   },
   "upcoming_notifications": [
@@ -2129,6 +2129,47 @@
           "team2": "Al Fateh",
           "hot": false,
           "display": "⚽ Al-Hilal vs Al Fateh · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 12:59 AM",
+      "match_start_local": "2026-11-01 01:00 AM",
+      "send_at_utc": "2026-10-31T18:59:00+00:00",
+      "match_start_utc": "2026-10-31T19:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Coritiba vs Vitoria · Brasileirão Série A\n⚽ Sporting KC vs FC Dallas · MLS\n⚽ St. Louis City vs San Diego · MLS"
+      },
+      "matches": [
+        {
+          "id": "2044",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Coritiba",
+          "team2": "Vitoria",
+          "hot": false,
+          "display": "⚽ Coritiba vs Vitoria · Brasileirão Série A"
+        },
+        {
+          "id": "2084",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Sporting KC",
+          "team2": "FC Dallas",
+          "hot": false,
+          "display": "⚽ Sporting KC vs FC Dallas · MLS"
+        },
+        {
+          "id": "2085",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "St. Louis City",
+          "team2": "San Diego",
+          "hot": false,
+          "display": "⚽ St. Louis City vs San Diego · MLS"
         }
       ]
     }
