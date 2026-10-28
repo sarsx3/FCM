@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:19:20+00:00",
+  "generated_at": "2026-10-28T11:20:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 57,
-    "upcoming_matches": 88,
+    "upcoming_notifications": 56,
+    "upcoming_matches": 87,
     "next_notification_at_local": "2026-10-28 06:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-28 05:14 PM",
-      "match_start_local": "2026-10-28 05:15 PM",
-      "send_at_utc": "2026-10-28T11:14:00+00:00",
-      "match_start_utc": "2026-10-28T11:15:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Pokhara Avengers vs Sudurpaschim Royals",
-        "body": "NPL 2026 - 4th T20 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2244",
-          "sport": "Cricket",
-          "league": "NPL 2026 - 4th T20",
-          "team1": "Pokhara Avengers",
-          "team2": "Sudurpaschim Royals",
-          "hot": false,
-          "display": "🏏 Pokhara Avengers vs Sudurpaschim Royals · NPL 2026 - 4th T20"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-28 06:14 PM",
