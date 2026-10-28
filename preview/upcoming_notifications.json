@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T12:29:20+00:00",
+  "generated_at": "2026-10-28T12:30:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "28 Oct 2026, 06:27:13 PM BST",
+    "source_last_updated": "28 Oct 2026, 06:30:27 PM BST",
     "source_events_loaded": 384,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 57,
-    "upcoming_matches": 89,
+    "upcoming_notifications": 58,
+    "upcoming_matches": 96,
     "next_notification_at_local": "2026-10-28 07:44 PM"
   },
   "upcoming_notifications": [
@@ -1616,6 +1616,83 @@
           "team2": "Osnabrück",
           "hot": false,
           "display": "⚽ Wolfsburg vs Osnabrück · Bundesliga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 06:29 PM",
+      "match_start_local": "2026-10-31 06:30 PM",
+      "send_at_utc": "2026-10-31T12:29:00+00:00",
+      "match_start_utc": "2026-10-31T12:30:00+00:00",
+      "match_count": 7,
+      "notification": {
+        "title": "⏰ 7 matches starting soon",
+        "body": "⚽ Lincoln vs Birmingham · Championship\n⚽ Norwich vs Watford · Championship\n⚽ Stoke City vs Preston · Championship\n⚽ Bradford vs Huddersfield · League One\n⚽ Leyton Orient vs Cambridge · League One\n⚽ Plymouth vs Reading · League One\n+ 1 more match in the app"
+      },
+      "matches": [
+        {
+          "id": "1986",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Lincoln",
+          "team2": "Birmingham",
+          "hot": false,
+          "display": "⚽ Lincoln vs Birmingham · Championship"
+        },
+        {
+          "id": "1985",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Norwich",
+          "team2": "Watford",
+          "hot": false,
+          "display": "⚽ Norwich vs Watford · Championship"
+        },
+        {
+          "id": "1984",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Stoke City",
+          "team2": "Preston",
+          "hot": false,
+          "display": "⚽ Stoke City vs Preston · Championship"
+        },
+        {
+          "id": "1997",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Bradford",
+          "team2": "Huddersfield",
+          "hot": false,
+          "display": "⚽ Bradford vs Huddersfield · League One"
+        },
+        {
+          "id": "1996",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Leyton Orient",
+          "team2": "Cambridge",
+          "hot": false,
+          "display": "⚽ Leyton Orient vs Cambridge · League One"
+        },
+        {
+          "id": "1995",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Plymouth",
+          "team2": "Reading",
+          "hot": false,
+          "display": "⚽ Plymouth vs Reading · League One"
+        },
+        {
+          "id": "1976",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Chelsea",
+          "team2": "Manchester United",
+          "hot": false,
+          "display": "⚽ Chelsea vs Manchester United · Premier League"
         }
       ]
     }
