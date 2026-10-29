@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T08:04:18+00:00",
+  "generated_at": "2026-10-29T08:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 68,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 133,
     "next_notification_at_local": "2026-10-29 02:09 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-29 01:59 PM",
-      "match_start_local": "2026-10-29 02:00 PM",
-      "send_at_utc": "2026-10-29T07:59:00+00:00",
-      "match_start_utc": "2026-10-29T08:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Sri Lanka vs England",
-        "body": "Pakistan ODI Tri-Series, 2026 - 6th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1951",
-          "sport": "Cricket",
-          "league": "Pakistan ODI Tri-Series, 2026 - 6th Match",
-          "team1": "Sri Lanka",
-          "team2": "England",
-          "hot": false,
-          "display": "🏏 Sri Lanka vs England · Pakistan ODI Tri-Series, 2026 - 6th Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-29 02:09 PM",
