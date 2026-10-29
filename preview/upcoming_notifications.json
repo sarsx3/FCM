@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T10:29:17+00:00",
+  "generated_at": "2026-10-29T10:30:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 04:27:13 PM BST",
+    "source_last_updated": "29 Oct 2026, 04:30:28 PM BST",
     "source_events_loaded": 461,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 65,
-    "upcoming_matches": 130,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 131,
     "next_notification_at_local": "2026-10-29 05:14 PM"
   },
   "upcoming_notifications": [
@@ -2097,6 +2097,29 @@
           "team2": "Hobart Hurricanes Women",
           "hot": false,
           "display": "🏏 Sydney Sixers Women vs Hobart Hurricanes Women · Womens Big Bash League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 04:29 PM",
+      "match_start_local": "2026-11-01 04:30 PM",
+      "send_at_utc": "2026-11-01T10:29:00+00:00",
+      "match_start_utc": "2026-11-01T10:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Amed SK vs Eyupspor",
+        "body": "Super Lig · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2266",
+          "sport": "Football",
+          "league": "Super Lig",
+          "team1": "Amed SK",
+          "team2": "Eyupspor",
+          "hot": false,
+          "display": "⚽ Amed SK vs Eyupspor · Super Lig"
         }
       ]
     }
