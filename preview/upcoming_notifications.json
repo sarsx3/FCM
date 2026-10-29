@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T16:28:25+00:00",
+  "generated_at": "2026-10-29T16:30:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 10:28:15 PM BST",
+    "source_last_updated": "29 Oct 2026, 10:30:27 PM BST",
     "source_events_loaded": 450,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 74,
-    "upcoming_matches": 151,
+    "upcoming_notifications": 75,
+    "upcoming_matches": 153,
     "next_notification_at_local": "2026-10-29 11:29 PM"
   },
   "upcoming_notifications": [
@@ -2412,6 +2412,38 @@
           "team2": "Monaco",
           "hot": false,
           "display": "⚽ Paris FC vs Monaco · Ligue 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 10:29 PM",
+      "match_start_local": "2026-11-01 10:30 PM",
+      "send_at_utc": "2026-11-01T16:29:00+00:00",
+      "match_start_utc": "2026-11-01T16:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Eintracht vs Hamburger SV · Bundesliga\n⚽ Liverpool vs Arsenal · Premier League"
+      },
+      "matches": [
+        {
+          "id": "2054",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Eintracht",
+          "team2": "Hamburger SV",
+          "hot": false,
+          "display": "⚽ Eintracht vs Hamburger SV · Bundesliga"
+        },
+        {
+          "id": "2046",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Liverpool",
+          "team2": "Arsenal",
+          "hot": false,
+          "display": "⚽ Liverpool vs Arsenal · Premier League"
         }
       ]
     }
