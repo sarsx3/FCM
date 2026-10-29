@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T14:39:21+00:00",
+  "generated_at": "2026-10-29T14:40:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 08:39:14 PM BST",
+    "source_last_updated": "29 Oct 2026, 08:36:15 PM BST",
     "source_events_loaded": 453,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 70,
-    "upcoming_matches": 146,
+    "upcoming_notifications": 69,
+    "upcoming_matches": 145,
     "next_notification_at_local": "2026-10-29 11:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-29 08:34 PM",
-      "match_start_local": "2026-10-29 08:35 PM",
-      "send_at_utc": "2026-10-29T14:34:00+00:00",
-      "match_start_utc": "2026-10-29T14:35:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Al-Khaleej vs Al Hazm",
-        "body": "Saudi League · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1946",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al-Khaleej",
-          "team2": "Al Hazm",
-          "hot": false,
-          "display": "⚽ Al-Khaleej vs Al Hazm · Saudi League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-29 11:29 PM",
