@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:18:22+00:00",
+  "generated_at": "2026-10-29T12:20:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 67,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 131,
     "next_notification_at_local": "2026-10-29 08:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-29 06:14 PM",
-      "match_start_local": "2026-10-29 06:15 PM",
-      "send_at_utc": "2026-10-29T12:14:00+00:00",
-      "match_start_utc": "2026-10-29T12:15:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Phnom Penh Crown vs Kitchee · AFC Champions League Two\n⚽ Shanghai Shenhua vs Machida Zelvia · AFC Champions League Two\n⚽ Tai Po FC vs BG Pathum United · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "1926",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Phnom Penh Crown",
-          "team2": "Kitchee",
-          "hot": false,
-          "display": "⚽ Phnom Penh Crown vs Kitchee · AFC Champions League Two"
-        },
-        {
-          "id": "1927",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Shanghai Shenhua",
-          "team2": "Machida Zelvia",
-          "hot": false,
-          "display": "⚽ Shanghai Shenhua vs Machida Zelvia · AFC Champions League Two"
-        },
-        {
-          "id": "1928",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Tai Po FC",
-          "team2": "BG Pathum United",
-          "hot": false,
-          "display": "⚽ Tai Po FC vs BG Pathum United · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-29 08:29 PM",
