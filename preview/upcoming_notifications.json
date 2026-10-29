@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T11:14:20+00:00",
+  "generated_at": "2026-10-29T11:15:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 05:14:16 PM BST",
+    "source_last_updated": "29 Oct 2026, 05:11:13 PM BST",
     "source_events_loaded": 460,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 131,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 133,
     "next_notification_at_local": "2026-10-29 06:14 PM"
   },
   "upcoming_notifications": [
@@ -2120,6 +2120,38 @@
           "team2": "Eyupspor",
           "hot": false,
           "display": "⚽ Amed SK vs Eyupspor · Super Lig"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 05:14 PM",
+      "match_start_local": "2026-11-01 05:15 PM",
+      "send_at_utc": "2026-11-01T11:14:00+00:00",
+      "match_start_utc": "2026-11-01T11:15:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ PEC Zwolle vs ADO Den Haag · Eredivisie\n🏏 Janakpur Bolts vs Pokhara Avengers · NPL 2026 - 9th T20"
+      },
+      "matches": [
+        {
+          "id": "2066",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "PEC Zwolle",
+          "team2": "ADO Den Haag",
+          "hot": false,
+          "display": "⚽ PEC Zwolle vs ADO Den Haag · Eredivisie"
+        },
+        {
+          "id": "2249",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 9th T20",
+          "team1": "Janakpur Bolts",
+          "team2": "Pokhara Avengers",
+          "hot": false,
+          "display": "🏏 Janakpur Bolts vs Pokhara Avengers · NPL 2026 - 9th T20"
         }
       ]
     }
