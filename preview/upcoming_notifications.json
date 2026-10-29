@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T13:58:21+00:00",
+  "generated_at": "2026-10-29T14:00:45+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 07:54:14 PM BST",
+    "source_last_updated": "29 Oct 2026, 08:00:32 PM BST",
     "source_events_loaded": 456,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 69,
-    "upcoming_matches": 140,
+    "upcoming_notifications": 70,
+    "upcoming_matches": 145,
     "next_notification_at_local": "2026-10-29 08:29 PM"
   },
   "upcoming_notifications": [
@@ -2243,6 +2243,65 @@
           "team2": "Utrecht",
           "hot": false,
           "display": "⚽ Telstar vs Utrecht · Eredivisie"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 07:59 PM",
+      "match_start_local": "2026-11-01 08:00 PM",
+      "send_at_utc": "2026-11-01T13:59:00+00:00",
+      "match_start_utc": "2026-11-01T14:00:00+00:00",
+      "match_count": 5,
+      "notification": {
+        "title": "⏰ 5 matches starting soon",
+        "body": "⚽ Inter Kashi FC vs Goa · Indian Super League\n⚽ Sheffield Wed vs Blackpool · League One\n⚽ Strasbourg vs Auxerre · Ligue 1\n⚽ Frosinone vs Torino · Serie A\n⚽ Lazio vs Cagliari · Serie A"
+      },
+      "matches": [
+        {
+          "id": "2237",
+          "sport": "Football",
+          "league": "Indian Super League",
+          "team1": "Inter Kashi FC",
+          "team2": "Goa",
+          "hot": false,
+          "display": "⚽ Inter Kashi FC vs Goa · Indian Super League"
+        },
+        {
+          "id": "2047",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Sheffield Wed",
+          "team2": "Blackpool",
+          "hot": false,
+          "display": "⚽ Sheffield Wed vs Blackpool · League One"
+        },
+        {
+          "id": "2051",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Strasbourg",
+          "team2": "Auxerre",
+          "hot": false,
+          "display": "⚽ Strasbourg vs Auxerre · Ligue 1"
+        },
+        {
+          "id": "2062",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Frosinone",
+          "team2": "Torino",
+          "hot": false,
+          "display": "⚽ Frosinone vs Torino · Serie A"
+        },
+        {
+          "id": "2061",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Lazio",
+          "team2": "Cagliari",
+          "hot": false,
+          "display": "⚽ Lazio vs Cagliari · Serie A"
         }
       ]
     }
