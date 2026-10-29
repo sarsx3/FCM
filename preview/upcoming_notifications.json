@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T18:04:22+00:00",
+  "generated_at": "2026-10-29T18:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 77,
-    "upcoming_matches": 158,
+    "upcoming_notifications": 76,
+    "upcoming_matches": 156,
     "next_notification_at_local": "2026-10-30 01:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-29 11:59 PM",
-      "match_start_local": "2026-10-30 12:00 AM",
-      "send_at_utc": "2026-10-29T17:59:00+00:00",
-      "match_start_utc": "2026-10-29T18:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Al Riyadh vs Al Qadsiah · Saudi League\n⚽ Al-Nassr vs Al-Kholood · Saudi League"
-      },
-      "matches": [
-        {
-          "id": "1962",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al Riyadh",
-          "team2": "Al Qadsiah",
-          "hot": false,
-          "display": "⚽ Al Riyadh vs Al Qadsiah · Saudi League"
-        },
-        {
-          "id": "1963",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al-Nassr",
-          "team2": "Al-Kholood",
-          "hot": false,
-          "display": "⚽ Al-Nassr vs Al-Kholood · Saudi League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-30 01:44 AM",
