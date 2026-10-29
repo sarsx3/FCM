@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T21:29:21+00:00",
+  "generated_at": "2026-10-29T21:30:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "30 Oct 2026, 03:29:13 AM BST",
+    "source_last_updated": "30 Oct 2026, 03:30:24 AM BST",
     "source_events_loaded": 445,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 79,
-    "upcoming_matches": 160,
+    "upcoming_notifications": 80,
+    "upcoming_matches": 166,
     "next_notification_at_local": "2026-10-30 04:29 AM"
   },
   "upcoming_notifications": [
@@ -2563,6 +2563,74 @@
           "team2": "Famalicão",
           "hot": false,
           "display": "⚽ Braga vs Famalicão · Liga Portugal"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-02 03:29 AM",
+      "match_start_local": "2026-11-02 03:30 AM",
+      "send_at_utc": "2026-11-01T21:29:00+00:00",
+      "match_start_utc": "2026-11-01T21:30:00+00:00",
+      "match_count": 6,
+      "notification": {
+        "title": "⏰ 6 matches starting soon",
+        "body": "⚽ Gremio vs Atlético Mineiro · Copa do Brasil\n⚽ Belgrano vs Barracas Central · Liga Profesional\n⚽ Newell's vs Union de Santa Fe · Liga Profesional\n⚽ Atlanta United vs Toronto FC · MLS\n⚽ Nashville SC vs New York Red Bulls · MLS\n⚽ Whitecaps vs Seattle Sounders · MLS"
+      },
+      "matches": [
+        {
+          "id": "2103",
+          "sport": "Football",
+          "league": "Copa do Brasil",
+          "team1": "Gremio",
+          "team2": "Atlético Mineiro",
+          "hot": false,
+          "display": "⚽ Gremio vs Atlético Mineiro · Copa do Brasil"
+        },
+        {
+          "id": "2095",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Belgrano",
+          "team2": "Barracas Central",
+          "hot": false,
+          "display": "⚽ Belgrano vs Barracas Central · Liga Profesional"
+        },
+        {
+          "id": "2096",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Newell's",
+          "team2": "Union de Santa Fe",
+          "hot": false,
+          "display": "⚽ Newell's vs Union de Santa Fe · Liga Profesional"
+        },
+        {
+          "id": "2114",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Atlanta United",
+          "team2": "Toronto FC",
+          "hot": false,
+          "display": "⚽ Atlanta United vs Toronto FC · MLS"
+        },
+        {
+          "id": "2116",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Nashville SC",
+          "team2": "New York Red Bulls",
+          "hot": false,
+          "display": "⚽ Nashville SC vs New York Red Bulls · MLS"
+        },
+        {
+          "id": "2115",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Whitecaps",
+          "team2": "Seattle Sounders",
+          "hot": false,
+          "display": "⚽ Whitecaps vs Seattle Sounders · MLS"
         }
       ]
     }
