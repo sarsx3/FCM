@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T16:59:21+00:00",
+  "generated_at": "2026-10-29T17:00:50+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 10:57:12 PM BST",
+    "source_last_updated": "29 Oct 2026, 10:59:14 PM BST",
     "source_events_loaded": 450,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 75,
-    "upcoming_matches": 153,
+    "upcoming_notifications": 76,
+    "upcoming_matches": 154,
     "next_notification_at_local": "2026-10-29 11:29 PM"
   },
   "upcoming_notifications": [
@@ -2444,6 +2444,29 @@
           "team2": "Arsenal",
           "hot": false,
           "display": "⚽ Liverpool vs Arsenal · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 10:59 PM",
+      "match_start_local": "2026-11-01 11:00 PM",
+      "send_at_utc": "2026-11-01T16:59:00+00:00",
+      "match_start_utc": "2026-11-01T17:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Lecce vs Genoa",
+        "body": "Serie A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2063",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Lecce",
+          "team2": "Genoa",
+          "hot": false,
+          "display": "⚽ Lecce vs Genoa · Serie A"
         }
       ]
     }
