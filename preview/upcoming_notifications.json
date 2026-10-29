@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T04:44:22+00:00",
+  "generated_at": "2026-10-29T04:45:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 70,
-    "upcoming_matches": 136,
+    "upcoming_notifications": 69,
+    "upcoming_matches": 135,
     "next_notification_at_local": "2026-10-29 12:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-29 10:39 AM",
-      "match_start_local": "2026-10-29 10:40 AM",
-      "send_at_utc": "2026-10-29T04:39:00+00:00",
-      "match_start_utc": "2026-10-29T04:40:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Melbourne Renegades Women vs Sydney Thunder Women",
-        "body": "Womens Big Bash League 2026 - 1st Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1949",
-          "sport": "Cricket",
-          "league": "Womens Big Bash League 2026 - 1st Match",
-          "team1": "Melbourne Renegades Women",
-          "team2": "Sydney Thunder Women",
-          "hot": false,
-          "display": "🏏 Melbourne Renegades Women vs Sydney Thunder Women · Womens Big Bash League 2026 - 1st Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-29 12:44 PM",
