@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:19:22+00:00",
+  "generated_at": "2026-10-29T11:20:29+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 67,
-    "upcoming_matches": 133,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 132,
     "next_notification_at_local": "2026-10-29 06:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-29 05:14 PM",
-      "match_start_local": "2026-10-29 05:15 PM",
-      "send_at_utc": "2026-10-29T11:14:00+00:00",
-      "match_start_utc": "2026-10-29T11:15:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Karnali Yaks vs Biratnagar Kings",
-        "body": "NPL 2026 - 6th T20 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2246",
-          "sport": "Cricket",
-          "league": "NPL 2026 - 6th T20",
-          "team1": "Karnali Yaks",
-          "team2": "Biratnagar Kings",
-          "hot": false,
-          "display": "🏏 Karnali Yaks vs Biratnagar Kings · NPL 2026 - 6th T20"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-29 06:14 PM",
