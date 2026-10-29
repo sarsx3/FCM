@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T17:29:19+00:00",
+  "generated_at": "2026-10-29T17:30:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 11:26:17 PM BST",
+    "source_last_updated": "29 Oct 2026, 11:28:13 PM BST",
     "source_events_loaded": 449,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 76,
-    "upcoming_matches": 154,
+    "upcoming_notifications": 77,
+    "upcoming_matches": 156,
     "next_notification_at_local": "2026-10-29 11:59 PM"
   },
   "upcoming_notifications": [
@@ -2467,6 +2467,38 @@
           "team2": "Genoa",
           "hot": false,
           "display": "⚽ Lecce vs Genoa · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 11:29 PM",
+      "match_start_local": "2026-11-01 11:30 PM",
+      "send_at_utc": "2026-11-01T17:29:00+00:00",
+      "match_start_utc": "2026-11-01T17:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Elche vs Valencia · LaLiga\n⚽ Burgos vs Castellon · LaLiga 2"
+      },
+      "matches": [
+        {
+          "id": "2076",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Elche",
+          "team2": "Valencia",
+          "hot": false,
+          "display": "⚽ Elche vs Valencia · LaLiga"
+        },
+        {
+          "id": "2080",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Burgos",
+          "team2": "Castellon",
+          "hot": false,
+          "display": "⚽ Burgos vs Castellon · LaLiga 2"
         }
       ]
     }
