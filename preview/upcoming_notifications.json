@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T12:59:17+00:00",
+  "generated_at": "2026-10-29T13:00:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 06:57:12 PM BST",
+    "source_last_updated": "29 Oct 2026, 07:00:33 PM BST",
     "source_events_loaded": 456,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 67,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 68,
+    "upcoming_matches": 138,
     "next_notification_at_local": "2026-10-29 08:29 PM"
   },
   "upcoming_notifications": [
@@ -2161,6 +2161,56 @@
           "team2": "Nurnberg",
           "hot": false,
           "display": "⚽ St. Pauli vs Nurnberg · Bundesliga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 06:59 PM",
+      "match_start_local": "2026-11-01 07:00 PM",
+      "send_at_utc": "2026-11-01T12:59:00+00:00",
+      "match_start_utc": "2026-11-01T13:00:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Getafe vs Sevilla · LaLiga\n⚽ Eldense vs Granada · LaLiga 2\n⚽ Başakşehir vs Samsunspor · Super Lig\n⚽ Trabzonspor vs Gaziantep F.K. · Super Lig"
+      },
+      "matches": [
+        {
+          "id": "2074",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Getafe",
+          "team2": "Sevilla",
+          "hot": false,
+          "display": "⚽ Getafe vs Sevilla · LaLiga"
+        },
+        {
+          "id": "2078",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Eldense",
+          "team2": "Granada",
+          "hot": false,
+          "display": "⚽ Eldense vs Granada · LaLiga 2"
+        },
+        {
+          "id": "2267",
+          "sport": "Football",
+          "league": "Super Lig",
+          "team1": "Başakşehir",
+          "team2": "Samsunspor",
+          "hot": false,
+          "display": "⚽ Başakşehir vs Samsunspor · Super Lig"
+        },
+        {
+          "id": "2268",
+          "sport": "Football",
+          "league": "Super Lig",
+          "team1": "Trabzonspor",
+          "team2": "Gaziantep F.K.",
+          "hot": false,
+          "display": "⚽ Trabzonspor vs Gaziantep F.K. · Super Lig"
         }
       ]
     }
