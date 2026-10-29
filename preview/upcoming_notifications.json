@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T12:25:27+00:00",
+  "generated_at": "2026-10-29T12:30:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 06:25:16 PM BST",
+    "source_last_updated": "29 Oct 2026, 06:30:26 PM BST",
     "source_events_loaded": 457,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 131,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 134,
     "next_notification_at_local": "2026-10-29 08:29 PM"
   },
   "upcoming_notifications": [
@@ -2120,6 +2120,47 @@
           "team2": "Venezia",
           "hot": false,
           "display": "⚽ Como vs Venezia · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 06:29 PM",
+      "match_start_local": "2026-11-01 06:30 PM",
+      "send_at_utc": "2026-11-01T12:29:00+00:00",
+      "match_start_utc": "2026-11-01T12:30:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Furth vs Holstein Kiel · Bundesliga 2\n⚽ Hannover vs Dresden · Bundesliga 2\n⚽ St. Pauli vs Nurnberg · Bundesliga 2"
+      },
+      "matches": [
+        {
+          "id": "2056",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Furth",
+          "team2": "Holstein Kiel",
+          "hot": false,
+          "display": "⚽ Furth vs Holstein Kiel · Bundesliga 2"
+        },
+        {
+          "id": "2057",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Hannover",
+          "team2": "Dresden",
+          "hot": false,
+          "display": "⚽ Hannover vs Dresden · Bundesliga 2"
+        },
+        {
+          "id": "2058",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "St. Pauli",
+          "team2": "Nurnberg",
+          "hot": false,
+          "display": "⚽ St. Pauli vs Nurnberg · Bundesliga 2"
         }
       ]
     }
