@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:29:18+00:00",
+  "generated_at": "2026-10-29T14:30:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 70,
-    "upcoming_matches": 145,
+    "upcoming_notifications": 71,
+    "upcoming_matches": 147,
     "next_notification_at_local": "2026-10-29 08:34 PM"
   },
   "upcoming_notifications": [
@@ -2302,6 +2302,38 @@
           "team2": "Cagliari",
           "hot": false,
           "display": "⚽ Lazio vs Cagliari · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 08:29 PM",
+      "match_start_local": "2026-11-01 08:30 PM",
+      "send_at_utc": "2026-11-01T14:29:00+00:00",
+      "match_start_utc": "2026-11-01T14:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 Afghanistan vs Zimbabwe · Afghanistan vs Zimbabwe – 3rd T20I\n⚽ Union Berlin vs Köln · Bundesliga"
+      },
+      "matches": [
+        {
+          "id": "2093",
+          "sport": "Cricket",
+          "league": "Afghanistan vs Zimbabwe – 3rd T20I",
+          "team1": "Afghanistan",
+          "team2": "Zimbabwe",
+          "hot": false,
+          "display": "🏏 Afghanistan vs Zimbabwe · Afghanistan vs Zimbabwe – 3rd T20I"
+        },
+        {
+          "id": "2053",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Union Berlin",
+          "team2": "Köln",
+          "hot": false,
+          "display": "⚽ Union Berlin vs Köln · Bundesliga"
         }
       ]
     }
