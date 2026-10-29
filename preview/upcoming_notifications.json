@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T17:59:19+00:00",
+  "generated_at": "2026-10-29T18:00:42+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "29 Oct 2026, 11:57:13 PM BST",
+    "source_last_updated": "29 Oct 2026, 11:58:14 PM BST",
     "source_events_loaded": 449,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 76,
-    "upcoming_matches": 155,
+    "upcoming_notifications": 77,
+    "upcoming_matches": 158,
     "next_notification_at_local": "2026-10-30 01:44 AM"
   },
   "upcoming_notifications": [
@@ -2476,6 +2476,47 @@
           "team2": "Castellon",
           "hot": false,
           "display": "⚽ Burgos vs Castellon · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 11:59 PM",
+      "match_start_local": "2026-11-02 12:00 AM",
+      "send_at_utc": "2026-11-01T17:59:00+00:00",
+      "match_start_utc": "2026-11-01T18:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Maritimo vs Santa Clara · Liga Portugal\n⚽ Viseu vs Rio Ave · Liga Portugal\n⚽ Boca Jrs. vs River Plate arg · Liga Profesional"
+      },
+      "matches": [
+        {
+          "id": "2108",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Maritimo",
+          "team2": "Santa Clara",
+          "hot": false,
+          "display": "⚽ Maritimo vs Santa Clara · Liga Portugal"
+        },
+        {
+          "id": "2107",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Viseu",
+          "team2": "Rio Ave",
+          "hot": false,
+          "display": "⚽ Viseu vs Rio Ave · Liga Portugal"
+        },
+        {
+          "id": "2094",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Boca Jrs.",
+          "team2": "River Plate arg",
+          "hot": false,
+          "display": "⚽ Boca Jrs. vs River Plate arg · Liga Profesional"
         }
       ]
     }
