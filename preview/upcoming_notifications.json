@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:04:20+00:00",
+  "generated_at": "2026-10-29T10:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 132,
+    "upcoming_notifications": 65,
+    "upcoming_matches": 130,
     "next_notification_at_local": "2026-10-29 05:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-29 03:59 PM",
-      "match_start_local": "2026-10-29 04:00 PM",
-      "send_at_utc": "2026-10-29T09:59:00+00:00",
-      "match_start_utc": "2026-10-29T10:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Gangwon FC vs Kuching City FC · AFC Champions League Two\n⚽ Tampines Rovers vs Svay Rieng · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "1924",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Gangwon FC",
-          "team2": "Kuching City FC",
-          "hot": false,
-          "display": "⚽ Gangwon FC vs Kuching City FC · AFC Champions League Two"
-        },
-        {
-          "id": "1925",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Tampines Rovers",
-          "team2": "Svay Rieng",
-          "hot": false,
-          "display": "⚽ Tampines Rovers vs Svay Rieng · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-29 05:14 PM",
