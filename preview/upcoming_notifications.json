@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T19:59:19+00:00",
+  "generated_at": "2026-10-29T20:00:38+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "30 Oct 2026, 01:59:12 AM BST",
+    "source_last_updated": "30 Oct 2026, 02:00:31 AM BST",
     "source_events_loaded": 447,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 77,
-    "upcoming_matches": 157,
+    "upcoming_notifications": 78,
+    "upcoming_matches": 159,
     "next_notification_at_local": "2026-10-30 04:29 AM"
   },
   "upcoming_notifications": [
@@ -2508,6 +2508,38 @@
           "team2": "Napoli",
           "hot": false,
           "display": "⚽ Juventus vs Napoli · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-02 01:59 AM",
+      "match_start_local": "2026-11-02 02:00 AM",
+      "send_at_utc": "2026-11-01T19:59:00+00:00",
+      "match_start_utc": "2026-11-01T20:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Ath. Bilbao vs Real Sociedad · LaLiga\n⚽ Tenerife vs Andorra · LaLiga 2"
+      },
+      "matches": [
+        {
+          "id": "2110",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Ath. Bilbao",
+          "team2": "Real Sociedad",
+          "hot": false,
+          "display": "⚽ Ath. Bilbao vs Real Sociedad · LaLiga"
+        },
+        {
+          "id": "2111",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Tenerife",
+          "team2": "Andorra",
+          "hot": false,
+          "display": "⚽ Tenerife vs Andorra · LaLiga 2"
         }
       ]
     }
