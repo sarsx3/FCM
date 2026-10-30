@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T07:04:20+00:00",
+  "generated_at": "2026-10-30T07:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "30 Oct 2026, 01:04:14 PM BST",
+    "source_last_updated": "30 Oct 2026, 01:05:17 PM BST",
     "source_events_loaded": 430,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 94,
-    "upcoming_matches": 180,
+    "upcoming_notifications": 93,
+    "upcoming_matches": 179,
     "next_notification_at_local": "2026-10-30 02:09 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-30 12:59 PM",
-      "match_start_local": "2026-10-30 01:00 PM",
-      "send_at_utc": "2026-10-30T06:59:00+00:00",
-      "match_start_utc": "2026-10-30T07:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 New Zealand vs India",
-        "body": "New Zealand vs India – 4th T20I · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1967",
-          "sport": "Cricket",
-          "league": "New Zealand vs India – 4th T20I",
-          "team1": "New Zealand",
-          "team2": "India",
-          "hot": false,
-          "display": "🏏 New Zealand vs India · New Zealand vs India – 4th T20I"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-30 02:09 PM",
