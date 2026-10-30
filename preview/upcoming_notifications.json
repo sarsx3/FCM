@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T03:34:21+00:00",
+  "generated_at": "2026-10-30T03:35:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "30 Oct 2026, 09:31:12 AM BST",
+    "source_last_updated": "30 Oct 2026, 09:35:15 AM BST",
     "source_events_loaded": 440,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 99,
-    "upcoming_matches": 186,
+    "upcoming_notifications": 98,
+    "upcoming_matches": 184,
     "next_notification_at_local": "2026-10-30 10:24 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-30 09:29 AM",
-      "match_start_local": "2026-10-30 09:30 AM",
-      "send_at_utc": "2026-10-30T03:29:00+00:00",
-      "match_start_utc": "2026-10-30T03:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "🏏 South Africa vs Oman · Hong Kong Sixes 2026 - 4th T10\n🏏 Bangladesh vs West Indies · West Indies tour of Bangladesh, 2026 - 1st Test, Day 3"
-      },
-      "matches": [
-        {
-          "id": "2283",
-          "sport": "Cricket",
-          "league": "Hong Kong Sixes 2026 - 4th T10",
-          "team1": "South Africa",
-          "team2": "Oman",
-          "hot": false,
-          "display": "🏏 South Africa vs Oman · Hong Kong Sixes 2026 - 4th T10"
-        },
-        {
-          "id": "1966",
-          "sport": "Cricket",
-          "league": "West Indies tour of Bangladesh, 2026 - 1st Test, Day 3",
-          "team1": "Bangladesh",
-          "team2": "West Indies",
-          "hot": false,
-          "display": "🏏 Bangladesh vs West Indies · West Indies tour of Bangladesh, 2026 - 1st Test, Day 3"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-30 10:24 AM",
