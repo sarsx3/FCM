@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T03:17:18+00:00",
+  "generated_at": "2026-10-30T03:18:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "30 Oct 2026, 09:12:13 AM BST",
+    "source_last_updated": "30 Oct 2026, 09:18:14 AM BST",
     "source_events_loaded": 440,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 81,
-    "upcoming_matches": 165,
+    "upcoming_notifications": 99,
+    "upcoming_matches": 186,
     "next_notification_at_local": "2026-10-30 09:29 AM"
   },
   "upcoming_notifications": [
@@ -26,12 +26,21 @@
       "match_start_local": "2026-10-30 09:30 AM",
       "send_at_utc": "2026-10-30T03:29:00+00:00",
       "match_start_utc": "2026-10-30T03:30:00+00:00",
-      "match_count": 1,
+      "match_count": 2,
       "notification": {
-        "title": "🏏 Bangladesh vs West Indies",
-        "body": "West Indies tour of Bangladesh, 2026 - 1st Test, Day 3 · Starting soon"
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 South Africa vs Oman · Hong Kong Sixes 2026 - 4th T10\n🏏 Bangladesh vs West Indies · West Indies tour of Bangladesh, 2026 - 1st Test, Day 3"
       },
       "matches": [
+        {
+          "id": "2283",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 4th T10",
+          "team1": "South Africa",
+          "team2": "Oman",
+          "hot": false,
+          "display": "🏏 South Africa vs Oman · Hong Kong Sixes 2026 - 4th T10"
+        },
         {
           "id": "1966",
           "sport": "Cricket",
@@ -40,6 +49,75 @@
           "team2": "West Indies",
           "hot": false,
           "display": "🏏 Bangladesh vs West Indies · West Indies tour of Bangladesh, 2026 - 1st Test, Day 3"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-30 10:24 AM",
+      "match_start_local": "2026-10-30 10:25 AM",
+      "send_at_utc": "2026-10-30T04:24:00+00:00",
+      "match_start_utc": "2026-10-30T04:25:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Hong Kong vs England",
+        "body": "Hong Kong Sixes 2026 - 5th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2284",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 5th T10",
+          "team1": "Hong Kong",
+          "team2": "England",
+          "hot": false,
+          "display": "🏏 Hong Kong vs England · Hong Kong Sixes 2026 - 5th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-30 11:19 AM",
+      "match_start_local": "2026-10-30 11:20 AM",
+      "send_at_utc": "2026-10-30T05:19:00+00:00",
+      "match_start_utc": "2026-10-30T05:20:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Bangladesh vs Sri Lanka",
+        "body": "Hong Kong Sixes 2026 - 6th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2285",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 6th T10",
+          "team1": "Bangladesh",
+          "team2": "Sri Lanka",
+          "hot": false,
+          "display": "🏏 Bangladesh vs Sri Lanka · Hong Kong Sixes 2026 - 6th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-30 12:14 PM",
+      "match_start_local": "2026-10-30 12:15 PM",
+      "send_at_utc": "2026-10-30T06:14:00+00:00",
+      "match_start_utc": "2026-10-30T06:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 India vs Pakistan",
+        "body": "Hong Kong Sixes 2026 - 7th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2286",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 7th T10",
+          "team1": "India",
+          "team2": "Pakistan",
+          "hot": false,
+          "display": "🏏 India vs Pakistan · Hong Kong Sixes 2026 - 7th T10"
         }
       ]
     },
@@ -63,6 +141,52 @@
           "team2": "India",
           "hot": false,
           "display": "🏏 New Zealand vs India · New Zealand vs India – 4th T20I"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-30 01:09 PM",
+      "match_start_local": "2026-10-30 01:10 PM",
+      "send_at_utc": "2026-10-30T07:09:00+00:00",
+      "match_start_utc": "2026-10-30T07:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 South Africa vs Afghanistan",
+        "body": "Hong Kong Sixes 2026 - 8th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2287",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 8th T10",
+          "team1": "South Africa",
+          "team2": "Afghanistan",
+          "hot": false,
+          "display": "🏏 South Africa vs Afghanistan · Hong Kong Sixes 2026 - 8th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-30 02:04 PM",
+      "match_start_local": "2026-10-30 02:05 PM",
+      "send_at_utc": "2026-10-30T08:04:00+00:00",
+      "match_start_utc": "2026-10-30T08:05:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 England vs Australia",
+        "body": "Hong Kong Sixes 2026 - 9th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2288",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 9th T10",
+          "team1": "England",
+          "team2": "Australia",
+          "hot": false,
+          "display": "🏏 England vs Australia · Hong Kong Sixes 2026 - 9th T10"
         }
       ]
     },
@@ -458,16 +582,94 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-10-31 06:44 AM",
+      "match_start_local": "2026-10-31 06:45 AM",
+      "send_at_utc": "2026-10-31T00:44:00+00:00",
+      "match_start_utc": "2026-10-31T00:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Oman vs Afghanistan",
+        "body": "Hong Kong Sixes 2026 - 10th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2289",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 10th T10",
+          "team1": "Oman",
+          "team2": "Afghanistan",
+          "hot": false,
+          "display": "🏏 Oman vs Afghanistan · Hong Kong Sixes 2026 - 10th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 07:39 AM",
+      "match_start_local": "2026-10-31 07:40 AM",
+      "send_at_utc": "2026-10-31T01:39:00+00:00",
+      "match_start_utc": "2026-10-31T01:40:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Scotland vs Sri Lanka",
+        "body": "Hong Kong Sixes 2026 - 11th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2290",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 11th T10",
+          "team1": "Scotland",
+          "team2": "Sri Lanka",
+          "hot": false,
+          "display": "🏏 Scotland vs Sri Lanka · Hong Kong Sixes 2026 - 11th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 08:34 AM",
+      "match_start_local": "2026-10-31 08:35 AM",
+      "send_at_utc": "2026-10-31T02:34:00+00:00",
+      "match_start_utc": "2026-10-31T02:35:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 United Arab Emirates vs India",
+        "body": "Hong Kong Sixes 2026 - 12th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2291",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 12th T10",
+          "team1": "United Arab Emirates",
+          "team2": "India",
+          "hot": false,
+          "display": "🏏 United Arab Emirates vs India · Hong Kong Sixes 2026 - 12th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-10-31 09:29 AM",
       "match_start_local": "2026-10-31 09:30 AM",
       "send_at_utc": "2026-10-31T03:29:00+00:00",
       "match_start_utc": "2026-10-31T03:30:00+00:00",
-      "match_count": 1,
+      "match_count": 2,
       "notification": {
-        "title": "🏏 Bangladesh vs West Indies",
-        "body": "West Indies tour of Bangladesh, 2026 - 1st Test, Day 4 · Starting soon"
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 3rd in Group B vs 3rd in Group D · Hong Kong Sixes 2026 - 13th T10\n🏏 Bangladesh vs West Indies · West Indies tour of Bangladesh, 2026 - 1st Test, Day 4"
       },
       "matches": [
+        {
+          "id": "2292",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 13th T10",
+          "team1": "3rd in Group B",
+          "team2": "3rd in Group D",
+          "hot": false,
+          "display": "🏏 3rd in Group B vs 3rd in Group D · Hong Kong Sixes 2026 - 13th T10"
+        },
         {
           "id": "2036",
           "sport": "Cricket",
@@ -476,6 +678,29 @@
           "team2": "West Indies",
           "hot": false,
           "display": "🏏 Bangladesh vs West Indies · West Indies tour of Bangladesh, 2026 - 1st Test, Day 4"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 10:24 AM",
+      "match_start_local": "2026-10-31 10:25 AM",
+      "send_at_utc": "2026-10-31T04:24:00+00:00",
+      "match_start_utc": "2026-10-31T04:25:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 3rd in Group A vs 3rd in Group C",
+        "body": "Hong Kong Sixes 2026 - 14th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2293",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 14th T10",
+          "team1": "3rd in Group A",
+          "team2": "3rd in Group C",
+          "hot": false,
+          "display": "🏏 3rd in Group A vs 3rd in Group C · Hong Kong Sixes 2026 - 14th T10"
         }
       ]
     },
@@ -504,6 +729,52 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-10-31 11:19 AM",
+      "match_start_local": "2026-10-31 11:20 AM",
+      "send_at_utc": "2026-10-31T05:19:00+00:00",
+      "match_start_utc": "2026-10-31T05:20:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 2nd in Group B vs 2nd in Group D",
+        "body": "Hong Kong Sixes 2026 - 15th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2294",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 15th T10",
+          "team1": "2nd in Group B",
+          "team2": "2nd in Group D",
+          "hot": false,
+          "display": "🏏 2nd in Group B vs 2nd in Group D · Hong Kong Sixes 2026 - 15th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 12:14 PM",
+      "match_start_local": "2026-10-31 12:15 PM",
+      "send_at_utc": "2026-10-31T06:14:00+00:00",
+      "match_start_utc": "2026-10-31T06:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 2nd in Group A vs 2nd in Group C",
+        "body": "Hong Kong Sixes 2026 - 16th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2295",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 16th T10",
+          "team1": "2nd in Group A",
+          "team2": "2nd in Group C",
+          "hot": false,
+          "display": "🏏 2nd in Group A vs 2nd in Group C · Hong Kong Sixes 2026 - 16th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-10-31 12:44 PM",
       "match_start_local": "2026-10-31 12:45 PM",
       "send_at_utc": "2026-10-31T06:44:00+00:00",
@@ -527,6 +798,29 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-10-31 01:09 PM",
+      "match_start_local": "2026-10-31 01:10 PM",
+      "send_at_utc": "2026-10-31T07:09:00+00:00",
+      "match_start_utc": "2026-10-31T07:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 1st in Group A vs 1st in Group C",
+        "body": "Hong Kong Sixes 2026 - 17th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2296",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 17th T10",
+          "team1": "1st in Group A",
+          "team2": "1st in Group C",
+          "hot": false,
+          "display": "🏏 1st in Group A vs 1st in Group C · Hong Kong Sixes 2026 - 17th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-10-31 01:59 PM",
       "match_start_local": "2026-10-31 02:00 PM",
       "send_at_utc": "2026-10-31T07:59:00+00:00",
@@ -545,6 +839,29 @@
           "team2": "Zimbabwe",
           "hot": false,
           "display": "🏏 Afghanistan vs Zimbabwe · Pakistan ODI Tri-Series, 2026 - Final"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-10-31 02:04 PM",
+      "match_start_local": "2026-10-31 02:05 PM",
+      "send_at_utc": "2026-10-31T08:04:00+00:00",
+      "match_start_utc": "2026-10-31T08:05:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 1st in Group B vs 1st in Group D",
+        "body": "Hong Kong Sixes 2026 - 18th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2297",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 18th T10",
+          "team1": "1st in Group B",
+          "team2": "1st in Group D",
+          "hot": false,
+          "display": "🏏 1st in Group B vs 1st in Group D · Hong Kong Sixes 2026 - 18th T10"
         }
       ]
     },
@@ -1429,6 +1746,29 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-11-01 12:29 AM",
+      "match_start_local": "2026-11-01 12:30 AM",
+      "send_at_utc": "2026-10-31T18:29:00+00:00",
+      "match_start_utc": "2026-10-31T18:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Team 1 (TBC) vs Team 2 (TBC)",
+        "body": "Hong Kong Sixes 2026 - 23rd T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2298",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 23rd T10",
+          "team1": "Team 1 (TBC)",
+          "team2": "Team 2 (TBC)",
+          "hot": false,
+          "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 23rd T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-11-01 12:59 AM",
       "match_start_local": "2026-11-01 01:00 AM",
       "send_at_utc": "2026-10-31T18:59:00+00:00",
@@ -1456,6 +1796,29 @@
           "team2": "San Diego",
           "hot": false,
           "display": "⚽ St. Louis City vs San Diego · MLS"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 01:09 AM",
+      "match_start_local": "2026-11-01 01:10 AM",
+      "send_at_utc": "2026-10-31T19:09:00+00:00",
+      "match_start_utc": "2026-10-31T19:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Team 1 (TBC) vs Team 2 (TBC)",
+        "body": "Hong Kong Sixes 2026 - Final T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2299",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - Final T10",
+          "team1": "Team 1 (TBC)",
+          "team2": "Team 2 (TBC)",
+          "hot": false,
+          "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - Final T10"
         }
       ]
     },
@@ -1726,16 +2089,71 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-11-01 07:39 AM",
+      "match_start_local": "2026-11-01 07:40 AM",
+      "send_at_utc": "2026-11-01T01:39:00+00:00",
+      "match_start_utc": "2026-11-01T01:40:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Team 1 (TBC) vs Team 2 (TBC)",
+        "body": "Hong Kong Sixes 2026 - 19th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2300",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 19th T10",
+          "team1": "Team 1 (TBC)",
+          "team2": "Team 2 (TBC)",
+          "hot": false,
+          "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 19th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 08:34 AM",
+      "match_start_local": "2026-11-01 08:35 AM",
+      "send_at_utc": "2026-11-01T02:34:00+00:00",
+      "match_start_utc": "2026-11-01T02:35:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Team 1 (TBC) vs Team 2 (TBC)",
+        "body": "Hong Kong Sixes 2026 - 20th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2301",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 20th T10",
+          "team1": "Team 1 (TBC)",
+          "team2": "Team 2 (TBC)",
+          "hot": false,
+          "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 20th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-11-01 09:29 AM",
       "match_start_local": "2026-11-01 09:30 AM",
       "send_at_utc": "2026-11-01T03:29:00+00:00",
       "match_start_utc": "2026-11-01T03:30:00+00:00",
-      "match_count": 1,
+      "match_count": 2,
       "notification": {
-        "title": "🏏 Bangladesh vs West Indies",
-        "body": "West Indies tour of Bangladesh, 2026 - 1st Test, Day 5 · Starting soon"
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 21st T10\n🏏 Bangladesh vs West Indies · West Indies tour of Bangladesh, 2026 - 1st Test, Day 5"
       },
       "matches": [
+        {
+          "id": "2302",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 21st T10",
+          "team1": "Team 1 (TBC)",
+          "team2": "Team 2 (TBC)",
+          "hot": false,
+          "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 21st T10"
+        },
         {
           "id": "2089",
           "sport": "Cricket",
@@ -1767,6 +2185,29 @@
           "team2": "Brisbane Heat Women",
           "hot": false,
           "display": "🏏 Sydney Thunder Women vs Brisbane Heat Women · Womens Big Bash League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 11:19 AM",
+      "match_start_local": "2026-11-01 11:20 AM",
+      "send_at_utc": "2026-11-01T05:19:00+00:00",
+      "match_start_utc": "2026-11-01T05:20:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Team 1 (TBC) vs Team 2 (TBC)",
+        "body": "Hong Kong Sixes 2026 - 22nd T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2303",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 22nd T10",
+          "team1": "Team 1 (TBC)",
+          "team2": "Team 2 (TBC)",
+          "hot": false,
+          "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 22nd T10"
         }
       ]
     },
