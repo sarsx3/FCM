@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-30T17:31:18+00:00",
+  "generated_at": "2026-10-30T17:32:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "30 Oct 2026, 11:26:14 PM BST",
-    "source_events_loaded": 424,
+    "source_last_updated": "30 Oct 2026, 11:32:15 PM BST",
+    "source_events_loaded": 423,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 94,
-    "upcoming_matches": 182,
+    "upcoming_notifications": 93,
+    "upcoming_matches": 181,
     "next_notification_at_local": "2026-10-30 11:59 PM"
   },
   "upcoming_notifications": [
@@ -568,29 +568,6 @@
           "team2": "Melbourne Renegades Women",
           "hot": false,
           "display": "🏏 Perth Scorchers Women vs Melbourne Renegades Women · Womens Big Bash League 2026 - 5th Match"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-10-31 02:29 PM",
-      "match_start_local": "2026-10-31 02:30 PM",
-      "send_at_utc": "2026-10-31T08:29:00+00:00",
-      "match_start_utc": "2026-10-31T08:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 South Africa vs Australia",
-        "body": "Australia tour of South Africa, 2026 - 3rd Test, Day 5 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2040",
-          "sport": "Cricket",
-          "league": "Australia tour of South Africa, 2026 - 3rd Test, Day 5",
-          "team1": "South Africa",
-          "team2": "Australia",
-          "hot": false,
-          "display": "🏏 South Africa vs Australia · Australia tour of South Africa, 2026 - 3rd Test, Day 5"
         }
       ]
     },
