@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-30T19:43:20+00:00",
+  "generated_at": "2026-10-30T19:44:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "31 Oct 2026, 01:43:12 AM BST",
-    "source_events_loaded": 420,
+    "source_last_updated": "31 Oct 2026, 01:44:13 AM BST",
+    "source_events_loaded": 419,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 91,
-    "upcoming_matches": 178,
+    "upcoming_notifications": 90,
+    "upcoming_matches": 177,
     "next_notification_at_local": "2026-10-31 01:59 AM"
   },
   "upcoming_notifications": [
@@ -1136,29 +1136,6 @@
           "team2": "Goztepe SK",
           "hot": false,
           "display": "⚽ Fenerbahçe vs Goztepe SK · Super Lig"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-10-31 10:14 PM",
-      "match_start_local": "2026-10-31 10:15 PM",
-      "send_at_utc": "2026-10-31T16:14:00+00:00",
-      "match_start_utc": "2026-10-31T16:15:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ OGC Nice vs Rennes",
-        "body": "Ligue 1 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2008",
-          "sport": "Football",
-          "league": "Ligue 1",
-          "team1": "OGC Nice",
-          "team2": "Rennes",
-          "hot": false,
-          "display": "⚽ OGC Nice vs Rennes · Ligue 1"
         }
       ]
     },
