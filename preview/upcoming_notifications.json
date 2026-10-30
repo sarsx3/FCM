@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T15:59:21+00:00",
+  "generated_at": "2026-10-30T16:00:41+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "30 Oct 2026, 09:59:12 PM BST",
+    "source_last_updated": "30 Oct 2026, 10:00:32 PM BST",
     "source_events_loaded": 426,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 92,
-    "upcoming_matches": 177,
+    "upcoming_notifications": 93,
+    "upcoming_matches": 180,
     "next_notification_at_local": "2026-10-30 10:59 PM"
   },
   "upcoming_notifications": [
@@ -2898,6 +2898,47 @@
           "team2": "Las Palmas",
           "hot": false,
           "display": "⚽ Real Oviedo vs Las Palmas · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-02 09:59 PM",
+      "match_start_local": "2026-11-02 10:00 PM",
+      "send_at_utc": "2026-11-02T15:59:00+00:00",
+      "match_start_utc": "2026-11-02T16:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Al Sadd vs Al Ahli Jeddah · AFC Champions League Elite\n⚽ Al Wasl vs Quwa Al Jawiya · AFC Champions League Elite\n⚽ Tractor FC vs Neftchi Fargona · AFC Champions League Elite"
+      },
+      "matches": [
+        {
+          "id": "2101",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Al Sadd",
+          "team2": "Al Ahli Jeddah",
+          "hot": false,
+          "display": "⚽ Al Sadd vs Al Ahli Jeddah · AFC Champions League Elite"
+        },
+        {
+          "id": "2100",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Al Wasl",
+          "team2": "Quwa Al Jawiya",
+          "hot": false,
+          "display": "⚽ Al Wasl vs Quwa Al Jawiya · AFC Champions League Elite"
+        },
+        {
+          "id": "2099",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Tractor FC",
+          "team2": "Neftchi Fargona",
+          "hot": false,
+          "display": "⚽ Tractor FC vs Neftchi Fargona · AFC Champions League Elite"
         }
       ]
     }
