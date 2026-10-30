@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T14:54:22+00:00",
+  "generated_at": "2026-10-30T14:55:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "30 Oct 2026, 08:54:12 PM BST",
+    "source_last_updated": "30 Oct 2026, 08:55:16 PM BST",
     "source_events_loaded": 426,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 92,
-    "upcoming_matches": 177,
+    "upcoming_notifications": 91,
+    "upcoming_matches": 176,
     "next_notification_at_local": "2026-10-30 10:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-30 08:49 PM",
-      "match_start_local": "2026-10-30 08:50 PM",
-      "send_at_utc": "2026-10-30T14:49:00+00:00",
-      "match_start_utc": "2026-10-30T14:50:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Diriyah vs NEOM SC",
-        "body": "Saudi League · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "1965",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Diriyah",
-          "team2": "NEOM SC",
-          "hot": false,
-          "display": "⚽ Diriyah vs NEOM SC · Saudi League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-30 10:59 PM",
