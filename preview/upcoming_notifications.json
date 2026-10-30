@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T23:59:21+00:00",
+  "generated_at": "2026-10-30T00:00:42+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 79,
-    "upcoming_matches": 163,
+    "upcoming_notifications": 80,
+    "upcoming_matches": 164,
     "next_notification_at_local": "2026-10-30 06:29 AM"
   },
   "upcoming_notifications": [
@@ -2590,6 +2590,29 @@
           "team2": "Gimnasia Mendoza",
           "hot": false,
           "display": "⚽ Lanus vs Gimnasia Mendoza · Liga Profesional"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-02 05:59 AM",
+      "match_start_local": "2026-11-02 06:00 AM",
+      "send_at_utc": "2026-11-01T23:59:00+00:00",
+      "match_start_utc": "2026-11-02T00:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Revolution vs Inter Miami",
+        "body": "MLS · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2117",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Revolution",
+          "team2": "Inter Miami",
+          "hot": false,
+          "display": "⚽ Revolution vs Inter Miami · MLS"
         }
       ]
     }
