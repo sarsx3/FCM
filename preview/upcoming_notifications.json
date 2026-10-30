@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:09:17+00:00",
+  "generated_at": "2026-10-30T08:10:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 93,
-    "upcoming_matches": 179,
+    "upcoming_notifications": 94,
+    "upcoming_matches": 180,
     "next_notification_at_local": "2026-10-30 02:29 PM"
   },
   "upcoming_notifications": [
@@ -2930,6 +2930,29 @@
           "team2": "Karnali Yaks",
           "hot": false,
           "display": "🏏 Kathmandu Gorkhas vs Karnali Yaks · NPL 2026 - 10th T20"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-02 02:09 PM",
+      "match_start_local": "2026-11-02 02:10 PM",
+      "send_at_utc": "2026-11-02T08:09:00+00:00",
+      "match_start_utc": "2026-11-02T08:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Melbourne Stars Women vs Perth Scorchers Women",
+        "body": "Womens Big Bash League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2120",
+          "sport": "Cricket",
+          "league": "Womens Big Bash League",
+          "team1": "Melbourne Stars Women",
+          "team2": "Perth Scorchers Women",
+          "hot": false,
+          "display": "🏏 Melbourne Stars Women vs Perth Scorchers Women · Womens Big Bash League"
         }
       ]
     }
