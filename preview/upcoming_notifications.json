@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:14:19+00:00",
+  "generated_at": "2026-10-30T11:15:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 92,
-    "upcoming_matches": 177,
+    "upcoming_notifications": 93,
+    "upcoming_matches": 178,
     "next_notification_at_local": "2026-10-30 07:44 PM"
   },
   "upcoming_notifications": [
@@ -2898,6 +2898,29 @@
           "team2": "Perth Scorchers Women",
           "hot": false,
           "display": "🏏 Melbourne Stars Women vs Perth Scorchers Women · Womens Big Bash League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-02 05:14 PM",
+      "match_start_local": "2026-11-02 05:15 PM",
+      "send_at_utc": "2026-11-02T11:14:00+00:00",
+      "match_start_utc": "2026-11-02T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Sudurpaschim Royals vs Chitwan Rhinos",
+        "body": "NPL 2026 - 11th T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2251",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 11th T20",
+          "team1": "Sudurpaschim Royals",
+          "team2": "Chitwan Rhinos",
+          "hot": false,
+          "display": "🏏 Sudurpaschim Royals vs Chitwan Rhinos · NPL 2026 - 11th T20"
         }
       ]
     }
