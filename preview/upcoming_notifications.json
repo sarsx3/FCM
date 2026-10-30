@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T02:43:20+00:00",
+  "generated_at": "2026-10-30T02:45:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 80,
-    "upcoming_matches": 164,
+    "upcoming_notifications": 81,
+    "upcoming_matches": 165,
     "next_notification_at_local": "2026-10-30 09:29 AM"
   },
   "upcoming_notifications": [
@@ -2613,6 +2613,29 @@
           "team2": "Orlando City Soccer Club",
           "hot": false,
           "display": "⚽ Los Angeles FC vs Orlando City Soccer Club · MLS"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-02 08:44 AM",
+      "match_start_local": "2026-11-02 08:45 AM",
+      "send_at_utc": "2026-11-02T02:44:00+00:00",
+      "match_start_utc": "2026-11-02T02:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Minnesota United vs Portland Timbers",
+        "body": "MLS · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2119",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Minnesota United",
+          "team2": "Portland Timbers",
+          "hot": false,
+          "display": "⚽ Minnesota United vs Portland Timbers · MLS"
         }
       ]
     }
