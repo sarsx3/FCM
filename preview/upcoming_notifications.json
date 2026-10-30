@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T01:29:21+00:00",
+  "generated_at": "2026-10-30T01:30:32+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "30 Oct 2026, 07:29:11 AM BST",
+    "source_last_updated": "30 Oct 2026, 07:30:25 AM BST",
     "source_events_loaded": 442,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 79,
-    "upcoming_matches": 163,
+    "upcoming_notifications": 80,
+    "upcoming_matches": 164,
     "next_notification_at_local": "2026-10-30 09:29 AM"
   },
   "upcoming_notifications": [
@@ -2590,6 +2590,29 @@
           "team2": "Inter Miami",
           "hot": false,
           "display": "⚽ Revolution vs Inter Miami · MLS"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-02 07:29 AM",
+      "match_start_local": "2026-11-02 07:30 AM",
+      "send_at_utc": "2026-11-02T01:29:00+00:00",
+      "match_start_utc": "2026-11-02T01:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Los Angeles FC vs Orlando City Soccer Club",
+        "body": "MLS · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2118",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Los Angeles FC",
+          "team2": "Orlando City Soccer Club",
+          "hot": false,
+          "display": "⚽ Los Angeles FC vs Orlando City Soccer Club · MLS"
         }
       ]
     }
