@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-31T18:23:27+00:00",
+  "generated_at": "2026-10-31T18:24:19+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "01 Nov 2026, 12:21:12 AM BST",
-    "source_events_loaded": 336,
+    "source_last_updated": "01 Nov 2026, 12:19:15 AM BST",
+    "source_events_loaded": 341,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,11 +15,34 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 63,
-    "upcoming_matches": 113,
-    "next_notification_at_local": "2026-11-01 12:59 AM"
+    "upcoming_notifications": 68,
+    "upcoming_matches": 118,
+    "next_notification_at_local": "2026-11-01 12:29 AM"
   },
   "upcoming_notifications": [
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 12:29 AM",
+      "match_start_local": "2026-11-01 12:30 AM",
+      "send_at_utc": "2026-10-31T18:29:00+00:00",
+      "match_start_utc": "2026-10-31T18:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Team 1 (TBC) vs Team 2 (TBC)",
+        "body": "Hong Kong Sixes 2026 - 23rd T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2298",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 23rd T10",
+          "team1": "Team 1 (TBC)",
+          "team2": "Team 2 (TBC)",
+          "hot": false,
+          "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 23rd T10"
+        }
+      ]
+    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-01 12:59 AM",
@@ -58,6 +81,29 @@
           "team2": "San Diego",
           "hot": false,
           "display": "⚽ St. Louis City vs San Diego · MLS"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 01:09 AM",
+      "match_start_local": "2026-11-01 01:10 AM",
+      "send_at_utc": "2026-10-31T19:09:00+00:00",
+      "match_start_utc": "2026-10-31T19:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Team 1 (TBC) vs Team 2 (TBC)",
+        "body": "Hong Kong Sixes 2026 - Final T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2299",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - Final T10",
+          "team1": "Team 1 (TBC)",
+          "team2": "Team 2 (TBC)",
+          "hot": false,
+          "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - Final T10"
         }
       ]
     },
@@ -323,6 +369,75 @@
           "team2": "Chicago Fire",
           "hot": false,
           "display": "⚽ Colorado Rapids vs Chicago Fire · MLS"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 07:39 AM",
+      "match_start_local": "2026-11-01 07:40 AM",
+      "send_at_utc": "2026-11-01T01:39:00+00:00",
+      "match_start_utc": "2026-11-01T01:40:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Team 1 (TBC) vs Team 2 (TBC)",
+        "body": "Hong Kong Sixes 2026 - 19th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2300",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 19th T10",
+          "team1": "Team 1 (TBC)",
+          "team2": "Team 2 (TBC)",
+          "hot": false,
+          "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 19th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 08:34 AM",
+      "match_start_local": "2026-11-01 08:35 AM",
+      "send_at_utc": "2026-11-01T02:34:00+00:00",
+      "match_start_utc": "2026-11-01T02:35:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Team 1 (TBC) vs Team 2 (TBC)",
+        "body": "Hong Kong Sixes 2026 - 20th T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2301",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 20th T10",
+          "team1": "Team 1 (TBC)",
+          "team2": "Team 2 (TBC)",
+          "hot": false,
+          "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 20th T10"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-01 09:29 AM",
+      "match_start_local": "2026-11-01 09:30 AM",
+      "send_at_utc": "2026-11-01T03:29:00+00:00",
+      "match_start_utc": "2026-11-01T03:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Team 1 (TBC) vs Team 2 (TBC)",
+        "body": "Hong Kong Sixes 2026 - 21st T10 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2302",
+          "sport": "Cricket",
+          "league": "Hong Kong Sixes 2026 - 21st T10",
+          "team1": "Team 1 (TBC)",
+          "team2": "Team 2 (TBC)",
+          "hot": false,
+          "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 21st T10"
         }
       ]
     },
