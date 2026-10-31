@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:24:18+00:00",
+  "generated_at": "2026-10-31T05:25:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 84,
-    "upcoming_matches": 174,
+    "upcoming_notifications": 83,
+    "upcoming_matches": 173,
     "next_notification_at_local": "2026-10-31 12:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-31 11:19 AM",
-      "match_start_local": "2026-10-31 11:20 AM",
-      "send_at_utc": "2026-10-31T05:19:00+00:00",
-      "match_start_utc": "2026-10-31T05:20:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 2nd in Group B vs 2nd in Group D",
-        "body": "Hong Kong Sixes 2026 - 15th T10 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2294",
-          "sport": "Cricket",
-          "league": "Hong Kong Sixes 2026 - 15th T10",
-          "team1": "2nd in Group B",
-          "team2": "2nd in Group D",
-          "hot": false,
-          "display": "🏏 2nd in Group B vs 2nd in Group D · Hong Kong Sixes 2026 - 15th T10"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-31 12:14 PM",
