@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T06:44:19+00:00",
+  "generated_at": "2026-10-31T06:45:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "31 Oct 2026, 12:44:13 PM BST",
+    "source_last_updated": "31 Oct 2026, 12:45:19 PM BST",
     "source_events_loaded": 403,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 82,
-    "upcoming_matches": 172,
+    "upcoming_notifications": 83,
+    "upcoming_matches": 173,
     "next_notification_at_local": "2026-10-31 01:09 PM"
   },
   "upcoming_notifications": [
@@ -2713,6 +2713,29 @@
           "team2": "Banfield",
           "hot": false,
           "display": "⚽ Independiente Riv. vs Banfield · Liga Profesional"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-03 12:44 PM",
+      "match_start_local": "2026-11-03 12:45 PM",
+      "send_at_utc": "2026-11-03T06:44:00+00:00",
+      "match_start_utc": "2026-11-03T06:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Biratnagar Kings vs Janakpur Bolts",
+        "body": "NPL 2026 - 12th T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2252",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 12th T20",
+          "team1": "Biratnagar Kings",
+          "team2": "Janakpur Bolts",
+          "hot": false,
+          "display": "🏏 Biratnagar Kings vs Janakpur Bolts · NPL 2026 - 12th T20"
         }
       ]
     }
