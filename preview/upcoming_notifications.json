@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T02:39:23+00:00",
+  "generated_at": "2026-10-31T02:40:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "31 Oct 2026, 08:39:11 AM BST",
+    "source_last_updated": "31 Oct 2026, 08:37:12 AM BST",
     "source_events_loaded": 406,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 88,
-    "upcoming_matches": 177,
+    "upcoming_notifications": 87,
+    "upcoming_matches": 176,
     "next_notification_at_local": "2026-10-31 09:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-31 08:34 AM",
-      "match_start_local": "2026-10-31 08:35 AM",
-      "send_at_utc": "2026-10-31T02:34:00+00:00",
-      "match_start_utc": "2026-10-31T02:35:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 United Arab Emirates vs India",
-        "body": "Hong Kong Sixes 2026 - 12th T10 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2291",
-          "sport": "Cricket",
-          "league": "Hong Kong Sixes 2026 - 12th T10",
-          "team1": "United Arab Emirates",
-          "team2": "India",
-          "hot": false,
-          "display": "🏏 United Arab Emirates vs India · Hong Kong Sixes 2026 - 12th T10"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-31 09:29 AM",
