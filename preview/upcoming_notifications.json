@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T15:04:20+00:00",
+  "generated_at": "2026-10-31T15:05:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "31 Oct 2026, 09:04:13 PM BST",
+    "source_last_updated": "31 Oct 2026, 09:01:13 PM BST",
     "source_events_loaded": 380,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,214 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 73,
-    "upcoming_matches": 150,
+    "upcoming_notifications": 72,
+    "upcoming_matches": 129,
     "next_notification_at_local": "2026-10-31 09:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-31 08:59 PM",
-      "match_start_local": "2026-10-31 09:00 PM",
-      "send_at_utc": "2026-10-31T14:59:00+00:00",
-      "match_start_utc": "2026-10-31T15:00:00+00:00",
-      "match_count": 21,
-      "notification": {
-        "title": "⏰ 21 matches starting soon",
-        "body": "⚽ Bolton vs Bristol City · Championship\n⚽ Burnley vs Portsmouth · Championship\n⚽ Middlesbrough vs Charlton · Championship\n⚽ Millwall vs Derby · Championship\n⚽ Southampton vs Queens Park Rangers · Championship\n⚽ Swansea vs Blackburn · Championship\n+ 15 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "1994",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Bolton",
-          "team2": "Bristol City",
-          "hot": false,
-          "display": "⚽ Bolton vs Bristol City · Championship"
-        },
-        {
-          "id": "1993",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Burnley",
-          "team2": "Portsmouth",
-          "hot": false,
-          "display": "⚽ Burnley vs Portsmouth · Championship"
-        },
-        {
-          "id": "1992",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Middlesbrough",
-          "team2": "Charlton",
-          "hot": false,
-          "display": "⚽ Middlesbrough vs Charlton · Championship"
-        },
-        {
-          "id": "1991",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Millwall",
-          "team2": "Derby",
-          "hot": false,
-          "display": "⚽ Millwall vs Derby · Championship"
-        },
-        {
-          "id": "1990",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Southampton",
-          "team2": "Queens Park Rangers",
-          "hot": false,
-          "display": "⚽ Southampton vs Queens Park Rangers · Championship"
-        },
-        {
-          "id": "1989",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Swansea",
-          "team2": "Blackburn",
-          "hot": false,
-          "display": "⚽ Swansea vs Blackburn · Championship"
-        },
-        {
-          "id": "1988",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "West Ham",
-          "team2": "West Brom",
-          "hot": false,
-          "display": "⚽ West Ham vs West Brom · Championship"
-        },
-        {
-          "id": "1987",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Wolves",
-          "team2": "Cardiff",
-          "hot": false,
-          "display": "⚽ Wolves vs Cardiff · Championship"
-        },
-        {
-          "id": "2005",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Barnsley",
-          "team2": "Oxford Utd",
-          "hot": false,
-          "display": "⚽ Barnsley vs Oxford Utd · League One"
-        },
-        {
-          "id": "2004",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Leicester City",
-          "team2": "Stevenage",
-          "hot": false,
-          "display": "⚽ Leicester City vs Stevenage · League One"
-        },
-        {
-          "id": "2003",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "MK Dons",
-          "team2": "Doncaster",
-          "hot": false,
-          "display": "⚽ MK Dons vs Doncaster · League One"
-        },
-        {
-          "id": "2002",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Mansfield",
-          "team2": "Notts County",
-          "hot": false,
-          "display": "⚽ Mansfield vs Notts County · League One"
-        },
-        {
-          "id": "2001",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Peterborough",
-          "team2": "Luton",
-          "hot": false,
-          "display": "⚽ Peterborough vs Luton · League One"
-        },
-        {
-          "id": "2000",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Stockport",
-          "team2": "AFC Wimbledon",
-          "hot": false,
-          "display": "⚽ Stockport vs AFC Wimbledon · League One"
-        },
-        {
-          "id": "1999",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Wigan",
-          "team2": "Bromley",
-          "hot": false,
-          "display": "⚽ Wigan vs Bromley · League One"
-        },
-        {
-          "id": "1998",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Wycombe",
-          "team2": "Burton",
-          "hot": false,
-          "display": "⚽ Wycombe vs Burton · League One"
-        },
-        {
-          "id": "1981",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Bournemouth",
-          "team2": "Leeds",
-          "hot": false,
-          "display": "⚽ Bournemouth vs Leeds · Premier League"
-        },
-        {
-          "id": "1980",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Brentford",
-          "team2": "Nottingham Forest",
-          "hot": false,
-          "display": "⚽ Brentford vs Nottingham Forest · Premier League"
-        },
-        {
-          "id": "1979",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Coventry",
-          "team2": "Sunderland",
-          "hot": false,
-          "display": "⚽ Coventry vs Sunderland · Premier League"
-        },
-        {
-          "id": "1978",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Hull City",
-          "team2": "Ipswich",
-          "hot": false,
-          "display": "⚽ Hull City vs Ipswich · Premier League"
-        },
-        {
-          "id": "1977",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Man City",
-          "team2": "Brighton",
-          "hot": false,
-          "display": "⚽ Man City vs Brighton · Premier League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-31 09:14 PM",
