@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T18:04:19+00:00",
+  "generated_at": "2026-10-31T18:05:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,61 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 68,
-    "upcoming_matches": 121,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 117,
     "next_notification_at_local": "2026-11-01 12:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-31 11:59 PM",
-      "match_start_local": "2026-11-01 12:00 AM",
-      "send_at_utc": "2026-10-31T17:59:00+00:00",
-      "match_start_utc": "2026-10-31T18:00:00+00:00",
-      "match_count": 4,
-      "notification": {
-        "title": "⏰ 4 matches starting soon",
-        "body": "⚽ Cincinnati vs Philadelphia Union · MLS\n⚽ Columbus Crew vs DC United · MLS\n⚽ New York City vs CF Montréal · MLS\n⚽ Al-Hilal vs Al Fateh · Saudi League"
-      },
-      "matches": [
-        {
-          "id": "2083",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Cincinnati",
-          "team2": "Philadelphia Union",
-          "hot": false,
-          "display": "⚽ Cincinnati vs Philadelphia Union · MLS"
-        },
-        {
-          "id": "2082",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Columbus Crew",
-          "team2": "DC United",
-          "hot": false,
-          "display": "⚽ Columbus Crew vs DC United · MLS"
-        },
-        {
-          "id": "2081",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "New York City",
-          "team2": "CF Montréal",
-          "hot": false,
-          "display": "⚽ New York City vs CF Montréal · MLS"
-        },
-        {
-          "id": "2072",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al-Hilal",
-          "team2": "Al Fateh",
-          "hot": false,
-          "display": "⚽ Al-Hilal vs Al Fateh · Saudi League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-01 12:29 AM",
