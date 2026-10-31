@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-31T17:44:18+00:00",
+  "generated_at": "2026-10-31T17:45:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "31 Oct 2026, 11:41:13 PM BST",
-    "source_events_loaded": 343,
+    "source_last_updated": "31 Oct 2026, 11:45:22 PM BST",
+    "source_events_loaded": 341,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 68,
-    "upcoming_matches": 121,
+    "upcoming_notifications": 69,
+    "upcoming_matches": 123,
     "next_notification_at_local": "2026-10-31 11:59 PM"
   },
   "upcoming_notifications": [
@@ -2058,6 +2058,38 @@
           "team2": "Al Shorta Baghdad",
           "hot": false,
           "display": "⚽ Al Hussein vs Al Shorta Baghdad · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-03 11:44 PM",
+      "match_start_local": "2026-11-03 11:45 PM",
+      "send_at_utc": "2026-11-03T17:44:00+00:00",
+      "match_start_utc": "2026-11-03T17:45:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Galatasaray vs VfB Stuttgart · UEFA Champions League\n⚽ Shakhtar vs Sporting Lisbon · UEFA Champions League"
+      },
+      "matches": [
+        {
+          "id": "2122",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Galatasaray",
+          "team2": "VfB Stuttgart",
+          "hot": false,
+          "display": "⚽ Galatasaray vs VfB Stuttgart · UEFA Champions League"
+        },
+        {
+          "id": "2121",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Shakhtar",
+          "team2": "Sporting Lisbon",
+          "hot": false,
+          "display": "⚽ Shakhtar vs Sporting Lisbon · UEFA Champions League"
         }
       ]
     }
