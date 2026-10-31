@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-31T19:34:21+00:00",
+  "generated_at": "2026-10-31T19:35:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "01 Nov 2026, 01:34:13 AM BST",
-    "source_events_loaded": 331,
+    "source_last_updated": "01 Nov 2026, 01:29:12 AM BST",
+    "source_events_loaded": 335,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 62,
-    "upcoming_matches": 110,
+    "upcoming_notifications": 61,
+    "upcoming_matches": 109,
     "next_notification_at_local": "2026-11-01 01:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-01 01:29 AM",
-      "match_start_local": "2026-11-01 01:30 AM",
-      "send_at_utc": "2026-10-31T19:29:00+00:00",
-      "match_start_utc": "2026-10-31T19:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Karlsruhe vs Heidenheim",
-        "body": "Bundesliga 2 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2055",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "Karlsruhe",
-          "team2": "Heidenheim",
-          "hot": false,
-          "display": "⚽ Karlsruhe vs Heidenheim · Bundesliga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-01 01:44 AM",
