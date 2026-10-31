@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T00:49:16+00:00",
+  "generated_at": "2026-10-31T00:50:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 90,
-    "upcoming_matches": 179,
+    "upcoming_notifications": 89,
+    "upcoming_matches": 178,
     "next_notification_at_local": "2026-10-31 07:39 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-31 06:44 AM",
-      "match_start_local": "2026-10-31 06:45 AM",
-      "send_at_utc": "2026-10-31T00:44:00+00:00",
-      "match_start_utc": "2026-10-31T00:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Oman vs Afghanistan",
-        "body": "Hong Kong Sixes 2026 - 10th T10 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2289",
-          "sport": "Cricket",
-          "league": "Hong Kong Sixes 2026 - 10th T10",
-          "team1": "Oman",
-          "team2": "Afghanistan",
-          "hot": false,
-          "display": "🏏 Oman vs Afghanistan · Hong Kong Sixes 2026 - 10th T10"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-31 07:39 AM",
