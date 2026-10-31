@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-31T13:24:21+00:00",
+  "generated_at": "2026-10-31T13:26:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "31 Oct 2026, 07:24:16 PM BST",
-    "source_events_loaded": 394,
+    "source_last_updated": "31 Oct 2026, 07:26:13 PM BST",
+    "source_events_loaded": 393,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 76,
-    "upcoming_matches": 159,
+    "upcoming_matches": 158,
     "next_notification_at_local": "2026-10-31 07:29 PM"
   },
   "upcoming_notifications": [
@@ -1006,10 +1006,10 @@
       "match_start_local": "2026-11-01 09:30 AM",
       "send_at_utc": "2026-11-01T03:29:00+00:00",
       "match_start_utc": "2026-11-01T03:30:00+00:00",
-      "match_count": 2,
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 21st T10\n🏏 Bangladesh vs West Indies · West Indies tour of Bangladesh, 2026 - 1st Test, Day 5"
+        "title": "🏏 Team 1 (TBC) vs Team 2 (TBC)",
+        "body": "Hong Kong Sixes 2026 - 21st T10 · Starting soon"
       },
       "matches": [
         {
@@ -1020,15 +1020,6 @@
           "team2": "Team 2 (TBC)",
           "hot": false,
           "display": "🏏 Team 1 (TBC) vs Team 2 (TBC) · Hong Kong Sixes 2026 - 21st T10"
-        },
-        {
-          "id": "2089",
-          "sport": "Cricket",
-          "league": "West Indies tour of Bangladesh, 2026 - 1st Test, Day 5",
-          "team1": "Bangladesh",
-          "team2": "West Indies",
-          "hot": false,
-          "display": "🏏 Bangladesh vs West Indies · West Indies tour of Bangladesh, 2026 - 1st Test, Day 5"
         }
       ]
     },
