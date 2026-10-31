@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T12:14:19+00:00",
+  "generated_at": "2026-10-31T12:15:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "31 Oct 2026, 06:12:14 PM BST",
+    "source_last_updated": "31 Oct 2026, 06:15:20 PM BST",
     "source_events_loaded": 396,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 77,
-    "upcoming_matches": 167,
+    "upcoming_notifications": 78,
+    "upcoming_matches": 169,
     "next_notification_at_local": "2026-10-31 06:29 PM"
   },
   "upcoming_notifications": [
@@ -2598,6 +2598,38 @@
           "team2": "Pokhara Avengers",
           "hot": false,
           "display": "🏏 Lumbini Lions vs Pokhara Avengers · NPL 2026 - 13th T20"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-03 06:14 PM",
+      "match_start_local": "2026-11-03 06:15 PM",
+      "send_at_utc": "2026-11-03T12:14:00+00:00",
+      "match_start_utc": "2026-11-03T12:15:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Công An Hà N���i vs Kyoto · AFC Champions League Elite\n⚽ Port FC vs Beijing Guoan · AFC Champions League Elite"
+      },
+      "matches": [
+        {
+          "id": "2134",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Công An Hà N���i",
+          "team2": "Kyoto",
+          "hot": false,
+          "display": "⚽ Công An Hà N���i vs Kyoto · AFC Champions League Elite"
+        },
+        {
+          "id": "2133",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Port FC",
+          "team2": "Beijing Guoan",
+          "hot": false,
+          "display": "⚽ Port FC vs Beijing Guoan · AFC Champions League Elite"
         }
       ]
     }
