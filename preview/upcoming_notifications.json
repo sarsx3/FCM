@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T00:14:32+00:00",
+  "generated_at": "2026-10-31T00:15:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "31 Oct 2026, 06:14:17 AM BST",
+    "source_last_updated": "31 Oct 2026, 06:15:21 AM BST",
     "source_events_loaded": 410,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 90,
-    "upcoming_matches": 179,
+    "upcoming_notifications": 91,
+    "upcoming_matches": 181,
     "next_notification_at_local": "2026-10-31 06:44 AM"
   },
   "upcoming_notifications": [
@@ -2888,6 +2888,38 @@
           "team2": "Santos",
           "hot": false,
           "display": "⚽ Bragantino vs Santos · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-03 06:14 AM",
+      "match_start_local": "2026-11-03 06:15 AM",
+      "send_at_utc": "2026-11-03T00:14:00+00:00",
+      "match_start_utc": "2026-11-03T00:15:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Atletico Tucuman vs AA Argentinos Juniors · Liga Profesional\n⚽ Independiente Riv. vs Banfield · Liga Profesional"
+      },
+      "matches": [
+        {
+          "id": "2126",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Atletico Tucuman",
+          "team2": "AA Argentinos Juniors",
+          "hot": false,
+          "display": "⚽ Atletico Tucuman vs AA Argentinos Juniors · Liga Profesional"
+        },
+        {
+          "id": "2125",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Independiente Riv.",
+          "team2": "Banfield",
+          "hot": false,
+          "display": "⚽ Independiente Riv. vs Banfield · Liga Profesional"
         }
       ]
     }
