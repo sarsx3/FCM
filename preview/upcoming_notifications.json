@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T06:48:19+00:00",
+  "generated_at": "2026-10-31T06:50:32+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "31 Oct 2026, 12:48:14 PM BST",
+    "source_last_updated": "31 Oct 2026, 12:50:19 PM BST",
     "source_events_loaded": 403,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 83,
-    "upcoming_matches": 173,
+    "upcoming_notifications": 82,
+    "upcoming_matches": 172,
     "next_notification_at_local": "2026-10-31 01:09 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-31 12:44 PM",
-      "match_start_local": "2026-10-31 12:45 PM",
-      "send_at_utc": "2026-10-31T06:44:00+00:00",
-      "match_start_utc": "2026-10-31T06:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Lumbini Lions vs Chitwan Rhinos",
-        "body": "NPL 2026 - 7th T20 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2247",
-          "sport": "Cricket",
-          "league": "NPL 2026 - 7th T20",
-          "team1": "Lumbini Lions",
-          "team2": "Chitwan Rhinos",
-          "hot": false,
-          "display": "🏏 Lumbini Lions vs Chitwan Rhinos · NPL 2026 - 7th T20"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-31 01:09 PM",
