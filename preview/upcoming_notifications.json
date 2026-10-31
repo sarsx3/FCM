@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T15:19:25+00:00",
+  "generated_at": "2026-10-31T15:20:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 72,
-    "upcoming_matches": 129,
+    "upcoming_notifications": 71,
+    "upcoming_matches": 127,
     "next_notification_at_local": "2026-10-31 09:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-31 09:14 PM",
-      "match_start_local": "2026-10-31 09:15 PM",
-      "send_at_utc": "2026-10-31T15:14:00+00:00",
-      "match_start_utc": "2026-10-31T15:15:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Rayo vs RC Celta · LaLiga\n⚽ Eibar vs Almeria · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "2031",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Rayo",
-          "team2": "RC Celta",
-          "hot": false,
-          "display": "⚽ Rayo vs RC Celta · LaLiga"
-        },
-        {
-          "id": "2034",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Eibar",
-          "team2": "Almeria",
-          "hot": false,
-          "display": "⚽ Eibar vs Almeria · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-31 09:29 PM",
