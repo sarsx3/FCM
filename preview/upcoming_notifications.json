@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T17:49:19+00:00",
+  "generated_at": "2026-10-31T17:50:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 69,
-    "upcoming_matches": 123,
+    "upcoming_notifications": 68,
+    "upcoming_matches": 121,
     "next_notification_at_local": "2026-10-31 11:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-31 11:44 PM",
-      "match_start_local": "2026-10-31 11:45 PM",
-      "send_at_utc": "2026-10-31T17:44:00+00:00",
-      "match_start_utc": "2026-10-31T17:45:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Heerenveen vs N.E.C. · Eredivisie\n⚽ PSV vs Willem II · Eredivisie"
-      },
-      "matches": [
-        {
-          "id": "2022",
-          "sport": "Football",
-          "league": "Eredivisie",
-          "team1": "Heerenveen",
-          "team2": "N.E.C.",
-          "hot": false,
-          "display": "⚽ Heerenveen vs N.E.C. · Eredivisie"
-        },
-        {
-          "id": "2023",
-          "sport": "Football",
-          "league": "Eredivisie",
-          "team1": "PSV",
-          "team2": "Willem II",
-          "hot": false,
-          "display": "⚽ PSV vs Willem II · Eredivisie"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-31 11:59 PM",
