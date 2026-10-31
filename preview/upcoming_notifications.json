@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:04:22+00:00",
+  "generated_at": "2026-10-31T12:05:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 78,
-    "upcoming_matches": 170,
+    "upcoming_notifications": 77,
+    "upcoming_matches": 167,
     "next_notification_at_local": "2026-10-31 06:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-31 05:59 PM",
-      "match_start_local": "2026-10-31 06:00 PM",
-      "send_at_utc": "2026-10-31T11:59:00+00:00",
-      "match_start_utc": "2026-10-31T12:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Darmstadt 98 vs Magdeburg · Bundesliga 2\n⚽ FC Kaiserslautern vs Hertha BSC · Bundesliga 2\n⚽ Wolfsburg vs Osnabrück · Bundesliga 2"
-      },
-      "matches": [
-        {
-          "id": "2017",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "Darmstadt 98",
-          "team2": "Magdeburg",
-          "hot": false,
-          "display": "⚽ Darmstadt 98 vs Magdeburg · Bundesliga 2"
-        },
-        {
-          "id": "2016",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "FC Kaiserslautern",
-          "team2": "Hertha BSC",
-          "hot": false,
-          "display": "⚽ FC Kaiserslautern vs Hertha BSC · Bundesliga 2"
-        },
-        {
-          "id": "2018",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "Wolfsburg",
-          "team2": "Osnabrück",
-          "hot": false,
-          "display": "⚽ Wolfsburg vs Osnabrück · Bundesliga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-31 06:29 PM",
