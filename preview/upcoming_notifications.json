@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T15:34:18+00:00",
+  "generated_at": "2026-10-31T15:35:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 71,
-    "upcoming_matches": 127,
+    "upcoming_notifications": 70,
+    "upcoming_matches": 125,
     "next_notification_at_local": "2026-10-31 09:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-10-31 09:29 PM",
-      "match_start_local": "2026-10-31 09:30 PM",
-      "send_at_utc": "2026-10-31T15:29:00+00:00",
-      "match_start_utc": "2026-10-31T15:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Feyenoord vs Fortuna Sittard · Eredivisie\n⚽ Moreirense vs Amadora · Liga Portugal"
-      },
-      "matches": [
-        {
-          "id": "2021",
-          "sport": "Football",
-          "league": "Eredivisie",
-          "team1": "Feyenoord",
-          "team2": "Fortuna Sittard",
-          "hot": false,
-          "display": "⚽ Feyenoord vs Fortuna Sittard · Eredivisie"
-        },
-        {
-          "id": "2025",
-          "sport": "Football",
-          "league": "Liga Portugal",
-          "team1": "Moreirense",
-          "team2": "Amadora",
-          "hot": false,
-          "display": "⚽ Moreirense vs Amadora · Liga Portugal"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-10-31 09:59 PM",
