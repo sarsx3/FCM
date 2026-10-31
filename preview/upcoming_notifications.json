@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T11:14:00+00:00",
+  "generated_at": "2026-10-31T11:15:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "31 Oct 2026, 05:13:14 PM BST",
+    "source_last_updated": "31 Oct 2026, 05:15:19 PM BST",
     "source_events_loaded": 398,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 79,
-    "upcoming_matches": 171,
+    "upcoming_notifications": 80,
+    "upcoming_matches": 172,
     "next_notification_at_local": "2026-10-31 05:29 PM"
   },
   "upcoming_notifications": [
@@ -2662,6 +2662,29 @@
           "team2": "Ratchaburi FC",
           "hot": false,
           "display": "⚽ Vissel Kobe vs Ratchaburi FC · AFC Champions League Elite"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-03 05:14 PM",
+      "match_start_local": "2026-11-03 05:15 PM",
+      "send_at_utc": "2026-11-03T11:14:00+00:00",
+      "match_start_utc": "2026-11-03T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Lumbini Lions vs Pokhara Avengers",
+        "body": "NPL 2026 - 13th T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2253",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 13th T20",
+          "team1": "Lumbini Lions",
+          "team2": "Pokhara Avengers",
+          "hot": false,
+          "display": "🏏 Lumbini Lions vs Pokhara Avengers · NPL 2026 - 13th T20"
         }
       ]
     }
