@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T17:44:21+00:00",
+  "generated_at": "2026-11-01T17:45:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 45,
-    "upcoming_matches": 87,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 89,
     "next_notification_at_local": "2026-11-01 11:59 PM"
   },
   "upcoming_notifications": [
@@ -1430,6 +1430,38 @@
           "team2": "Nasaf Qarshi",
           "hot": false,
           "display": "⚽ Kuwait SC vs Nasaf Qarshi · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 11:44 PM",
+      "match_start_local": "2026-11-04 11:45 PM",
+      "send_at_utc": "2026-11-04T17:44:00+00:00",
+      "match_start_utc": "2026-11-04T17:45:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ AEK vs Real Madrid · UEFA Champions League\n⚽ Fenerbahce vs Liverpool · UEFA Champions League"
+      },
+      "matches": [
+        {
+          "id": "2153",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "AEK",
+          "team2": "Real Madrid",
+          "hot": false,
+          "display": "⚽ AEK vs Real Madrid · UEFA Champions League"
+        },
+        {
+          "id": "2152",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Fenerbahce",
+          "team2": "Liverpool",
+          "hot": false,
+          "display": "⚽ Fenerbahce vs Liverpool · UEFA Champions League"
         }
       ]
     }
