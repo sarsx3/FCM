@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-01T18:13:17+00:00",
+  "generated_at": "2026-11-01T18:15:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "02 Nov 2026, 12:13:13 AM BST",
+    "source_last_updated": "02 Nov 2026, 12:11:15 AM BST",
     "source_events_loaded": 277,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 45,
-    "upcoming_matches": 86,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 88,
     "next_notification_at_local": "2026-11-02 12:59 AM"
   },
   "upcoming_notifications": [
@@ -1421,6 +1421,38 @@
           "team2": "Liverpool",
           "hot": false,
           "display": "⚽ Fenerbahce vs Liverpool · UEFA Champions League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 12:14 AM",
+      "match_start_local": "2026-11-05 12:15 AM",
+      "send_at_utc": "2026-11-04T18:14:00+00:00",
+      "match_start_utc": "2026-11-04T18:15:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Al-Taawon vs Al Faisaly · AFC Champions League Two\n⚽ Muharraq SC vs Al-Jazira · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "2194",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Al-Taawon",
+          "team2": "Al Faisaly",
+          "hot": false,
+          "display": "⚽ Al-Taawon vs Al Faisaly · AFC Champions League Two"
+        },
+        {
+          "id": "2195",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Muharraq SC",
+          "team2": "Al-Jazira",
+          "hot": false,
+          "display": "⚽ Muharraq SC vs Al-Jazira · AFC Champions League Two"
         }
       ]
     }
