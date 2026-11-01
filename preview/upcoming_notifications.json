@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-01T09:59:22+00:00",
+  "generated_at": "2026-11-01T10:00:34+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "01 Nov 2026, 03:59:12 PM BST",
+    "source_last_updated": "01 Nov 2026, 03:56:12 PM BST",
     "source_events_loaded": 304,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 57,
-    "upcoming_matches": 112,
+    "upcoming_notifications": 58,
+    "upcoming_matches": 114,
     "next_notification_at_local": "2026-11-01 04:29 PM"
   },
   "upcoming_notifications": [
@@ -1823,6 +1823,38 @@
           "team2": "Melbourne Renegades Women",
           "hot": false,
           "display": "🏏 Hobart Hurricanes Women vs Melbourne Renegades Women · Womens Big Bash League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 03:59 PM",
+      "match_start_local": "2026-11-04 04:00 PM",
+      "send_at_utc": "2026-11-04T09:59:00+00:00",
+      "match_start_utc": "2026-11-04T10:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Pohang Steelers vs Gamba Osaka · AFC Champions League Elite\n⚽ FC Seoul vs Viettel · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "2155",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Pohang Steelers",
+          "team2": "Gamba Osaka",
+          "hot": false,
+          "display": "⚽ Pohang Steelers vs Gamba Osaka · AFC Champions League Elite"
+        },
+        {
+          "id": "2158",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "FC Seoul",
+          "team2": "Viettel",
+          "hot": false,
+          "display": "⚽ FC Seoul vs Viettel · AFC Champions League Two"
         }
       ]
     }
