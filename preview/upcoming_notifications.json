@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-01T19:59:18+00:00",
+  "generated_at": "2026-11-01T20:00:38+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "02 Nov 2026, 01:59:13 AM BST",
+    "source_last_updated": "02 Nov 2026, 01:56:13 AM BST",
     "source_events_loaded": 269,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 45,
-    "upcoming_matches": 88,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 96,
     "next_notification_at_local": "2026-11-02 02:29 AM"
   },
   "upcoming_notifications": [
@@ -1439,6 +1439,92 @@
           "team2": "Reading",
           "hot": false,
           "display": "⚽ Oxford Utd vs Reading · League One"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 01:59 AM",
+      "match_start_local": "2026-11-05 02:00 AM",
+      "send_at_utc": "2026-11-04T19:59:00+00:00",
+      "match_start_utc": "2026-11-04T20:00:00+00:00",
+      "match_count": 8,
+      "notification": {
+        "title": "⏰ 8 matches starting soon",
+        "body": "⚽ Bristol City vs Wolves · Championship\n⚽ Dortmund vs Betis · UEFA Champions League\n⚽ Lens vs Como · UEFA Champions League\n⚽ PSV vs Club Brugge · UEFA Champions League\n⚽ Porto vs Napoli · UEFA Champions League\n⚽ RB Leipzig vs Man City · UEFA Champions League\n+ 2 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "2208",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Bristol City",
+          "team2": "Wolves",
+          "hot": false,
+          "display": "⚽ Bristol City vs Wolves · Championship"
+        },
+        {
+          "id": "2182",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Dortmund",
+          "team2": "Betis",
+          "hot": false,
+          "display": "⚽ Dortmund vs Betis · UEFA Champions League"
+        },
+        {
+          "id": "2183",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Lens",
+          "team2": "Como",
+          "hot": false,
+          "display": "⚽ Lens vs Como · UEFA Champions League"
+        },
+        {
+          "id": "2180",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "PSV",
+          "team2": "Club Brugge",
+          "hot": false,
+          "display": "⚽ PSV vs Club Brugge · UEFA Champions League"
+        },
+        {
+          "id": "2178",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Porto",
+          "team2": "Napoli",
+          "hot": false,
+          "display": "⚽ Porto vs Napoli · UEFA Champions League"
+        },
+        {
+          "id": "2184",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "RB Leipzig",
+          "team2": "Man City",
+          "hot": false,
+          "display": "⚽ RB Leipzig vs Man City · UEFA Champions League"
+        },
+        {
+          "id": "2181",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Slavia Praha",
+          "team2": "Arsenal",
+          "hot": false,
+          "display": "⚽ Slavia Praha vs Arsenal · UEFA Champions League"
+        },
+        {
+          "id": "2179",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Viking",
+          "team2": "Sabah",
+          "hot": false,
+          "display": "⚽ Viking vs Sabah · UEFA Champions League"
         }
       ]
     }
