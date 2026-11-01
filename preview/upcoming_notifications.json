@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T11:34:21+00:00",
+  "generated_at": "2026-11-01T11:35:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 111,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 109,
     "next_notification_at_local": "2026-11-01 06:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-01 05:29 PM",
-      "match_start_local": "2026-11-01 05:30 PM",
-      "send_at_utc": "2026-11-01T11:29:00+00:00",
-      "match_start_utc": "2026-11-01T11:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Mumbai City vs SC Delhi · Indian Super League\n⚽ Como vs Venezia · Serie A"
-      },
-      "matches": [
-        {
-          "id": "2236",
-          "sport": "Football",
-          "league": "Indian Super League",
-          "team1": "Mumbai City",
-          "team2": "SC Delhi",
-          "hot": false,
-          "display": "⚽ Mumbai City vs SC Delhi · Indian Super League"
-        },
-        {
-          "id": "2060",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Como",
-          "team2": "Venezia",
-          "hot": false,
-          "display": "⚽ Como vs Venezia · Serie A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-01 06:29 PM",
