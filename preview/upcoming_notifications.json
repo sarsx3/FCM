@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-01T16:34:21+00:00",
+  "generated_at": "2026-11-01T16:35:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "01 Nov 2026, 10:34:13 PM BST",
-    "source_events_loaded": 283,
+    "source_last_updated": "01 Nov 2026, 10:35:18 PM BST",
+    "source_events_loaded": 282,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 48,
-    "upcoming_matches": 92,
+    "upcoming_notifications": 47,
+    "upcoming_matches": 90,
     "next_notification_at_local": "2026-11-01 10:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-01 10:29 PM",
-      "match_start_local": "2026-11-01 10:30 PM",
-      "send_at_utc": "2026-11-01T16:29:00+00:00",
-      "match_start_utc": "2026-11-01T16:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Eintracht vs Hamburger SV · Bundesliga\n⚽ Liverpool vs Arsenal · Premier League"
-      },
-      "matches": [
-        {
-          "id": "2054",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "Eintracht",
-          "team2": "Hamburger SV",
-          "hot": false,
-          "display": "⚽ Eintracht vs Hamburger SV · Bundesliga"
-        },
-        {
-          "id": "2046",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Liverpool",
-          "team2": "Arsenal",
-          "hot": false,
-          "display": "⚽ Liverpool vs Arsenal · Premier League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-01 10:59 PM",
