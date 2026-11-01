@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T15:19:18+00:00",
+  "generated_at": "2026-11-01T15:20:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 52,
-    "upcoming_matches": 95,
+    "upcoming_notifications": 51,
+    "upcoming_matches": 93,
     "next_notification_at_local": "2026-11-01 09:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-01 09:14 PM",
-      "match_start_local": "2026-11-01 09:15 PM",
-      "send_at_utc": "2026-11-01T15:14:00+00:00",
-      "match_start_utc": "2026-11-01T15:15:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Racing Santander vs Real Madrid · LaLiga\n⚽ Ceuta vs Sporting Gijon · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "2075",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Racing Santander",
-          "team2": "Real Madrid",
-          "hot": false,
-          "display": "⚽ Racing Santander vs Real Madrid · LaLiga"
-        },
-        {
-          "id": "2079",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Ceuta",
-          "team2": "Sporting Gijon",
-          "hot": false,
-          "display": "⚽ Ceuta vs Sporting Gijon · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-01 09:29 PM",
