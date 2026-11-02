@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-02T18:19:18+00:00",
+  "generated_at": "2026-11-02T18:20:41+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "03 Nov 2026, 12:19:12 AM BST",
+    "source_last_updated": "03 Nov 2026, 12:20:23 AM BST",
     "source_events_loaded": 242,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 46,
-    "upcoming_matches": 119,
+    "upcoming_notifications": 45,
+    "upcoming_matches": 117,
     "next_notification_at_local": "2026-11-03 01:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-03 12:14 AM",
-      "match_start_local": "2026-11-03 12:15 AM",
-      "send_at_utc": "2026-11-02T18:14:00+00:00",
-      "match_start_utc": "2026-11-02T18:15:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Al Gharafa vs Al Qadsiah FC · AFC Champions League Elite\n⚽ Al Ittihad vs Al Ain · AFC Champions League Elite"
-      },
-      "matches": [
-        {
-          "id": "2128",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Al Gharafa",
-          "team2": "Al Qadsiah FC",
-          "hot": false,
-          "display": "⚽ Al Gharafa vs Al Qadsiah FC · AFC Champions League Elite"
-        },
-        {
-          "id": "2127",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Al Ittihad",
-          "team2": "Al Ain",
-          "hot": false,
-          "display": "⚽ Al Ittihad vs Al Ain · AFC Champions League Elite"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-03 01:44 AM",
