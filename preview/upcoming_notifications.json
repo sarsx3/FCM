@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-02T18:58:18+00:00",
+  "generated_at": "2026-11-02T19:00:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "03 Nov 2026, 12:58:15 AM BST",
+    "source_last_updated": "03 Nov 2026, 01:00:31 AM BST",
     "source_events_loaded": 242,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 45,
-    "upcoming_matches": 117,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 119,
     "next_notification_at_local": "2026-11-03 01:44 AM"
   },
   "upcoming_notifications": [
@@ -1700,6 +1700,38 @@
           "team2": "Bournemouth",
           "hot": false,
           "display": "⚽ Sparta Praha vs Bournemouth · UEFA Europa League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-06 12:59 AM",
+      "match_start_local": "2026-11-06 01:00 AM",
+      "send_at_utc": "2026-11-05T18:59:00+00:00",
+      "match_start_utc": "2026-11-05T19:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ SD Amorebieta vs UD Logrones · Copa del Rey\n⚽ Trival Valderas vs CD Leganés · Copa del Rey"
+      },
+      "matches": [
+        {
+          "id": "2330",
+          "sport": "Football",
+          "league": "Copa del Rey",
+          "team1": "SD Amorebieta",
+          "team2": "UD Logrones",
+          "hot": false,
+          "display": "⚽ SD Amorebieta vs UD Logrones · Copa del Rey"
+        },
+        {
+          "id": "2329",
+          "sport": "Football",
+          "league": "Copa del Rey",
+          "team1": "Trival Valderas",
+          "team2": "CD Leganés",
+          "hot": false,
+          "display": "⚽ Trival Valderas vs CD Leganés · Copa del Rey"
         }
       ]
     }
