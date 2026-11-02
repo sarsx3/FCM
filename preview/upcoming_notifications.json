@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-02T08:14:19+00:00",
+  "generated_at": "2026-11-02T08:15:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "02 Nov 2026, 02:14:15 PM BST",
+    "source_last_updated": "02 Nov 2026, 02:13:12 PM BST",
     "source_events_loaded": 250,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 45,
-    "upcoming_matches": 91,
+    "upcoming_notifications": 44,
+    "upcoming_matches": 90,
     "next_notification_at_local": "2026-11-02 05:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-02 02:09 PM",
-      "match_start_local": "2026-11-02 02:10 PM",
-      "send_at_utc": "2026-11-02T08:09:00+00:00",
-      "match_start_utc": "2026-11-02T08:10:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Melbourne Stars Women vs Perth Scorchers Women",
-        "body": "Womens Big Bash League · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2120",
-          "sport": "Cricket",
-          "league": "Womens Big Bash League",
-          "team1": "Melbourne Stars Women",
-          "team2": "Perth Scorchers Women",
-          "hot": false,
-          "display": "🏏 Melbourne Stars Women vs Perth Scorchers Women · Womens Big Bash League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-02 05:14 PM",
