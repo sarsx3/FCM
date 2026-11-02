@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:04:24+00:00",
+  "generated_at": "2026-11-02T17:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 47,
-    "upcoming_matches": 104,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 103,
     "next_notification_at_local": "2026-11-02 11:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-02 10:59 PM",
-      "match_start_local": "2026-11-02 11:00 PM",
-      "send_at_utc": "2026-11-02T16:59:00+00:00",
-      "match_start_utc": "2026-11-02T17:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Genclerbirligi vs Alanyaspor",
-        "body": "Super Lig · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2270",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Genclerbirligi",
-          "team2": "Alanyaspor",
-          "hot": false,
-          "display": "⚽ Genclerbirligi vs Alanyaspor · Super Lig"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-02 11:29 PM",
