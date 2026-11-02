@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:44:23+00:00",
+  "generated_at": "2026-11-02T06:45:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 90,
+    "upcoming_notifications": 45,
+    "upcoming_matches": 91,
     "next_notification_at_local": "2026-11-02 02:09 PM"
   },
   "upcoming_notifications": [
@@ -1443,6 +1443,29 @@
           "team2": "Zimbabwe",
           "hot": false,
           "display": "🏏 Afghanistan vs Zimbabwe · Afghanistan vs Zimbabwe in UAE, 2026 - 1st Test, Day 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 12:44 PM",
+      "match_start_local": "2026-11-05 12:45 PM",
+      "send_at_utc": "2026-11-05T06:44:00+00:00",
+      "match_start_utc": "2026-11-05T06:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Lumbini Lions vs Janakpur Bolts",
+        "body": "NPL 2026 - 14th T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2254",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 14th T20",
+          "team1": "Lumbini Lions",
+          "team2": "Janakpur Bolts",
+          "hot": false,
+          "display": "🏏 Lumbini Lions vs Janakpur Bolts · NPL 2026 - 14th T20"
         }
       ]
     }
