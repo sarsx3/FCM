@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-02T16:04:21+00:00",
+  "generated_at": "2026-11-02T16:05:36+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "02 Nov 2026, 10:00:33 PM BST",
+    "source_last_updated": "02 Nov 2026, 10:02:15 PM BST",
     "source_events_loaded": 246,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 47,
-    "upcoming_matches": 98,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 95,
     "next_notification_at_local": "2026-11-02 10:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-02 09:59 PM",
-      "match_start_local": "2026-11-02 10:00 PM",
-      "send_at_utc": "2026-11-02T15:59:00+00:00",
-      "match_start_utc": "2026-11-02T16:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Al Sadd vs Al Ahli Jeddah · AFC Champions League Elite\n⚽ Al Wasl vs Quwa Al Jawiya · AFC Champions League Elite\n⚽ Tractor FC vs Neftchi Fargona · AFC Champions League Elite"
-      },
-      "matches": [
-        {
-          "id": "2101",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Al Sadd",
-          "team2": "Al Ahli Jeddah",
-          "hot": false,
-          "display": "⚽ Al Sadd vs Al Ahli Jeddah · AFC Champions League Elite"
-        },
-        {
-          "id": "2100",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Al Wasl",
-          "team2": "Quwa Al Jawiya",
-          "hot": false,
-          "display": "⚽ Al Wasl vs Quwa Al Jawiya · AFC Champions League Elite"
-        },
-        {
-          "id": "2099",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Tractor FC",
-          "team2": "Neftchi Fargona",
-          "hot": false,
-          "display": "⚽ Tractor FC vs Neftchi Fargona · AFC Champions League Elite"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-02 10:59 PM",
