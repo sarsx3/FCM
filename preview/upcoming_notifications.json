@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:29:26+00:00",
+  "generated_at": "2026-11-02T11:30:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 46,
-    "upcoming_matches": 94,
+    "upcoming_notifications": 47,
+    "upcoming_matches": 95,
     "next_notification_at_local": "2026-11-02 07:44 PM"
   },
   "upcoming_notifications": [
@@ -1507,6 +1507,29 @@
           "team2": "Biratnagar Kings",
           "hot": false,
           "display": "🏏 Kathmandu Gorkhas vs Biratnagar Kings · NPL 2026 - 15th T20"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 05:29 PM",
+      "match_start_local": "2026-11-05 05:30 PM",
+      "send_at_utc": "2026-11-05T11:29:00+00:00",
+      "match_start_utc": "2026-11-05T11:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Churchill Brothers vs NorthEast Utd",
+        "body": "Indian Super League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2238",
+          "sport": "Football",
+          "league": "Indian Super League",
+          "team1": "Churchill Brothers",
+          "team2": "NorthEast Utd",
+          "hot": false,
+          "display": "⚽ Churchill Brothers vs NorthEast Utd · Indian Super League"
         }
       ]
     }
