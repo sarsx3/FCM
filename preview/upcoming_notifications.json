@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:29:17+00:00",
+  "generated_at": "2026-11-02T09:30:36+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 90,
+    "upcoming_notifications": 45,
+    "upcoming_matches": 91,
     "next_notification_at_local": "2026-11-02 05:14 PM"
   },
   "upcoming_notifications": [
@@ -1443,6 +1443,29 @@
           "team2": "Perth Scorchers Women",
           "hot": false,
           "display": "🏏 Sydney Thunder Women vs Perth Scorchers Women · Womens Big Bash League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 03:29 PM",
+      "match_start_local": "2026-11-05 03:30 PM",
+      "send_at_utc": "2026-11-05T09:29:00+00:00",
+      "match_start_utc": "2026-11-05T09:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Pakistan vs India",
+        "body": "SAFF Championship - Group B · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2256",
+          "sport": "Football",
+          "league": "SAFF Championship - Group B",
+          "team1": "Pakistan",
+          "team2": "India",
+          "hot": false,
+          "display": "⚽ Pakistan vs India · SAFF Championship - Group B"
         }
       ]
     }
