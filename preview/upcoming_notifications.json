@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:14:21+00:00",
+  "generated_at": "2026-11-02T11:15:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 46,
-    "upcoming_matches": 94,
+    "upcoming_notifications": 47,
+    "upcoming_matches": 95,
     "next_notification_at_local": "2026-11-02 07:44 PM"
   },
   "upcoming_notifications": [
@@ -1507,6 +1507,29 @@
           "team2": "Shanghai Shenhua",
           "hot": false,
           "display": "⚽ Machida Zelvia vs Shanghai Shenhua · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 05:14 PM",
+      "match_start_local": "2026-11-05 05:15 PM",
+      "send_at_utc": "2026-11-05T11:14:00+00:00",
+      "match_start_utc": "2026-11-05T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Kathmandu Gorkhas vs Biratnagar Kings",
+        "body": "NPL 2026 - 15th T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2255",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 15th T20",
+          "team1": "Kathmandu Gorkhas",
+          "team2": "Biratnagar Kings",
+          "hot": false,
+          "display": "🏏 Kathmandu Gorkhas vs Biratnagar Kings · NPL 2026 - 15th T20"
         }
       ]
     }
