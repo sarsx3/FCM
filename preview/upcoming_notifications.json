@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T04:59:18+00:00",
+  "generated_at": "2026-11-02T05:00:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 43,
-    "upcoming_matches": 89,
+    "upcoming_notifications": 44,
+    "upcoming_matches": 90,
     "next_notification_at_local": "2026-11-02 12:44 PM"
   },
   "upcoming_notifications": [
@@ -1420,6 +1420,29 @@
           "team2": "Brisbane Heat Women",
           "hot": false,
           "display": "🏏 Adelaide Strikers Women vs Brisbane Heat Women · Womens Big Bash League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 10:59 AM",
+      "match_start_local": "2026-11-05 11:00 AM",
+      "send_at_utc": "2026-11-05T04:59:00+00:00",
+      "match_start_utc": "2026-11-05T05:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Afghanistan vs Zimbabwe",
+        "body": "Afghanistan vs Zimbabwe in UAE, 2026 - 1st Test, Day 1 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2231",
+          "sport": "Cricket",
+          "league": "Afghanistan vs Zimbabwe in UAE, 2026 - 1st Test, Day 1",
+          "team1": "Afghanistan",
+          "team2": "Zimbabwe",
+          "hot": false,
+          "display": "🏏 Afghanistan vs Zimbabwe · Afghanistan vs Zimbabwe in UAE, 2026 - 1st Test, Day 1"
         }
       ]
     }
