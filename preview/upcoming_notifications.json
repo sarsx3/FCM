@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-03T18:17:45+00:00",
+  "generated_at": "2026-11-03T18:20:29+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "04 Nov 2026, 12:14:15 AM BST",
+    "source_last_updated": "04 Nov 2026, 12:19:21 AM BST",
     "source_events_loaded": 303,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 42,
-    "upcoming_matches": 124,
+    "upcoming_notifications": 41,
+    "upcoming_matches": 123,
     "next_notification_at_local": "2026-11-04 01:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-04 12:14 AM",
-      "match_start_local": "2026-11-04 12:15 AM",
-      "send_at_utc": "2026-11-03T18:14:00+00:00",
-      "match_start_utc": "2026-11-03T18:15:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Al-Hilal vs Shabab Al Ahly",
-        "body": "AFC Champions League Elite · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2154",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Al-Hilal",
-          "team2": "Shabab Al Ahly",
-          "hot": false,
-          "display": "⚽ Al-Hilal vs Shabab Al Ahly · AFC Champions League Elite"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-04 01:44 AM",
