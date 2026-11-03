@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T17:28:24+00:00",
+  "generated_at": "2026-11-03T17:30:39+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 42,
-    "upcoming_matches": 123,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 126,
     "next_notification_at_local": "2026-11-03 11:44 PM"
   },
   "upcoming_notifications": [
@@ -1712,6 +1712,47 @@
           "team2": "Kasimpasa",
           "hot": false,
           "display": "⚽ Gaziantep FK vs Kasimpasa · Super Lig"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-06 11:29 PM",
+      "match_start_local": "2026-11-06 11:30 PM",
+      "send_at_utc": "2026-11-06T17:29:00+00:00",
+      "match_start_utc": "2026-11-06T17:30:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Braunschweig vs Energie Cottbus · Bundesliga 2\n⚽ Dresden vs Greuther Fürth · Bundesliga 2\n⚽ Al Ittihad vs NEOM SC · Saudi League"
+      },
+      "matches": [
+        {
+          "id": "2324",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Braunschweig",
+          "team2": "Energie Cottbus",
+          "hot": false,
+          "display": "⚽ Braunschweig vs Energie Cottbus · Bundesliga 2"
+        },
+        {
+          "id": "2325",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Dresden",
+          "team2": "Greuther Fürth",
+          "hot": false,
+          "display": "⚽ Dresden vs Greuther Fürth · Bundesliga 2"
+        },
+        {
+          "id": "2328",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Ittihad",
+          "team2": "NEOM SC",
+          "hot": false,
+          "display": "⚽ Al Ittihad vs NEOM SC · Saudi League"
         }
       ]
     }
