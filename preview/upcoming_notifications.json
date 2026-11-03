@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T20:04:30+00:00",
+  "generated_at": "2026-11-03T20:05:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,106 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 124,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 115,
     "next_notification_at_local": "2026-11-04 04:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-04 01:59 AM",
-      "match_start_local": "2026-11-04 02:00 AM",
-      "send_at_utc": "2026-11-03T19:59:00+00:00",
-      "match_start_utc": "2026-11-03T20:00:00+00:00",
-      "match_count": 9,
-      "notification": {
-        "title": "⏰ 9 matches starting soon",
-        "body": "⚽ Birmingham vs Millwall · Championship\n⚽ West Brom vs Southampton · Championship\n⚽ Atl. Madrid vs Bayern · UEFA Champions League\n⚽ Barcelona vs Aston Villa · UEFA Champions League\n⚽ Bodo Glimt vs Lille · UEFA Champions League\n⚽ Feyenoord vs Inter Milan · UEFA Champions League\n+ 3 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "2173",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Birmingham",
-          "team2": "Millwall",
-          "hot": false,
-          "display": "⚽ Birmingham vs Millwall · Championship"
-        },
-        {
-          "id": "2172",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "West Brom",
-          "team2": "Southampton",
-          "hot": false,
-          "display": "⚽ West Brom vs Southampton · Championship"
-        },
-        {
-          "id": "2149",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Atl. Madrid",
-          "team2": "Bayern",
-          "hot": false,
-          "display": "⚽ Atl. Madrid vs Bayern · UEFA Champions League"
-        },
-        {
-          "id": "2150",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Barcelona",
-          "team2": "Aston Villa",
-          "hot": false,
-          "display": "⚽ Barcelona vs Aston Villa · UEFA Champions League"
-        },
-        {
-          "id": "2147",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Bodo Glimt",
-          "team2": "Lille",
-          "hot": false,
-          "display": "⚽ Bodo Glimt vs Lille · UEFA Champions League"
-        },
-        {
-          "id": "2145",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Feyenoord",
-          "team2": "Inter Milan",
-          "hot": false,
-          "display": "⚽ Feyenoord vs Inter Milan · UEFA Champions League"
-        },
-        {
-          "id": "2148",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "LASK",
-          "team2": "Slovan Bratislava",
-          "hot": false,
-          "display": "⚽ LASK vs Slovan Bratislava · UEFA Champions League"
-        },
-        {
-          "id": "2146",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Man Utd",
-          "team2": "AS Roma",
-          "hot": false,
-          "display": "⚽ Man Utd vs AS Roma · UEFA Champions League"
-        },
-        {
-          "id": "2151",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Villarreal",
-          "team2": "PSG",
-          "hot": false,
-          "display": "⚽ Villarreal vs PSG · UEFA Champions League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-04 04:29 AM",
