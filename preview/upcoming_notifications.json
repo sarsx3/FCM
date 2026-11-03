@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:03:25+00:00",
+  "generated_at": "2026-11-03T10:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 129,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 126,
     "next_notification_at_local": "2026-11-03 05:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-03 03:59 PM",
-      "match_start_local": "2026-11-03 04:00 PM",
-      "send_at_utc": "2026-11-03T09:59:00+00:00",
-      "match_start_utc": "2026-11-03T10:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Jeonbuk Hyundai Motors vs Johor Darul Ta’zim · AFC Champions League Elite\n⚽ Kashiwa Reysol vs Daejeon Hana Citizen · AFC Champions League Elite\n⚽ Vissel Kobe vs Ratchaburi FC · AFC Champions League Elite"
-      },
-      "matches": [
-        {
-          "id": "2132",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Jeonbuk Hyundai Motors",
-          "team2": "Johor Darul Ta’zim",
-          "hot": false,
-          "display": "⚽ Jeonbuk Hyundai Motors vs Johor Darul Ta’zim · AFC Champions League Elite"
-        },
-        {
-          "id": "2130",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Kashiwa Reysol",
-          "team2": "Daejeon Hana Citizen",
-          "hot": false,
-          "display": "⚽ Kashiwa Reysol vs Daejeon Hana Citizen · AFC Champions League Elite"
-        },
-        {
-          "id": "2131",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Vissel Kobe",
-          "team2": "Ratchaburi FC",
-          "hot": false,
-          "display": "⚽ Vissel Kobe vs Ratchaburi FC · AFC Champions League Elite"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-03 05:14 PM",
