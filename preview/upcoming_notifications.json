@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:18:21+00:00",
+  "generated_at": "2026-11-03T00:20:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 43,
-    "upcoming_matches": 129,
+    "upcoming_notifications": 42,
+    "upcoming_matches": 127,
     "next_notification_at_local": "2026-11-03 12:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-03 06:14 AM",
-      "match_start_local": "2026-11-03 06:15 AM",
-      "send_at_utc": "2026-11-03T00:14:00+00:00",
-      "match_start_utc": "2026-11-03T00:15:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Atletico Tucuman vs AA Argentinos Juniors · Liga Profesional\n⚽ Independiente Riv. vs Banfield · Liga Profesional"
-      },
-      "matches": [
-        {
-          "id": "2126",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Atletico Tucuman",
-          "team2": "AA Argentinos Juniors",
-          "hot": false,
-          "display": "⚽ Atletico Tucuman vs AA Argentinos Juniors · Liga Profesional"
-        },
-        {
-          "id": "2125",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Independiente Riv.",
-          "team2": "Banfield",
-          "hot": false,
-          "display": "⚽ Independiente Riv. vs Banfield · Liga Profesional"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-03 12:44 PM",
