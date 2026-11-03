@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-03T13:19:21+00:00",
+  "generated_at": "2026-11-03T13:20:29+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "03 Nov 2026, 07:15:20 PM BST",
+    "source_last_updated": "03 Nov 2026, 07:19:13 PM BST",
     "source_events_loaded": 220,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,9 +15,1691 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 0,
-    "upcoming_matches": 0,
-    "next_notification_at_local": null
+    "upcoming_notifications": 41,
+    "upcoming_matches": 123,
+    "next_notification_at_local": "2026-11-03 07:44 PM"
   },
-  "upcoming_notifications": []
+  "upcoming_notifications": [
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-03 07:44 PM",
+      "match_start_local": "2026-11-03 07:45 PM",
+      "send_at_utc": "2026-11-03T13:44:00+00:00",
+      "match_start_utc": "2026-11-03T13:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ East Bengal vs Al Seeb SC",
+        "body": "AFC Champions League Two · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2136",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "East Bengal",
+          "team2": "Al Seeb SC",
+          "hot": false,
+          "display": "⚽ East Bengal vs Al Seeb SC · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-03 09:59 PM",
+      "match_start_local": "2026-11-03 10:00 PM",
+      "send_at_utc": "2026-11-03T15:59:00+00:00",
+      "match_start_utc": "2026-11-03T16:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Esteghlal FC Tehran vs Al Shamal · AFC Champions League Elite\n⚽ Al Hussein vs Al Shorta Baghdad · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "2135",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Esteghlal FC Tehran",
+          "team2": "Al Shamal",
+          "hot": false,
+          "display": "⚽ Esteghlal FC Tehran vs Al Shamal · AFC Champions League Elite"
+        },
+        {
+          "id": "2137",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Al Hussein",
+          "team2": "Al Shorta Baghdad",
+          "hot": false,
+          "display": "⚽ Al Hussein vs Al Shorta Baghdad · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-03 11:44 PM",
+      "match_start_local": "2026-11-03 11:45 PM",
+      "send_at_utc": "2026-11-03T17:44:00+00:00",
+      "match_start_utc": "2026-11-03T17:45:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Galatasaray vs VfB Stuttgart · UEFA Champions League\n⚽ Shakhtar vs Sporting Lisbon · UEFA Champions League"
+      },
+      "matches": [
+        {
+          "id": "2122",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Galatasaray",
+          "team2": "VfB Stuttgart",
+          "hot": false,
+          "display": "⚽ Galatasaray vs VfB Stuttgart · UEFA Champions League"
+        },
+        {
+          "id": "2121",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Shakhtar",
+          "team2": "Sporting Lisbon",
+          "hot": false,
+          "display": "⚽ Shakhtar vs Sporting Lisbon · UEFA Champions League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 12:14 AM",
+      "match_start_local": "2026-11-04 12:15 AM",
+      "send_at_utc": "2026-11-03T18:14:00+00:00",
+      "match_start_utc": "2026-11-03T18:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Al-Hilal vs Shabab Al Ahly",
+        "body": "AFC Champions League Elite · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2154",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Al-Hilal",
+          "team2": "Shabab Al Ahly",
+          "hot": false,
+          "display": "⚽ Al-Hilal vs Shabab Al Ahly · AFC Champions League Elite"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 01:44 AM",
+      "match_start_local": "2026-11-04 01:45 AM",
+      "send_at_utc": "2026-11-03T19:44:00+00:00",
+      "match_start_utc": "2026-11-03T19:45:00+00:00",
+      "match_count": 9,
+      "notification": {
+        "title": "⏰ 9 matches starting soon",
+        "body": "⚽ Blackburn vs Stoke City · Championship\n⚽ Charlton vs Bolton · Championship\n⚽ Derby vs Norwich · Championship\n⚽ Portsmouth vs Swansea · Championship\n⚽ Preston vs Sheffield Utd · Championship\n⚽ QPR vs Burnley · Championship\n+ 3 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "2171",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Blackburn",
+          "team2": "Stoke City",
+          "hot": false,
+          "display": "⚽ Blackburn vs Stoke City · Championship"
+        },
+        {
+          "id": "2165",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Charlton",
+          "team2": "Bolton",
+          "hot": false,
+          "display": "⚽ Charlton vs Bolton · Championship"
+        },
+        {
+          "id": "2170",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Derby",
+          "team2": "Norwich",
+          "hot": false,
+          "display": "⚽ Derby vs Norwich · Championship"
+        },
+        {
+          "id": "2169",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Portsmouth",
+          "team2": "Swansea",
+          "hot": false,
+          "display": "⚽ Portsmouth vs Swansea · Championship"
+        },
+        {
+          "id": "2168",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Preston",
+          "team2": "Sheffield Utd",
+          "hot": false,
+          "display": "⚽ Preston vs Sheffield Utd · Championship"
+        },
+        {
+          "id": "2167",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "QPR",
+          "team2": "Burnley",
+          "hot": false,
+          "display": "⚽ QPR vs Burnley · Championship"
+        },
+        {
+          "id": "2166",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Watford FC",
+          "team2": "Lincoln",
+          "hot": false,
+          "display": "⚽ Watford FC vs Lincoln · Championship"
+        },
+        {
+          "id": "2175",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Huddersfield",
+          "team2": "Luton",
+          "hot": false,
+          "display": "⚽ Huddersfield vs Luton · League One"
+        },
+        {
+          "id": "2174",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Wigan",
+          "team2": "Mansfield",
+          "hot": false,
+          "display": "⚽ Wigan vs Mansfield · League One"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 01:59 AM",
+      "match_start_local": "2026-11-04 02:00 AM",
+      "send_at_utc": "2026-11-03T19:59:00+00:00",
+      "match_start_utc": "2026-11-03T20:00:00+00:00",
+      "match_count": 9,
+      "notification": {
+        "title": "⏰ 9 matches starting soon",
+        "body": "⚽ Birmingham vs Millwall · Championship\n⚽ West Brom vs Southampton · Championship\n⚽ Atl. Madrid vs Bayern · UEFA Champions League\n⚽ Barcelona vs Aston Villa · UEFA Champions League\n⚽ Bodo Glimt vs Lille · UEFA Champions League\n⚽ Feyenoord vs Inter Milan · UEFA Champions League\n+ 3 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "2173",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Birmingham",
+          "team2": "Millwall",
+          "hot": false,
+          "display": "⚽ Birmingham vs Millwall · Championship"
+        },
+        {
+          "id": "2172",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "West Brom",
+          "team2": "Southampton",
+          "hot": false,
+          "display": "⚽ West Brom vs Southampton · Championship"
+        },
+        {
+          "id": "2149",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Atl. Madrid",
+          "team2": "Bayern",
+          "hot": false,
+          "display": "⚽ Atl. Madrid vs Bayern · UEFA Champions League"
+        },
+        {
+          "id": "2150",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Barcelona",
+          "team2": "Aston Villa",
+          "hot": false,
+          "display": "⚽ Barcelona vs Aston Villa · UEFA Champions League"
+        },
+        {
+          "id": "2147",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Bodo Glimt",
+          "team2": "Lille",
+          "hot": false,
+          "display": "⚽ Bodo Glimt vs Lille · UEFA Champions League"
+        },
+        {
+          "id": "2145",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Feyenoord",
+          "team2": "Inter Milan",
+          "hot": false,
+          "display": "⚽ Feyenoord vs Inter Milan · UEFA Champions League"
+        },
+        {
+          "id": "2148",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "LASK",
+          "team2": "Slovan Bratislava",
+          "hot": false,
+          "display": "⚽ LASK vs Slovan Bratislava · UEFA Champions League"
+        },
+        {
+          "id": "2146",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Man Utd",
+          "team2": "AS Roma",
+          "hot": false,
+          "display": "⚽ Man Utd vs AS Roma · UEFA Champions League"
+        },
+        {
+          "id": "2151",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Villarreal",
+          "team2": "PSG",
+          "hot": false,
+          "display": "⚽ Villarreal vs PSG · UEFA Champions League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 04:29 AM",
+      "match_start_local": "2026-11-04 04:30 AM",
+      "send_at_utc": "2026-11-03T22:29:00+00:00",
+      "match_start_utc": "2026-11-03T22:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Chapecoense vs Mirassol",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2163",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Chapecoense",
+          "team2": "Mirassol",
+          "hot": false,
+          "display": "⚽ Chapecoense vs Mirassol · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 06:29 AM",
+      "match_start_local": "2026-11-04 06:30 AM",
+      "send_at_utc": "2026-11-04T00:29:00+00:00",
+      "match_start_utc": "2026-11-04T00:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Internacional vs Coritiba",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2164",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Internacional",
+          "team2": "Coritiba",
+          "hot": false,
+          "display": "⚽ Internacional vs Coritiba · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 07:59 AM",
+      "match_start_local": "2026-11-04 08:00 AM",
+      "send_at_utc": "2026-11-04T01:59:00+00:00",
+      "match_start_utc": "2026-11-04T02:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 New Zealand vs India",
+        "body": "New Zealand vs India – 1st ODI · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2176",
+          "sport": "Cricket",
+          "league": "New Zealand vs India – 1st ODI",
+          "team1": "New Zealand",
+          "team2": "India",
+          "hot": false,
+          "display": "🏏 New Zealand vs India · New Zealand vs India – 1st ODI"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 01:44 PM",
+      "match_start_local": "2026-11-04 01:45 PM",
+      "send_at_utc": "2026-11-04T07:44:00+00:00",
+      "match_start_utc": "2026-11-04T07:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Melbourne Victory vs Persib Bandung",
+        "body": "AFC Champions League Two · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2157",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Melbourne Victory",
+          "team2": "Persib Bandung",
+          "hot": false,
+          "display": "⚽ Melbourne Victory vs Persib Bandung · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 02:09 PM",
+      "match_start_local": "2026-11-04 02:10 PM",
+      "send_at_utc": "2026-11-04T08:09:00+00:00",
+      "match_start_utc": "2026-11-04T08:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Hobart Hurricanes Women vs Melbourne Renegades Women",
+        "body": "Womens Big Bash League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2177",
+          "sport": "Cricket",
+          "league": "Womens Big Bash League",
+          "team1": "Hobart Hurricanes Women",
+          "team2": "Melbourne Renegades Women",
+          "hot": false,
+          "display": "🏏 Hobart Hurricanes Women vs Melbourne Renegades Women · Womens Big Bash League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 03:59 PM",
+      "match_start_local": "2026-11-04 04:00 PM",
+      "send_at_utc": "2026-11-04T09:59:00+00:00",
+      "match_start_utc": "2026-11-04T10:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Pohang Steelers vs Gamba Osaka · AFC Champions League Elite\n⚽ FC Seoul vs Viettel · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "2155",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Pohang Steelers",
+          "team2": "Gamba Osaka",
+          "hot": false,
+          "display": "⚽ Pohang Steelers vs Gamba Osaka · AFC Champions League Elite"
+        },
+        {
+          "id": "2158",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "FC Seoul",
+          "team2": "Viettel",
+          "hot": false,
+          "display": "⚽ FC Seoul vs Viettel · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 06:14 PM",
+      "match_start_local": "2026-11-04 06:15 PM",
+      "send_at_utc": "2026-11-04T12:14:00+00:00",
+      "match_start_utc": "2026-11-04T12:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Buriram United vs Kashima Antlers",
+        "body": "AFC Champions League Elite · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2156",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Buriram United",
+          "team2": "Kashima Antlers",
+          "hot": false,
+          "display": "⚽ Buriram United vs Kashima Antlers · AFC Champions League Elite"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 07:44 PM",
+      "match_start_local": "2026-11-04 07:45 PM",
+      "send_at_utc": "2026-11-04T13:44:00+00:00",
+      "match_start_utc": "2026-11-04T13:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Arkadag vs Gol Gohar",
+        "body": "AFC Champions League Two · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2159",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Arkadag",
+          "team2": "Gol Gohar",
+          "hot": false,
+          "display": "⚽ Arkadag vs Gol Gohar · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 09:59 PM",
+      "match_start_local": "2026-11-04 10:00 PM",
+      "send_at_utc": "2026-11-04T15:59:00+00:00",
+      "match_start_utc": "2026-11-04T16:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Al Rayyan vs Al Nahda · AFC Champions League Two\n⚽ Al-Wahda vs Al Khalidiyah · AFC Champions League Two\n⚽ Kuwait SC vs Nasaf Qarshi · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "2160",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Al Rayyan",
+          "team2": "Al Nahda",
+          "hot": false,
+          "display": "⚽ Al Rayyan vs Al Nahda · AFC Champions League Two"
+        },
+        {
+          "id": "2162",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Al-Wahda",
+          "team2": "Al Khalidiyah",
+          "hot": false,
+          "display": "⚽ Al-Wahda vs Al Khalidiyah · AFC Champions League Two"
+        },
+        {
+          "id": "2161",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Kuwait SC",
+          "team2": "Nasaf Qarshi",
+          "hot": false,
+          "display": "⚽ Kuwait SC vs Nasaf Qarshi · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-04 11:44 PM",
+      "match_start_local": "2026-11-04 11:45 PM",
+      "send_at_utc": "2026-11-04T17:44:00+00:00",
+      "match_start_utc": "2026-11-04T17:45:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ AEK vs Real Madrid · UEFA Champions League\n⚽ Fenerbahce vs Liverpool · UEFA Champions League"
+      },
+      "matches": [
+        {
+          "id": "2153",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "AEK",
+          "team2": "Real Madrid",
+          "hot": false,
+          "display": "⚽ AEK vs Real Madrid · UEFA Champions League"
+        },
+        {
+          "id": "2152",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Fenerbahce",
+          "team2": "Liverpool",
+          "hot": false,
+          "display": "⚽ Fenerbahce vs Liverpool · UEFA Champions League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 12:14 AM",
+      "match_start_local": "2026-11-05 12:15 AM",
+      "send_at_utc": "2026-11-04T18:14:00+00:00",
+      "match_start_utc": "2026-11-04T18:15:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Al-Taawon vs Al Faisaly · AFC Champions League Two\n⚽ Muharraq SC vs Al-Jazira · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "2194",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Al-Taawon",
+          "team2": "Al Faisaly",
+          "hot": false,
+          "display": "⚽ Al-Taawon vs Al Faisaly · AFC Champions League Two"
+        },
+        {
+          "id": "2195",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Muharraq SC",
+          "team2": "Al-Jazira",
+          "hot": false,
+          "display": "⚽ Muharraq SC vs Al-Jazira · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 01:44 AM",
+      "match_start_local": "2026-11-05 01:45 AM",
+      "send_at_utc": "2026-11-04T19:44:00+00:00",
+      "match_start_utc": "2026-11-04T19:45:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Cardiff vs West Ham · Championship\n⚽ Wrexham vs Middlesbrough · Championship\n⚽ Oxford Utd vs Reading · League One"
+      },
+      "matches": [
+        {
+          "id": "2207",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Cardiff",
+          "team2": "West Ham",
+          "hot": false,
+          "display": "⚽ Cardiff vs West Ham · Championship"
+        },
+        {
+          "id": "2206",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Wrexham",
+          "team2": "Middlesbrough",
+          "hot": false,
+          "display": "⚽ Wrexham vs Middlesbrough · Championship"
+        },
+        {
+          "id": "2209",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Oxford Utd",
+          "team2": "Reading",
+          "hot": false,
+          "display": "⚽ Oxford Utd vs Reading · League One"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 01:59 AM",
+      "match_start_local": "2026-11-05 02:00 AM",
+      "send_at_utc": "2026-11-04T19:59:00+00:00",
+      "match_start_utc": "2026-11-04T20:00:00+00:00",
+      "match_count": 8,
+      "notification": {
+        "title": "⏰ 8 matches starting soon",
+        "body": "⚽ Bristol City vs Wolves · Championship\n⚽ Dortmund vs Betis · UEFA Champions League\n⚽ Lens vs Como · UEFA Champions League\n⚽ PSV vs Club Brugge · UEFA Champions League\n⚽ Porto vs Napoli · UEFA Champions League\n⚽ RB Leipzig vs Man City · UEFA Champions League\n+ 2 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "2208",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Bristol City",
+          "team2": "Wolves",
+          "hot": false,
+          "display": "⚽ Bristol City vs Wolves · Championship"
+        },
+        {
+          "id": "2182",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Dortmund",
+          "team2": "Betis",
+          "hot": false,
+          "display": "⚽ Dortmund vs Betis · UEFA Champions League"
+        },
+        {
+          "id": "2183",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Lens",
+          "team2": "Como",
+          "hot": false,
+          "display": "⚽ Lens vs Como · UEFA Champions League"
+        },
+        {
+          "id": "2180",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "PSV",
+          "team2": "Club Brugge",
+          "hot": false,
+          "display": "⚽ PSV vs Club Brugge · UEFA Champions League"
+        },
+        {
+          "id": "2178",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Porto",
+          "team2": "Napoli",
+          "hot": false,
+          "display": "⚽ Porto vs Napoli · UEFA Champions League"
+        },
+        {
+          "id": "2184",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "RB Leipzig",
+          "team2": "Man City",
+          "hot": false,
+          "display": "⚽ RB Leipzig vs Man City · UEFA Champions League"
+        },
+        {
+          "id": "2181",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Slavia Praha",
+          "team2": "Arsenal",
+          "hot": false,
+          "display": "⚽ Slavia Praha vs Arsenal · UEFA Champions League"
+        },
+        {
+          "id": "2179",
+          "sport": "Football",
+          "league": "UEFA Champions League",
+          "team1": "Viking",
+          "team2": "Sabah",
+          "hot": false,
+          "display": "⚽ Viking vs Sabah · UEFA Champions League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 04:29 AM",
+      "match_start_local": "2026-11-05 04:30 AM",
+      "send_at_utc": "2026-11-04T22:29:00+00:00",
+      "match_start_utc": "2026-11-04T22:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Athletico-PR vs Vasco · Brasileirão Série A\n⚽ Flamengo vs Gremio · Brasileirão Série A"
+      },
+      "matches": [
+        {
+          "id": "2202",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Athletico-PR",
+          "team2": "Vasco",
+          "hot": false,
+          "display": "⚽ Athletico-PR vs Vasco · Brasileirão Série A"
+        },
+        {
+          "id": "2203",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Flamengo",
+          "team2": "Gremio",
+          "hot": false,
+          "display": "⚽ Flamengo vs Gremio · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 06:29 AM",
+      "match_start_local": "2026-11-05 06:30 AM",
+      "send_at_utc": "2026-11-05T00:29:00+00:00",
+      "match_start_utc": "2026-11-05T00:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Botafogo vs Atlético Mineiro · Brasileirão Série A\n⚽ São Paulo vs Corinthians · Brasileirão Série A"
+      },
+      "matches": [
+        {
+          "id": "2205",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Botafogo",
+          "team2": "Atlético Mineiro",
+          "hot": false,
+          "display": "⚽ Botafogo vs Atlético Mineiro · Brasileirão Série A"
+        },
+        {
+          "id": "2204",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "São Paulo",
+          "team2": "Corinthians",
+          "hot": false,
+          "display": "⚽ São Paulo vs Corinthians · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 09:29 AM",
+      "match_start_local": "2026-11-05 09:30 AM",
+      "send_at_utc": "2026-11-05T03:29:00+00:00",
+      "match_start_utc": "2026-11-05T03:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Bangladesh vs West Indies",
+        "body": "BAN Vs WI - 2nd Test, Day 1 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2228",
+          "sport": "Cricket",
+          "league": "BAN Vs WI - 2nd Test, Day 1",
+          "team1": "Bangladesh",
+          "team2": "West Indies",
+          "hot": false,
+          "display": "🏏 Bangladesh vs West Indies · BAN Vs WI - 2nd Test, Day 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 10:39 AM",
+      "match_start_local": "2026-11-05 10:40 AM",
+      "send_at_utc": "2026-11-05T04:39:00+00:00",
+      "match_start_utc": "2026-11-05T04:40:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Adelaide Strikers Women vs Brisbane Heat Women",
+        "body": "Womens Big Bash League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2229",
+          "sport": "Cricket",
+          "league": "Womens Big Bash League",
+          "team1": "Adelaide Strikers Women",
+          "team2": "Brisbane Heat Women",
+          "hot": false,
+          "display": "🏏 Adelaide Strikers Women vs Brisbane Heat Women · Womens Big Bash League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 10:59 AM",
+      "match_start_local": "2026-11-05 11:00 AM",
+      "send_at_utc": "2026-11-05T04:59:00+00:00",
+      "match_start_utc": "2026-11-05T05:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Afghanistan vs Zimbabwe",
+        "body": "AFG vs ZIM in UAE, 2026 - 1st Test, Day 1 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2231",
+          "sport": "Cricket",
+          "league": "AFG vs ZIM in UAE, 2026 - 1st Test, Day 1",
+          "team1": "Afghanistan",
+          "team2": "Zimbabwe",
+          "hot": false,
+          "display": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM in UAE, 2026 - 1st Test, Day 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 12:44 PM",
+      "match_start_local": "2026-11-05 12:45 PM",
+      "send_at_utc": "2026-11-05T06:44:00+00:00",
+      "match_start_utc": "2026-11-05T06:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Lumbini Lions vs Janakpur Bolts",
+        "body": "NPL 2026 - 14th T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2254",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 14th T20",
+          "team1": "Lumbini Lions",
+          "team2": "Janakpur Bolts",
+          "hot": false,
+          "display": "🏏 Lumbini Lions vs Janakpur Bolts · NPL 2026 - 14th T20"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 02:09 PM",
+      "match_start_local": "2026-11-05 02:10 PM",
+      "send_at_utc": "2026-11-05T08:09:00+00:00",
+      "match_start_utc": "2026-11-05T08:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Sydney Thunder Women vs Perth Scorchers Women",
+        "body": "Womens Big Bash League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2230",
+          "sport": "Cricket",
+          "league": "Womens Big Bash League",
+          "team1": "Sydney Thunder Women",
+          "team2": "Perth Scorchers Women",
+          "hot": false,
+          "display": "🏏 Sydney Thunder Women vs Perth Scorchers Women · Womens Big Bash League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 03:29 PM",
+      "match_start_local": "2026-11-05 03:30 PM",
+      "send_at_utc": "2026-11-05T09:29:00+00:00",
+      "match_start_utc": "2026-11-05T09:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Pakistan vs India",
+        "body": "SAFF Championship - Group B · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2256",
+          "sport": "Football",
+          "league": "SAFF Championship - Group B",
+          "team1": "Pakistan",
+          "team2": "India",
+          "hot": false,
+          "display": "⚽ Pakistan vs India · SAFF Championship - Group B"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 03:59 PM",
+      "match_start_local": "2026-11-05 04:00 PM",
+      "send_at_utc": "2026-11-05T09:59:00+00:00",
+      "match_start_utc": "2026-11-05T10:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Kitchee vs Phnom Penh Crown · AFC Champions League Two\n⚽ Lion City vs Adelaide United · AFC Champions League Two\n⚽ Machida Zelvia vs Shanghai Shenhua · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "2196",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Kitchee",
+          "team2": "Phnom Penh Crown",
+          "hot": false,
+          "display": "⚽ Kitchee vs Phnom Penh Crown · AFC Champions League Two"
+        },
+        {
+          "id": "2198",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Lion City",
+          "team2": "Adelaide United",
+          "hot": false,
+          "display": "⚽ Lion City vs Adelaide United · AFC Champions League Two"
+        },
+        {
+          "id": "2197",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Machida Zelvia",
+          "team2": "Shanghai Shenhua",
+          "hot": false,
+          "display": "⚽ Machida Zelvia vs Shanghai Shenhua · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 05:14 PM",
+      "match_start_local": "2026-11-05 05:15 PM",
+      "send_at_utc": "2026-11-05T11:14:00+00:00",
+      "match_start_utc": "2026-11-05T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Kathmandu Gorkhas vs Biratnagar Kings",
+        "body": "NPL 2026 - 15th T20 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2255",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 15th T20",
+          "team1": "Kathmandu Gorkhas",
+          "team2": "Biratnagar Kings",
+          "hot": false,
+          "display": "🏏 Kathmandu Gorkhas vs Biratnagar Kings · NPL 2026 - 15th T20"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 05:29 PM",
+      "match_start_local": "2026-11-05 05:30 PM",
+      "send_at_utc": "2026-11-05T11:29:00+00:00",
+      "match_start_utc": "2026-11-05T11:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Churchill Brothers vs NorthEast Utd",
+        "body": "Indian Super League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2238",
+          "sport": "Football",
+          "league": "Indian Super League",
+          "team1": "Churchill Brothers",
+          "team2": "NorthEast Utd",
+          "hot": false,
+          "display": "⚽ Churchill Brothers vs NorthEast Utd · Indian Super League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 06:14 PM",
+      "match_start_local": "2026-11-05 06:15 PM",
+      "send_at_utc": "2026-11-05T12:14:00+00:00",
+      "match_start_utc": "2026-11-05T12:15:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Bangkok Glass vs Tai Po FC · AFC Champions League Two\n⚽ Kuching City FC vs Gangwon FC · AFC Champions League Two\n⚽ Svay Rieng vs Tampines Rovers · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "2201",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Bangkok Glass",
+          "team2": "Tai Po FC",
+          "hot": false,
+          "display": "⚽ Bangkok Glass vs Tai Po FC · AFC Champions League Two"
+        },
+        {
+          "id": "2199",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Kuching City FC",
+          "team2": "Gangwon FC",
+          "hot": false,
+          "display": "⚽ Kuching City FC vs Gangwon FC · AFC Champions League Two"
+        },
+        {
+          "id": "2200",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Svay Rieng",
+          "team2": "Tampines Rovers",
+          "hot": false,
+          "display": "⚽ Svay Rieng vs Tampines Rovers · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 07:59 PM",
+      "match_start_local": "2026-11-05 08:00 PM",
+      "send_at_utc": "2026-11-05T13:59:00+00:00",
+      "match_start_utc": "2026-11-05T14:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Mohun Bagan vs Odisha · Indian Super League\n⚽ Bhutan vs Bangladesh · SAFF Championship - Group A"
+      },
+      "matches": [
+        {
+          "id": "2239",
+          "sport": "Football",
+          "league": "Indian Super League",
+          "team1": "Mohun Bagan",
+          "team2": "Odisha",
+          "hot": false,
+          "display": "⚽ Mohun Bagan vs Odisha · Indian Super League"
+        },
+        {
+          "id": "2257",
+          "sport": "Football",
+          "league": "SAFF Championship - Group A",
+          "team1": "Bhutan",
+          "team2": "Bangladesh",
+          "hot": false,
+          "display": "⚽ Bhutan vs Bangladesh · SAFF Championship - Group A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 10:59 PM",
+      "match_start_local": "2026-11-05 11:00 PM",
+      "send_at_utc": "2026-11-05T16:59:00+00:00",
+      "match_start_utc": "2026-11-05T17:00:00+00:00",
+      "match_count": 9,
+      "notification": {
+        "title": "⏰ 9 matches starting soon",
+        "body": "⚽ Abha Club vs Al Shabab · Saudi League\n⚽ Al Ahli vs Al Taawoun · Saudi League\n⚽ Al Ettifaq vs Al Hilal · Saudi League\n⚽ Al Fateh vs Al Riyadh · Saudi League\n⚽ Al Faysaly vs Diriyah · Saudi League\n⚽ Al Hazm vs Al Nassr · Saudi League\n+ 3 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "2226",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Abha Club",
+          "team2": "Al Shabab",
+          "hot": false,
+          "display": "⚽ Abha Club vs Al Shabab · Saudi League"
+        },
+        {
+          "id": "2227",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Ahli",
+          "team2": "Al Taawoun",
+          "hot": false,
+          "display": "⚽ Al Ahli vs Al Taawoun · Saudi League"
+        },
+        {
+          "id": "2225",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Ettifaq",
+          "team2": "Al Hilal",
+          "hot": false,
+          "display": "⚽ Al Ettifaq vs Al Hilal · Saudi League"
+        },
+        {
+          "id": "2224",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Fateh",
+          "team2": "Al Riyadh",
+          "hot": false,
+          "display": "⚽ Al Fateh vs Al Riyadh · Saudi League"
+        },
+        {
+          "id": "2220",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Faysaly",
+          "team2": "Diriyah",
+          "hot": false,
+          "display": "⚽ Al Faysaly vs Diriyah · Saudi League"
+        },
+        {
+          "id": "2223",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Hazm",
+          "team2": "Al Nassr",
+          "hot": false,
+          "display": "⚽ Al Hazm vs Al Nassr · Saudi League"
+        },
+        {
+          "id": "2222",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Ittihad",
+          "team2": "NEOM SC",
+          "hot": false,
+          "display": "⚽ Al Ittihad vs NEOM SC · Saudi League"
+        },
+        {
+          "id": "2221",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al-Kholood",
+          "team2": "Al Khaleej",
+          "hot": false,
+          "display": "⚽ Al-Kholood vs Al Khaleej · Saudi League"
+        },
+        {
+          "id": "2219",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Qadisiya",
+          "team2": "Al-Fayha FC",
+          "hot": false,
+          "display": "⚽ Qadisiya vs Al-Fayha FC · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-05 11:44 PM",
+      "match_start_local": "2026-11-05 11:45 PM",
+      "send_at_utc": "2026-11-05T17:44:00+00:00",
+      "match_start_utc": "2026-11-05T17:45:00+00:00",
+      "match_count": 18,
+      "notification": {
+        "title": "⏰ 18 matches starting soon",
+        "body": "⚽ Aarhus vs Braga · UEFA Conference League\n⚽ Atalanta vs Kairat Almaty · UEFA Conference League\n⚽ FC Midtjylland vs Ajax · UEFA Conference League\n⚽ FC Thun vs Hearts · UEFA Conference League\n⚽ KuPS vs Gent · UEFA Conference League\n⚽ Lincoln Red Imps vs Hajduk Split · UEFA Conference League\n+ 12 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "2218",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Aarhus",
+          "team2": "Braga",
+          "hot": false,
+          "display": "⚽ Aarhus vs Braga · UEFA Conference League"
+        },
+        {
+          "id": "2217",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Atalanta",
+          "team2": "Kairat Almaty",
+          "hot": false,
+          "display": "⚽ Atalanta vs Kairat Almaty · UEFA Conference League"
+        },
+        {
+          "id": "2216",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "FC Midtjylland",
+          "team2": "Ajax",
+          "hot": false,
+          "display": "⚽ FC Midtjylland vs Ajax · UEFA Conference League"
+        },
+        {
+          "id": "2215",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "FC Thun",
+          "team2": "Hearts",
+          "hot": false,
+          "display": "⚽ FC Thun vs Hearts · UEFA Conference League"
+        },
+        {
+          "id": "2213",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "KuPS",
+          "team2": "Gent",
+          "hot": false,
+          "display": "⚽ KuPS vs Gent · UEFA Conference League"
+        },
+        {
+          "id": "2212",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Lincoln Red Imps",
+          "team2": "Hajduk Split",
+          "hot": false,
+          "display": "⚽ Lincoln Red Imps vs Hajduk Split · UEFA Conference League"
+        },
+        {
+          "id": "2211",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Mjällby AIF",
+          "team2": "Borac Banjaluka",
+          "hot": false,
+          "display": "⚽ Mjällby AIF vs Borac Banjaluka · UEFA Conference League"
+        },
+        {
+          "id": "2214",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Red Star Belgrade",
+          "team2": "Inter Escaldes",
+          "hot": false,
+          "display": "⚽ Red Star Belgrade vs Inter Escaldes · UEFA Conference League"
+        },
+        {
+          "id": "2210",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Trabzonspor",
+          "team2": "Freiburg",
+          "hot": false,
+          "display": "⚽ Trabzonspor vs Freiburg · UEFA Conference League"
+        },
+        {
+          "id": "2186",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "AC Milan",
+          "team2": "Ferencvaros",
+          "hot": false,
+          "display": "⚽ AC Milan vs Ferencvaros · UEFA Europa League"
+        },
+        {
+          "id": "2192",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Anderlecht",
+          "team2": "Salzburg",
+          "hot": false,
+          "display": "⚽ Anderlecht vs Salzburg · UEFA Europa League"
+        },
+        {
+          "id": "2190",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Levski Sofia",
+          "team2": "Jagiellonia",
+          "hot": false,
+          "display": "⚽ Levski Sofia vs Jagiellonia · UEFA Europa League"
+        },
+        {
+          "id": "2188",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Lillestrom",
+          "team2": "Viktoria Plzen",
+          "hot": false,
+          "display": "⚽ Lillestrom vs Viktoria Plzen · UEFA Europa League"
+        },
+        {
+          "id": "2185",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "N.E.C.",
+          "team2": "Omonia",
+          "hot": false,
+          "display": "⚽ N.E.C. vs Omonia · UEFA Europa League"
+        },
+        {
+          "id": "2187",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Palace",
+          "team2": "Hoffenheim",
+          "hot": false,
+          "display": "⚽ Palace vs Hoffenheim · UEFA Europa League"
+        },
+        {
+          "id": "2191",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Real Sociedad",
+          "team2": "Lyon",
+          "hot": false,
+          "display": "⚽ Real Sociedad vs Lyon · UEFA Europa League"
+        },
+        {
+          "id": "2193",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Rennes",
+          "team2": "Olympiacos",
+          "hot": false,
+          "display": "⚽ Rennes vs Olympiacos · UEFA Europa League"
+        },
+        {
+          "id": "2189",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Sparta Praha",
+          "team2": "Bournemouth",
+          "hot": false,
+          "display": "⚽ Sparta Praha vs Bournemouth · UEFA Europa League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-06 12:59 AM",
+      "match_start_local": "2026-11-06 01:00 AM",
+      "send_at_utc": "2026-11-05T18:59:00+00:00",
+      "match_start_utc": "2026-11-05T19:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ SD Amorebieta vs UD Logrones · Copa del Rey\n⚽ Trival Valderas vs CD Leganés · Copa del Rey"
+      },
+      "matches": [
+        {
+          "id": "2330",
+          "sport": "Football",
+          "league": "Copa del Rey",
+          "team1": "SD Amorebieta",
+          "team2": "UD Logrones",
+          "hot": false,
+          "display": "⚽ SD Amorebieta vs UD Logrones · Copa del Rey"
+        },
+        {
+          "id": "2329",
+          "sport": "Football",
+          "league": "Copa del Rey",
+          "team1": "Trival Valderas",
+          "team2": "CD Leganés",
+          "hot": false,
+          "display": "⚽ Trival Valderas vs CD Leganés · Copa del Rey"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-06 01:59 AM",
+      "match_start_local": "2026-11-06 02:00 AM",
+      "send_at_utc": "2026-11-05T19:59:00+00:00",
+      "match_start_utc": "2026-11-05T20:00:00+00:00",
+      "match_count": 18,
+      "notification": {
+        "title": "⏰ 18 matches starting soon",
+        "body": "⚽ Craiova vs Egnatia · UEFA Conference League\n⚽ FC Copenhagen vs FC Iberia 1999 · UEFA Conference League\n⚽ Getafe vs Brighton · UEFA Conference League\n⚽ Lugano vs FK Kauno Žalgiris · UEFA Conference League\n⚽ Monaco vs FC Nordsjælland · UEFA Conference League\n⚽ Panathinaikos vs CSKA Sofia · UEFA Conference League\n+ 12 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "2315",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Craiova",
+          "team2": "Egnatia",
+          "hot": false,
+          "display": "⚽ Craiova vs Egnatia · UEFA Conference League"
+        },
+        {
+          "id": "2322",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "FC Copenhagen",
+          "team2": "FC Iberia 1999",
+          "hot": false,
+          "display": "⚽ FC Copenhagen vs FC Iberia 1999 · UEFA Conference League"
+        },
+        {
+          "id": "2319",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Getafe",
+          "team2": "Brighton",
+          "hot": false,
+          "display": "⚽ Getafe vs Brighton · UEFA Conference League"
+        },
+        {
+          "id": "2321",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Lugano",
+          "team2": "FK Kauno Žalgiris",
+          "hot": false,
+          "display": "⚽ Lugano vs FK Kauno Žalgiris · UEFA Conference League"
+        },
+        {
+          "id": "2323",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Monaco",
+          "team2": "FC Nordsjælland",
+          "hot": false,
+          "display": "⚽ Monaco vs FC Nordsjælland · UEFA Conference League"
+        },
+        {
+          "id": "2317",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Panathinaikos",
+          "team2": "CSKA Sofia",
+          "hot": false,
+          "display": "⚽ Panathinaikos vs CSKA Sofia · UEFA Conference League"
+        },
+        {
+          "id": "2316",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Riga",
+          "team2": "FK Jablonec",
+          "hot": false,
+          "display": "⚽ Riga vs FK Jablonec · UEFA Conference League"
+        },
+        {
+          "id": "2318",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "STVV",
+          "team2": "Brann",
+          "hot": false,
+          "display": "⚽ STVV vs Brann · UEFA Conference League"
+        },
+        {
+          "id": "2320",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Twente",
+          "team2": "Pafos FC",
+          "hot": false,
+          "display": "⚽ Twente vs Pafos FC · UEFA Conference League"
+        },
+        {
+          "id": "2304",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "AZ Alkmaar",
+          "team2": "Juventus",
+          "hot": false,
+          "display": "⚽ AZ Alkmaar vs Juventus · UEFA Europa League"
+        },
+        {
+          "id": "2309",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Benfica",
+          "team2": "Lech Poznan",
+          "hot": false,
+          "display": "⚽ Benfica vs Lech Poznan · UEFA Europa League"
+        },
+        {
+          "id": "2307",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Celtic",
+          "team2": "Besiktas",
+          "hot": false,
+          "display": "⚽ Celtic vs Besiktas · UEFA Europa League"
+        },
+        {
+          "id": "2312",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Hapoel Beer Sheva",
+          "team2": "OFI Crete",
+          "hot": false,
+          "display": "⚽ Hapoel Beer Sheva vs OFI Crete · UEFA Europa League"
+        },
+        {
+          "id": "2310",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Leverkusen",
+          "team2": "Olympique de Marseille",
+          "hot": false,
+          "display": "⚽ Leverkusen vs Olympique de Marseille · UEFA Europa League"
+        },
+        {
+          "id": "2311",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "RC Celta",
+          "team2": "Union Saint-Gilloise",
+          "hot": false,
+          "display": "⚽ RC Celta vs Union Saint-Gilloise · UEFA Europa League"
+        },
+        {
+          "id": "2308",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Sturm Graz",
+          "team2": "NK Celje",
+          "hot": false,
+          "display": "⚽ Sturm Graz vs NK Celje · UEFA Europa League"
+        },
+        {
+          "id": "2306",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Sunderland",
+          "team2": "Dinamo Zagreb",
+          "hot": false,
+          "display": "⚽ Sunderland vs Dinamo Zagreb · UEFA Europa League"
+        },
+        {
+          "id": "2305",
+          "sport": "Football",
+          "league": "UEFA Europa League",
+          "team1": "Torreense",
+          "team2": "FC Ararat-Armenia",
+          "hot": false,
+          "display": "⚽ Torreense vs FC Ararat-Armenia · UEFA Europa League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-06 04:29 AM",
+      "match_start_local": "2026-11-06 04:30 AM",
+      "send_at_utc": "2026-11-05T22:29:00+00:00",
+      "match_start_utc": "2026-11-05T22:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Palmeiras vs Remo",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2313",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Palmeiras",
+          "team2": "Remo",
+          "hot": false,
+          "display": "⚽ Palmeiras vs Remo · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-06 06:29 AM",
+      "match_start_local": "2026-11-06 06:30 AM",
+      "send_at_utc": "2026-11-06T00:29:00+00:00",
+      "match_start_utc": "2026-11-06T00:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Cruzeiro vs Bahia",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2314",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Cruzeiro",
+          "team2": "Bahia",
+          "hot": false,
+          "display": "⚽ Cruzeiro vs Bahia · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-06 09:29 AM",
+      "match_start_local": "2026-11-06 09:30 AM",
+      "send_at_utc": "2026-11-06T03:29:00+00:00",
+      "match_start_utc": "2026-11-06T03:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Bangladesh vs West Indies",
+        "body": "BAN vs WI - 2nd Test, Day 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2332",
+          "sport": "Cricket",
+          "league": "BAN vs WI - 2nd Test, Day 2",
+          "team1": "Bangladesh",
+          "team2": "West Indies",
+          "hot": false,
+          "display": "🏏 Bangladesh vs West Indies · BAN vs WI - 2nd Test, Day 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-06 10:59 AM",
+      "match_start_local": "2026-11-06 11:00 AM",
+      "send_at_utc": "2026-11-06T04:59:00+00:00",
+      "match_start_utc": "2026-11-06T05:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Afghanistan vs Zimbabwe",
+        "body": "AFG vs ZIM - 1st Test, Day 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2333",
+          "sport": "Cricket",
+          "league": "AFG vs ZIM - 1st Test, Day 2",
+          "team1": "Afghanistan",
+          "team2": "Zimbabwe",
+          "hot": false,
+          "display": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 1st Test, Day 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-06 02:09 PM",
+      "match_start_local": "2026-11-06 02:10 PM",
+      "send_at_utc": "2026-11-06T08:09:00+00:00",
+      "match_start_utc": "2026-11-06T08:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Melbourne Stars Women vs Sydney Sixers Women",
+        "body": "WBBL 2026 - 12th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2334",
+          "sport": "Cricket",
+          "league": "WBBL 2026 - 12th Match",
+          "team1": "Melbourne Stars Women",
+          "team2": "Sydney Sixers Women",
+          "hot": false,
+          "display": "🏏 Melbourne Stars Women vs Sydney Sixers Women · WBBL 2026 - 12th Match"
+        }
+      ]
+    }
+  ]
 }
