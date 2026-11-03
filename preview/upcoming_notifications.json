@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T20:44:28+00:00",
+  "generated_at": "2026-11-03T20:45:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 43,
-    "upcoming_matches": 115,
+    "upcoming_notifications": 44,
+    "upcoming_matches": 116,
     "next_notification_at_local": "2026-11-04 04:29 AM"
   },
   "upcoming_notifications": [
@@ -1654,6 +1654,29 @@
           "team2": "Coventry",
           "hot": false,
           "display": "⚽ Everton vs Coventry · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-07 02:44 AM",
+      "match_start_local": "2026-11-07 02:45 AM",
+      "send_at_utc": "2026-11-06T20:44:00+00:00",
+      "match_start_utc": "2026-11-06T20:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Famalicão vs Arouca",
+        "body": "Liga Portugal · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2396",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Famalicão",
+          "team2": "Arouca",
+          "hot": false,
+          "display": "⚽ Famalicão vs Arouca · Liga Portugal"
         }
       ]
     }
