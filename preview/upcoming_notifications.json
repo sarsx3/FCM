@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-03T16:01:31+00:00",
+  "generated_at": "2026-11-03T16:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "03 Nov 2026, 10:01:14 PM BST",
+    "source_last_updated": "03 Nov 2026, 10:05:17 PM BST",
     "source_events_loaded": 216,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 42,
-    "upcoming_matches": 124,
+    "upcoming_notifications": 41,
+    "upcoming_matches": 122,
     "next_notification_at_local": "2026-11-03 11:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-03 09:59 PM",
-      "match_start_local": "2026-11-03 10:00 PM",
-      "send_at_utc": "2026-11-03T15:59:00+00:00",
-      "match_start_utc": "2026-11-03T16:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Esteghlal FC Tehran vs Al Shamal · AFC Champions League Elite\n⚽ Al Hussein vs Al Shorta Baghdad · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "2135",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Esteghlal FC Tehran",
-          "team2": "Al Shamal",
-          "hot": false,
-          "display": "⚽ Esteghlal FC Tehran vs Al Shamal · AFC Champions League Elite"
-        },
-        {
-          "id": "2137",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al Hussein",
-          "team2": "Al Shorta Baghdad",
-          "hot": false,
-          "display": "⚽ Al Hussein vs Al Shorta Baghdad · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-03 11:44 PM",
