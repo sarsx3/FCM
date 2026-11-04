@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-04T17:47:25+00:00",
+  "generated_at": "2026-11-04T17:50:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "04 Nov 2026, 11:47:12 PM BST",
+    "source_last_updated": "04 Nov 2026, 11:50:22 PM BST",
     "source_events_loaded": 304,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 177,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 175,
     "next_notification_at_local": "2026-11-05 12:14 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-04 11:44 PM",
-      "match_start_local": "2026-11-04 11:45 PM",
-      "send_at_utc": "2026-11-04T17:44:00+00:00",
-      "match_start_utc": "2026-11-04T17:45:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ AEK vs Real Madrid · UEFA Champions League\n⚽ Fenerbahce vs Liverpool · UEFA Champions League"
-      },
-      "matches": [
-        {
-          "id": "2153",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "AEK",
-          "team2": "Real Madrid",
-          "hot": false,
-          "display": "⚽ AEK vs Real Madrid · UEFA Champions League"
-        },
-        {
-          "id": "2152",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Fenerbahce",
-          "team2": "Liverpool",
-          "hot": false,
-          "display": "⚽ Fenerbahce vs Liverpool · UEFA Champions League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-05 12:14 AM",
