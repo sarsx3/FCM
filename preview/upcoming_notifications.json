@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T04:39:23+00:00",
+  "generated_at": "2026-11-04T04:40:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 116,
+    "upcoming_notifications": 45,
+    "upcoming_matches": 117,
     "next_notification_at_local": "2026-11-04 01:44 PM"
   },
   "upcoming_notifications": [
@@ -1677,6 +1677,29 @@
           "team2": "West Indies",
           "hot": false,
           "display": "🏏 Bangladesh vs West Indies · BAN vs WI - 2nd Test, Day 3"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-07 10:39 AM",
+      "match_start_local": "2026-11-07 10:40 AM",
+      "send_at_utc": "2026-11-07T04:39:00+00:00",
+      "match_start_utc": "2026-11-07T04:40:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Melbourne Renegades Women vs Adelaide Strikers Women",
+        "body": "WBBL 2026 - 13th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2416",
+          "sport": "Cricket",
+          "league": "WBBL 2026 - 13th Match",
+          "team1": "Melbourne Renegades Women",
+          "team2": "Adelaide Strikers Women",
+          "hot": false,
+          "display": "🏏 Melbourne Renegades Women vs Adelaide Strikers Women · WBBL 2026 - 13th Match"
         }
       ]
     }
