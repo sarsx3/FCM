@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:29:19+00:00",
+  "generated_at": "2026-11-04T14:30:36+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 48,
-    "upcoming_matches": 127,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 132,
     "next_notification_at_local": "2026-11-04 09:59 PM"
   },
   "upcoming_notifications": [
@@ -1832,6 +1832,65 @@
           "team2": "Lecce",
           "hot": false,
           "display": "⚽ Torino vs Lecce · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-07 08:29 PM",
+      "match_start_local": "2026-11-07 08:30 PM",
+      "send_at_utc": "2026-11-07T14:29:00+00:00",
+      "match_start_utc": "2026-11-07T14:30:00+00:00",
+      "match_count": 5,
+      "notification": {
+        "title": "⏰ 5 matches starting soon",
+        "body": "⚽ Dortmund vs Elversberg · Bundesliga\n⚽ Mainz vs Bayern · Bundesliga\n⚽ RB Leipzig vs Augsburg · Bundesliga\n⚽ SC Paderborn vs Eintracht · Bundesliga\n⚽ Al Ettifaq vs Al Hilal · Saudi League"
+      },
+      "matches": [
+        {
+          "id": "2384",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Dortmund",
+          "team2": "Elversberg",
+          "hot": false,
+          "display": "⚽ Dortmund vs Elversberg · Bundesliga"
+        },
+        {
+          "id": "2382",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Mainz",
+          "team2": "Bayern",
+          "hot": false,
+          "display": "⚽ Mainz vs Bayern · Bundesliga"
+        },
+        {
+          "id": "2383",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "RB Leipzig",
+          "team2": "Augsburg",
+          "hot": false,
+          "display": "⚽ RB Leipzig vs Augsburg · Bundesliga"
+        },
+        {
+          "id": "2381",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "SC Paderborn",
+          "team2": "Eintracht",
+          "hot": false,
+          "display": "⚽ SC Paderborn vs Eintracht · Bundesliga"
+        },
+        {
+          "id": "2399",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Ettifaq",
+          "team2": "Al Hilal",
+          "hot": false,
+          "display": "⚽ Al Ettifaq vs Al Hilal · Saudi League"
         }
       ]
     }
