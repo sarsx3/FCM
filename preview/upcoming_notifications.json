@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-04T16:03:17+00:00",
+  "generated_at": "2026-11-04T16:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "04 Nov 2026, 10:03:13 PM BST",
+    "source_last_updated": "04 Nov 2026, 10:05:17 PM BST",
     "source_events_loaded": 305,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 53,
-    "upcoming_matches": 171,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 168,
     "next_notification_at_local": "2026-11-04 11:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-04 09:59 PM",
-      "match_start_local": "2026-11-04 10:00 PM",
-      "send_at_utc": "2026-11-04T15:59:00+00:00",
-      "match_start_utc": "2026-11-04T16:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Al Rayyan vs Al Nahda · AFC Champions League Two\n⚽ Al-Wahda vs Al Khalidiyah · AFC Champions League Two\n⚽ Kuwait SC vs Nasaf Qarshi · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "2160",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al Rayyan",
-          "team2": "Al Nahda",
-          "hot": false,
-          "display": "⚽ Al Rayyan vs Al Nahda · AFC Champions League Two"
-        },
-        {
-          "id": "2162",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al-Wahda",
-          "team2": "Al Khalidiyah",
-          "hot": false,
-          "display": "⚽ Al-Wahda vs Al Khalidiyah · AFC Champions League Two"
-        },
-        {
-          "id": "2161",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Kuwait SC",
-          "team2": "Nasaf Qarshi",
-          "hot": false,
-          "display": "⚽ Kuwait SC vs Nasaf Qarshi · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-04 11:44 PM",
