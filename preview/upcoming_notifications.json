@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:42:25+00:00",
+  "generated_at": "2026-11-04T17:44:01+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -17,11 +17,11 @@
   "summary": {
     "upcoming_notifications": 55,
     "upcoming_matches": 176,
-    "next_notification_at_local": "2026-11-04 11:44 PM"
+    "next_notification_at_local": "2026-11-05 12:14 AM"
   },
   "upcoming_notifications": [
     {
-      "status": "scheduled",
+      "status": "sent",
       "send_at_local": "2026-11-04 11:44 PM",
       "match_start_local": "2026-11-04 11:45 PM",
       "send_at_utc": "2026-11-04T17:44:00+00:00",
