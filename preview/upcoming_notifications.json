@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T15:29:21+00:00",
+  "generated_at": "2026-11-04T15:30:34+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 167,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 169,
     "next_notification_at_local": "2026-11-04 09:59 PM"
   },
   "upcoming_notifications": [
@@ -2234,6 +2234,38 @@
           "team2": "Real Oviedo",
           "hot": false,
           "display": "⚽ Cadiz vs Real Oviedo · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-07 09:29 PM",
+      "match_start_local": "2026-11-07 09:30 PM",
+      "send_at_utc": "2026-11-07T15:29:00+00:00",
+      "match_start_utc": "2026-11-07T15:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Sittard vs Telstar · Eredivisie\n⚽ Nacional vs Viseu · Liga Portugal"
+      },
+      "matches": [
+        {
+          "id": "2394",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Sittard",
+          "team2": "Telstar",
+          "hot": false,
+          "display": "⚽ Sittard vs Telstar · Eredivisie"
+        },
+        {
+          "id": "2397",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Nacional",
+          "team2": "Viseu",
+          "hot": false,
+          "display": "⚽ Nacional vs Viseu · Liga Portugal"
         }
       ]
     }
