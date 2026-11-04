@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:49:31+00:00",
+  "generated_at": "2026-11-04T19:50:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 57,
-    "upcoming_matches": 179,
+    "upcoming_notifications": 56,
+    "upcoming_matches": 176,
     "next_notification_at_local": "2026-11-05 01:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-05 01:44 AM",
-      "match_start_local": "2026-11-05 01:45 AM",
-      "send_at_utc": "2026-11-04T19:44:00+00:00",
-      "match_start_utc": "2026-11-04T19:45:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Cardiff vs West Ham · Championship\n⚽ Wrexham vs Middlesbrough · Championship\n⚽ Oxford Utd vs Reading · League One"
-      },
-      "matches": [
-        {
-          "id": "2207",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Cardiff",
-          "team2": "West Ham",
-          "hot": false,
-          "display": "⚽ Cardiff vs West Ham · Championship"
-        },
-        {
-          "id": "2206",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Wrexham",
-          "team2": "Middlesbrough",
-          "hot": false,
-          "display": "⚽ Wrexham vs Middlesbrough · Championship"
-        },
-        {
-          "id": "2209",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Oxford Utd",
-          "team2": "Reading",
-          "hot": false,
-          "display": "⚽ Oxford Utd vs Reading · League One"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-05 01:59 AM",
