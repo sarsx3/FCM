@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-04T02:04:21+00:00",
+  "generated_at": "2026-11-04T02:05:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "04 Nov 2026, 08:04:14 AM BST",
+    "source_last_updated": "04 Nov 2026, 08:01:13 AM BST",
     "source_events_loaded": 281,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 116,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 115,
     "next_notification_at_local": "2026-11-04 01:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-04 07:59 AM",
-      "match_start_local": "2026-11-04 08:00 AM",
-      "send_at_utc": "2026-11-04T01:59:00+00:00",
-      "match_start_utc": "2026-11-04T02:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 New Zealand vs India",
-        "body": "New Zealand vs India – 1st ODI · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2176",
-          "sport": "Cricket",
-          "league": "New Zealand vs India – 1st ODI",
-          "team1": "New Zealand",
-          "team2": "India",
-          "hot": false,
-          "display": "🏏 New Zealand vs India · New Zealand vs India – 1st ODI"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-04 01:44 PM",
