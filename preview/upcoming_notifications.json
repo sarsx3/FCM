@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-04T18:18:34+00:00",
+  "generated_at": "2026-11-04T18:20:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "05 Nov 2026, 12:18:14 AM BST",
+    "source_last_updated": "05 Nov 2026, 12:19:13 AM BST",
     "source_events_loaded": 301,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 178,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 176,
     "next_notification_at_local": "2026-11-05 01:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-05 12:14 AM",
-      "match_start_local": "2026-11-05 12:15 AM",
-      "send_at_utc": "2026-11-04T18:14:00+00:00",
-      "match_start_utc": "2026-11-04T18:15:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Al-Taawon vs Al Faisaly · AFC Champions League Two\n⚽ Muharraq SC vs Al-Jazira · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "2194",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al-Taawon",
-          "team2": "Al Faisaly",
-          "hot": false,
-          "display": "⚽ Al-Taawon vs Al Faisaly · AFC Champions League Two"
-        },
-        {
-          "id": "2195",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Muharraq SC",
-          "team2": "Al-Jazira",
-          "hot": false,
-          "display": "⚽ Muharraq SC vs Al-Jazira · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-05 01:44 AM",
