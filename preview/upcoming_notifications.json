@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-05T16:19:21+00:00",
+  "generated_at": "2026-11-05T16:20:29+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "05 Nov 2026, 10:17:14 PM BST",
-    "source_events_loaded": 280,
+    "source_last_updated": "05 Nov 2026, 10:20:22 PM BST",
+    "source_events_loaded": 277,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 65,
-    "upcoming_matches": 215,
+    "upcoming_matches": 212,
     "next_notification_at_local": "2026-11-05 10:59 PM"
   },
   "upcoming_notifications": [
@@ -26,21 +26,12 @@
       "match_start_local": "2026-11-05 11:00 PM",
       "send_at_utc": "2026-11-05T16:59:00+00:00",
       "match_start_utc": "2026-11-05T17:00:00+00:00",
-      "match_count": 9,
+      "match_count": 6,
       "notification": {
-        "title": "⏰ 9 matches starting soon",
-        "body": "⚽ Abha Club vs Al Shabab · Saudi League\n⚽ Al Ahli vs Al Taawoun · Saudi League\n⚽ Al Ettifaq vs Al Hilal · Saudi League\n⚽ Al Fateh vs Al Riyadh · Saudi League\n⚽ Al Faysaly vs Diriyah · Saudi League\n⚽ Al Hazm vs Al Nassr · Saudi League\n+ 3 more matches in the app"
+        "title": "⏰ 6 matches starting soon",
+        "body": "⚽ Al Ahli vs Al Taawoun · Saudi League\n⚽ Al Ettifaq vs Al Hilal · Saudi League\n⚽ Al Fateh vs Al Riyadh · Saudi League\n⚽ Al Faysaly vs Diriyah · Saudi League\n⚽ Al Hazm vs Al Nassr · Saudi League\n⚽ Al Ittihad vs NEOM SC · Saudi League"
       },
       "matches": [
-        {
-          "id": "2226",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Abha Club",
-          "team2": "Al Shabab",
-          "hot": false,
-          "display": "⚽ Abha Club vs Al Shabab · Saudi League"
-        },
         {
           "id": "2227",
           "sport": "Football",
@@ -94,24 +85,6 @@
           "team2": "NEOM SC",
           "hot": false,
           "display": "⚽ Al Ittihad vs NEOM SC · Saudi League"
-        },
-        {
-          "id": "2221",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al-Kholood",
-          "team2": "Al Khaleej",
-          "hot": false,
-          "display": "⚽ Al-Kholood vs Al Khaleej · Saudi League"
-        },
-        {
-          "id": "2219",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Qadisiya",
-          "team2": "Al-Fayha FC",
-          "hot": false,
-          "display": "⚽ Qadisiya vs Al-Fayha FC · Saudi League"
         }
       ]
     },
