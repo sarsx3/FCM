@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-05T10:04:21+00:00",
+  "generated_at": "2026-11-05T10:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "05 Nov 2026, 04:04:16 PM BST",
+    "source_last_updated": "05 Nov 2026, 04:05:22 PM BST",
     "source_events_loaded": 296,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 57,
-    "upcoming_matches": 188,
+    "upcoming_notifications": 56,
+    "upcoming_matches": 185,
     "next_notification_at_local": "2026-11-05 05:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-05 03:59 PM",
-      "match_start_local": "2026-11-05 04:00 PM",
-      "send_at_utc": "2026-11-05T09:59:00+00:00",
-      "match_start_utc": "2026-11-05T10:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Kitchee vs Phnom Penh Crown · AFC Champions League Two\n⚽ Lion City vs Adelaide United · AFC Champions League Two\n⚽ Machida Zelvia vs Shanghai Shenhua · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "2196",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Kitchee",
-          "team2": "Phnom Penh Crown",
-          "hot": false,
-          "display": "⚽ Kitchee vs Phnom Penh Crown · AFC Champions League Two"
-        },
-        {
-          "id": "2198",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Lion City",
-          "team2": "Adelaide United",
-          "hot": false,
-          "display": "⚽ Lion City vs Adelaide United · AFC Champions League Two"
-        },
-        {
-          "id": "2197",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Machida Zelvia",
-          "team2": "Shanghai Shenhua",
-          "hot": false,
-          "display": "⚽ Machida Zelvia vs Shanghai Shenhua · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-05 05:14 PM",
