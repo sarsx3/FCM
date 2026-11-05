@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-05T18:15:28+00:00",
+  "generated_at": "2026-11-05T18:17:16+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "06 Nov 2026, 12:14:22 AM BST",
-    "source_events_loaded": 269,
+    "source_last_updated": "06 Nov 2026, 12:17:13 AM BST",
+    "source_events_loaded": 267,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 68,
-    "upcoming_matches": 198,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 196,
     "next_notification_at_local": "2026-11-06 12:59 AM"
   },
   "upcoming_notifications": [
@@ -358,52 +358,6 @@
           "team2": "Sydney Sixers Women",
           "hot": false,
           "display": "🏏 Melbourne Stars Women vs Sydney Sixers Women · WBBL 2026 - 12th Match"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-06 08:29 PM",
-      "match_start_local": "2026-11-06 08:30 PM",
-      "send_at_utc": "2026-11-06T14:29:00+00:00",
-      "match_start_utc": "2026-11-06T14:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Al Fateh vs Al Riyadh",
-        "body": "Saudi League · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2326",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al Fateh",
-          "team2": "Al Riyadh",
-          "hot": false,
-          "display": "⚽ Al Fateh vs Al Riyadh · Saudi League"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-06 08:54 PM",
-      "match_start_local": "2026-11-06 08:55 PM",
-      "send_at_utc": "2026-11-06T14:54:00+00:00",
-      "match_start_utc": "2026-11-06T14:55:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Al Hazm vs Al Nassr",
-        "body": "Saudi League · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2327",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al Hazm",
-          "team2": "Al Nassr",
-          "hot": false,
-          "display": "⚽ Al Hazm vs Al Nassr · Saudi League"
         }
       ]
     },
