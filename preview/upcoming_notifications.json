@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-05T06:09:16+00:00",
+  "generated_at": "2026-11-05T06:10:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "05 Nov 2026, 12:04:13 PM BST",
+    "source_last_updated": "05 Nov 2026, 12:10:22 PM BST",
     "source_events_loaded": 282,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 58,
-    "upcoming_matches": 189,
+    "upcoming_notifications": 59,
+    "upcoming_matches": 190,
     "next_notification_at_local": "2026-11-05 12:44 PM"
   },
   "upcoming_notifications": [
@@ -2530,6 +2530,29 @@
           "team2": "Zimbabwe",
           "hot": false,
           "display": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 1st Test, Day 4"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-08 12:09 PM",
+      "match_start_local": "2026-11-08 12:10 PM",
+      "send_at_utc": "2026-11-08T06:09:00+00:00",
+      "match_start_utc": "2026-11-08T06:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Perth Scorchers Women vs Melbourne Stars Women",
+        "body": "WBBL 2026 - 16th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2489",
+          "sport": "Cricket",
+          "league": "WBBL 2026 - 16th Match",
+          "team1": "Perth Scorchers Women",
+          "team2": "Melbourne Stars Women",
+          "hot": false,
+          "display": "🏏 Perth Scorchers Women vs Melbourne Stars Women · WBBL 2026 - 16th Match"
         }
       ]
     }
