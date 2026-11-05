@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:14:21+00:00",
+  "generated_at": "2026-11-05T17:15:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 209,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 210,
     "next_notification_at_local": "2026-11-05 11:44 PM"
   },
   "upcoming_notifications": [
@@ -2822,6 +2822,29 @@
           "team2": "Como",
           "hot": false,
           "display": "⚽ Inter vs Como · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-08 11:14 PM",
+      "match_start_local": "2026-11-08 11:15 PM",
+      "send_at_utc": "2026-11-08T17:14:00+00:00",
+      "match_start_utc": "2026-11-08T17:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Oldham vs Sheffield Wed",
+        "body": "FA Cup · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2433",
+          "sport": "Football",
+          "league": "FA Cup",
+          "team1": "Oldham",
+          "team2": "Sheffield Wed",
+          "hot": false,
+          "display": "⚽ Oldham vs Sheffield Wed · FA Cup"
         }
       ]
     }
