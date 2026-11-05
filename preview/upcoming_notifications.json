@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-05T17:24:20+00:00",
+  "generated_at": "2026-11-05T17:26:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "05 Nov 2026, 11:20:22 PM BST",
-    "source_events_loaded": 270,
+    "source_last_updated": "05 Nov 2026, 11:25:18 PM BST",
+    "source_events_loaded": 269,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 67,
-    "upcoming_matches": 210,
+    "upcoming_matches": 209,
     "next_notification_at_local": "2026-11-05 11:44 PM"
   },
   "upcoming_notifications": [
@@ -26,10 +26,10 @@
       "match_start_local": "2026-11-05 11:45 PM",
       "send_at_utc": "2026-11-05T17:44:00+00:00",
       "match_start_utc": "2026-11-05T17:45:00+00:00",
-      "match_count": 18,
+      "match_count": 17,
       "notification": {
-        "title": "⏰ 18 matches starting soon",
-        "body": "⚽ Aarhus vs Braga · UEFA Conference League\n⚽ Atalanta vs Kairat Almaty · UEFA Conference League\n⚽ FC Midtjylland vs Ajax · UEFA Conference League\n⚽ FC Thun vs Hearts · UEFA Conference League\n⚽ KuPS vs Gent · UEFA Conference League\n⚽ Lincoln Red Imps vs Hajduk Split · UEFA Conference League\n+ 12 more matches in the app"
+        "title": "⏰ 17 matches starting soon",
+        "body": "⚽ Aarhus vs Braga · UEFA Conference League\n⚽ Atalanta vs Kairat Almaty · UEFA Conference League\n⚽ FC Midtjylland vs Ajax · UEFA Conference League\n⚽ FC Thun vs Hearts · UEFA Conference League\n⚽ KuPS vs Gent · UEFA Conference League\n⚽ Lincoln Red Imps vs Hajduk Split · UEFA Conference League\n+ 11 more matches in the app"
       },
       "matches": [
         {
@@ -175,15 +175,6 @@
           "team2": "Lyon",
           "hot": false,
           "display": "⚽ Real Sociedad vs Lyon · UEFA Europa League"
-        },
-        {
-          "id": "2193",
-          "sport": "Football",
-          "league": "UEFA Europa League",
-          "team1": "Rennes",
-          "team2": "Olympiacos",
-          "hot": false,
-          "display": "⚽ Rennes vs Olympiacos · UEFA Europa League"
         },
         {
           "id": "2189",
