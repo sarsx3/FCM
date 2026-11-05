@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-05T10:56:18+00:00",
+  "generated_at": "2026-11-05T10:58:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "05 Nov 2026, 04:55:17 PM BST",
-    "source_events_loaded": 295,
+    "source_last_updated": "05 Nov 2026, 04:58:15 PM BST",
+    "source_events_loaded": 294,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 57,
-    "upcoming_matches": 186,
+    "upcoming_matches": 192,
     "next_notification_at_local": "2026-11-05 05:14 PM"
   },
   "upcoming_notifications": [
@@ -693,10 +693,10 @@
       "match_start_local": "2026-11-06 11:00 AM",
       "send_at_utc": "2026-11-06T04:59:00+00:00",
       "match_start_utc": "2026-11-06T05:00:00+00:00",
-      "match_count": 1,
+      "match_count": 3,
       "notification": {
-        "title": "🏏 Afghanistan vs Zimbabwe",
-        "body": "AFG vs ZIM - 1st Test, Day 2 · Starting soon"
+        "title": "⏰ 3 matches starting soon",
+        "body": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 1st Test, Day 2\n🏏 Pakistan U19 vs United Arab Emirates U19 · U19 Asia Cup 2026 - 3rd Youth ODI\n🏏 India U19 vs Nepal U19 · U19 Asia Cup 2026 - 4th Youth ODI"
       },
       "matches": [
         {
@@ -707,6 +707,24 @@
           "team2": "Zimbabwe",
           "hot": false,
           "display": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 1st Test, Day 2"
+        },
+        {
+          "id": "2542",
+          "sport": "Cricket",
+          "league": "U19 Asia Cup 2026 - 3rd Youth ODI",
+          "team1": "Pakistan U19",
+          "team2": "United Arab Emirates U19",
+          "hot": false,
+          "display": "🏏 Pakistan U19 vs United Arab Emirates U19 · U19 Asia Cup 2026 - 3rd Youth ODI"
+        },
+        {
+          "id": "2543",
+          "sport": "Cricket",
+          "league": "U19 Asia Cup 2026 - 4th Youth ODI",
+          "team1": "India U19",
+          "team2": "Nepal U19",
+          "hot": false,
+          "display": "🏏 India U19 vs Nepal U19 · U19 Asia Cup 2026 - 4th Youth ODI"
         }
       ]
     },
@@ -1110,10 +1128,10 @@
       "match_start_local": "2026-11-07 11:00 AM",
       "send_at_utc": "2026-11-07T04:59:00+00:00",
       "match_start_utc": "2026-11-07T05:00:00+00:00",
-      "match_count": 1,
+      "match_count": 3,
       "notification": {
-        "title": "🏏 Afghanistan vs Zimbabwe",
-        "body": "AFG vs ZIM - 1st Test, Day 3 · Starting soon"
+        "title": "⏰ 3 matches starting soon",
+        "body": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 1st Test, Day 3\n🏏 Afghanistan U19 vs Malaysia U19 · U19 Asia Cup 2026 - 5th Youth ODI\n🏏 Sri Lanka U19 vs Bangladesh U19 · U19 Asia Cup 2026 - 6th Youth ODI"
       },
       "matches": [
         {
@@ -1124,6 +1142,24 @@
           "team2": "Zimbabwe",
           "hot": false,
           "display": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 1st Test, Day 3"
+        },
+        {
+          "id": "2544",
+          "sport": "Cricket",
+          "league": "U19 Asia Cup 2026 - 5th Youth ODI",
+          "team1": "Afghanistan U19",
+          "team2": "Malaysia U19",
+          "hot": false,
+          "display": "🏏 Afghanistan U19 vs Malaysia U19 · U19 Asia Cup 2026 - 5th Youth ODI"
+        },
+        {
+          "id": "2545",
+          "sport": "Cricket",
+          "league": "U19 Asia Cup 2026 - 6th Youth ODI",
+          "team1": "Sri Lanka U19",
+          "team2": "Bangladesh U19",
+          "hot": false,
+          "display": "🏏 Sri Lanka U19 vs Bangladesh U19 · U19 Asia Cup 2026 - 6th Youth ODI"
         }
       ]
     },
@@ -2406,10 +2442,10 @@
       "match_start_local": "2026-11-08 11:00 AM",
       "send_at_utc": "2026-11-08T04:59:00+00:00",
       "match_start_utc": "2026-11-08T05:00:00+00:00",
-      "match_count": 1,
+      "match_count": 3,
       "notification": {
-        "title": "🏏 Afghanistan vs Zimbabwe",
-        "body": "AFG vs ZIM - 1st Test, Day 4 · Starting soon"
+        "title": "⏰ 3 matches starting soon",
+        "body": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 1st Test, Day 4\n🏏 United Arab Emirates U19 vs Nepal U19 · U19 Asia Cup 2026 - 7th Youth ODI\n🏏 India U19 vs Pakistan U19 · U19 Asia Cup 2026 - 8th Youth ODI"
       },
       "matches": [
         {
@@ -2420,6 +2456,24 @@
           "team2": "Zimbabwe",
           "hot": false,
           "display": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 1st Test, Day 4"
+        },
+        {
+          "id": "2546",
+          "sport": "Cricket",
+          "league": "U19 Asia Cup 2026 - 7th Youth ODI",
+          "team1": "United Arab Emirates U19",
+          "team2": "Nepal U19",
+          "hot": false,
+          "display": "🏏 United Arab Emirates U19 vs Nepal U19 · U19 Asia Cup 2026 - 7th Youth ODI"
+        },
+        {
+          "id": "2547",
+          "sport": "Cricket",
+          "league": "U19 Asia Cup 2026 - 8th Youth ODI",
+          "team1": "India U19",
+          "team2": "Pakistan U19",
+          "hot": false,
+          "display": "🏏 India U19 vs Pakistan U19 · U19 Asia Cup 2026 - 8th Youth ODI"
         }
       ]
     },
