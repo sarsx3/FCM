@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:29:16+00:00",
+  "generated_at": "2026-11-05T18:30:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 196,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 197,
     "next_notification_at_local": "2026-11-06 12:59 AM"
   },
   "upcoming_notifications": [
@@ -2705,6 +2705,29 @@
           "team2": "Genclerbirligi",
           "hot": false,
           "display": "⚽ Besiktas vs Genclerbirligi · Super Lig"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-09 12:29 AM",
+      "match_start_local": "2026-11-09 12:30 AM",
+      "send_at_utc": "2026-11-08T18:29:00+00:00",
+      "match_start_utc": "2026-11-08T18:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Hoffenheim vs Schalke 04",
+        "body": "Bundesliga · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2495",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Hoffenheim",
+          "team2": "Schalke 04",
+          "hot": false,
+          "display": "⚽ Hoffenheim vs Schalke 04 · Bundesliga"
         }
       ]
     }
