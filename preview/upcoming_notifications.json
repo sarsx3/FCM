@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-05T16:59:17+00:00",
+  "generated_at": "2026-11-05T17:00:36+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "05 Nov 2026, 10:57:13 PM BST",
+    "source_last_updated": "05 Nov 2026, 10:58:17 PM BST",
     "source_events_loaded": 271,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 65,
-    "upcoming_matches": 208,
+    "upcoming_notifications": 66,
+    "upcoming_matches": 209,
     "next_notification_at_local": "2026-11-05 11:44 PM"
   },
   "upcoming_notifications": [
@@ -2799,6 +2799,29 @@
           "team2": "Aston Villa",
           "hot": false,
           "display": "⚽ Man Utd vs Aston Villa · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-08 10:59 PM",
+      "match_start_local": "2026-11-08 11:00 PM",
+      "send_at_utc": "2026-11-08T16:59:00+00:00",
+      "match_start_utc": "2026-11-08T17:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Inter vs Como",
+        "body": "Serie A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2450",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Inter",
+          "team2": "Como",
+          "hot": false,
+          "display": "⚽ Inter vs Como · Serie A"
         }
       ]
     }
