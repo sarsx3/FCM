@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:44:19+00:00",
+  "generated_at": "2026-11-06T06:45:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 69,
-    "upcoming_matches": 184,
+    "upcoming_notifications": 70,
+    "upcoming_matches": 185,
     "next_notification_at_local": "2026-11-06 02:09 PM"
   },
   "upcoming_notifications": [
@@ -2639,6 +2639,29 @@
           "team2": "Malaysia U19",
           "hot": false,
           "display": "🏏 Bangladesh U19 vs Malaysia U19 · U19 Asia Cup 2026 - 9th Youth ODI"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-09 12:44 PM",
+      "match_start_local": "2026-11-09 12:45 PM",
+      "send_at_utc": "2026-11-09T06:44:00+00:00",
+      "match_start_utc": "2026-11-09T06:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Karnali Yaks vs Pokhara Avengers",
+        "body": "NPL 2026 - 19th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2506",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 19th Match",
+          "team1": "Karnali Yaks",
+          "team2": "Pokhara Avengers",
+          "hot": false,
+          "display": "🏏 Karnali Yaks vs Pokhara Avengers · NPL 2026 - 19th Match"
         }
       ]
     }
