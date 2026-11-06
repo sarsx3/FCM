@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:04:21+00:00",
+  "generated_at": "2026-11-06T17:05:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 69,
-    "upcoming_matches": 183,
+    "upcoming_notifications": 68,
+    "upcoming_matches": 182,
     "next_notification_at_local": "2026-11-06 11:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-06 10:59 PM",
-      "match_start_local": "2026-11-06 11:00 PM",
-      "send_at_utc": "2026-11-06T16:59:00+00:00",
-      "match_start_utc": "2026-11-06T17:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Gaziantep FK vs Kasimpasa",
-        "body": "Super Lig · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2331",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Gaziantep FK",
-          "team2": "Kasimpasa",
-          "hot": false,
-          "display": "⚽ Gaziantep FK vs Kasimpasa · Super Lig"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-06 11:29 PM",
