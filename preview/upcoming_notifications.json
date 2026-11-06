@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-06T17:13:18+00:00",
+  "generated_at": "2026-11-06T17:16:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "06 Nov 2026, 11:09:14 PM BST",
-    "source_events_loaded": 222,
+    "source_last_updated": "06 Nov 2026, 11:16:18 PM BST",
+    "source_events_loaded": 221,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 68,
-    "upcoming_matches": 182,
+    "upcoming_matches": 181,
     "next_notification_at_local": "2026-11-06 11:29 PM"
   },
   "upcoming_notifications": [
@@ -26,10 +26,10 @@
       "match_start_local": "2026-11-06 11:30 PM",
       "send_at_utc": "2026-11-06T17:29:00+00:00",
       "match_start_utc": "2026-11-06T17:30:00+00:00",
-      "match_count": 3,
+      "match_count": 2,
       "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Braunschweig vs Energie Cottbus · Bundesliga 2\n⚽ Dresden vs Greuther Fürth · Bundesliga 2\n⚽ Al Ittihad vs NEOM SC · Saudi League"
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Braunschweig vs Energie Cottbus · Bundesliga 2\n⚽ Dresden vs Greuther Fürth · Bundesliga 2"
       },
       "matches": [
         {
@@ -49,15 +49,6 @@
           "team2": "Greuther Fürth",
           "hot": false,
           "display": "⚽ Dresden vs Greuther Fürth · Bundesliga 2"
-        },
-        {
-          "id": "2328",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al Ittihad",
-          "team2": "NEOM SC",
-          "hot": false,
-          "display": "⚽ Al Ittihad vs NEOM SC · Saudi League"
         }
       ]
     },
