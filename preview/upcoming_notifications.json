@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:34:25+00:00",
+  "generated_at": "2026-11-06T19:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 68,
-    "upcoming_matches": 181,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 179,
     "next_notification_at_local": "2026-11-07 01:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 01:29 AM",
-      "match_start_local": "2026-11-07 01:30 AM",
-      "send_at_utc": "2026-11-06T19:29:00+00:00",
-      "match_start_utc": "2026-11-06T19:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Hamburger SV vs Gladbach · Bundesliga\n⚽ Bristol Rovers vs Cambridge · FA Cup"
-      },
-      "matches": [
-        {
-          "id": "2380",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "Hamburger SV",
-          "team2": "Gladbach",
-          "hot": false,
-          "display": "⚽ Hamburger SV vs Gladbach · Bundesliga"
-        },
-        {
-          "id": "2341",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Bristol Rovers",
-          "team2": "Cambridge",
-          "hot": false,
-          "display": "⚽ Bristol Rovers vs Cambridge · FA Cup"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-07 01:44 AM",
