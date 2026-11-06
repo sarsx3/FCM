@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-06T15:40:27+00:00",
+  "generated_at": "2026-11-06T15:41:19+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "06 Nov 2026, 09:40:21 PM BST",
-    "source_events_loaded": 222,
+    "source_last_updated": "06 Nov 2026, 09:36:17 PM BST",
+    "source_events_loaded": 223,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 69,
-    "upcoming_matches": 183,
+    "upcoming_matches": 184,
     "next_notification_at_local": "2026-11-06 10:59 PM"
   },
   "upcoming_notifications": [
@@ -113,10 +113,10 @@
       "match_start_local": "2026-11-07 01:30 AM",
       "send_at_utc": "2026-11-06T19:29:00+00:00",
       "match_start_utc": "2026-11-06T19:30:00+00:00",
-      "match_count": 2,
+      "match_count": 3,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Hamburger SV vs Gladbach · Bundesliga\n⚽ Bristol Rovers vs Cambridge · FA Cup"
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Hamburger SV vs Gladbach · Bundesliga\n⚽ Bristol Rovers vs Cambridge · FA Cup\n⚽ Castellon vs Eibar · LaLiga 2"
       },
       "matches": [
         {
@@ -136,6 +136,15 @@
           "team2": "Cambridge",
           "hot": false,
           "display": "⚽ Bristol Rovers vs Cambridge · FA Cup"
+        },
+        {
+          "id": "2405",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Castellon",
+          "team2": "Eibar",
+          "hot": false,
+          "display": "⚽ Castellon vs Eibar · LaLiga 2"
         }
       ]
     },
