@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T11:14:18+00:00",
+  "generated_at": "2026-11-06T11:15:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 68,
-    "upcoming_matches": 183,
+    "upcoming_notifications": 69,
+    "upcoming_matches": 184,
     "next_notification_at_local": "2026-11-06 10:59 PM"
   },
   "upcoming_notifications": [
@@ -2616,6 +2616,29 @@
           "team2": "Pokhara Avengers",
           "hot": false,
           "display": "🏏 Karnali Yaks vs Pokhara Avengers · NPL 2026 - 19th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-09 05:14 PM",
+      "match_start_local": "2026-11-09 05:15 PM",
+      "send_at_utc": "2026-11-09T11:14:00+00:00",
+      "match_start_utc": "2026-11-09T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Chitwan Rhinos vs Kathmandu Gorkhas",
+        "body": "NPL 2026 - 20th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2507",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 20th Match",
+          "team1": "Chitwan Rhinos",
+          "team2": "Kathmandu Gorkhas",
+          "hot": false,
+          "display": "🏏 Chitwan Rhinos vs Kathmandu Gorkhas · NPL 2026 - 20th Match"
         }
       ]
     }
