@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:02:23+00:00",
+  "generated_at": "2026-11-06T19:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 68,
-    "upcoming_matches": 180,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 179,
     "next_notification_at_local": "2026-11-07 01:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 12:59 AM",
-      "match_start_local": "2026-11-07 01:00 AM",
-      "send_at_utc": "2026-11-06T18:59:00+00:00",
-      "match_start_utc": "2026-11-06T19:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Willem II vs PEC Zwolle",
-        "body": "Eredivisie · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2393",
-          "sport": "Football",
-          "league": "Eredivisie",
-          "team1": "Willem II",
-          "team2": "PEC Zwolle",
-          "hot": false,
-          "display": "⚽ Willem II vs PEC Zwolle · Eredivisie"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-07 01:29 AM",
