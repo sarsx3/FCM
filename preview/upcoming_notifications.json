@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-07T15:34:18+00:00",
+  "generated_at": "2026-11-07T15:35:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "07 Nov 2026, 09:33:13 PM BST",
-    "source_events_loaded": 310,
+    "source_last_updated": "07 Nov 2026, 09:30:28 PM BST",
+    "source_events_loaded": 312,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 123,
+    "upcoming_notifications": 60,
+    "upcoming_matches": 121,
     "next_notification_at_local": "2026-11-07 09:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 09:29 PM",
-      "match_start_local": "2026-11-07 09:30 PM",
-      "send_at_utc": "2026-11-07T15:29:00+00:00",
-      "match_start_utc": "2026-11-07T15:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Sittard vs Telstar · Eredivisie\n⚽ Nacional vs Viseu · Liga Portugal"
-      },
-      "matches": [
-        {
-          "id": "2394",
-          "sport": "Football",
-          "league": "Eredivisie",
-          "team1": "Sittard",
-          "team2": "Telstar",
-          "hot": false,
-          "display": "⚽ Sittard vs Telstar · Eredivisie"
-        },
-        {
-          "id": "2397",
-          "sport": "Football",
-          "league": "Liga Portugal",
-          "team1": "Nacional",
-          "team2": "Viseu",
-          "hot": false,
-          "display": "⚽ Nacional vs Viseu · Liga Portugal"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-07 09:59 PM",
