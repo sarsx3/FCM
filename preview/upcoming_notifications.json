@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T18:04:21+00:00",
+  "generated_at": "2026-11-07T18:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 112,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 109,
     "next_notification_at_local": "2026-11-08 01:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 11:59 PM",
-      "match_start_local": "2026-11-08 12:00 AM",
-      "send_at_utc": "2026-11-07T17:59:00+00:00",
-      "match_start_utc": "2026-11-07T18:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Alverca vs Casa Pia · Liga Portugal\n⚽ Gimnasia Mendoza vs Independiente Riv. · Liga Profesional\n⚽ Talleres vs Estudiantes · Liga Profesional"
-      },
-      "matches": [
-        {
-          "id": "2456",
-          "sport": "Football",
-          "league": "Liga Portugal",
-          "team1": "Alverca",
-          "team2": "Casa Pia",
-          "hot": false,
-          "display": "⚽ Alverca vs Casa Pia · Liga Portugal"
-        },
-        {
-          "id": "2420",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Gimnasia Mendoza",
-          "team2": "Independiente Riv.",
-          "hot": false,
-          "display": "⚽ Gimnasia Mendoza vs Independiente Riv. · Liga Profesional"
-        },
-        {
-          "id": "2419",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Talleres",
-          "team2": "Estudiantes",
-          "hot": false,
-          "display": "⚽ Talleres vs Estudiantes · Liga Profesional"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-08 01:29 AM",
