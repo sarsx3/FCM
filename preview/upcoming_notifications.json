@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T10:34:20+00:00",
+  "generated_at": "2026-11-07T10:35:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 69,
-    "upcoming_matches": 176,
+    "upcoming_notifications": 68,
+    "upcoming_matches": 175,
     "next_notification_at_local": "2026-11-07 05:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 04:29 PM",
-      "match_start_local": "2026-11-07 04:30 PM",
-      "send_at_utc": "2026-11-07T10:29:00+00:00",
-      "match_start_utc": "2026-11-07T10:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Eyupspor vs Kocaelispor",
-        "body": "Super Lig · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2410",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Eyupspor",
-          "team2": "Kocaelispor",
-          "hot": false,
-          "display": "⚽ Eyupspor vs Kocaelispor · Super Lig"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-07 05:59 PM",
