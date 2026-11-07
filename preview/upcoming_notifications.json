@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T14:34:23+00:00",
+  "generated_at": "2026-11-07T14:35:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "07 Nov 2026, 08:34:13 PM BST",
+    "source_last_updated": "07 Nov 2026, 08:35:17 PM BST",
     "source_events_loaded": 341,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,70 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 63,
-    "upcoming_matches": 162,
+    "upcoming_notifications": 62,
+    "upcoming_matches": 157,
     "next_notification_at_local": "2026-11-07 08:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 08:29 PM",
-      "match_start_local": "2026-11-07 08:30 PM",
-      "send_at_utc": "2026-11-07T14:29:00+00:00",
-      "match_start_utc": "2026-11-07T14:30:00+00:00",
-      "match_count": 5,
-      "notification": {
-        "title": "⏰ 5 matches starting soon",
-        "body": "⚽ Dortmund vs Elversberg · Bundesliga\n⚽ Mainz vs Bayern · Bundesliga\n⚽ RB Leipzig vs Augsburg · Bundesliga\n⚽ SC Paderborn vs Eintracht · Bundesliga\n⚽ Al Ettifaq vs Al Hilal · Saudi League"
-      },
-      "matches": [
-        {
-          "id": "2384",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "Dortmund",
-          "team2": "Elversberg",
-          "hot": false,
-          "display": "⚽ Dortmund vs Elversberg · Bundesliga"
-        },
-        {
-          "id": "2382",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "Mainz",
-          "team2": "Bayern",
-          "hot": false,
-          "display": "⚽ Mainz vs Bayern · Bundesliga"
-        },
-        {
-          "id": "2383",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "RB Leipzig",
-          "team2": "Augsburg",
-          "hot": false,
-          "display": "⚽ RB Leipzig vs Augsburg · Bundesliga"
-        },
-        {
-          "id": "2381",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "SC Paderborn",
-          "team2": "Eintracht",
-          "hot": false,
-          "display": "⚽ SC Paderborn vs Eintracht · Bundesliga"
-        },
-        {
-          "id": "2399",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al Ettifaq",
-          "team2": "Al Hilal",
-          "hot": false,
-          "display": "⚽ Al Ettifaq vs Al Hilal · Saudi League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-07 08:59 PM",
