@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-07T14:52:21+00:00",
+  "generated_at": "2026-11-07T14:53:19+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "07 Nov 2026, 08:49:12 PM BST",
-    "source_events_loaded": 337,
+    "source_last_updated": "07 Nov 2026, 08:53:12 PM BST",
+    "source_events_loaded": 315,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 62,
-    "upcoming_matches": 157,
+    "upcoming_matches": 135,
     "next_notification_at_local": "2026-11-07 08:59 PM"
   },
   "upcoming_notifications": [
@@ -26,10 +26,10 @@
       "match_start_local": "2026-11-07 09:00 PM",
       "send_at_utc": "2026-11-07T14:59:00+00:00",
       "match_start_utc": "2026-11-07T15:00:00+00:00",
-      "match_count": 33,
+      "match_count": 11,
       "notification": {
-        "title": "⏰ 33 matches starting soon",
-        "body": "⚽ Birmingham vs Swansea · Championship\n⚽ Blackburn vs West Ham · Championship\n⚽ Cardiff vs Burnley · Championship\n⚽ Charlton vs Sheffield Utd · Championship\n⚽ Preston vs Southampton · Championship\n⚽ QPR vs Lincoln · Championship\n+ 27 more matches in the app"
+        "title": "⏰ 11 matches starting soon",
+        "body": "⚽ Birmingham vs Swansea · Championship\n⚽ Blackburn vs West Ham · Championship\n⚽ Cardiff vs Burnley · Championship\n⚽ Charlton vs Sheffield Utd · Championship\n⚽ Preston vs Southampton · Championship\n⚽ QPR vs Lincoln · Championship\n+ 5 more matches in the app"
       },
       "matches": [
         {
@@ -105,42 +105,6 @@
           "display": "⚽ West Brom vs Millwall · Championship"
         },
         {
-          "id": "2356",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Accrington",
-          "team2": "Wycombe",
-          "hot": false,
-          "display": "⚽ Accrington vs Wycombe · FA Cup"
-        },
-        {
-          "id": "2348",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Barnet",
-          "team2": "Tranmere",
-          "hot": false,
-          "display": "⚽ Barnet vs Tranmere · FA Cup"
-        },
-        {
-          "id": "2363",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Boreham Wood",
-          "team2": "Wigan",
-          "hot": false,
-          "display": "⚽ Boreham Wood vs Wigan · FA Cup"
-        },
-        {
-          "id": "2346",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Bradford",
-          "team2": "Marine",
-          "hot": false,
-          "display": "⚽ Bradford vs Marine · FA Cup"
-        },
-        {
           "id": "2347",
           "sport": "Football",
           "league": "FA Cup",
@@ -148,168 +112,6 @@
           "team2": "Rotherham",
           "hot": false,
           "display": "⚽ Bromley vs Rotherham · FA Cup"
-        },
-        {
-          "id": "2349",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Burton",
-          "team2": "Rushden & D.",
-          "hot": false,
-          "display": "⚽ Burton vs Rushden & D. · FA Cup"
-        },
-        {
-          "id": "2361",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Carlisle Utd",
-          "team2": "Salford City",
-          "hot": false,
-          "display": "⚽ Carlisle Utd vs Salford City · FA Cup"
-        },
-        {
-          "id": "2362",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Cheltenham",
-          "team2": "Halifax",
-          "hot": false,
-          "display": "⚽ Cheltenham vs Halifax · FA Cup"
-        },
-        {
-          "id": "2351",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Crewe",
-          "team2": "AFC Wimbledon",
-          "hot": false,
-          "display": "⚽ Crewe vs AFC Wimbledon · FA Cup"
-        },
-        {
-          "id": "2343",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Dover Athletic",
-          "team2": "Wealdstone",
-          "hot": false,
-          "display": "⚽ Dover Athletic vs Wealdstone · FA Cup"
-        },
-        {
-          "id": "2359",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Eastleigh",
-          "team2": "Shrewsbury",
-          "hot": false,
-          "display": "⚽ Eastleigh vs Shrewsbury · FA Cup"
-        },
-        {
-          "id": "2345",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Fleetwood Town",
-          "team2": "Rochdale",
-          "hot": false,
-          "display": "⚽ Fleetwood Town vs Rochdale · FA Cup"
-        },
-        {
-          "id": "2354",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Guiseley AFC",
-          "team2": "Sutton United",
-          "hot": false,
-          "display": "⚽ Guiseley AFC vs Sutton United · FA Cup"
-        },
-        {
-          "id": "2355",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Hornchurch FC",
-          "team2": "Blackpool",
-          "hot": false,
-          "display": "⚽ Hornchurch FC vs Blackpool · FA Cup"
-        },
-        {
-          "id": "2344",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Huddersfield",
-          "team2": "Exeter City",
-          "hot": false,
-          "display": "⚽ Huddersfield vs Exeter City · FA Cup"
-        },
-        {
-          "id": "2358",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Kidderminster",
-          "team2": "Doncaster",
-          "hot": false,
-          "display": "⚽ Kidderminster vs Doncaster · FA Cup"
-        },
-        {
-          "id": "2357",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Leyton Orient",
-          "team2": "Harborough Town",
-          "hot": false,
-          "display": "⚽ Leyton Orient vs Harborough Town · FA Cup"
-        },
-        {
-          "id": "2353",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "MK Dons",
-          "team2": "Swindon Town",
-          "hot": false,
-          "display": "⚽ MK Dons vs Swindon Town · FA Cup"
-        },
-        {
-          "id": "2352",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Newport County",
-          "team2": "Walsall",
-          "hot": false,
-          "display": "⚽ Newport County vs Walsall · FA Cup"
-        },
-        {
-          "id": "2350",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Oxford Utd",
-          "team2": "Stevenage",
-          "hot": false,
-          "display": "⚽ Oxford Utd vs Stevenage · FA Cup"
-        },
-        {
-          "id": "2365",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Port Vale",
-          "team2": "Scunthorpe",
-          "hot": false,
-          "display": "⚽ Port Vale vs Scunthorpe · FA Cup"
-        },
-        {
-          "id": "2360",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Salisbury FC",
-          "team2": "Sholing",
-          "hot": false,
-          "display": "⚽ Salisbury FC vs Sholing · FA Cup"
-        },
-        {
-          "id": "2364",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "York",
-          "team2": "Northampton",
-          "hot": false,
-          "display": "⚽ York vs Northampton · FA Cup"
         },
         {
           "id": "2339",
