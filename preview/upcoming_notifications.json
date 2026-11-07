@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T16:04:19+00:00",
+  "generated_at": "2026-11-07T16:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "07 Nov 2026, 10:04:14 PM BST",
+    "source_last_updated": "07 Nov 2026, 10:05:18 PM BST",
     "source_events_loaded": 310,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 60,
-    "upcoming_matches": 121,
+    "upcoming_notifications": 59,
+    "upcoming_matches": 119,
     "next_notification_at_local": "2026-11-07 10:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 09:59 PM",
-      "match_start_local": "2026-11-07 10:00 PM",
-      "send_at_utc": "2026-11-07T15:59:00+00:00",
-      "match_start_utc": "2026-11-07T16:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Galatasaray vs Amed SK · Super Lig\n⚽ Goztepe vs İstanbul Başakşehir · Super Lig"
-      },
-      "matches": [
-        {
-          "id": "2412",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Galatasaray",
-          "team2": "Amed SK",
-          "hot": false,
-          "display": "⚽ Galatasaray vs Amed SK · Super Lig"
-        },
-        {
-          "id": "2413",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Goztepe",
-          "team2": "İstanbul Başakşehir",
-          "hot": false,
-          "display": "⚽ Goztepe vs İstanbul Başakşehir · Super Lig"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-07 10:14 PM",
