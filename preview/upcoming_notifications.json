@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T21:02:20+00:00",
+  "generated_at": "2026-11-07T21:05:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "08 Nov 2026, 03:02:15 AM BST",
+    "source_last_updated": "08 Nov 2026, 03:04:16 AM BST",
     "source_events_loaded": 273,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,106 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 54,
-    "upcoming_matches": 105,
+    "upcoming_notifications": 53,
+    "upcoming_matches": 96,
     "next_notification_at_local": "2026-11-08 05:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-08 02:59 AM",
-      "match_start_local": "2026-11-08 03:00 AM",
-      "send_at_utc": "2026-11-07T20:59:00+00:00",
-      "match_start_utc": "2026-11-07T21:00:00+00:00",
-      "match_count": 9,
-      "notification": {
-        "title": "⏰ 9 matches starting soon",
-        "body": "⚽ Atlético-MG vs Gremio · Copa do Brasil\n⚽ CF Montréal vs Whitecaps · MLS\n⚽ Chicago Fire vs Columbus Crew · MLS\n⚽ DC United vs New York City · MLS\n⚽ FC Cincinnati vs Nashville SC · MLS\n⚽ Inter Miami vs Charlotte FC · MLS\n+ 3 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "2425",
-          "sport": "Football",
-          "league": "Copa do Brasil",
-          "team1": "Atlético-MG",
-          "team2": "Gremio",
-          "hot": false,
-          "display": "⚽ Atlético-MG vs Gremio · Copa do Brasil"
-        },
-        {
-          "id": "2476",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "CF Montréal",
-          "team2": "Whitecaps",
-          "hot": false,
-          "display": "⚽ CF Montréal vs Whitecaps · MLS"
-        },
-        {
-          "id": "2480",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Chicago Fire",
-          "team2": "Columbus Crew",
-          "hot": false,
-          "display": "⚽ Chicago Fire vs Columbus Crew · MLS"
-        },
-        {
-          "id": "2478",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "DC United",
-          "team2": "New York City",
-          "hot": false,
-          "display": "⚽ DC United vs New York City · MLS"
-        },
-        {
-          "id": "2479",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "FC Cincinnati",
-          "team2": "Nashville SC",
-          "hot": false,
-          "display": "⚽ FC Cincinnati vs Nashville SC · MLS"
-        },
-        {
-          "id": "2477",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Inter Miami",
-          "team2": "Charlotte FC",
-          "hot": false,
-          "display": "⚽ Inter Miami vs Charlotte FC · MLS"
-        },
-        {
-          "id": "2475",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "New York Red Bulls",
-          "team2": "Atlanta United",
-          "hot": false,
-          "display": "⚽ New York Red Bulls vs Atlanta United · MLS"
-        },
-        {
-          "id": "2474",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Orlando City",
-          "team2": "Revolution",
-          "hot": false,
-          "display": "⚽ Orlando City vs Revolution · MLS"
-        },
-        {
-          "id": "2473",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Philadelphia Union",
-          "team2": "Toronto",
-          "hot": false,
-          "display": "⚽ Philadelphia Union vs Toronto · MLS"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-08 05:59 AM",
