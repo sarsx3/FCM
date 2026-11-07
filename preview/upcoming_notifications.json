@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-07T10:52:19+00:00",
+  "generated_at": "2026-11-07T10:53:17+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "07 Nov 2026, 04:52:15 PM BST",
-    "source_events_loaded": 350,
+    "source_last_updated": "07 Nov 2026, 04:48:15 PM BST",
+    "source_events_loaded": 351,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 67,
-    "upcoming_matches": 174,
+    "upcoming_notifications": 68,
+    "upcoming_matches": 175,
     "next_notification_at_local": "2026-11-07 05:59 PM"
   },
   "upcoming_notifications": [
@@ -1221,6 +1221,29 @@
           "team2": "Sydney Thunder Women",
           "hot": false,
           "display": "🏏 Sydney Sixers Women vs Sydney Thunder Women · WBBL 2026 - 15th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-08 09:29 AM",
+      "match_start_local": "2026-11-08 09:30 AM",
+      "send_at_utc": "2026-11-08T03:29:00+00:00",
+      "match_start_utc": "2026-11-08T03:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Bangladesh vs West Indies",
+        "body": "BAN vs WI - 2nd Test, Day 4 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2490",
+          "sport": "Cricket",
+          "league": "BAN vs WI - 2nd Test, Day 4",
+          "team1": "Bangladesh",
+          "team2": "West Indies",
+          "hot": false,
+          "display": "🏏 Bangladesh vs West Indies · BAN vs WI - 2nd Test, Day 4"
         }
       ]
     },
