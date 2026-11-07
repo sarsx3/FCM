@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-07T17:04:23+00:00",
+  "generated_at": "2026-11-07T17:05:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "07 Nov 2026, 11:04:14 PM BST",
-    "source_events_loaded": 292,
+    "source_last_updated": "07 Nov 2026, 11:01:13 PM BST",
+    "source_events_loaded": 302,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 58,
-    "upcoming_matches": 118,
+    "upcoming_notifications": 57,
+    "upcoming_matches": 117,
     "next_notification_at_local": "2026-11-07 11:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 10:59 PM",
-      "match_start_local": "2026-11-07 11:00 PM",
-      "send_at_utc": "2026-11-07T16:59:00+00:00",
-      "match_start_utc": "2026-11-07T17:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Parma vs Bologna",
-        "body": "Serie A · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2392",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Parma",
-          "team2": "Bologna",
-          "hot": false,
-          "display": "⚽ Parma vs Bologna · Serie A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-07 11:29 PM",
