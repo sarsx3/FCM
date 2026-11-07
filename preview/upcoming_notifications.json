@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:59:17+00:00",
+  "generated_at": "2026-11-07T00:00:38+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 67,
-    "upcoming_matches": 175,
+    "upcoming_notifications": 68,
+    "upcoming_matches": 176,
     "next_notification_at_local": "2026-11-07 07:59 AM"
   },
   "upcoming_notifications": [
@@ -2530,6 +2530,29 @@
           "team2": "2 de Mayo",
           "hot": false,
           "display": "⚽ Sportivo Luqueño vs 2 de Mayo · Copa de Primera"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-10 05:59 AM",
+      "match_start_local": "2026-11-10 06:00 AM",
+      "send_at_utc": "2026-11-09T23:59:00+00:00",
+      "match_start_utc": "2026-11-10T00:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Junior FC vs Cucuta Deportivo",
+        "body": "Liga BetPlay · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2509",
+          "sport": "Football",
+          "league": "Liga BetPlay",
+          "team1": "Junior FC",
+          "team2": "Cucuta Deportivo",
+          "hot": false,
+          "display": "⚽ Junior FC vs Cucuta Deportivo · Liga BetPlay"
         }
       ]
     }
