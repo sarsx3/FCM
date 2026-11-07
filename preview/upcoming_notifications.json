@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-07T20:04:20+00:00",
+  "generated_at": "2026-11-07T20:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "08 Nov 2026, 02:04:15 AM BST",
-    "source_events_loaded": 273,
+    "source_last_updated": "08 Nov 2026, 02:01:13 AM BST",
+    "source_events_loaded": 277,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,61 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 55,
-    "upcoming_matches": 112,
+    "upcoming_notifications": 54,
+    "upcoming_matches": 108,
     "next_notification_at_local": "2026-11-08 02:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-08 01:59 AM",
-      "match_start_local": "2026-11-08 02:00 AM",
-      "send_at_utc": "2026-11-07T19:59:00+00:00",
-      "match_start_utc": "2026-11-07T20:00:00+00:00",
-      "match_count": 4,
-      "notification": {
-        "title": "⏰ 4 matches starting soon",
-        "body": "⚽ Excelsior vs Go Ahead · Eredivisie\n⚽ Peterborough vs Reading · FA Cup\n⚽ Valencia vs Real Madrid · LaLiga\n⚽ Granada vs Tenerife · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "2451",
-          "sport": "Football",
-          "league": "Eredivisie",
-          "team1": "Excelsior",
-          "team2": "Go Ahead",
-          "hot": false,
-          "display": "⚽ Excelsior vs Go Ahead · Eredivisie"
-        },
-        {
-          "id": "2431",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Peterborough",
-          "team2": "Reading",
-          "hot": false,
-          "display": "⚽ Peterborough vs Reading · FA Cup"
-        },
-        {
-          "id": "2460",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Valencia",
-          "team2": "Real Madrid",
-          "hot": false,
-          "display": "⚽ Valencia vs Real Madrid · LaLiga"
-        },
-        {
-          "id": "2465",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Granada",
-          "team2": "Tenerife",
-          "hot": false,
-          "display": "⚽ Granada vs Tenerife · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-08 02:29 AM",
