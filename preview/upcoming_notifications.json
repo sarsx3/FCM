@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-07T17:24:18+00:00",
+  "generated_at": "2026-11-07T17:27:18+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "07 Nov 2026, 11:24:14 PM BST",
-    "source_events_loaded": 291,
+    "source_last_updated": "07 Nov 2026, 11:21:12 PM BST",
+    "source_events_loaded": 292,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 57,
-    "upcoming_matches": 116,
+    "upcoming_matches": 117,
     "next_notification_at_local": "2026-11-07 11:29 PM"
   },
   "upcoming_notifications": [
@@ -26,10 +26,10 @@
       "match_start_local": "2026-11-07 11:30 PM",
       "send_at_utc": "2026-11-07T17:29:00+00:00",
       "match_start_utc": "2026-11-07T17:30:00+00:00",
-      "match_count": 5,
+      "match_count": 6,
       "notification": {
-        "title": "⏰ 5 matches starting soon",
-        "body": "⚽ Stuttgart vs Werder Bremen · Bundesliga\n⚽ Osasuna vs Ath. Bilbao · LaLiga\n⚽ Cordoba vs AD Ceuta · LaLiga 2\n⚽ Leganés vs Albacete · LaLiga 2\n⚽ Forest vs Man City · Premier League"
+        "title": "⏰ 6 matches starting soon",
+        "body": "⚽ Stuttgart vs Werder Bremen · Bundesliga\n⚽ Osasuna vs Ath. Bilbao · LaLiga\n⚽ Cordoba vs AD Ceuta · LaLiga 2\n⚽ Leganés vs Albacete · LaLiga 2\n⚽ Forest vs Man City · Premier League\n⚽ Al Ahli vs Al Taawoun · Saudi League"
       },
       "matches": [
         {
@@ -76,6 +76,15 @@
           "team2": "Man City",
           "hot": false,
           "display": "⚽ Forest vs Man City · Premier League"
+        },
+        {
+          "id": "2400",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Ahli",
+          "team2": "Al Taawoun",
+          "hot": false,
+          "display": "⚽ Al Ahli vs Al Taawoun · Saudi League"
         }
       ]
     },
