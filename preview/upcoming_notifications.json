@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T17:44:18+00:00",
+  "generated_at": "2026-11-07T17:45:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 111,
+    "upcoming_notifications": 57,
+    "upcoming_matches": 113,
     "next_notification_at_local": "2026-11-07 11:59 PM"
   },
   "upcoming_notifications": [
@@ -1800,6 +1800,38 @@
           "team2": "Egypt Telecom",
           "hot": false,
           "display": "⚽ Al Mokawloon Al Arab vs Egypt Telecom · Egypt Cup"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-10 11:44 PM",
+      "match_start_local": "2026-11-10 11:45 PM",
+      "send_at_utc": "2026-11-10T17:44:00+00:00",
+      "match_start_utc": "2026-11-10T17:45:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Hacken (W) vs Chelsea (W) · UEFA Women's Champions League\n⚽ Real Madrid (W) vs Paris FC (W) · UEFA Women's Champions League"
+      },
+      "matches": [
+        {
+          "id": "2516",
+          "sport": "Football",
+          "league": "UEFA Women's Champions League",
+          "team1": "Hacken (W)",
+          "team2": "Chelsea (W)",
+          "hot": false,
+          "display": "⚽ Hacken (W) vs Chelsea (W) · UEFA Women's Champions League"
+        },
+        {
+          "id": "2515",
+          "sport": "Football",
+          "league": "UEFA Women's Champions League",
+          "team1": "Real Madrid (W)",
+          "team2": "Paris FC (W)",
+          "hot": false,
+          "display": "⚽ Real Madrid (W) vs Paris FC (W) · UEFA Women's Champions League"
         }
       ]
     }
