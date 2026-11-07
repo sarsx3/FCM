@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T02:04:22+00:00",
+  "generated_at": "2026-11-07T02:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "07 Nov 2026, 08:04:13 AM BST",
+    "source_last_updated": "07 Nov 2026, 08:05:17 AM BST",
     "source_events_loaded": 354,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 70,
-    "upcoming_matches": 178,
+    "upcoming_notifications": 69,
+    "upcoming_matches": 177,
     "next_notification_at_local": "2026-11-07 10:39 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 07:59 AM",
-      "match_start_local": "2026-11-07 08:00 AM",
-      "send_at_utc": "2026-11-07T01:59:00+00:00",
-      "match_start_utc": "2026-11-07T02:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 New Zealand vs India",
-        "body": "NZ vs IND - 2nd ODI · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2414",
-          "sport": "Cricket",
-          "league": "NZ vs IND - 2nd ODI",
-          "team1": "New Zealand",
-          "team2": "India",
-          "hot": false,
-          "display": "🏏 New Zealand vs India · NZ vs IND - 2nd ODI"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-07 10:39 AM",
