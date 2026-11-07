@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T00:29:18+00:00",
+  "generated_at": "2026-11-07T00:30:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 68,
-    "upcoming_matches": 176,
+    "upcoming_notifications": 69,
+    "upcoming_matches": 177,
     "next_notification_at_local": "2026-11-07 07:59 AM"
   },
   "upcoming_notifications": [
@@ -2553,6 +2553,29 @@
           "team2": "Cucuta Deportivo",
           "hot": false,
           "display": "⚽ Junior FC vs Cucuta Deportivo · Liga BetPlay"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-10 06:29 AM",
+      "match_start_local": "2026-11-10 06:30 AM",
+      "send_at_utc": "2026-11-10T00:29:00+00:00",
+      "match_start_utc": "2026-11-10T00:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Club Aurora vs Universitario de Vinto",
+        "body": "División Profesional · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2508",
+          "sport": "Football",
+          "league": "División Profesional",
+          "team1": "Club Aurora",
+          "team2": "Universitario de Vinto",
+          "hot": false,
+          "display": "⚽ Club Aurora vs Universitario de Vinto · División Profesional"
         }
       ]
     }
