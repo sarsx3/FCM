@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T17:34:22+00:00",
+  "generated_at": "2026-11-07T17:35:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "07 Nov 2026, 11:34:13 PM BST",
+    "source_last_updated": "07 Nov 2026, 11:32:15 PM BST",
     "source_events_loaded": 287,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,70 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 57,
-    "upcoming_matches": 116,
+    "upcoming_notifications": 56,
+    "upcoming_matches": 111,
     "next_notification_at_local": "2026-11-07 11:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 11:29 PM",
-      "match_start_local": "2026-11-07 11:30 PM",
-      "send_at_utc": "2026-11-07T17:29:00+00:00",
-      "match_start_utc": "2026-11-07T17:30:00+00:00",
-      "match_count": 5,
-      "notification": {
-        "title": "⏰ 5 matches starting soon",
-        "body": "⚽ Stuttgart vs Werder Bremen · Bundesliga\n⚽ Osasuna vs Ath. Bilbao · LaLiga\n⚽ Cordoba vs AD Ceuta · LaLiga 2\n⚽ Leganés vs Albacete · LaLiga 2\n⚽ Forest vs Man City · Premier League"
-      },
-      "matches": [
-        {
-          "id": "2385",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "Stuttgart",
-          "team2": "Werder Bremen",
-          "hot": false,
-          "display": "⚽ Stuttgart vs Werder Bremen · Bundesliga"
-        },
-        {
-          "id": "2404",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Osasuna",
-          "team2": "Ath. Bilbao",
-          "hot": false,
-          "display": "⚽ Osasuna vs Ath. Bilbao · LaLiga"
-        },
-        {
-          "id": "2408",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Cordoba",
-          "team2": "AD Ceuta",
-          "hot": false,
-          "display": "⚽ Cordoba vs AD Ceuta · LaLiga 2"
-        },
-        {
-          "id": "2409",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Leganés",
-          "team2": "Albacete",
-          "hot": false,
-          "display": "⚽ Leganés vs Albacete · LaLiga 2"
-        },
-        {
-          "id": "2340",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Forest",
-          "team2": "Man City",
-          "hot": false,
-          "display": "⚽ Forest vs Man City · Premier League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-07 11:44 PM",
