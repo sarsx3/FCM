@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T08:14:19+00:00",
+  "generated_at": "2026-11-07T08:15:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 70,
-    "upcoming_matches": 177,
+    "upcoming_notifications": 69,
+    "upcoming_matches": 176,
     "next_notification_at_local": "2026-11-07 04:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 02:09 PM",
-      "match_start_local": "2026-11-07 02:10 PM",
-      "send_at_utc": "2026-11-07T08:09:00+00:00",
-      "match_start_utc": "2026-11-07T08:10:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Brisbane Heat Women vs Hobart Hurricanes Women",
-        "body": "WBBL 2026 - 14th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2417",
-          "sport": "Cricket",
-          "league": "WBBL 2026 - 14th Match",
-          "team1": "Brisbane Heat Women",
-          "team2": "Hobart Hurricanes Women",
-          "hot": false,
-          "display": "🏏 Brisbane Heat Women vs Hobart Hurricanes Women · WBBL 2026 - 14th Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-07 04:29 PM",
