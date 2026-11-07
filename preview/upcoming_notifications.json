@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T21:27:19+00:00",
+  "generated_at": "2026-11-07T21:30:32+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 53,
-    "upcoming_matches": 96,
+    "upcoming_notifications": 54,
+    "upcoming_matches": 97,
     "next_notification_at_local": "2026-11-08 05:59 AM"
   },
   "upcoming_notifications": [
@@ -1623,6 +1623,29 @@
           "team2": "Boca Juniors Cali",
           "hot": false,
           "display": "⚽ Envigado FC vs Boca Juniors Cali · Primera B Colombia"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-11 03:29 AM",
+      "match_start_local": "2026-11-11 03:30 AM",
+      "send_at_utc": "2026-11-10T21:29:00+00:00",
+      "match_start_utc": "2026-11-10T21:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Cacahuatique vs CD Luis Angel Firpo",
+        "body": "Primera Division · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2535",
+          "sport": "Football",
+          "league": "Primera Division",
+          "team1": "Cacahuatique",
+          "team2": "CD Luis Angel Firpo",
+          "hot": false,
+          "display": "⚽ Cacahuatique vs CD Luis Angel Firpo · Primera Division"
         }
       ]
     }
