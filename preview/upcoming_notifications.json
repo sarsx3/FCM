@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T15:04:20+00:00",
+  "generated_at": "2026-11-07T15:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,124 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 63,
-    "upcoming_matches": 136,
+    "upcoming_notifications": 62,
+    "upcoming_matches": 125,
     "next_notification_at_local": "2026-11-07 09:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-07 08:59 PM",
-      "match_start_local": "2026-11-07 09:00 PM",
-      "send_at_utc": "2026-11-07T14:59:00+00:00",
-      "match_start_utc": "2026-11-07T15:00:00+00:00",
-      "match_count": 11,
-      "notification": {
-        "title": "⏰ 11 matches starting soon",
-        "body": "⚽ Birmingham vs Swansea · Championship\n⚽ Blackburn vs West Ham · Championship\n⚽ Cardiff vs Burnley · Championship\n⚽ Charlton vs Sheffield Utd · Championship\n⚽ Preston vs Southampton · Championship\n⚽ QPR vs Lincoln · Championship\n+ 5 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "2377",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Birmingham",
-          "team2": "Swansea",
-          "hot": false,
-          "display": "⚽ Birmingham vs Swansea · Championship"
-        },
-        {
-          "id": "2376",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Blackburn",
-          "team2": "West Ham",
-          "hot": false,
-          "display": "⚽ Blackburn vs West Ham · Championship"
-        },
-        {
-          "id": "2375",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Cardiff",
-          "team2": "Burnley",
-          "hot": false,
-          "display": "⚽ Cardiff vs Burnley · Championship"
-        },
-        {
-          "id": "2374",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Charlton",
-          "team2": "Sheffield Utd",
-          "hot": false,
-          "display": "⚽ Charlton vs Sheffield Utd · Championship"
-        },
-        {
-          "id": "2373",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Preston",
-          "team2": "Southampton",
-          "hot": false,
-          "display": "⚽ Preston vs Southampton · Championship"
-        },
-        {
-          "id": "2372",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "QPR",
-          "team2": "Lincoln",
-          "hot": false,
-          "display": "⚽ QPR vs Lincoln · Championship"
-        },
-        {
-          "id": "2371",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Watford",
-          "team2": "Middlesbrough",
-          "hot": false,
-          "display": "⚽ Watford vs Middlesbrough · Championship"
-        },
-        {
-          "id": "2370",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "West Brom",
-          "team2": "Millwall",
-          "hot": false,
-          "display": "⚽ West Brom vs Millwall · Championship"
-        },
-        {
-          "id": "2347",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Bromley",
-          "team2": "Rotherham",
-          "hot": false,
-          "display": "⚽ Bromley vs Rotherham · FA Cup"
-        },
-        {
-          "id": "2339",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Arsenal",
-          "team2": "Hull City",
-          "hot": false,
-          "display": "⚽ Arsenal vs Hull City · Premier League"
-        },
-        {
-          "id": "2338",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Fulham",
-          "team2": "Newcastle Utd",
-          "hot": false,
-          "display": "⚽ Fulham vs Newcastle Utd · Premier League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-07 09:14 PM",
