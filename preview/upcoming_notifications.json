@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T14:04:21+00:00",
+  "generated_at": "2026-11-08T14:05:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "08 Nov 2026, 08:01:13 PM BST",
+    "source_last_updated": "08 Nov 2026, 08:03:13 PM BST",
     "source_events_loaded": 238,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,106 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 54,
-    "upcoming_matches": 87,
+    "upcoming_notifications": 53,
+    "upcoming_matches": 78,
     "next_notification_at_local": "2026-11-08 08:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-08 07:59 PM",
-      "match_start_local": "2026-11-08 08:00 PM",
-      "send_at_utc": "2026-11-08T13:59:00+00:00",
-      "match_start_utc": "2026-11-08T14:00:00+00:00",
-      "match_count": 9,
-      "notification": {
-        "title": "⏰ 9 matches starting soon",
-        "body": "🏏 Arabian Aces vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 6th Match\n⚽ Rennes vs Lille · Ligue 1\n⚽ Brighton vs Brentford · Premier League\n⚽ Crystal Palace vs Liverpool · Premier League\n⚽ Ipswich vs Bournemouth · Premier League\n⚽ Sunderland vs Chelsea · Premier League\n+ 3 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "2685",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 6th Match",
-          "team1": "Arabian Aces",
-          "team2": "Royal Desert Champions",
-          "hot": false,
-          "display": "🏏 Arabian Aces vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 6th Match"
-        },
-        {
-          "id": "2435",
-          "sport": "Football",
-          "league": "Ligue 1",
-          "team1": "Rennes",
-          "team2": "Lille",
-          "hot": false,
-          "display": "⚽ Rennes vs Lille · Ligue 1"
-        },
-        {
-          "id": "2429",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Brighton",
-          "team2": "Brentford",
-          "hot": false,
-          "display": "⚽ Brighton vs Brentford · Premier League"
-        },
-        {
-          "id": "2428",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Crystal Palace",
-          "team2": "Liverpool",
-          "hot": false,
-          "display": "⚽ Crystal Palace vs Liverpool · Premier League"
-        },
-        {
-          "id": "2427",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Ipswich",
-          "team2": "Bournemouth",
-          "hot": false,
-          "display": "⚽ Ipswich vs Bournemouth · Premier League"
-        },
-        {
-          "id": "2426",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Sunderland",
-          "team2": "Chelsea",
-          "hot": false,
-          "display": "⚽ Sunderland vs Chelsea · Premier League"
-        },
-        {
-          "id": "2259",
-          "sport": "Football",
-          "league": "SAFF Championship - Group A",
-          "team1": "Sri Lanka",
-          "team2": "Bhutan",
-          "hot": false,
-          "display": "⚽ Sri Lanka vs Bhutan · SAFF Championship - Group A"
-        },
-        {
-          "id": "2449",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Genoa",
-          "team2": "AC Milan",
-          "hot": false,
-          "display": "⚽ Genoa vs AC Milan · Serie A"
-        },
-        {
-          "id": "2448",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Monza",
-          "team2": "Atalanta",
-          "hot": false,
-          "display": "⚽ Monza vs Atalanta · Serie A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-08 08:29 PM",
