@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T13:04:18+00:00",
+  "generated_at": "2026-11-08T13:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "08 Nov 2026, 06:59:14 PM BST",
+    "source_last_updated": "08 Nov 2026, 07:05:19 PM BST",
     "source_events_loaded": 239,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 55,
-    "upcoming_matches": 89,
+    "upcoming_notifications": 54,
+    "upcoming_matches": 86,
     "next_notification_at_local": "2026-11-08 07:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-08 06:59 PM",
-      "match_start_local": "2026-11-08 07:00 PM",
-      "send_at_utc": "2026-11-08T12:59:00+00:00",
-      "match_start_utc": "2026-11-08T13:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Elche vs Betis · LaLiga\n⚽ Andorra vs Mallorca · LaLiga 2\n⚽ Corum FK vs Fenerbahce · Super Lig"
-      },
-      "matches": [
-        {
-          "id": "2461",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Elche",
-          "team2": "Betis",
-          "hot": false,
-          "display": "⚽ Elche vs Betis · LaLiga"
-        },
-        {
-          "id": "2466",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Andorra",
-          "team2": "Mallorca",
-          "hot": false,
-          "display": "⚽ Andorra vs Mallorca · LaLiga 2"
-        },
-        {
-          "id": "2471",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Corum FK",
-          "team2": "Fenerbahce",
-          "hot": false,
-          "display": "⚽ Corum FK vs Fenerbahce · Super Lig"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-08 07:29 PM",
