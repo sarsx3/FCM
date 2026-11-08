@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T01:28:22+00:00",
+  "generated_at": "2026-11-08T01:30:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "08 Nov 2026, 07:28:14 AM BST",
+    "source_last_updated": "08 Nov 2026, 07:27:12 AM BST",
     "source_events_loaded": 246,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 54,
-    "upcoming_matches": 91,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 92,
     "next_notification_at_local": "2026-11-08 08:39 AM"
   },
   "upcoming_notifications": [
@@ -1592,6 +1592,29 @@
           "team2": "Platense Municipal",
           "hot": false,
           "display": "⚽ Metapan vs Platense Municipal · Primera Division"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-11 07:29 AM",
+      "match_start_local": "2026-11-11 07:30 AM",
+      "send_at_utc": "2026-11-11T01:29:00+00:00",
+      "match_start_utc": "2026-11-11T01:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Once Caldas vs Atletico Nacional",
+        "body": "Copa Colombia · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2526",
+          "sport": "Football",
+          "league": "Copa Colombia",
+          "team1": "Once Caldas",
+          "team2": "Atletico Nacional",
+          "hot": false,
+          "display": "⚽ Once Caldas vs Atletico Nacional · Copa Colombia"
         }
       ]
     }
