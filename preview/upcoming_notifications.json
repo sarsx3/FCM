@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T11:44:19+00:00",
+  "generated_at": "2026-11-08T11:45:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "08 Nov 2026, 05:40:21 PM BST",
+    "source_last_updated": "08 Nov 2026, 05:45:21 PM BST",
     "source_events_loaded": 242,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 55,
-    "upcoming_matches": 91,
+    "upcoming_notifications": 56,
+    "upcoming_matches": 92,
     "next_notification_at_local": "2026-11-08 06:29 PM"
   },
   "upcoming_notifications": [
@@ -1606,6 +1606,29 @@
           "team2": "Maldives",
           "hot": false,
           "display": "⚽ India vs Maldives · SAFF Championship - Group B"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-11 05:44 PM",
+      "match_start_local": "2026-11-11 05:45 PM",
+      "send_at_utc": "2026-11-11T11:44:00+00:00",
+      "match_start_utc": "2026-11-11T11:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Royal Desert Champions vs UAE Bulls",
+        "body": "Abu Dhabi T10 League 2026 - 11th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2690",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 11th Match",
+          "team1": "Royal Desert Champions",
+          "team2": "UAE Bulls",
+          "hot": false,
+          "display": "🏏 Royal Desert Champions vs UAE Bulls · Abu Dhabi T10 League 2026 - 11th Match"
         }
       ]
     }
