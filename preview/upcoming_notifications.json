@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T04:28:21+00:00",
+  "generated_at": "2026-11-08T04:30:32+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "08 Nov 2026, 10:28:16 AM BST",
+    "source_last_updated": "08 Nov 2026, 10:30:27 AM BST",
     "source_events_loaded": 245,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 54,
-    "upcoming_matches": 91,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 92,
     "next_notification_at_local": "2026-11-08 10:59 AM"
   },
   "upcoming_notifications": [
@@ -1592,6 +1592,29 @@
           "team2": "Atletico Nacional",
           "hot": false,
           "display": "⚽ Once Caldas vs Atletico Nacional · Copa Colombia"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-11 10:29 AM",
+      "match_start_local": "2026-11-11 10:30 AM",
+      "send_at_utc": "2026-11-11T04:29:00+00:00",
+      "match_start_utc": "2026-11-11T04:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Pakistan vs Sri Lanka",
+        "body": "PAK vs SL - 1st Test, Day 3 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2537",
+          "sport": "Cricket",
+          "league": "PAK vs SL - 1st Test, Day 3",
+          "team1": "Pakistan",
+          "team2": "Sri Lanka",
+          "hot": false,
+          "display": "🏏 Pakistan vs Sri Lanka · PAK vs SL - 1st Test, Day 3"
         }
       ]
     }
