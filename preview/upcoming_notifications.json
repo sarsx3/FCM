@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T08:44:18+00:00",
+  "generated_at": "2026-11-08T08:45:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "08 Nov 2026, 02:44:13 PM BST",
+    "source_last_updated": "08 Nov 2026, 02:41:12 PM BST",
     "source_events_loaded": 244,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 59,
-    "upcoming_matches": 96,
+    "upcoming_notifications": 54,
+    "upcoming_matches": 89,
     "next_notification_at_local": "2026-11-08 03:29 PM"
   },
   "upcoming_notifications": [
@@ -26,21 +26,12 @@
       "match_start_local": "2026-11-08 03:30 PM",
       "send_at_utc": "2026-11-08T09:29:00+00:00",
       "match_start_utc": "2026-11-08T09:30:00+00:00",
-      "match_count": 2,
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "🏏 Yas Lions vs Emirates Eagles · Abu Dhabi T10 League 2026 - 4th Match\n⚽ Maldives vs Pakistan · SAFF Championship - Group B"
+        "title": "⚽ Maldives vs Pakistan",
+        "body": "SAFF Championship - Group B · Starting soon"
       },
       "matches": [
-        {
-          "id": "2683",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 4th Match",
-          "team1": "Yas Lions",
-          "team2": "Emirates Eagles",
-          "hot": false,
-          "display": "🏏 Yas Lions vs Emirates Eagles · Abu Dhabi T10 League 2026 - 4th Match"
-        },
         {
           "id": "2258",
           "sport": "Football",
@@ -118,29 +109,6 @@
           "team2": "Lazio",
           "hot": false,
           "display": "⚽ Napoli vs Lazio · Serie A"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-08 05:44 PM",
-      "match_start_local": "2026-11-08 05:45 PM",
-      "send_at_utc": "2026-11-08T11:44:00+00:00",
-      "match_start_utc": "2026-11-08T11:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 United Tigers vs UAE Bulls",
-        "body": "Abu Dhabi T10 League 2026 - 5th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2684",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 5th Match",
-          "team1": "United Tigers",
-          "team2": "UAE Bulls",
-          "hot": false,
-          "display": "🏏 United Tigers vs UAE Bulls · Abu Dhabi T10 League 2026 - 5th Match"
         }
       ]
     },
@@ -255,21 +223,12 @@
       "match_start_local": "2026-11-08 08:00 PM",
       "send_at_utc": "2026-11-08T13:59:00+00:00",
       "match_start_utc": "2026-11-08T14:00:00+00:00",
-      "match_count": 9,
+      "match_count": 8,
       "notification": {
-        "title": "⏰ 9 matches starting soon",
-        "body": "🏏 Arabian Aces vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 6th Match\n⚽ Rennes vs Lille · Ligue 1\n⚽ Brighton vs Brentford · Premier League\n⚽ Crystal Palace vs Liverpool · Premier League\n⚽ Ipswich vs Bournemouth · Premier League\n⚽ Sunderland vs Chelsea · Premier League\n+ 3 more matches in the app"
+        "title": "⏰ 8 matches starting soon",
+        "body": "⚽ Rennes vs Lille · Ligue 1\n⚽ Brighton vs Brentford · Premier League\n⚽ Crystal Palace vs Liverpool · Premier League\n⚽ Ipswich vs Bournemouth · Premier League\n⚽ Sunderland vs Chelsea · Premier League\n⚽ Sri Lanka vs Bhutan · SAFF Championship - Group A\n+ 2 more matches in the app"
       },
       "matches": [
-        {
-          "id": "2685",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 6th Match",
-          "team1": "Arabian Aces",
-          "team2": "Royal Desert Champions",
-          "hot": false,
-          "display": "🏏 Arabian Aces vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 6th Match"
-        },
         {
           "id": "2435",
           "sport": "Football",
@@ -1005,52 +964,6 @@
     },
     {
       "status": "scheduled",
-      "send_at_local": "2026-11-09 05:44 PM",
-      "match_start_local": "2026-11-09 05:45 PM",
-      "send_at_utc": "2026-11-09T11:44:00+00:00",
-      "match_start_utc": "2026-11-09T11:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Emirates Eagles vs Arabian Aces",
-        "body": "Abu Dhabi T10 League 2026 - 7th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2686",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 7th Match",
-          "team1": "Emirates Eagles",
-          "team2": "Arabian Aces",
-          "hot": false,
-          "display": "🏏 Emirates Eagles vs Arabian Aces · Abu Dhabi T10 League 2026 - 7th Match"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-09 07:59 PM",
-      "match_start_local": "2026-11-09 08:00 PM",
-      "send_at_utc": "2026-11-09T13:59:00+00:00",
-      "match_start_utc": "2026-11-09T14:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 United Tigers vs Royal Desert Champions",
-        "body": "Abu Dhabi T10 League 2026 - 8th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2687",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 8th Match",
-          "team1": "United Tigers",
-          "team2": "Royal Desert Champions",
-          "hot": false,
-          "display": "🏏 United Tigers vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 8th Match"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
       "send_at_local": "2026-11-09 11:59 PM",
       "match_start_local": "2026-11-10 12:00 AM",
       "send_at_utc": "2026-11-09T17:59:00+00:00",
@@ -1363,52 +1276,6 @@
           "team2": "Sudur Paschim Royals",
           "hot": false,
           "display": "🏏 Janakpur Bolts vs Sudur Paschim Royals · NPL 2026 - 21st Match"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-10 05:44 PM",
-      "match_start_local": "2026-11-10 05:45 PM",
-      "send_at_utc": "2026-11-10T11:44:00+00:00",
-      "match_start_utc": "2026-11-10T11:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Yas Lions vs United Tigers",
-        "body": "Abu Dhabi T10 League 2026 - 9th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2688",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 9th Match",
-          "team1": "Yas Lions",
-          "team2": "United Tigers",
-          "hot": false,
-          "display": "🏏 Yas Lions vs United Tigers · Abu Dhabi T10 League 2026 - 9th Match"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-10 07:59 PM",
-      "match_start_local": "2026-11-10 08:00 PM",
-      "send_at_utc": "2026-11-10T13:59:00+00:00",
-      "match_start_utc": "2026-11-10T14:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 UAE Bulls vs Emirates Eagles",
-        "body": "Abu Dhabi T10 League 2026 - 10th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2689",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 10th Match",
-          "team1": "UAE Bulls",
-          "team2": "Emirates Eagles",
-          "hot": false,
-          "display": "🏏 UAE Bulls vs Emirates Eagles · Abu Dhabi T10 League 2026 - 10th Match"
         }
       ]
     },
