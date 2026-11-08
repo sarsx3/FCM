@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-08T11:49:22+00:00",
+  "generated_at": "2026-11-08T11:50:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "08 Nov 2026, 05:49:16 PM BST",
-    "source_events_loaded": 241,
+    "source_last_updated": "08 Nov 2026, 05:45:21 PM BST",
+    "source_events_loaded": 242,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 92,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 91,
     "next_notification_at_local": "2026-11-08 06:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-08 05:44 PM",
-      "match_start_local": "2026-11-08 05:45 PM",
-      "send_at_utc": "2026-11-08T11:44:00+00:00",
-      "match_start_utc": "2026-11-08T11:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 United Tigers vs UAE Bulls",
-        "body": "Abu Dhabi T10 League 2026 - 5th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2684",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 5th Match",
-          "team1": "United Tigers",
-          "team2": "UAE Bulls",
-          "hot": false,
-          "display": "🏏 United Tigers vs UAE Bulls · Abu Dhabi T10 League 2026 - 5th Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-08 06:29 PM",
