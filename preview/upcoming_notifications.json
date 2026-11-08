@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T15:33:19+00:00",
+  "generated_at": "2026-11-08T15:35:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "08 Nov 2026, 09:32:15 PM BST",
+    "source_last_updated": "08 Nov 2026, 09:31:13 PM BST",
     "source_events_loaded": 227,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 73,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 71,
     "next_notification_at_local": "2026-11-08 09:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-08 09:29 PM",
-      "match_start_local": "2026-11-08 09:30 PM",
-      "send_at_utc": "2026-11-08T15:29:00+00:00",
-      "match_start_utc": "2026-11-08T15:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Santa Clara vs Gil Vicente · Liga Portugal\n⚽ Alanyaspor vs Trabzonspor · Super Lig"
-      },
-      "matches": [
-        {
-          "id": "2459",
-          "sport": "Football",
-          "league": "Liga Portugal",
-          "team1": "Santa Clara",
-          "team2": "Gil Vicente",
-          "hot": false,
-          "display": "⚽ Santa Clara vs Gil Vicente · Liga Portugal"
-        },
-        {
-          "id": "2472",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Alanyaspor",
-          "team2": "Trabzonspor",
-          "hot": false,
-          "display": "⚽ Alanyaspor vs Trabzonspor · Super Lig"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-08 09:44 PM",
