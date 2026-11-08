@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:59:18+00:00",
+  "generated_at": "2026-11-08T14:00:39+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 53,
-    "upcoming_matches": 85,
+    "upcoming_notifications": 54,
+    "upcoming_matches": 87,
     "next_notification_at_local": "2026-11-08 08:29 PM"
   },
   "upcoming_notifications": [
@@ -1524,6 +1524,38 @@
           "team2": "Chinese Taipei",
           "hot": false,
           "display": "⚽ Vietnam vs Chinese Taipei · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-11 07:59 PM",
+      "match_start_local": "2026-11-11 08:00 PM",
+      "send_at_utc": "2026-11-11T13:59:00+00:00",
+      "match_start_utc": "2026-11-11T14:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 Arabian Aces vs Yas Lions · Abu Dhabi T10 League 2026 - 12th Match\n⚽ Bangladesh vs Sri Lanka · SAFF Championship - Group A"
+      },
+      "matches": [
+        {
+          "id": "2691",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 12th Match",
+          "team1": "Arabian Aces",
+          "team2": "Yas Lions",
+          "hot": false,
+          "display": "🏏 Arabian Aces vs Yas Lions · Abu Dhabi T10 League 2026 - 12th Match"
+        },
+        {
+          "id": "2261",
+          "sport": "Football",
+          "league": "SAFF Championship - Group A",
+          "team1": "Bangladesh",
+          "team2": "Sri Lanka",
+          "hot": false,
+          "display": "⚽ Bangladesh vs Sri Lanka · SAFF Championship - Group A"
         }
       ]
     }
