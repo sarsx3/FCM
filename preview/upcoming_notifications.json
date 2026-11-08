@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:18:21+00:00",
+  "generated_at": "2026-11-08T15:20:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 75,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 73,
     "next_notification_at_local": "2026-11-08 09:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-08 09:14 PM",
-      "match_start_local": "2026-11-08 09:15 PM",
-      "send_at_utc": "2026-11-08T15:14:00+00:00",
-      "match_start_utc": "2026-11-08T15:15:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Real Sociedad vs Rayo · LaLiga\n⚽ Girona vs Almeria · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "2462",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Real Sociedad",
-          "team2": "Rayo",
-          "hot": false,
-          "display": "⚽ Real Sociedad vs Rayo · LaLiga"
-        },
-        {
-          "id": "2467",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Girona",
-          "team2": "Almeria",
-          "hot": false,
-          "display": "⚽ Girona vs Almeria · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-08 09:29 PM",
