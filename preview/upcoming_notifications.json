@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T00:04:22+00:00",
+  "generated_at": "2026-11-08T00:05:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "08 Nov 2026, 06:04:14 AM BST",
+    "source_last_updated": "08 Nov 2026, 06:05:18 AM BST",
     "source_events_loaded": 262,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,88 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 55,
-    "upcoming_matches": 98,
+    "upcoming_notifications": 54,
+    "upcoming_matches": 91,
     "next_notification_at_local": "2026-11-08 06:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-08 05:59 AM",
-      "match_start_local": "2026-11-08 06:00 AM",
-      "send_at_utc": "2026-11-07T23:59:00+00:00",
-      "match_start_utc": "2026-11-08T00:00:00+00:00",
-      "match_count": 7,
-      "notification": {
-        "title": "⏰ 7 matches starting soon",
-        "body": "⚽ Austin vs Portland · MLS\n⚽ FC Dallas vs Colorado Rapids · MLS\n⚽ Houston Dynamo vs St. Louis City · MLS\n⚽ Minnesota United vs San Jose · MLS\n⚽ Real Salt Lake vs LA Galaxy · MLS\n⚽ San Diego vs Sporting KC · MLS\n+ 1 more match in the app"
-      },
-      "matches": [
-        {
-          "id": "2487",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Austin",
-          "team2": "Portland",
-          "hot": false,
-          "display": "⚽ Austin vs Portland · MLS"
-        },
-        {
-          "id": "2486",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "FC Dallas",
-          "team2": "Colorado Rapids",
-          "hot": false,
-          "display": "⚽ FC Dallas vs Colorado Rapids · MLS"
-        },
-        {
-          "id": "2484",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Houston Dynamo",
-          "team2": "St. Louis City",
-          "hot": false,
-          "display": "⚽ Houston Dynamo vs St. Louis City · MLS"
-        },
-        {
-          "id": "2485",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Minnesota United",
-          "team2": "San Jose",
-          "hot": false,
-          "display": "⚽ Minnesota United vs San Jose · MLS"
-        },
-        {
-          "id": "2483",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Real Salt Lake",
-          "team2": "LA Galaxy",
-          "hot": false,
-          "display": "⚽ Real Salt Lake vs LA Galaxy · MLS"
-        },
-        {
-          "id": "2481",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "San Diego",
-          "team2": "Sporting KC",
-          "hot": false,
-          "display": "⚽ San Diego vs Sporting KC · MLS"
-        },
-        {
-          "id": "2482",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "Seattle Sounders",
-          "team2": "Los Angeles FC",
-          "hot": false,
-          "display": "⚽ Seattle Sounders vs Los Angeles FC · MLS"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-08 06:59 AM",
