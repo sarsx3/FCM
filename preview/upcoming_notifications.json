@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T18:04:18+00:00",
+  "generated_at": "2026-11-08T18:05:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "09 Nov 2026, 12:00:34 AM BST",
+    "source_last_updated": "09 Nov 2026, 12:02:15 AM BST",
     "source_events_loaded": 270,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 58,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 56,
     "next_notification_at_local": "2026-11-09 12:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-08 11:59 PM",
-      "match_start_local": "2026-11-09 12:00 AM",
-      "send_at_utc": "2026-11-08T17:59:00+00:00",
-      "match_start_utc": "2026-11-08T18:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Guimarães vs Porto · Liga Portugal\n⚽ Besiktas vs Genclerbirligi · Super Lig"
-      },
-      "matches": [
-        {
-          "id": "2498",
-          "sport": "Football",
-          "league": "Liga Portugal",
-          "team1": "Guimarães",
-          "team2": "Porto",
-          "hot": false,
-          "display": "⚽ Guimarães vs Porto · Liga Portugal"
-        },
-        {
-          "id": "2502",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Besiktas",
-          "team2": "Genclerbirligi",
-          "hot": false,
-          "display": "⚽ Besiktas vs Genclerbirligi · Super Lig"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-09 12:29 AM",
