@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T20:03:20+00:00",
+  "generated_at": "2026-11-08T20:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 41,
-    "upcoming_matches": 54,
+    "upcoming_notifications": 40,
+    "upcoming_matches": 52,
     "next_notification_at_local": "2026-11-09 02:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-09 01:59 AM",
-      "match_start_local": "2026-11-09 02:00 AM",
-      "send_at_utc": "2026-11-08T19:59:00+00:00",
-      "match_start_utc": "2026-11-08T20:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Vasco vs Palmeiras · Copa do Brasil\n⚽ Atl. Madrid vs Barcelona · LaLiga"
-      },
-      "matches": [
-        {
-          "id": "2493",
-          "sport": "Football",
-          "league": "Copa do Brasil",
-          "team1": "Vasco",
-          "team2": "Palmeiras",
-          "hot": false,
-          "display": "⚽ Vasco vs Palmeiras · Copa do Brasil"
-        },
-        {
-          "id": "2501",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Atl. Madrid",
-          "team2": "Barcelona",
-          "hot": false,
-          "display": "⚽ Atl. Madrid vs Barcelona · LaLiga"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-09 02:29 AM",
