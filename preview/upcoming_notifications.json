@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T17:42:21+00:00",
+  "generated_at": "2026-11-08T17:45:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 43,
-    "upcoming_matches": 57,
+    "upcoming_notifications": 44,
+    "upcoming_matches": 58,
     "next_notification_at_local": "2026-11-08 11:59 PM"
   },
   "upcoming_notifications": [
@@ -1132,6 +1132,29 @@
           "team2": "Sri Lanka",
           "hot": false,
           "display": "⚽ Bangladesh vs Sri Lanka · SAFF Championship - Group A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-11 11:44 PM",
+      "match_start_local": "2026-11-11 11:45 PM",
+      "send_at_utc": "2026-11-11T17:44:00+00:00",
+      "match_start_utc": "2026-11-11T17:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Oud-Heverlee Leuven (W) vs Koge (W)",
+        "body": "UEFA Women's Champions League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2530",
+          "sport": "Football",
+          "league": "UEFA Women's Champions League",
+          "team1": "Oud-Heverlee Leuven (W)",
+          "team2": "Koge (W)",
+          "hot": false,
+          "display": "⚽ Oud-Heverlee Leuven (W) vs Koge (W) · UEFA Women's Champions League"
         }
       ]
     }
