@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T20:33:17+00:00",
+  "generated_at": "2026-11-08T20:35:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "09 Nov 2026, 02:32:16 AM BST",
+    "source_last_updated": "09 Nov 2026, 02:31:13 AM BST",
     "source_events_loaded": 255,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 40,
-    "upcoming_matches": 52,
+    "upcoming_notifications": 39,
+    "upcoming_matches": 50,
     "next_notification_at_local": "2026-11-09 04:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-09 02:29 AM",
-      "match_start_local": "2026-11-09 02:30 AM",
-      "send_at_utc": "2026-11-08T20:29:00+00:00",
-      "match_start_utc": "2026-11-08T20:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Amadora vs Benfica · Liga Portugal\n⚽ Rio Ave vs Braga · Liga Portugal"
-      },
-      "matches": [
-        {
-          "id": "2499",
-          "sport": "Football",
-          "league": "Liga Portugal",
-          "team1": "Amadora",
-          "team2": "Benfica",
-          "hot": false,
-          "display": "⚽ Amadora vs Benfica · Liga Portugal"
-        },
-        {
-          "id": "2500",
-          "sport": "Football",
-          "league": "Liga Portugal",
-          "team1": "Rio Ave",
-          "team2": "Braga",
-          "hot": false,
-          "display": "⚽ Rio Ave vs Braga · Liga Portugal"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-09 04:29 AM",
