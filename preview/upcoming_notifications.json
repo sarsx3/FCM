@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:04:19+00:00",
+  "generated_at": "2026-11-09T22:05:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 43,
-    "upcoming_matches": 67,
+    "upcoming_notifications": 42,
+    "upcoming_matches": 66,
     "next_notification_at_local": "2026-11-10 04:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-10 03:59 AM",
-      "match_start_local": "2026-11-10 04:00 AM",
-      "send_at_utc": "2026-11-09T21:59:00+00:00",
-      "match_start_utc": "2026-11-09T22:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Independiente Valle del Cauca vs Union Magdalena",
-        "body": "Primera B · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2510",
-          "sport": "Football",
-          "league": "Primera B",
-          "team1": "Independiente Valle del Cauca",
-          "team2": "Union Magdalena",
-          "hot": false,
-          "display": "⚽ Independiente Valle del Cauca vs Union Magdalena · Primera B"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-10 04:29 AM",
