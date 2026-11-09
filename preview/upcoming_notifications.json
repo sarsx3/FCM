@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T04:29:17+00:00",
+  "generated_at": "2026-11-09T04:30:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 38,
-    "upcoming_matches": 49,
+    "upcoming_notifications": 39,
+    "upcoming_matches": 50,
     "next_notification_at_local": "2026-11-09 10:59 AM"
   },
   "upcoming_notifications": [
@@ -990,6 +990,29 @@
           "team2": "Olympique Lyonnais (W)",
           "hot": false,
           "display": "⚽ Juventus (W) vs Olympique Lyonnais (W) · UEFA Women's Champions League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-12 10:29 AM",
+      "match_start_local": "2026-11-12 10:30 AM",
+      "send_at_utc": "2026-11-12T04:29:00+00:00",
+      "match_start_utc": "2026-11-12T04:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Pakistan vs Sri Lanka",
+        "body": "PAK vs SL - 1st Test, Day 4 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2569",
+          "sport": "Cricket",
+          "league": "PAK vs SL - 1st Test, Day 4",
+          "team1": "Pakistan",
+          "team2": "Sri Lanka",
+          "hot": false,
+          "display": "🏏 Pakistan vs Sri Lanka · PAK vs SL - 1st Test, Day 4"
         }
       ]
     }
