@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-09T18:05:24+00:00",
+  "generated_at": "2026-11-09T18:07:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "10 Nov 2026, 12:02:18 AM BST",
-    "source_events_loaded": 240,
+    "source_last_updated": "10 Nov 2026, 12:07:18 AM BST",
+    "source_events_loaded": 239,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -316,10 +316,10 @@
     },
     {
       "status": "scheduled",
-      "send_at_local": "2026-11-10 05:44 PM",
-      "match_start_local": "2026-11-10 05:45 PM",
-      "send_at_utc": "2026-11-10T11:44:00+00:00",
-      "match_start_utc": "2026-11-10T11:45:00+00:00",
+      "send_at_local": "2026-11-10 07:44 PM",
+      "match_start_local": "2026-11-10 07:45 PM",
+      "send_at_utc": "2026-11-10T13:44:00+00:00",
+      "match_start_utc": "2026-11-10T13:45:00+00:00",
       "match_count": 1,
       "notification": {
         "title": "🏏 Yas Lions vs United Tigers",
@@ -334,29 +334,6 @@
           "team2": "United Tigers",
           "hot": false,
           "display": "🏏 Yas Lions vs United Tigers · Abu Dhabi T10 League 2026 - 9th Match"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-10 07:59 PM",
-      "match_start_local": "2026-11-10 08:00 PM",
-      "send_at_utc": "2026-11-10T13:59:00+00:00",
-      "match_start_utc": "2026-11-10T14:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 UAE Bulls vs Emirates Eagles",
-        "body": "Abu Dhabi T10 League 2026 - 10th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2689",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 10th Match",
-          "team1": "UAE Bulls",
-          "team2": "Emirates Eagles",
-          "hot": false,
-          "display": "🏏 UAE Bulls vs Emirates Eagles · Abu Dhabi T10 League 2026 - 10th Match"
         }
       ]
     },
@@ -380,6 +357,29 @@
           "team2": "Egypt Telecom",
           "hot": false,
           "display": "⚽ Al Mokawloon Al Arab vs Egypt Telecom · Egypt Cup"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-10 09:59 PM",
+      "match_start_local": "2026-11-10 10:00 PM",
+      "send_at_utc": "2026-11-10T15:59:00+00:00",
+      "match_start_utc": "2026-11-10T16:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 UAE Bulls vs Emirates Eagles",
+        "body": "Abu Dhabi T10 League 2026 - 10th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2689",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 10th Match",
+          "team1": "UAE Bulls",
+          "team2": "Emirates Eagles",
+          "hot": false,
+          "display": "🏏 UAE Bulls vs Emirates Eagles · Abu Dhabi T10 League 2026 - 10th Match"
         }
       ]
     },
