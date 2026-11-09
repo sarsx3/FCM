@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09T05:03:18+00:00",
+  "generated_at": "2026-11-09T05:05:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "09 Nov 2026, 11:03:12 AM BST",
+    "source_last_updated": "09 Nov 2026, 11:05:18 AM BST",
     "source_events_loaded": 246,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 40,
-    "upcoming_matches": 52,
+    "upcoming_notifications": 39,
+    "upcoming_matches": 49,
     "next_notification_at_local": "2026-11-09 12:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-09 10:59 AM",
-      "match_start_local": "2026-11-09 11:00 AM",
-      "send_at_utc": "2026-11-09T04:59:00+00:00",
-      "match_start_utc": "2026-11-09T05:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 1st Test, Day 5\n🏏 Sri Lanka U19 vs Afghanistan U19 · U19 Asia Cup 2026 - 10th Youth ODI\n🏏 Bangladesh U19 vs Malaysia U19 · U19 Asia Cup 2026 - 9th Youth ODI"
-      },
-      "matches": [
-        {
-          "id": "2505",
-          "sport": "Cricket",
-          "league": "AFG vs ZIM - 1st Test, Day 5",
-          "team1": "Afghanistan",
-          "team2": "Zimbabwe",
-          "hot": false,
-          "display": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 1st Test, Day 5"
-        },
-        {
-          "id": "2549",
-          "sport": "Cricket",
-          "league": "U19 Asia Cup 2026 - 10th Youth ODI",
-          "team1": "Sri Lanka U19",
-          "team2": "Afghanistan U19",
-          "hot": false,
-          "display": "🏏 Sri Lanka U19 vs Afghanistan U19 · U19 Asia Cup 2026 - 10th Youth ODI"
-        },
-        {
-          "id": "2548",
-          "sport": "Cricket",
-          "league": "U19 Asia Cup 2026 - 9th Youth ODI",
-          "team1": "Bangladesh U19",
-          "team2": "Malaysia U19",
-          "hot": false,
-          "display": "🏏 Bangladesh U19 vs Malaysia U19 · U19 Asia Cup 2026 - 9th Youth ODI"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-09 12:44 PM",
