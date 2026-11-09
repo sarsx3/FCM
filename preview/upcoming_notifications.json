@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09T05:26:21+00:00",
+  "generated_at": "2026-11-09T05:27:15+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "09 Nov 2026, 11:25:17 AM BST",
+    "source_last_updated": "09 Nov 2026, 11:27:13 AM BST",
     "source_events_loaded": 246,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,11 +15,34 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 39,
-    "upcoming_matches": 49,
-    "next_notification_at_local": "2026-11-09 12:44 PM"
+    "upcoming_notifications": 40,
+    "upcoming_matches": 50,
+    "next_notification_at_local": "2026-11-09 11:59 AM"
   },
   "upcoming_notifications": [
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-09 11:59 AM",
+      "match_start_local": "2026-11-09 12:00 PM",
+      "send_at_utc": "2026-11-09T05:59:00+00:00",
+      "match_start_utc": "2026-11-09T06:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Afghanistan vs Zimbabwe",
+        "body": "AFG vs ZIM - 1st Test, Day 5 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2505",
+          "sport": "Cricket",
+          "league": "AFG vs ZIM - 1st Test, Day 5",
+          "team1": "Afghanistan",
+          "team2": "Zimbabwe",
+          "hot": false,
+          "display": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 1st Test, Day 5"
+        }
+      ]
+    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-09 12:44 PM",
