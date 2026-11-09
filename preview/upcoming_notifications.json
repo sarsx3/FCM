@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T19:29:01+00:00",
+  "generated_at": "2026-11-09T19:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 45,
-    "upcoming_matches": 65,
+    "upcoming_notifications": 44,
+    "upcoming_matches": 63,
     "next_notification_at_local": "2026-11-10 01:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-10 01:29 AM",
-      "match_start_local": "2026-11-10 01:30 AM",
-      "send_at_utc": "2026-11-09T19:29:00+00:00",
-      "match_start_utc": "2026-11-09T19:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Plymouth Parkway vs Berkhamsted · FA Cup\n⚽ Sabadell vs Real Sociedad B · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "2514",
-          "sport": "Football",
-          "league": "FA Cup",
-          "team1": "Plymouth Parkway",
-          "team2": "Berkhamsted",
-          "hot": false,
-          "display": "⚽ Plymouth Parkway vs Berkhamsted · FA Cup"
-        },
-        {
-          "id": "2519",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Sabadell",
-          "team2": "Real Sociedad B",
-          "hot": false,
-          "display": "⚽ Sabadell vs Real Sociedad B · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-10 01:59 AM",
