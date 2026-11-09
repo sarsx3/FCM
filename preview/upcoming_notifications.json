@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T20:34:19+00:00",
+  "generated_at": "2026-11-09T20:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 68,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 67,
     "next_notification_at_local": "2026-11-10 03:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-10 02:29 AM",
-      "match_start_local": "2026-11-10 02:30 AM",
-      "send_at_utc": "2026-11-09T20:29:00+00:00",
-      "match_start_utc": "2026-11-09T20:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Tecnico Universitario vs Manta",
-        "body": "Liga Pro · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2512",
-          "sport": "Football",
-          "league": "Liga Pro",
-          "team1": "Tecnico Universitario",
-          "team2": "Manta",
-          "hot": false,
-          "display": "⚽ Tecnico Universitario vs Manta · Liga Pro"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-10 03:59 AM",
