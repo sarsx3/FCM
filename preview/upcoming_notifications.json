@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10T08:14:26+00:00",
+  "generated_at": "2026-11-10T08:15:29+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "10 Nov 2026, 02:14:15 PM BST",
+    "source_last_updated": "10 Nov 2026, 02:15:23 PM BST",
     "source_events_loaded": 300,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 41,
-    "upcoming_matches": 64,
+    "upcoming_notifications": 40,
+    "upcoming_matches": 63,
     "next_notification_at_local": "2026-11-10 05:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-10 02:09 PM",
-      "match_start_local": "2026-11-10 02:10 PM",
-      "send_at_utc": "2026-11-10T08:09:00+00:00",
-      "match_start_utc": "2026-11-10T08:10:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Hobart Hurricanes Women vs Adelaide Strikers Women",
-        "body": "WBBL 2026 - 17th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2522",
-          "sport": "Cricket",
-          "league": "WBBL 2026 - 17th Match",
-          "team1": "Hobart Hurricanes Women",
-          "team2": "Adelaide Strikers Women",
-          "hot": false,
-          "display": "🏏 Hobart Hurricanes Women vs Adelaide Strikers Women · WBBL 2026 - 17th Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-10 05:14 PM",
