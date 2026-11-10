@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:59:00+00:00",
+  "generated_at": "2026-11-10T19:00:38+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 45,
-    "upcoming_matches": 76,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 78,
     "next_notification_at_local": "2026-11-11 01:59 AM"
   },
   "upcoming_notifications": [
@@ -1331,6 +1331,38 @@
           "team2": "Kazakhstan",
           "hot": false,
           "display": "⚽ Moldova vs Kazakhstan · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 12:59 AM",
+      "match_start_local": "2026-11-14 01:00 AM",
+      "send_at_utc": "2026-11-13T18:59:00+00:00",
+      "match_start_utc": "2026-11-13T19:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Egypt vs Malawi · Africa Cup of Nations Qualification\n⚽ Mali vs Rwanda · Africa Cup of Nations Qualification"
+      },
+      "matches": [
+        {
+          "id": "2608",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Egypt",
+          "team2": "Malawi",
+          "hot": false,
+          "display": "⚽ Egypt vs Malawi · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2609",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Mali",
+          "team2": "Rwanda",
+          "hot": false,
+          "display": "⚽ Mali vs Rwanda · Africa Cup of Nations Qualification"
         }
       ]
     }
