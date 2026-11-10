@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T05:59:16+00:00",
+  "generated_at": "2026-11-10T06:00:44+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 39,
-    "upcoming_matches": 62,
+    "upcoming_notifications": 40,
+    "upcoming_matches": 63,
     "next_notification_at_local": "2026-11-10 02:09 PM"
   },
   "upcoming_notifications": [
@@ -1121,6 +1121,29 @@
           "team2": "Sri Lanka",
           "hot": false,
           "display": "🏏 Pakistan vs Sri Lanka · PAK vs SL - 1st Test, Day 5"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-13 11:59 AM",
+      "match_start_local": "2026-11-13 12:00 PM",
+      "send_at_utc": "2026-11-13T05:59:00+00:00",
+      "match_start_utc": "2026-11-13T06:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Afghanistan vs Zimbabwe",
+        "body": "AFG vs ZIM - 2nd Test, Day 1 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2605",
+          "sport": "Cricket",
+          "league": "AFG vs ZIM - 2nd Test, Day 1",
+          "team1": "Afghanistan",
+          "team2": "Zimbabwe",
+          "hot": false,
+          "display": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 2nd Test, Day 1"
         }
       ]
     }
