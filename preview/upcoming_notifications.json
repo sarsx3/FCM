@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:49:26+00:00",
+  "generated_at": "2026-11-10T13:50:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 69,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 68,
     "next_notification_at_local": "2026-11-10 08:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-10 07:44 PM",
-      "match_start_local": "2026-11-10 07:45 PM",
-      "send_at_utc": "2026-11-10T13:44:00+00:00",
-      "match_start_utc": "2026-11-10T13:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Yas Lions vs United Tigers",
-        "body": "Abu Dhabi T10 League 2026 - 9th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2688",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 9th Match",
-          "team1": "Yas Lions",
-          "team2": "United Tigers",
-          "hot": false,
-          "display": "🏏 Yas Lions vs United Tigers · Abu Dhabi T10 League 2026 - 9th Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-10 08:59 PM",
