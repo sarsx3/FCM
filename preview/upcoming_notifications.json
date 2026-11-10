@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T11:19:19+00:00",
+  "generated_at": "2026-11-10T11:20:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 42,
-    "upcoming_matches": 65,
+    "upcoming_notifications": 41,
+    "upcoming_matches": 64,
     "next_notification_at_local": "2026-11-10 07:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-10 05:14 PM",
-      "match_start_local": "2026-11-10 05:15 PM",
-      "send_at_utc": "2026-11-10T11:14:00+00:00",
-      "match_start_utc": "2026-11-10T11:15:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Janakpur Bolts vs Sudur Paschim Royals",
-        "body": "NPL 2026 - 21st Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2523",
-          "sport": "Cricket",
-          "league": "NPL 2026 - 21st Match",
-          "team1": "Janakpur Bolts",
-          "team2": "Sudur Paschim Royals",
-          "hot": false,
-          "display": "🏏 Janakpur Bolts vs Sudur Paschim Royals · NPL 2026 - 21st Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-10 07:44 PM",
