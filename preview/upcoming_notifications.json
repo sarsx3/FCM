@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T11:59:22+00:00",
+  "generated_at": "2026-11-10T12:00:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 42,
-    "upcoming_matches": 65,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 66,
     "next_notification_at_local": "2026-11-10 07:44 PM"
   },
   "upcoming_notifications": [
@@ -1190,6 +1190,29 @@
           "team2": "Yas Lions",
           "hot": false,
           "display": "🏏 Royal Desert Champions vs Yas Lions · Abu Dhabi T10 League 2026 - 14th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-13 05:59 PM",
+      "match_start_local": "2026-11-13 06:00 PM",
+      "send_at_utc": "2026-11-13T11:59:00+00:00",
+      "match_start_utc": "2026-11-13T12:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Singapore vs Paraguay",
+        "body": "Friendly International · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2595",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Singapore",
+          "team2": "Paraguay",
+          "hot": false,
+          "display": "⚽ Singapore vs Paraguay · Friendly International"
         }
       ]
     }
