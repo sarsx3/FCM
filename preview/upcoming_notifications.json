@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10T20:04:18+00:00",
+  "generated_at": "2026-11-10T20:05:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "11 Nov 2026, 02:02:17 AM BST",
+    "source_last_updated": "11 Nov 2026, 02:03:15 AM BST",
     "source_events_loaded": 290,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,61 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 49,
-    "upcoming_matches": 89,
+    "upcoming_notifications": 48,
+    "upcoming_matches": 85,
     "next_notification_at_local": "2026-11-11 02:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-11 01:59 AM",
-      "match_start_local": "2026-11-11 02:00 AM",
-      "send_at_utc": "2026-11-10T19:59:00+00:00",
-      "match_start_utc": "2026-11-10T20:00:00+00:00",
-      "match_count": 4,
-      "notification": {
-        "title": "⏰ 4 matches starting soon",
-        "body": "⚽ Tavernes vs Valencia CF · Copa del Rey\n⚽ Inter Milan (W) vs Manchester City (W) · UEFA Women's Champions League\n⚽ PSG (W) vs Bayern München (W) · UEFA Women's Champions League\n⚽ Roma (W) vs Servette (W) · UEFA Women's Champions League"
-      },
-      "matches": [
-        {
-          "id": "2534",
-          "sport": "Football",
-          "league": "Copa del Rey",
-          "team1": "Tavernes",
-          "team2": "Valencia CF",
-          "hot": false,
-          "display": "⚽ Tavernes vs Valencia CF · Copa del Rey"
-        },
-        {
-          "id": "2528",
-          "sport": "Football",
-          "league": "UEFA Women's Champions League",
-          "team1": "Inter Milan (W)",
-          "team2": "Manchester City (W)",
-          "hot": false,
-          "display": "⚽ Inter Milan (W) vs Manchester City (W) · UEFA Women's Champions League"
-        },
-        {
-          "id": "2527",
-          "sport": "Football",
-          "league": "UEFA Women's Champions League",
-          "team1": "PSG (W)",
-          "team2": "Bayern München (W)",
-          "hot": false,
-          "display": "⚽ PSG (W) vs Bayern München (W) · UEFA Women's Champions League"
-        },
-        {
-          "id": "2529",
-          "sport": "Football",
-          "league": "UEFA Women's Champions League",
-          "team1": "Roma (W)",
-          "team2": "Servette (W)",
-          "hot": false,
-          "display": "⚽ Roma (W) vs Servette (W) · UEFA Women's Champions League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-11 02:29 AM",
