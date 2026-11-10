@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10T19:28:20+00:00",
+  "generated_at": "2026-11-10T19:29:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "11 Nov 2026, 01:28:15 AM BST",
+    "source_last_updated": "11 Nov 2026, 01:29:13 AM BST",
     "source_events_loaded": 291,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,7 +15,7 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 45,
+    "upcoming_notifications": 46,
     "upcoming_matches": 77,
     "next_notification_at_local": "2026-11-11 01:59 AM"
   },
@@ -256,29 +256,6 @@
     },
     {
       "status": "scheduled",
-      "send_at_local": "2026-11-11 05:44 PM",
-      "match_start_local": "2026-11-11 05:45 PM",
-      "send_at_utc": "2026-11-11T11:44:00+00:00",
-      "match_start_utc": "2026-11-11T11:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Royal Desert Champions vs UAE Bulls",
-        "body": "Abu Dhabi T10 League 2026 - 11th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2690",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 11th Match",
-          "team1": "Royal Desert Champions",
-          "team2": "UAE Bulls",
-          "hot": false,
-          "display": "🏏 Royal Desert Champions vs UAE Bulls · Abu Dhabi T10 League 2026 - 11th Match"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
       "send_at_local": "2026-11-11 05:59 PM",
       "match_start_local": "2026-11-11 06:00 PM",
       "send_at_utc": "2026-11-11T11:59:00+00:00",
@@ -302,14 +279,60 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-11-11 07:44 PM",
+      "match_start_local": "2026-11-11 07:45 PM",
+      "send_at_utc": "2026-11-11T13:44:00+00:00",
+      "match_start_utc": "2026-11-11T13:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Royal Desert Champions vs UAE Bulls",
+        "body": "Abu Dhabi T10 League 2026 - 11th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2690",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 11th Match",
+          "team1": "Royal Desert Champions",
+          "team2": "UAE Bulls",
+          "hot": false,
+          "display": "🏏 Royal Desert Champions vs UAE Bulls · Abu Dhabi T10 League 2026 - 11th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-11-11 07:59 PM",
       "match_start_local": "2026-11-11 08:00 PM",
       "send_at_utc": "2026-11-11T13:59:00+00:00",
       "match_start_utc": "2026-11-11T14:00:00+00:00",
-      "match_count": 2,
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "🏏 Arabian Aces vs Yas Lions · Abu Dhabi T10 League 2026 - 12th Match\n⚽ Bangladesh vs Sri Lanka · SAFF Championship - Group A"
+        "title": "⚽ Bangladesh vs Sri Lanka",
+        "body": "SAFF Championship - Group A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2261",
+          "sport": "Football",
+          "league": "SAFF Championship - Group A",
+          "team1": "Bangladesh",
+          "team2": "Sri Lanka",
+          "hot": false,
+          "display": "⚽ Bangladesh vs Sri Lanka · SAFF Championship - Group A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-11 09:59 PM",
+      "match_start_local": "2026-11-11 10:00 PM",
+      "send_at_utc": "2026-11-11T15:59:00+00:00",
+      "match_start_utc": "2026-11-11T16:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Arabian Aces vs Yas Lions",
+        "body": "Abu Dhabi T10 League 2026 - 12th Match · Starting soon"
       },
       "matches": [
         {
@@ -320,15 +343,6 @@
           "team2": "Yas Lions",
           "hot": false,
           "display": "🏏 Arabian Aces vs Yas Lions · Abu Dhabi T10 League 2026 - 12th Match"
-        },
-        {
-          "id": "2261",
-          "sport": "Football",
-          "league": "SAFF Championship - Group A",
-          "team1": "Bangladesh",
-          "team2": "Sri Lanka",
-          "hot": false,
-          "display": "⚽ Bangladesh vs Sri Lanka · SAFF Championship - Group A"
         }
       ]
     },
