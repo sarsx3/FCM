@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10T06:43:21+00:00",
+  "generated_at": "2026-11-10T06:45:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "10 Nov 2026, 12:43:16 PM BST",
+    "source_last_updated": "10 Nov 2026, 12:42:15 PM BST",
     "source_events_loaded": 300,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 40,
-    "upcoming_matches": 63,
+    "upcoming_notifications": 41,
+    "upcoming_matches": 64,
     "next_notification_at_local": "2026-11-10 02:09 PM"
   },
   "upcoming_notifications": [
@@ -1144,6 +1144,29 @@
           "team2": "Zimbabwe",
           "hot": false,
           "display": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM - 2nd Test, Day 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-13 12:44 PM",
+      "match_start_local": "2026-11-13 12:45 PM",
+      "send_at_utc": "2026-11-13T06:44:00+00:00",
+      "match_start_utc": "2026-11-13T06:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Kathmandu Gorkhas vs Sudur Paschim Royals",
+        "body": "NPL 2026 - 24th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2606",
+          "sport": "Cricket",
+          "league": "NPL 2026 - 24th Match",
+          "team1": "Kathmandu Gorkhas",
+          "team2": "Sudur Paschim Royals",
+          "hot": false,
+          "display": "🏏 Kathmandu Gorkhas vs Sudur Paschim Royals · NPL 2026 - 24th Match"
         }
       ]
     }
