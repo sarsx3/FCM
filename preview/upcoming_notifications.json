@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-11T16:02:21+00:00",
+  "generated_at": "2026-11-11T16:05:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "11 Nov 2026, 10:02:14 PM BST",
-    "source_events_loaded": 275,
+    "source_last_updated": "11 Nov 2026, 10:05:17 PM BST",
+    "source_events_loaded": 274,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 55,
-    "upcoming_matches": 105,
+    "upcoming_notifications": 54,
+    "upcoming_matches": 104,
     "next_notification_at_local": "2026-11-11 11:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-11 09:59 PM",
-      "match_start_local": "2026-11-11 10:00 PM",
-      "send_at_utc": "2026-11-11T15:59:00+00:00",
-      "match_start_utc": "2026-11-11T16:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Arabian Aces vs Yas Lions",
-        "body": "Abu Dhabi T10 League 2026 - 12th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2691",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 12th Match",
-          "team1": "Arabian Aces",
-          "team2": "Yas Lions",
-          "hot": false,
-          "display": "🏏 Arabian Aces vs Yas Lions · Abu Dhabi T10 League 2026 - 12th Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-11 11:44 PM",
