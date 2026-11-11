@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T04:39:23+00:00",
+  "generated_at": "2026-11-11T04:40:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 45,
-    "upcoming_matches": 83,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 84,
     "next_notification_at_local": "2026-11-11 02:09 PM"
   },
   "upcoming_notifications": [
@@ -1394,6 +1394,29 @@
           "team2": "Bolivia",
           "hot": false,
           "display": "⚽ Peru vs Bolivia · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 10:39 AM",
+      "match_start_local": "2026-11-14 10:40 AM",
+      "send_at_utc": "2026-11-14T04:39:00+00:00",
+      "match_start_utc": "2026-11-14T04:40:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Hobart Hurricanes Women vs Brisbane Heat Women",
+        "body": "Womens Big Bash League 2026 - 21st Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2649",
+          "sport": "Cricket",
+          "league": "Womens Big Bash League 2026 - 21st Match",
+          "team1": "Hobart Hurricanes Women",
+          "team2": "Brisbane Heat Women",
+          "hot": false,
+          "display": "🏏 Hobart Hurricanes Women vs Brisbane Heat Women · Womens Big Bash League 2026 - 21st Match"
         }
       ]
     }
