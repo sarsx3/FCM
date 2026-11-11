@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T13:59:22+00:00",
+  "generated_at": "2026-11-11T14:00:41+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 92,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 94,
     "next_notification_at_local": "2026-11-11 09:59 PM"
   },
   "upcoming_notifications": [
@@ -1559,6 +1559,38 @@
           "team2": "Castellon",
           "hot": false,
           "display": "⚽ Valladolid vs Castellon · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 07:59 PM",
+      "match_start_local": "2026-11-14 08:00 PM",
+      "send_at_utc": "2026-11-14T13:59:00+00:00",
+      "match_start_utc": "2026-11-14T14:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 Yas Lions vs UAE Bulls · Abu Dhabi T10 League 2026 - 18th Match\n⚽ Kosovo vs Motherfucker · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2697",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 18th Match",
+          "team1": "Yas Lions",
+          "team2": "UAE Bulls",
+          "hot": false,
+          "display": "🏏 Yas Lions vs UAE Bulls · Abu Dhabi T10 League 2026 - 18th Match"
+        },
+        {
+          "id": "2629",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Kosovo",
+          "team2": "Motherfucker",
+          "hot": false,
+          "display": "⚽ Kosovo vs Motherfucker · UEFA Nations League"
         }
       ]
     }
