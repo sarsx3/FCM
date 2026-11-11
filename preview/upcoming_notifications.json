@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T10:13:19+00:00",
+  "generated_at": "2026-11-11T10:15:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 48,
-    "upcoming_matches": 87,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 88,
     "next_notification_at_local": "2026-11-11 05:59 PM"
   },
   "upcoming_notifications": [
@@ -1472,6 +1472,29 @@
           "team2": "United Tigers",
           "hot": false,
           "display": "🏏 Royal Desert Champions vs United Tigers · Abu Dhabi T10 League 2026 - 16th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 04:14 PM",
+      "match_start_local": "2026-11-14 04:15 PM",
+      "send_at_utc": "2026-11-14T10:14:00+00:00",
+      "match_start_utc": "2026-11-14T10:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Japan vs Brazil",
+        "body": "Friendly International · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2637",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Japan",
+          "team2": "Brazil",
+          "hot": false,
+          "display": "⚽ Japan vs Brazil · Friendly International"
         }
       ]
     }
