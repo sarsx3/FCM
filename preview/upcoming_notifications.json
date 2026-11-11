@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T11:59:21+00:00",
+  "generated_at": "2026-11-11T12:00:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 90,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 93,
     "next_notification_at_local": "2026-11-11 07:44 PM"
   },
   "upcoming_notifications": [
@@ -1541,6 +1541,47 @@
           "team2": "Emirates Eagles",
           "hot": false,
           "display": "🏏 Arabian Aces vs Emirates Eagles · Abu Dhabi T10 League 2026 - 17th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 05:59 PM",
+      "match_start_local": "2026-11-14 06:00 PM",
+      "send_at_utc": "2026-11-14T11:59:00+00:00",
+      "match_start_utc": "2026-11-14T12:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ China vs Malaysia · Friendly International\n⚽ Chinese Taipei vs Kyrgyzstan · Friendly International\n⚽ Thailand vs Tajikistan · Friendly International"
+      },
+      "matches": [
+        {
+          "id": "2639",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "China",
+          "team2": "Malaysia",
+          "hot": false,
+          "display": "⚽ China vs Malaysia · Friendly International"
+        },
+        {
+          "id": "2640",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Chinese Taipei",
+          "team2": "Kyrgyzstan",
+          "hot": false,
+          "display": "⚽ Chinese Taipei vs Kyrgyzstan · Friendly International"
+        },
+        {
+          "id": "2638",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Thailand",
+          "team2": "Tajikistan",
+          "hot": false,
+          "display": "⚽ Thailand vs Tajikistan · Friendly International"
         }
       ]
     }
