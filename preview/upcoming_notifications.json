@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-11T18:43:20+00:00",
+  "generated_at": "2026-11-11T18:45:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "12 Nov 2026, 12:40:22 AM BST",
-    "source_events_loaded": 275,
+    "source_last_updated": "12 Nov 2026, 12:45:22 AM BST",
+    "source_events_loaded": 273,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 55,
-    "upcoming_matches": 107,
+    "upcoming_matches": 106,
     "next_notification_at_local": "2026-11-12 01:59 AM"
   },
   "upcoming_notifications": [
@@ -26,21 +26,12 @@
       "match_start_local": "2026-11-12 02:00 AM",
       "send_at_utc": "2026-11-11T19:59:00+00:00",
       "match_start_utc": "2026-11-11T20:00:00+00:00",
-      "match_count": 2,
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Benfica (W) vs Austria Wien (W) · UEFA Women's Champions League\n⚽ Juventus (W) vs Olympique Lyonnais (W) · UEFA Women's Champions League"
+        "title": "⚽ Juventus (W) vs Olympique Lyonnais (W)",
+        "body": "UEFA Women's Champions League · Starting soon"
       },
       "matches": [
-        {
-          "id": "2561",
-          "sport": "Football",
-          "league": "UEFA Women's Champions League",
-          "team1": "Benfica (W)",
-          "team2": "Austria Wien (W)",
-          "hot": false,
-          "display": "⚽ Benfica (W) vs Austria Wien (W) · UEFA Women's Champions League"
-        },
         {
           "id": "2562",
           "sport": "Football",
@@ -704,29 +695,6 @@
     },
     {
       "status": "scheduled",
-      "send_at_local": "2026-11-13 05:44 PM",
-      "match_start_local": "2026-11-13 05:45 PM",
-      "send_at_utc": "2026-11-13T11:44:00+00:00",
-      "match_start_utc": "2026-11-13T11:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Royal Desert Champions vs Yas Lions",
-        "body": "Abu Dhabi T10 League 2026 - 14th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2693",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 14th Match",
-          "team1": "Royal Desert Champions",
-          "team2": "Yas Lions",
-          "hot": false,
-          "display": "🏏 Royal Desert Champions vs Yas Lions · Abu Dhabi T10 League 2026 - 14th Match"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
       "send_at_local": "2026-11-13 05:59 PM",
       "match_start_local": "2026-11-13 06:00 PM",
       "send_at_utc": "2026-11-13T11:59:00+00:00",
@@ -791,25 +759,39 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-11-13 07:44 PM",
+      "match_start_local": "2026-11-13 07:45 PM",
+      "send_at_utc": "2026-11-13T13:44:00+00:00",
+      "match_start_utc": "2026-11-13T13:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Royal Desert Champions vs Yas Lions",
+        "body": "Abu Dhabi T10 League 2026 - 14th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2693",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 14th Match",
+          "team1": "Royal Desert Champions",
+          "team2": "Yas Lions",
+          "hot": false,
+          "display": "🏏 Royal Desert Champions vs Yas Lions · Abu Dhabi T10 League 2026 - 14th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-11-13 07:59 PM",
       "match_start_local": "2026-11-13 08:00 PM",
       "send_at_utc": "2026-11-13T13:59:00+00:00",
       "match_start_utc": "2026-11-13T14:00:00+00:00",
-      "match_count": 2,
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "🏏 Arabian Aces vs UAE Bulls · Abu Dhabi T10 League 2026 - 15th Match\n⚽ Kuwait vs Syria · Friendly International"
+        "title": "⚽ Kuwait vs Syria",
+        "body": "Friendly International · Starting soon"
       },
       "matches": [
-        {
-          "id": "2694",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 15th Match",
-          "team1": "Arabian Aces",
-          "team2": "UAE Bulls",
-          "hot": false,
-          "display": "🏏 Arabian Aces vs UAE Bulls · Abu Dhabi T10 League 2026 - 15th Match"
-        },
         {
           "id": "2596",
           "sport": "Football",
@@ -873,12 +855,21 @@
       "match_start_local": "2026-11-13 10:00 PM",
       "send_at_utc": "2026-11-13T15:59:00+00:00",
       "match_start_utc": "2026-11-13T16:00:00+00:00",
-      "match_count": 7,
+      "match_count": 8,
       "notification": {
-        "title": "⏰ 7 matches starting soon",
-        "body": "⚽ Burkina Faso vs Mauritania · Africa Cup of Nations Qualification\n⚽ Cape Verde vs Liberia · Africa Cup of Nations Qualification\n⚽ Equatorial Guinea vs Zimbabwe · Africa Cup of Nations Qualification\n⚽ Gabon vs Lesotho · Africa Cup of Nations Qualification\n⚽ Nigeria vs Tanzania · Africa Cup of Nations Qualification\n⚽ South Africa vs Kenya · Africa Cup of Nations Qualification\n+ 1 more match in the app"
+        "title": "⏰ 8 matches starting soon",
+        "body": "🏏 Arabian Aces vs UAE Bulls · Abu Dhabi T10 League 2026 - 15th Match\n⚽ Burkina Faso vs Mauritania · Africa Cup of Nations Qualification\n⚽ Cape Verde vs Liberia · Africa Cup of Nations Qualification\n⚽ Equatorial Guinea vs Zimbabwe · Africa Cup of Nations Qualification\n⚽ Gabon vs Lesotho · Africa Cup of Nations Qualification\n⚽ Nigeria vs Tanzania · Africa Cup of Nations Qualification\n+ 2 more matches in the app"
       },
       "matches": [
+        {
+          "id": "2694",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 15th Match",
+          "team1": "Arabian Aces",
+          "team2": "UAE Bulls",
+          "hot": false,
+          "display": "🏏 Arabian Aces vs UAE Bulls · Abu Dhabi T10 League 2026 - 15th Match"
+        },
         {
           "id": "2581",
           "sport": "Football",
