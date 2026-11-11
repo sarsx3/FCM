@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-11T12:58:21+00:00",
+  "generated_at": "2026-11-11T13:00:38+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "11 Nov 2026, 06:58:15 PM BST",
+    "source_last_updated": "11 Nov 2026, 06:56:13 PM BST",
     "source_events_loaded": 276,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 92,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 93,
     "next_notification_at_local": "2026-11-11 07:44 PM"
   },
   "upcoming_notifications": [
@@ -1559,6 +1559,29 @@
           "team2": "Tajikistan",
           "hot": false,
           "display": "⚽ Thailand vs Tajikistan · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 06:59 PM",
+      "match_start_local": "2026-11-14 07:00 PM",
+      "send_at_utc": "2026-11-14T12:59:00+00:00",
+      "match_start_utc": "2026-11-14T13:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Valladolid vs Castellon",
+        "body": "LaLiga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2645",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Valladolid",
+          "team2": "Castellon",
+          "hot": false,
+          "display": "⚽ Valladolid vs Castellon · LaLiga 2"
         }
       ]
     }
