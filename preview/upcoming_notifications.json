@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-11T12:43:18+00:00",
+  "generated_at": "2026-11-11T12:44:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "11 Nov 2026, 06:40:19 PM BST",
+    "source_last_updated": "11 Nov 2026, 06:44:13 PM BST",
     "source_events_loaded": 276,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -199,17 +199,17 @@
       "match_count": 2,
       "notification": {
         "title": "⏰ 2 matches starting soon",
-        "body": "🏏 1st in Group A vs 2nd in Group B · U19 Asia Cup 2026 - 1st Semi Final\n🏏 1st in Group B vs 2nd in Group A · U19 Asia Cup 2026 - 2nd Semi Final"
+        "body": "🏏 Pakistan Under-19 vs Bangladesh Under-19 · U19 Asia Cup 2026 - 1st Semi Final\n🏏 1st in Group B vs 2nd in Group A · U19 Asia Cup 2026 - 2nd Semi Final"
       },
       "matches": [
         {
           "id": "2552",
           "sport": "Cricket",
           "league": "U19 Asia Cup 2026 - 1st Semi Final",
-          "team1": "1st in Group A",
-          "team2": "2nd in Group B",
+          "team1": "Pakistan Under-19",
+          "team2": "Bangladesh Under-19",
           "hot": false,
-          "display": "🏏 1st in Group A vs 2nd in Group B · U19 Asia Cup 2026 - 1st Semi Final"
+          "display": "🏏 Pakistan Under-19 vs Bangladesh Under-19 · U19 Asia Cup 2026 - 1st Semi Final"
         },
         {
           "id": "2553",
