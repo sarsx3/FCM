@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T15:14:23+00:00",
+  "generated_at": "2026-11-12T15:15:34+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 63,
-    "upcoming_matches": 120,
+    "upcoming_notifications": 64,
+    "upcoming_matches": 121,
     "next_notification_at_local": "2026-11-12 09:59 PM"
   },
   "upcoming_notifications": [
@@ -1979,6 +1979,29 @@
           "team2": "Armenia",
           "hot": false,
           "display": "⚽ Latvia vs Armenia · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 09:14 PM",
+      "match_start_local": "2026-11-15 09:15 PM",
+      "send_at_utc": "2026-11-15T15:14:00+00:00",
+      "match_start_utc": "2026-11-15T15:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Granada vs Las Palmas",
+        "body": "LaLiga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2670",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Granada",
+          "team2": "Las Palmas",
+          "hot": false,
+          "display": "⚽ Granada vs Las Palmas · LaLiga 2"
         }
       ]
     }
