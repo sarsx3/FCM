@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-12T19:04:19+00:00",
+  "generated_at": "2026-11-12T19:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "13 Nov 2026, 01:03:14 AM BST",
+    "source_last_updated": "13 Nov 2026, 01:05:19 AM BST",
     "source_events_loaded": 259,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,61 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 114,
+    "upcoming_notifications": 60,
+    "upcoming_matches": 110,
     "next_notification_at_local": "2026-11-13 01:44 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-13 12:59 AM",
-      "match_start_local": "2026-11-13 01:00 AM",
-      "send_at_utc": "2026-11-12T18:59:00+00:00",
-      "match_start_utc": "2026-11-12T19:00:00+00:00",
-      "match_count": 4,
-      "notification": {
-        "title": "⏰ 4 matches starting soon",
-        "body": "⚽ Benin vs Central African Republic · Africa Cup of Nations Qualification\n⚽ Cameroon vs Namibia · Africa Cup of Nations Qualification\n⚽ Ivory Coast vs Gambia · Africa Cup of Nations Qualification\n⚽ Senegal vs Sudan · Africa Cup of Nations Qualification"
-      },
-      "matches": [
-        {
-          "id": "2575",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "Benin",
-          "team2": "Central African Republic",
-          "hot": false,
-          "display": "⚽ Benin vs Central African Republic · Africa Cup of Nations Qualification"
-        },
-        {
-          "id": "2577",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "Cameroon",
-          "team2": "Namibia",
-          "hot": false,
-          "display": "⚽ Cameroon vs Namibia · Africa Cup of Nations Qualification"
-        },
-        {
-          "id": "2574",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "Ivory Coast",
-          "team2": "Gambia",
-          "hot": false,
-          "display": "⚽ Ivory Coast vs Gambia · Africa Cup of Nations Qualification"
-        },
-        {
-          "id": "2576",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "Senegal",
-          "team2": "Sudan",
-          "hot": false,
-          "display": "⚽ Senegal vs Sudan · Africa Cup of Nations Qualification"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-13 01:44 AM",
