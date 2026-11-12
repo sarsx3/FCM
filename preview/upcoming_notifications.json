@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-12T12:59:19+00:00",
+  "generated_at": "2026-11-12T13:00:42+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "12 Nov 2026, 06:55:18 PM BST",
+    "source_last_updated": "12 Nov 2026, 07:00:35 PM BST",
     "source_events_loaded": 263,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 62,
-    "upcoming_matches": 118,
+    "upcoming_notifications": 63,
+    "upcoming_matches": 119,
     "next_notification_at_local": "2026-11-12 08:59 PM"
   },
   "upcoming_notifications": [
@@ -1947,6 +1947,29 @@
           "team2": "UAE Bulls",
           "hot": false,
           "display": "🏏 Emirates Eagles vs UAE Bulls · Abu Dhabi T10 League 2026 - 20th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 06:59 PM",
+      "match_start_local": "2026-11-15 07:00 PM",
+      "send_at_utc": "2026-11-15T12:59:00+00:00",
+      "match_start_utc": "2026-11-15T13:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Tenerife vs AD Ceuta",
+        "body": "LaLiga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2669",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Tenerife",
+          "team2": "AD Ceuta",
+          "hot": false,
+          "display": "⚽ Tenerife vs AD Ceuta · LaLiga 2"
         }
       ]
     }
