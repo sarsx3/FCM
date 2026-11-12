@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T13:59:20+00:00",
+  "generated_at": "2026-11-12T14:00:42+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 63,
-    "upcoming_matches": 119,
+    "upcoming_notifications": 64,
+    "upcoming_matches": 122,
     "next_notification_at_local": "2026-11-12 08:59 PM"
   },
   "upcoming_notifications": [
@@ -1970,6 +1970,47 @@
           "team2": "AD Ceuta",
           "hot": false,
           "display": "⚽ Tenerife vs AD Ceuta · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 07:59 PM",
+      "match_start_local": "2026-11-15 08:00 PM",
+      "send_at_utc": "2026-11-15T13:59:00+00:00",
+      "match_start_utc": "2026-11-15T14:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "🏏 United Tigers vs Yas Lions · Abu Dhabi T10 League 2026 - 21st Match\n⚽ Cyprus vs Montenegro · UEFA Nations League\n⚽ Latvia vs Armenia · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2700",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 21st Match",
+          "team1": "United Tigers",
+          "team2": "Yas Lions",
+          "hot": false,
+          "display": "🏏 United Tigers vs Yas Lions · Abu Dhabi T10 League 2026 - 21st Match"
+        },
+        {
+          "id": "2662",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Cyprus",
+          "team2": "Montenegro",
+          "hot": false,
+          "display": "⚽ Cyprus vs Montenegro · UEFA Nations League"
+        },
+        {
+          "id": "2663",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Latvia",
+          "team2": "Armenia",
+          "hot": false,
+          "display": "⚽ Latvia vs Armenia · UEFA Nations League"
         }
       ]
     }
