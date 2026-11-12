@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T18:04:23+00:00",
+  "generated_at": "2026-11-12T18:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "12 Nov 2026, 11:59:12 PM BST",
-    "source_events_loaded": 261,
+    "source_last_updated": "13 Nov 2026, 12:05:17 AM BST",
+    "source_events_loaded": 259,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 62,
-    "upcoming_matches": 116,
+    "upcoming_notifications": 61,
+    "upcoming_matches": 114,
     "next_notification_at_local": "2026-11-13 12:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-12 11:59 PM",
-      "match_start_local": "2026-11-13 12:00 AM",
-      "send_at_utc": "2026-11-12T17:59:00+00:00",
-      "match_start_utc": "2026-11-12T18:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Navalcarnero vs Real Betis · Copa del Rey\n⚽ Tarancón vs Levante · Copa del Rey"
-      },
-      "matches": [
-        {
-          "id": "2600",
-          "sport": "Football",
-          "league": "Copa del Rey",
-          "team1": "Navalcarnero",
-          "team2": "Real Betis",
-          "hot": false,
-          "display": "⚽ Navalcarnero vs Real Betis · Copa del Rey"
-        },
-        {
-          "id": "2601",
-          "sport": "Football",
-          "league": "Copa del Rey",
-          "team1": "Tarancón",
-          "team2": "Levante",
-          "hot": false,
-          "display": "⚽ Tarancón vs Levante · Copa del Rey"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-13 12:59 AM",
