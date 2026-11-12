@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:03:24+00:00",
+  "generated_at": "2026-11-12T17:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,61 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 64,
-    "upcoming_matches": 121,
+    "upcoming_notifications": 63,
+    "upcoming_matches": 117,
     "next_notification_at_local": "2026-11-12 11:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-12 10:59 PM",
-      "match_start_local": "2026-11-12 11:00 PM",
-      "send_at_utc": "2026-11-12T16:59:00+00:00",
-      "match_start_utc": "2026-11-12T17:00:00+00:00",
-      "match_count": 4,
-      "notification": {
-        "title": "⏰ 4 matches starting soon",
-        "body": "⚽ Guinea vs Eritrea · Africa Cup of Nations Qualification\n⚽ Lithuania vs Suriname · Friendly International\n⚽ Armenia vs Cyprus · UEFA Nations League\n⚽ Turkey vs Belgium · UEFA Nations League"
-      },
-      "matches": [
-        {
-          "id": "2556",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "Guinea",
-          "team2": "Eritrea",
-          "hot": false,
-          "display": "⚽ Guinea vs Eritrea · Africa Cup of Nations Qualification"
-        },
-        {
-          "id": "2566",
-          "sport": "Football",
-          "league": "Friendly International",
-          "team1": "Lithuania",
-          "team2": "Suriname",
-          "hot": false,
-          "display": "⚽ Lithuania vs Suriname · Friendly International"
-        },
-        {
-          "id": "2560",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Armenia",
-          "team2": "Cyprus",
-          "hot": false,
-          "display": "⚽ Armenia vs Cyprus · UEFA Nations League"
-        },
-        {
-          "id": "2559",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Turkey",
-          "team2": "Belgium",
-          "hot": false,
-          "display": "⚽ Turkey vs Belgium · UEFA Nations League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-12 11:29 PM",
