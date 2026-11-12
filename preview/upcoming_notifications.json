@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-12T19:48:20+00:00",
+  "generated_at": "2026-11-12T19:50:29+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "13 Nov 2026, 01:48:14 AM BST",
+    "source_last_updated": "13 Nov 2026, 01:50:21 AM BST",
     "source_events_loaded": 255,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,79 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 114,
+    "upcoming_notifications": 60,
+    "upcoming_matches": 108,
     "next_notification_at_local": "2026-11-13 07:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-13 01:44 AM",
-      "match_start_local": "2026-11-13 01:45 AM",
-      "send_at_utc": "2026-11-12T19:44:00+00:00",
-      "match_start_utc": "2026-11-12T19:45:00+00:00",
-      "match_count": 6,
-      "notification": {
-        "title": "⏰ 6 matches starting soon",
-        "body": "⚽ Albania vs Finland · UEFA Nations League\n⚽ Czechia vs Spain · UEFA Nations League\n⚽ England vs Croatia · UEFA Nations League\n⚽ Italy vs France · UEFA Nations League\n⚽ Montenegro vs Latvia · UEFA Nations League\n⚽ San Marino vs Belarus · UEFA Nations League"
-      },
-      "matches": [
-        {
-          "id": "2592",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Albania",
-          "team2": "Finland",
-          "hot": false,
-          "display": "⚽ Albania vs Finland · UEFA Nations League"
-        },
-        {
-          "id": "2589",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Czechia",
-          "team2": "Spain",
-          "hot": false,
-          "display": "⚽ Czechia vs Spain · UEFA Nations League"
-        },
-        {
-          "id": "2588",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "England",
-          "team2": "Croatia",
-          "hot": false,
-          "display": "⚽ England vs Croatia · UEFA Nations League"
-        },
-        {
-          "id": "2590",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Italy",
-          "team2": "France",
-          "hot": false,
-          "display": "⚽ Italy vs France · UEFA Nations League"
-        },
-        {
-          "id": "2593",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Montenegro",
-          "team2": "Latvia",
-          "hot": false,
-          "display": "⚽ Montenegro vs Latvia · UEFA Nations League"
-        },
-        {
-          "id": "2591",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "San Marino",
-          "team2": "Belarus",
-          "hot": false,
-          "display": "⚽ San Marino vs Belarus · UEFA Nations League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-13 07:59 AM",
