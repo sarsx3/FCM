@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-12T03:29:18+00:00",
+  "generated_at": "2026-11-12T03:30:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "12 Nov 2026, 09:29:12 AM BST",
+    "source_last_updated": "12 Nov 2026, 09:30:25 AM BST",
     "source_events_loaded": 271,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 62,
-    "upcoming_matches": 119,
+    "upcoming_notifications": 63,
+    "upcoming_matches": 120,
     "next_notification_at_local": "2026-11-12 10:29 AM"
   },
   "upcoming_notifications": [
@@ -1956,6 +1956,29 @@
           "team2": "India",
           "hot": false,
           "display": "⚽ New Zealand vs India · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 09:29 AM",
+      "match_start_local": "2026-11-15 09:30 AM",
+      "send_at_utc": "2026-11-15T03:29:00+00:00",
+      "match_start_utc": "2026-11-15T03:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Australia vs England",
+        "body": "England tour of Australia, 2026 - 2nd ODI · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2675",
+          "sport": "Cricket",
+          "league": "England tour of Australia, 2026 - 2nd ODI",
+          "team1": "Australia",
+          "team2": "England",
+          "hot": false,
+          "display": "🏏 Australia vs England · England tour of Australia, 2026 - 2nd ODI"
         }
       ]
     }
