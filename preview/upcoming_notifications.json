@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T06:04:20+00:00",
+  "generated_at": "2026-11-12T06:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 117,
+    "upcoming_notifications": 60,
+    "upcoming_matches": 116,
     "next_notification_at_local": "2026-11-12 12:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-12 11:59 AM",
-      "match_start_local": "2026-11-12 12:00 PM",
-      "send_at_utc": "2026-11-12T05:59:00+00:00",
-      "match_start_utc": "2026-11-12T06:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ New Zealand vs India",
-        "body": "Friendly International · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2564",
-          "sport": "Football",
-          "league": "Friendly International",
-          "team1": "New Zealand",
-          "team2": "India",
-          "hot": false,
-          "display": "⚽ New Zealand vs India · Friendly International"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-12 12:44 PM",
