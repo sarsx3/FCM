@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T08:14:20+00:00",
+  "generated_at": "2026-11-12T08:15:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "12 Nov 2026, 02:14:13 PM BST",
-    "source_events_loaded": 270,
+    "source_last_updated": "12 Nov 2026, 02:15:21 PM BST",
+    "source_events_loaded": 269,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 117,
+    "upcoming_notifications": 60,
+    "upcoming_matches": 116,
     "next_notification_at_local": "2026-11-12 05:14 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-12 02:09 PM",
-      "match_start_local": "2026-11-12 02:10 PM",
-      "send_at_utc": "2026-11-12T08:09:00+00:00",
-      "match_start_utc": "2026-11-12T08:10:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Melbourne Renegades Women vs Sydney Sixers Women",
-        "body": "WBBL 2026 - 20th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2571",
-          "sport": "Cricket",
-          "league": "WBBL 2026 - 20th Match",
-          "team1": "Melbourne Renegades Women",
-          "team2": "Sydney Sixers Women",
-          "hot": false,
-          "display": "🏏 Melbourne Renegades Women vs Sydney Sixers Women · WBBL 2026 - 20th Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-12 05:14 PM",
