@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T14:14:27+00:00",
+  "generated_at": "2026-11-13T14:15:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "13 Nov 2026, 08:12:14 PM BST",
+    "source_last_updated": "13 Nov 2026, 08:15:22 PM BST",
     "source_events_loaded": 231,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 58,
-    "upcoming_matches": 104,
+    "upcoming_notifications": 57,
+    "upcoming_matches": 103,
     "next_notification_at_local": "2026-11-13 08:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-13 08:09 PM",
-      "match_start_local": "2026-11-13 08:10 PM",
-      "send_at_utc": "2026-11-13T14:09:00+00:00",
-      "match_start_utc": "2026-11-13T14:10:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ UAE vs Honduras",
-        "body": "Friendly International · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2599",
-          "sport": "Football",
-          "league": "Friendly International",
-          "team1": "UAE",
-          "team2": "Honduras",
-          "hot": false,
-          "display": "⚽ UAE vs Honduras · Friendly International"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-13 08:29 PM",
