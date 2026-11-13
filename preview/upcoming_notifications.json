@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T02:37:18+00:00",
+  "generated_at": "2026-11-13T02:38:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "13 Nov 2026, 08:37:12 AM BST",
+    "source_last_updated": "13 Nov 2026, 08:35:16 AM BST",
     "source_events_loaded": 240,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 59,
-    "upcoming_matches": 107,
+    "upcoming_notifications": 61,
+    "upcoming_matches": 109,
     "next_notification_at_local": "2026-11-13 09:29 AM"
   },
   "upcoming_notifications": [
@@ -795,6 +795,29 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-11-14 02:59 PM",
+      "match_start_local": "2026-11-14 03:00 PM",
+      "send_at_utc": "2026-11-14T08:59:00+00:00",
+      "match_start_utc": "2026-11-14T09:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ India vs Bhutan",
+        "body": "SAFF Championship 2026 - (Semi-Final 1) · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2836",
+          "sport": "Football",
+          "league": "SAFF Championship 2026 - (Semi-Final 1)",
+          "team1": "India",
+          "team2": "Bhutan",
+          "hot": false,
+          "display": "⚽ India vs Bhutan · SAFF Championship 2026 - (Semi-Final 1)"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-11-14 03:29 PM",
       "match_start_local": "2026-11-14 03:30 PM",
       "send_at_utc": "2026-11-14T09:29:00+00:00",
@@ -978,6 +1001,29 @@
           "team2": "Motherfucker",
           "hot": false,
           "display": "⚽ Kosovo vs Motherfucker · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 08:29 PM",
+      "match_start_local": "2026-11-14 08:30 PM",
+      "send_at_utc": "2026-11-14T14:29:00+00:00",
+      "match_start_utc": "2026-11-14T14:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Bangladesh vs Pakistan",
+        "body": "SAFF Championship 2026 - (Semi-Final 2) · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2837",
+          "sport": "Football",
+          "league": "SAFF Championship 2026 - (Semi-Final 2)",
+          "team1": "Bangladesh",
+          "team2": "Pakistan",
+          "hot": false,
+          "display": "⚽ Bangladesh vs Pakistan · SAFF Championship 2026 - (Semi-Final 2)"
         }
       ]
     },
