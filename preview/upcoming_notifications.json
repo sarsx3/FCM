@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:59:00+00:00",
+  "generated_at": "2026-11-13T16:00:41+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 104,
+    "upcoming_notifications": 57,
+    "upcoming_matches": 107,
     "next_notification_at_local": "2026-11-13 10:29 PM"
   },
   "upcoming_notifications": [
@@ -1737,6 +1737,47 @@
           "team2": "Slovakia",
           "hot": false,
           "display": "⚽ Kazakhstan vs Slovakia · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 09:59 PM",
+      "match_start_local": "2026-11-16 10:00 PM",
+      "send_at_utc": "2026-11-16T15:59:00+00:00",
+      "match_start_utc": "2026-11-16T16:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "🏏 Emirates Eagles vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 23rd Match\n⚽ Central African Republic vs Benin · Africa Cup of Nations Qualification\n⚽ Eritrea vs Guinea · Africa Cup of Nations Qualification"
+      },
+      "matches": [
+        {
+          "id": "2721",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 23rd Match",
+          "team1": "Emirates Eagles",
+          "team2": "Royal Desert Champions",
+          "hot": false,
+          "display": "🏏 Emirates Eagles vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 23rd Match"
+        },
+        {
+          "id": "2707",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Central African Republic",
+          "team2": "Benin",
+          "hot": false,
+          "display": "⚽ Central African Republic vs Benin · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2706",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Eritrea",
+          "team2": "Guinea",
+          "hot": false,
+          "display": "⚽ Eritrea vs Guinea · Africa Cup of Nations Qualification"
         }
       ]
     }
