@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T13:44:24+00:00",
+  "generated_at": "2026-11-13T13:45:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "13 Nov 2026, 07:44:17 PM BST",
+    "source_last_updated": "13 Nov 2026, 07:40:22 PM BST",
     "source_events_loaded": 232,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 58,
-    "upcoming_matches": 104,
+    "upcoming_notifications": 59,
+    "upcoming_matches": 105,
     "next_notification_at_local": "2026-11-13 08:09 PM"
   },
   "upcoming_notifications": [
@@ -1765,6 +1765,29 @@
           "team2": "Equatorial Guinea",
           "hot": false,
           "display": "⚽ Zimbabwe vs Equatorial Guinea · Africa Cup of Nations Qualification"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 07:44 PM",
+      "match_start_local": "2026-11-16 07:45 PM",
+      "send_at_utc": "2026-11-16T13:44:00+00:00",
+      "match_start_utc": "2026-11-16T13:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Arabian Aces vs United Tigers",
+        "body": "Abu Dhabi T10 League 2026 - 22nd Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2720",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 22nd Match",
+          "team1": "Arabian Aces",
+          "team2": "United Tigers",
+          "hot": false,
+          "display": "🏏 Arabian Aces vs United Tigers · Abu Dhabi T10 League 2026 - 22nd Match"
         }
       ]
     }
