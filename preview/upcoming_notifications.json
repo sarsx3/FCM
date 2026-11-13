@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T16:34:39+00:00",
+  "generated_at": "2026-11-13T16:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 100,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 99,
     "next_notification_at_local": "2026-11-13 10:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-13 10:29 PM",
-      "match_start_local": "2026-11-13 10:30 PM",
-      "send_at_utc": "2026-11-13T16:29:00+00:00",
-      "match_start_utc": "2026-11-13T16:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Kuwait vs Syria",
-        "body": "Friendly International · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2596",
-          "sport": "Football",
-          "league": "Friendly International",
-          "team1": "Kuwait",
-          "team2": "Syria",
-          "hot": false,
-          "display": "⚽ Kuwait vs Syria · Friendly International"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-13 10:59 PM",
