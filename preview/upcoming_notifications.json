@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T13:49:18+00:00",
+  "generated_at": "2026-11-13T13:50:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "13 Nov 2026, 07:44:17 PM BST",
+    "source_last_updated": "13 Nov 2026, 07:50:22 PM BST",
     "source_events_loaded": 232,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 59,
-    "upcoming_matches": 105,
+    "upcoming_notifications": 58,
+    "upcoming_matches": 104,
     "next_notification_at_local": "2026-11-13 08:09 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-13 07:44 PM",
-      "match_start_local": "2026-11-13 07:45 PM",
-      "send_at_utc": "2026-11-13T13:44:00+00:00",
-      "match_start_utc": "2026-11-13T13:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Royal Desert Champions vs Yas Lions",
-        "body": "Abu Dhabi T10 League 2026 - 14th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2693",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 14th Match",
-          "team1": "Royal Desert Champions",
-          "team2": "Yas Lions",
-          "hot": false,
-          "display": "🏏 Royal Desert Champions vs Yas Lions · Abu Dhabi T10 League 2026 - 14th Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-13 08:09 PM",
