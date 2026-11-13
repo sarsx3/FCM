@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-13T08:17:19+00:00",
+  "generated_at": "2026-11-13T08:18:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "13 Nov 2026, 02:11:12 PM BST",
-    "source_events_loaded": 238,
+    "source_last_updated": "13 Nov 2026, 02:18:13 PM BST",
+    "source_events_loaded": 237,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 59,
-    "upcoming_matches": 107,
+    "upcoming_matches": 106,
     "next_notification_at_local": "2026-11-13 05:29 PM"
   },
   "upcoming_notifications": [
@@ -205,10 +205,10 @@
       "match_start_local": "2026-11-13 10:00 PM",
       "send_at_utc": "2026-11-13T15:59:00+00:00",
       "match_start_utc": "2026-11-13T16:00:00+00:00",
-      "match_count": 8,
+      "match_count": 7,
       "notification": {
-        "title": "⏰ 8 matches starting soon",
-        "body": "🏏 Arabian Aces vs UAE Bulls · Abu Dhabi T10 League 2026 - 15th Match\n⚽ Burkina Faso vs Mauritania · Africa Cup of Nations Qualification\n⚽ Cape Verde vs Liberia · Africa Cup of Nations Qualification\n⚽ Equatorial Guinea vs Zimbabwe · Africa Cup of Nations Qualification\n⚽ Gabon vs Lesotho · Africa Cup of Nations Qualification\n⚽ Nigeria vs Tanzania · Africa Cup of Nations Qualification\n+ 2 more matches in the app"
+        "title": "⏰ 7 matches starting soon",
+        "body": "🏏 Arabian Aces vs UAE Bulls · Abu Dhabi T10 League 2026 - 15th Match\n⚽ Burkina Faso vs Mauritania · Africa Cup of Nations Qualification\n⚽ Cape Verde vs Liberia · Africa Cup of Nations Qualification\n⚽ Gabon vs Lesotho · Africa Cup of Nations Qualification\n⚽ Nigeria vs Tanzania · Africa Cup of Nations Qualification\n⚽ South Africa vs Kenya · Africa Cup of Nations Qualification\n+ 1 more match in the app"
       },
       "matches": [
         {
@@ -237,15 +237,6 @@
           "team2": "Liberia",
           "hot": false,
           "display": "⚽ Cape Verde vs Liberia · Africa Cup of Nations Qualification"
-        },
-        {
-          "id": "2584",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "Equatorial Guinea",
-          "team2": "Zimbabwe",
-          "hot": false,
-          "display": "⚽ Equatorial Guinea vs Zimbabwe · Africa Cup of Nations Qualification"
         },
         {
           "id": "2582",
