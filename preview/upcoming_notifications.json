@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T14:59:21+00:00",
+  "generated_at": "2026-11-13T15:00:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "13 Nov 2026, 08:58:18 PM BST",
+    "source_last_updated": "13 Nov 2026, 09:00:34 PM BST",
     "source_events_loaded": 232,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 55,
-    "upcoming_matches": 101,
+    "upcoming_notifications": 56,
+    "upcoming_matches": 104,
     "next_notification_at_local": "2026-11-13 09:59 PM"
   },
   "upcoming_notifications": [
@@ -1696,6 +1696,47 @@
           "team2": "United Tigers",
           "hot": false,
           "display": "🏏 Arabian Aces vs United Tigers · Abu Dhabi T10 League 2026 - 22nd Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 08:59 PM",
+      "match_start_local": "2026-11-16 09:00 PM",
+      "send_at_utc": "2026-11-16T14:59:00+00:00",
+      "match_start_utc": "2026-11-16T15:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Somalia vs Ghana · Africa Cup of Nations Qualification\n⚽ Faroe Islands vs Moldova · UEFA Nations League\n⚽ Kazakhstan vs Slovakia · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2705",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Somalia",
+          "team2": "Ghana",
+          "hot": false,
+          "display": "⚽ Somalia vs Ghana · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2713",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Faroe Islands",
+          "team2": "Moldova",
+          "hot": false,
+          "display": "⚽ Faroe Islands vs Moldova · UEFA Nations League"
+        },
+        {
+          "id": "2712",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Kazakhstan",
+          "team2": "Slovakia",
+          "hot": false,
+          "display": "⚽ Kazakhstan vs Slovakia · UEFA Nations League"
         }
       ]
     }
