@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T12:59:22+00:00",
+  "generated_at": "2026-11-13T13:00:43+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "13 Nov 2026, 06:59:13 PM BST",
+    "source_last_updated": "13 Nov 2026, 06:55:17 PM BST",
     "source_events_loaded": 234,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 57,
-    "upcoming_matches": 104,
+    "upcoming_notifications": 58,
+    "upcoming_matches": 107,
     "next_notification_at_local": "2026-11-13 07:44 PM"
   },
   "upcoming_notifications": [
@@ -1751,6 +1751,47 @@
           "team2": "Melbourne Stars Women",
           "hot": false,
           "display": "🏏 Sydney Thunder Women vs Melbourne Stars Women · Womens Big Bash League 2026 - 24th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 06:59 PM",
+      "match_start_local": "2026-11-16 07:00 PM",
+      "send_at_utc": "2026-11-16T12:59:00+00:00",
+      "match_start_utc": "2026-11-16T13:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Namibia vs Cameroon · Africa Cup of Nations Qualification\n⚽ Sudan vs Senegal · Africa Cup of Nations Qualification\n⚽ Zimbabwe vs Equatorial Guinea · Africa Cup of Nations Qualification"
+      },
+      "matches": [
+        {
+          "id": "2704",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Namibia",
+          "team2": "Cameroon",
+          "hot": false,
+          "display": "⚽ Namibia vs Cameroon · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2703",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Sudan",
+          "team2": "Senegal",
+          "hot": false,
+          "display": "⚽ Sudan vs Senegal · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2702",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Zimbabwe",
+          "team2": "Equatorial Guinea",
+          "hot": false,
+          "display": "⚽ Zimbabwe vs Equatorial Guinea · Africa Cup of Nations Qualification"
         }
       ]
     }
