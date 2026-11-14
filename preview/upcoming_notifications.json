@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T16:59:20+00:00",
+  "generated_at": "2026-11-14T17:00:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 92,
+    "upcoming_notifications": 51,
+    "upcoming_matches": 95,
     "next_notification_at_local": "2026-11-14 11:29 PM"
   },
   "upcoming_notifications": [
@@ -1545,6 +1545,47 @@
           "team2": "Iran",
           "hot": false,
           "display": "⚽ Iraq vs Iran · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-17 10:59 PM",
+      "match_start_local": "2026-11-17 11:00 PM",
+      "send_at_utc": "2026-11-17T16:59:00+00:00",
+      "match_start_utc": "2026-11-17T17:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "🔥 Argentina vs Costa Rica · Friendly International\n⚽ Kuwait vs Honduras · Friendly International\n⚽ Russia vs Venezuela · Friendly International"
+      },
+      "matches": [
+        {
+          "id": "2752",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Argentina",
+          "team2": "Costa Rica",
+          "hot": true,
+          "display": "🔥 Argentina vs Costa Rica · Friendly International"
+        },
+        {
+          "id": "2754",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Kuwait",
+          "team2": "Honduras",
+          "hot": false,
+          "display": "⚽ Kuwait vs Honduras · Friendly International"
+        },
+        {
+          "id": "2753",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Russia",
+          "team2": "Venezuela",
+          "hot": false,
+          "display": "⚽ Russia vs Venezuela · Friendly International"
         }
       ]
     }
