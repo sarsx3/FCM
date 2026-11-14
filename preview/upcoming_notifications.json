@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T03:48:20+00:00",
+  "generated_at": "2026-11-14T03:49:18+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "14 Nov 2026, 09:48:13 AM BST",
+    "source_last_updated": "14 Nov 2026, 09:49:13 AM BST",
     "source_events_loaded": 320,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,9 +15,1557 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 0,
-    "upcoming_matches": 0,
-    "next_notification_at_local": null
+    "upcoming_notifications": 52,
+    "upcoming_matches": 91,
+    "next_notification_at_local": "2026-11-14 10:39 AM"
   },
-  "upcoming_notifications": []
+  "upcoming_notifications": [
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 10:39 AM",
+      "match_start_local": "2026-11-14 10:40 AM",
+      "send_at_utc": "2026-11-14T04:39:00+00:00",
+      "match_start_utc": "2026-11-14T04:40:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Hobart Hurricanes Women vs Brisbane Heat Women",
+        "body": "Womens Big Bash League 2026 - 21st Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2649",
+          "sport": "Cricket",
+          "league": "Womens Big Bash League 2026 - 21st Match",
+          "team1": "Hobart Hurricanes Women",
+          "team2": "Brisbane Heat Women",
+          "hot": false,
+          "display": "🏏 Hobart Hurricanes Women vs Brisbane Heat Women · Womens Big Bash League 2026 - 21st Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 10:59 AM",
+      "match_start_local": "2026-11-14 11:00 AM",
+      "send_at_utc": "2026-11-14T04:59:00+00:00",
+      "match_start_utc": "2026-11-14T05:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Pakistan U19 vs India U19",
+        "body": "U19 Asia Cup 2026 - Final · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2554",
+          "sport": "Cricket",
+          "league": "U19 Asia Cup 2026 - Final",
+          "team1": "Pakistan U19",
+          "team2": "India U19",
+          "hot": false,
+          "display": "🏏 Pakistan U19 vs India U19 · U19 Asia Cup 2026 - Final"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 11:59 AM",
+      "match_start_local": "2026-11-14 12:00 PM",
+      "send_at_utc": "2026-11-14T05:59:00+00:00",
+      "match_start_utc": "2026-11-14T06:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 Afghanistan vs Zimbabwe · Afghanistan vs Zimbabwe in UAE, 2026 - 2nd Test, Day 2\n⚽ Bahrain vs Yemen · Friendly International"
+      },
+      "matches": [
+        {
+          "id": "2651",
+          "sport": "Cricket",
+          "league": "Afghanistan vs Zimbabwe in UAE, 2026 - 2nd Test, Day 2",
+          "team1": "Afghanistan",
+          "team2": "Zimbabwe",
+          "hot": false,
+          "display": "🏏 Afghanistan vs Zimbabwe · Afghanistan vs Zimbabwe in UAE, 2026 - 2nd Test, Day 2"
+        },
+        {
+          "id": "2636",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Bahrain",
+          "team2": "Yemen",
+          "hot": false,
+          "display": "⚽ Bahrain vs Yemen · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 02:09 PM",
+      "match_start_local": "2026-11-14 02:10 PM",
+      "send_at_utc": "2026-11-14T08:09:00+00:00",
+      "match_start_utc": "2026-11-14T08:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Perth Scorchers Women vs Adelaide Strikers Women",
+        "body": "Womens Big Bash League 2026 - 22nd Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2650",
+          "sport": "Cricket",
+          "league": "Womens Big Bash League 2026 - 22nd Match",
+          "team1": "Perth Scorchers Women",
+          "team2": "Adelaide Strikers Women",
+          "hot": false,
+          "display": "🏏 Perth Scorchers Women vs Adelaide Strikers Women · Womens Big Bash League 2026 - 22nd Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 02:59 PM",
+      "match_start_local": "2026-11-14 03:00 PM",
+      "send_at_utc": "2026-11-14T08:59:00+00:00",
+      "match_start_utc": "2026-11-14T09:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ India vs Bhutan",
+        "body": "SAFF Championship 2026 - (Semi-Final 1) · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2836",
+          "sport": "Football",
+          "league": "SAFF Championship 2026 - (Semi-Final 1)",
+          "team1": "India",
+          "team2": "Bhutan",
+          "hot": false,
+          "display": "⚽ India vs Bhutan · SAFF Championship 2026 - (Semi-Final 1)"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 03:29 PM",
+      "match_start_local": "2026-11-14 03:30 PM",
+      "send_at_utc": "2026-11-14T09:29:00+00:00",
+      "match_start_utc": "2026-11-14T09:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Royal Desert Champions vs United Tigers",
+        "body": "Abu Dhabi T10 League 2026 - 16th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2695",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 16th Match",
+          "team1": "Royal Desert Champions",
+          "team2": "United Tigers",
+          "hot": false,
+          "display": "🏏 Royal Desert Champions vs United Tigers · Abu Dhabi T10 League 2026 - 16th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 04:14 PM",
+      "match_start_local": "2026-11-14 04:15 PM",
+      "send_at_utc": "2026-11-14T10:14:00+00:00",
+      "match_start_utc": "2026-11-14T10:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Japan vs Brazil",
+        "body": "Friendly International · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2637",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Japan",
+          "team2": "Brazil",
+          "hot": false,
+          "display": "⚽ Japan vs Brazil · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 05:14 PM",
+      "match_start_local": "2026-11-14 05:15 PM",
+      "send_at_utc": "2026-11-14T11:14:00+00:00",
+      "match_start_utc": "2026-11-14T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Biratnagar Kings vs Lumbini Lions",
+        "body": "Nepal Premier League 2026 - 26th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2652",
+          "sport": "Cricket",
+          "league": "Nepal Premier League 2026 - 26th Match",
+          "team1": "Biratnagar Kings",
+          "team2": "Lumbini Lions",
+          "hot": false,
+          "display": "🏏 Biratnagar Kings vs Lumbini Lions · Nepal Premier League 2026 - 26th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 05:44 PM",
+      "match_start_local": "2026-11-14 05:45 PM",
+      "send_at_utc": "2026-11-14T11:44:00+00:00",
+      "match_start_utc": "2026-11-14T11:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Arabian Aces vs Emirates Eagles",
+        "body": "Abu Dhabi T10 League 2026 - 17th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2696",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 17th Match",
+          "team1": "Arabian Aces",
+          "team2": "Emirates Eagles",
+          "hot": false,
+          "display": "🏏 Arabian Aces vs Emirates Eagles · Abu Dhabi T10 League 2026 - 17th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 05:59 PM",
+      "match_start_local": "2026-11-14 06:00 PM",
+      "send_at_utc": "2026-11-14T11:59:00+00:00",
+      "match_start_utc": "2026-11-14T12:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ China vs Malaysia · Friendly International\n⚽ Chinese Taipei vs Kyrgyzstan · Friendly International\n⚽ Thailand vs Tajikistan · Friendly International"
+      },
+      "matches": [
+        {
+          "id": "2639",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "China",
+          "team2": "Malaysia",
+          "hot": false,
+          "display": "⚽ China vs Malaysia · Friendly International"
+        },
+        {
+          "id": "2640",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Chinese Taipei",
+          "team2": "Kyrgyzstan",
+          "hot": false,
+          "display": "⚽ Chinese Taipei vs Kyrgyzstan · Friendly International"
+        },
+        {
+          "id": "2638",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Thailand",
+          "team2": "Tajikistan",
+          "hot": false,
+          "display": "⚽ Thailand vs Tajikistan · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 06:59 PM",
+      "match_start_local": "2026-11-14 07:00 PM",
+      "send_at_utc": "2026-11-14T12:59:00+00:00",
+      "match_start_utc": "2026-11-14T13:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Valladolid vs Castellon",
+        "body": "LaLiga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2645",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Valladolid",
+          "team2": "Castellon",
+          "hot": false,
+          "display": "⚽ Valladolid vs Castellon · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 07:59 PM",
+      "match_start_local": "2026-11-14 08:00 PM",
+      "send_at_utc": "2026-11-14T13:59:00+00:00",
+      "match_start_utc": "2026-11-14T14:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 Yas Lions vs UAE Bulls · Abu Dhabi T10 League 2026 - 18th Match\n⚽ Kosovo vs Motherfucker · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2697",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 18th Match",
+          "team1": "Yas Lions",
+          "team2": "UAE Bulls",
+          "hot": false,
+          "display": "🏏 Yas Lions vs UAE Bulls · Abu Dhabi T10 League 2026 - 18th Match"
+        },
+        {
+          "id": "2629",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Kosovo",
+          "team2": "Motherfucker",
+          "hot": false,
+          "display": "⚽ Kosovo vs Motherfucker · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 08:29 PM",
+      "match_start_local": "2026-11-14 08:30 PM",
+      "send_at_utc": "2026-11-14T14:29:00+00:00",
+      "match_start_utc": "2026-11-14T14:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Bangladesh vs Pakistan",
+        "body": "SAFF Championship 2026 - (Semi-Final 2) · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2837",
+          "sport": "Football",
+          "league": "SAFF Championship 2026 - (Semi-Final 2)",
+          "team1": "Bangladesh",
+          "team2": "Pakistan",
+          "hot": false,
+          "display": "⚽ Bangladesh vs Pakistan · SAFF Championship 2026 - (Semi-Final 2)"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 08:59 PM",
+      "match_start_local": "2026-11-14 09:00 PM",
+      "send_at_utc": "2026-11-14T14:59:00+00:00",
+      "match_start_utc": "2026-11-14T15:00:00+00:00",
+      "match_count": 8,
+      "notification": {
+        "title": "⏰ 8 matches starting soon",
+        "body": "⚽ AFC Wimbledon vs Blackpool · League One\n⚽ Doncaster vs Leyton Orient · League One\n⚽ MK Dons vs Burton · League One\n⚽ Sheffield Wed vs Plymouth · League One\n⚽ Stevenage vs Mansfield · League One\n⚽ Stockport vs Reading · League One\n+ 2 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "2619",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "AFC Wimbledon",
+          "team2": "Blackpool",
+          "hot": false,
+          "display": "⚽ AFC Wimbledon vs Blackpool · League One"
+        },
+        {
+          "id": "2618",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Doncaster",
+          "team2": "Leyton Orient",
+          "hot": false,
+          "display": "⚽ Doncaster vs Leyton Orient · League One"
+        },
+        {
+          "id": "2617",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "MK Dons",
+          "team2": "Burton",
+          "hot": false,
+          "display": "⚽ MK Dons vs Burton · League One"
+        },
+        {
+          "id": "2616",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Sheffield Wed",
+          "team2": "Plymouth",
+          "hot": false,
+          "display": "⚽ Sheffield Wed vs Plymouth · League One"
+        },
+        {
+          "id": "2615",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Stevenage",
+          "team2": "Mansfield",
+          "hot": false,
+          "display": "⚽ Stevenage vs Mansfield · League One"
+        },
+        {
+          "id": "2614",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Stockport",
+          "team2": "Reading",
+          "hot": false,
+          "display": "⚽ Stockport vs Reading · League One"
+        },
+        {
+          "id": "2613",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Wigan",
+          "team2": "Barnsley",
+          "hot": false,
+          "display": "⚽ Wigan vs Barnsley · League One"
+        },
+        {
+          "id": "2612",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Wycombe",
+          "team2": "Huddersfield",
+          "hot": false,
+          "display": "⚽ Wycombe vs Huddersfield · League One"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 09:14 PM",
+      "match_start_local": "2026-11-14 09:15 PM",
+      "send_at_utc": "2026-11-14T15:14:00+00:00",
+      "match_start_utc": "2026-11-14T15:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Real Sociedad B vs Sporting Gijon",
+        "body": "LaLiga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2646",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Real Sociedad B",
+          "team2": "Sporting Gijon",
+          "hot": false,
+          "display": "⚽ Real Sociedad B vs Sporting Gijon · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 09:44 PM",
+      "match_start_local": "2026-11-14 09:45 PM",
+      "send_at_utc": "2026-11-14T15:44:00+00:00",
+      "match_start_utc": "2026-11-14T15:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Qatar vs Australia",
+        "body": "Friendly International · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2641",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Qatar",
+          "team2": "Australia",
+          "hot": false,
+          "display": "⚽ Qatar vs Australia · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 09:59 PM",
+      "match_start_local": "2026-11-14 10:00 PM",
+      "send_at_utc": "2026-11-14T15:59:00+00:00",
+      "match_start_utc": "2026-11-14T16:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Uganda vs Botswana · Africa Cup of Nations Qualification\n⚽ Palestine vs Iran · Friendly International"
+      },
+      "matches": [
+        {
+          "id": "2611",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Uganda",
+          "team2": "Botswana",
+          "hot": false,
+          "display": "⚽ Uganda vs Botswana · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2642",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Palestine",
+          "team2": "Iran",
+          "hot": false,
+          "display": "⚽ Palestine vs Iran · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 10:59 PM",
+      "match_start_local": "2026-11-14 11:00 PM",
+      "send_at_utc": "2026-11-14T16:59:00+00:00",
+      "match_start_utc": "2026-11-14T17:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Georgia vs Hungary · UEFA Nations League\n⚽ Norway vs Wales · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2630",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Georgia",
+          "team2": "Hungary",
+          "hot": false,
+          "display": "⚽ Georgia vs Hungary · UEFA Nations League"
+        },
+        {
+          "id": "2631",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Norway",
+          "team2": "Wales",
+          "hot": false,
+          "display": "⚽ Norway vs Wales · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 11:29 PM",
+      "match_start_local": "2026-11-14 11:30 PM",
+      "send_at_utc": "2026-11-14T17:29:00+00:00",
+      "match_start_utc": "2026-11-14T17:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Almeria vs Andorra · LaLiga 2\n⚽ Mallorca vs Cordoba · LaLiga 2"
+      },
+      "matches": [
+        {
+          "id": "2647",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Almeria",
+          "team2": "Andorra",
+          "hot": false,
+          "display": "⚽ Almeria vs Andorra · LaLiga 2"
+        },
+        {
+          "id": "2648",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Mallorca",
+          "team2": "Cordoba",
+          "hot": false,
+          "display": "⚽ Mallorca vs Cordoba · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 12:59 AM",
+      "match_start_local": "2026-11-15 01:00 AM",
+      "send_at_utc": "2026-11-14T18:59:00+00:00",
+      "match_start_utc": "2026-11-14T19:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Algeria vs Togo · Africa Cup of Nations Qualification\n⚽ Angola vs South Sudan · Africa Cup of Nations Qualification\n⚽ Basque Country vs Venezuela · Friendly International"
+      },
+      "matches": [
+        {
+          "id": "2653",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Algeria",
+          "team2": "Togo",
+          "hot": false,
+          "display": "⚽ Algeria vs Togo · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2654",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Angola",
+          "team2": "South Sudan",
+          "hot": false,
+          "display": "⚽ Angola vs South Sudan · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2666",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Basque Country",
+          "team2": "Venezuela",
+          "hot": false,
+          "display": "⚽ Basque Country vs Venezuela · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 01:44 AM",
+      "match_start_local": "2026-11-15 01:45 AM",
+      "send_at_utc": "2026-11-14T19:44:00+00:00",
+      "match_start_utc": "2026-11-14T19:45:00+00:00",
+      "match_count": 5,
+      "notification": {
+        "title": "⏰ 5 matches starting soon",
+        "body": "⚽ Austria vs Ireland · UEFA Nations League\n⚽ N. Ireland vs Ukraine · UEFA Nations League\n⚽ Portugal vs Denmark · UEFA Nations League\n⚽ Romania vs Poland · UEFA Nations League\n⚽ Sweden vs Bosnia & Herzegovina · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2659",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Austria",
+          "team2": "Ireland",
+          "hot": false,
+          "display": "⚽ Austria vs Ireland · UEFA Nations League"
+        },
+        {
+          "id": "2660",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "N. Ireland",
+          "team2": "Ukraine",
+          "hot": false,
+          "display": "⚽ N. Ireland vs Ukraine · UEFA Nations League"
+        },
+        {
+          "id": "2661",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Portugal",
+          "team2": "Denmark",
+          "hot": false,
+          "display": "⚽ Portugal vs Denmark · UEFA Nations League"
+        },
+        {
+          "id": "2658",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Romania",
+          "team2": "Poland",
+          "hot": false,
+          "display": "⚽ Romania vs Poland · UEFA Nations League"
+        },
+        {
+          "id": "2657",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Sweden",
+          "team2": "Bosnia & Herzegovina",
+          "hot": false,
+          "display": "⚽ Sweden vs Bosnia & Herzegovina · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 01:59 AM",
+      "match_start_local": "2026-11-15 02:00 AM",
+      "send_at_utc": "2026-11-14T19:59:00+00:00",
+      "match_start_utc": "2026-11-14T20:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Real Oviedo vs Girona",
+        "body": "LaLiga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2668",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Real Oviedo",
+          "team2": "Girona",
+          "hot": false,
+          "display": "⚽ Real Oviedo vs Girona · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 03:29 AM",
+      "match_start_local": "2026-11-15 03:30 AM",
+      "send_at_utc": "2026-11-14T21:29:00+00:00",
+      "match_start_utc": "2026-11-14T21:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Mirassol vs Atlético Mineiro",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2655",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Mirassol",
+          "team2": "Atlético Mineiro",
+          "hot": false,
+          "display": "⚽ Mirassol vs Atlético Mineiro · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 05:29 AM",
+      "match_start_local": "2026-11-15 05:30 AM",
+      "send_at_utc": "2026-11-14T23:29:00+00:00",
+      "match_start_utc": "2026-11-14T23:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Chapecoense vs Vasco",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2656",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Chapecoense",
+          "team2": "Vasco",
+          "hot": false,
+          "display": "⚽ Chapecoense vs Vasco · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 05:59 AM",
+      "match_start_local": "2026-11-15 06:00 AM",
+      "send_at_utc": "2026-11-14T23:59:00+00:00",
+      "match_start_utc": "2026-11-15T00:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Sydney Sixers Women vs Melbourne Renegades Women",
+        "body": "Womens Big Bash League 2026 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2673",
+          "sport": "Cricket",
+          "league": "Womens Big Bash League 2026",
+          "team1": "Sydney Sixers Women",
+          "team2": "Melbourne Renegades Women",
+          "hot": false,
+          "display": "🏏 Sydney Sixers Women vs Melbourne Renegades Women · Womens Big Bash League 2026"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 07:59 AM",
+      "match_start_local": "2026-11-15 08:00 AM",
+      "send_at_utc": "2026-11-15T01:59:00+00:00",
+      "match_start_utc": "2026-11-15T02:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 New Zealand vs India",
+        "body": "India tour of New Zealand 2026 - 5th ODI · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2674",
+          "sport": "Cricket",
+          "league": "India tour of New Zealand 2026 - 5th ODI",
+          "team1": "New Zealand",
+          "team2": "India",
+          "hot": false,
+          "display": "🏏 New Zealand vs India · India tour of New Zealand 2026 - 5th ODI"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 08:59 AM",
+      "match_start_local": "2026-11-15 09:00 AM",
+      "send_at_utc": "2026-11-15T02:59:00+00:00",
+      "match_start_utc": "2026-11-15T03:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ New Zealand vs India",
+        "body": "Friendly International · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2667",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "New Zealand",
+          "team2": "India",
+          "hot": false,
+          "display": "⚽ New Zealand vs India · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 09:29 AM",
+      "match_start_local": "2026-11-15 09:30 AM",
+      "send_at_utc": "2026-11-15T03:29:00+00:00",
+      "match_start_utc": "2026-11-15T03:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Australia vs England",
+        "body": "England tour of Australia, 2026 - 2nd ODI · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2675",
+          "sport": "Cricket",
+          "league": "England tour of Australia, 2026 - 2nd ODI",
+          "team1": "Australia",
+          "team2": "England",
+          "hot": false,
+          "display": "🏏 Australia vs England · England tour of Australia, 2026 - 2nd ODI"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 11:59 AM",
+      "match_start_local": "2026-11-15 12:00 PM",
+      "send_at_utc": "2026-11-15T05:59:00+00:00",
+      "match_start_utc": "2026-11-15T06:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Afghanistan vs Zimbabwe",
+        "body": "Afghanistan vs Zimbabwe in UAE, 2026 - 2nd Test, Day 3 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2676",
+          "sport": "Cricket",
+          "league": "Afghanistan vs Zimbabwe in UAE, 2026 - 2nd Test, Day 3",
+          "team1": "Afghanistan",
+          "team2": "Zimbabwe",
+          "hot": false,
+          "display": "🏏 Afghanistan vs Zimbabwe · Afghanistan vs Zimbabwe in UAE, 2026 - 2nd Test, Day 3"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 12:44 PM",
+      "match_start_local": "2026-11-15 12:45 PM",
+      "send_at_utc": "2026-11-15T06:44:00+00:00",
+      "match_start_utc": "2026-11-15T06:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Chitwan Rhinos vs Karnali Yaks",
+        "body": "Nepal Premier League 2026 - 27th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2677",
+          "sport": "Cricket",
+          "league": "Nepal Premier League 2026 - 27th Match",
+          "team1": "Chitwan Rhinos",
+          "team2": "Karnali Yaks",
+          "hot": false,
+          "display": "🏏 Chitwan Rhinos vs Karnali Yaks · Nepal Premier League 2026 - 27th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 01:59 PM",
+      "match_start_local": "2026-11-15 02:00 PM",
+      "send_at_utc": "2026-11-15T07:59:00+00:00",
+      "match_start_utc": "2026-11-15T08:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 South Africa vs Bangladesh",
+        "body": "Bangladesh tour of South Africa, 2026 - 1st Test, Day 1 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2679",
+          "sport": "Cricket",
+          "league": "Bangladesh tour of South Africa, 2026 - 1st Test, Day 1",
+          "team1": "South Africa",
+          "team2": "Bangladesh",
+          "hot": false,
+          "display": "🏏 South Africa vs Bangladesh · Bangladesh tour of South Africa, 2026 - 1st Test, Day 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 03:29 PM",
+      "match_start_local": "2026-11-15 03:30 PM",
+      "send_at_utc": "2026-11-15T09:29:00+00:00",
+      "match_start_utc": "2026-11-15T09:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Royal Desert Champions vs Arabian Aces",
+        "body": "Abu Dhabi T10 League 2026 - 19th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2698",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 19th Match",
+          "team1": "Royal Desert Champions",
+          "team2": "Arabian Aces",
+          "hot": false,
+          "display": "🏏 Royal Desert Champions vs Arabian Aces · Abu Dhabi T10 League 2026 - 19th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 05:14 PM",
+      "match_start_local": "2026-11-15 05:15 PM",
+      "send_at_utc": "2026-11-15T11:14:00+00:00",
+      "match_start_utc": "2026-11-15T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Kathmandu Gorkhas vs Pokhara Avengers",
+        "body": "Nepal Premier League 2026 - 28th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2678",
+          "sport": "Cricket",
+          "league": "Nepal Premier League 2026 - 28th Match",
+          "team1": "Kathmandu Gorkhas",
+          "team2": "Pokhara Avengers",
+          "hot": false,
+          "display": "🏏 Kathmandu Gorkhas vs Pokhara Avengers · Nepal Premier League 2026 - 28th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 05:44 PM",
+      "match_start_local": "2026-11-15 05:45 PM",
+      "send_at_utc": "2026-11-15T11:44:00+00:00",
+      "match_start_utc": "2026-11-15T11:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Emirates Eagles vs UAE Bulls",
+        "body": "Abu Dhabi T10 League 2026 - 20th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2699",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 20th Match",
+          "team1": "Emirates Eagles",
+          "team2": "UAE Bulls",
+          "hot": false,
+          "display": "🏏 Emirates Eagles vs UAE Bulls · Abu Dhabi T10 League 2026 - 20th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 06:59 PM",
+      "match_start_local": "2026-11-15 07:00 PM",
+      "send_at_utc": "2026-11-15T12:59:00+00:00",
+      "match_start_utc": "2026-11-15T13:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Tenerife vs AD Ceuta",
+        "body": "LaLiga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2669",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Tenerife",
+          "team2": "AD Ceuta",
+          "hot": false,
+          "display": "⚽ Tenerife vs AD Ceuta · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 07:59 PM",
+      "match_start_local": "2026-11-15 08:00 PM",
+      "send_at_utc": "2026-11-15T13:59:00+00:00",
+      "match_start_utc": "2026-11-15T14:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "🏏 United Tigers vs Yas Lions · Abu Dhabi T10 League 2026 - 21st Match\n⚽ Cyprus vs Montenegro · UEFA Nations League\n⚽ Latvia vs Armenia · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2700",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 21st Match",
+          "team1": "United Tigers",
+          "team2": "Yas Lions",
+          "hot": false,
+          "display": "🏏 United Tigers vs Yas Lions · Abu Dhabi T10 League 2026 - 21st Match"
+        },
+        {
+          "id": "2662",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Cyprus",
+          "team2": "Montenegro",
+          "hot": false,
+          "display": "⚽ Cyprus vs Montenegro · UEFA Nations League"
+        },
+        {
+          "id": "2663",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Latvia",
+          "team2": "Armenia",
+          "hot": false,
+          "display": "⚽ Latvia vs Armenia · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 09:14 PM",
+      "match_start_local": "2026-11-15 09:15 PM",
+      "send_at_utc": "2026-11-15T15:14:00+00:00",
+      "match_start_utc": "2026-11-15T15:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Granada vs Las Palmas",
+        "body": "LaLiga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2670",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Granada",
+          "team2": "Las Palmas",
+          "hot": false,
+          "display": "⚽ Granada vs Las Palmas · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 10:59 PM",
+      "match_start_local": "2026-11-15 11:00 PM",
+      "send_at_utc": "2026-11-15T16:59:00+00:00",
+      "match_start_utc": "2026-11-15T17:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Belarus vs Albania · UEFA Nations League\n⚽ Finland vs San Marino · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2665",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Belarus",
+          "team2": "Albania",
+          "hot": false,
+          "display": "⚽ Belarus vs Albania · UEFA Nations League"
+        },
+        {
+          "id": "2664",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Finland",
+          "team2": "San Marino",
+          "hot": false,
+          "display": "⚽ Finland vs San Marino · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-15 11:29 PM",
+      "match_start_local": "2026-11-15 11:30 PM",
+      "send_at_utc": "2026-11-15T17:29:00+00:00",
+      "match_start_utc": "2026-11-15T17:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ CD Eldense vs Sabadell · LaLiga 2\n⚽ Eibar vs Cadiz · LaLiga 2"
+      },
+      "matches": [
+        {
+          "id": "2672",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "CD Eldense",
+          "team2": "Sabadell",
+          "hot": false,
+          "display": "⚽ CD Eldense vs Sabadell · LaLiga 2"
+        },
+        {
+          "id": "2671",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Eibar",
+          "team2": "Cadiz",
+          "hot": false,
+          "display": "⚽ Eibar vs Cadiz · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 01:44 AM",
+      "match_start_local": "2026-11-16 01:45 AM",
+      "send_at_utc": "2026-11-15T19:44:00+00:00",
+      "match_start_utc": "2026-11-15T19:45:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Belgium vs Italy · UEFA Nations League\n⚽ Croatia vs Czechia · UEFA Nations League\n⚽ France vs Turkey · UEFA Nations League\n⚽ Spain vs England · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2711",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Belgium",
+          "team2": "Italy",
+          "hot": false,
+          "display": "⚽ Belgium vs Italy · UEFA Nations League"
+        },
+        {
+          "id": "2709",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Croatia",
+          "team2": "Czechia",
+          "hot": false,
+          "display": "⚽ Croatia vs Czechia · UEFA Nations League"
+        },
+        {
+          "id": "2710",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "France",
+          "team2": "Turkey",
+          "hot": false,
+          "display": "⚽ France vs Turkey · UEFA Nations League"
+        },
+        {
+          "id": "2708",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Spain",
+          "team2": "England",
+          "hot": false,
+          "display": "⚽ Spain vs England · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 11:59 AM",
+      "match_start_local": "2026-11-16 12:00 PM",
+      "send_at_utc": "2026-11-16T05:59:00+00:00",
+      "match_start_utc": "2026-11-16T06:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Afghanistan vs Zimbabwe",
+        "body": "Afghanistan vs Zimbabwe in UAE, 2026 - 2nd Test, Day 4 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2717",
+          "sport": "Cricket",
+          "league": "Afghanistan vs Zimbabwe in UAE, 2026 - 2nd Test, Day 4",
+          "team1": "Afghanistan",
+          "team2": "Zimbabwe",
+          "hot": false,
+          "display": "🏏 Afghanistan vs Zimbabwe · Afghanistan vs Zimbabwe in UAE, 2026 - 2nd Test, Day 4"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 01:59 PM",
+      "match_start_local": "2026-11-16 02:00 PM",
+      "send_at_utc": "2026-11-16T07:59:00+00:00",
+      "match_start_utc": "2026-11-16T08:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 South Africa vs Bangladesh",
+        "body": "Bangladesh tour of South Africa, 2026 - 1st Test, Day 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2718",
+          "sport": "Cricket",
+          "league": "Bangladesh tour of South Africa, 2026 - 1st Test, Day 2",
+          "team1": "South Africa",
+          "team2": "Bangladesh",
+          "hot": false,
+          "display": "🏏 South Africa vs Bangladesh · Bangladesh tour of South Africa, 2026 - 1st Test, Day 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 02:09 PM",
+      "match_start_local": "2026-11-16 02:10 PM",
+      "send_at_utc": "2026-11-16T08:09:00+00:00",
+      "match_start_utc": "2026-11-16T08:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Sydney Thunder Women vs Melbourne Stars Women",
+        "body": "Womens Big Bash League 2026 - 24th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2719",
+          "sport": "Cricket",
+          "league": "Womens Big Bash League 2026 - 24th Match",
+          "team1": "Sydney Thunder Women",
+          "team2": "Melbourne Stars Women",
+          "hot": false,
+          "display": "🏏 Sydney Thunder Women vs Melbourne Stars Women · Womens Big Bash League 2026 - 24th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 06:59 PM",
+      "match_start_local": "2026-11-16 07:00 PM",
+      "send_at_utc": "2026-11-16T12:59:00+00:00",
+      "match_start_utc": "2026-11-16T13:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Namibia vs Cameroon · Africa Cup of Nations Qualification\n⚽ Sudan vs Senegal · Africa Cup of Nations Qualification\n⚽ Zimbabwe vs Equatorial Guinea · Africa Cup of Nations Qualification"
+      },
+      "matches": [
+        {
+          "id": "2704",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Namibia",
+          "team2": "Cameroon",
+          "hot": false,
+          "display": "⚽ Namibia vs Cameroon · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2703",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Sudan",
+          "team2": "Senegal",
+          "hot": false,
+          "display": "⚽ Sudan vs Senegal · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2702",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Zimbabwe",
+          "team2": "Equatorial Guinea",
+          "hot": false,
+          "display": "⚽ Zimbabwe vs Equatorial Guinea · Africa Cup of Nations Qualification"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 07:44 PM",
+      "match_start_local": "2026-11-16 07:45 PM",
+      "send_at_utc": "2026-11-16T13:44:00+00:00",
+      "match_start_utc": "2026-11-16T13:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Arabian Aces vs United Tigers",
+        "body": "Abu Dhabi T10 League 2026 - 22nd Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2720",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 22nd Match",
+          "team1": "Arabian Aces",
+          "team2": "United Tigers",
+          "hot": false,
+          "display": "🏏 Arabian Aces vs United Tigers · Abu Dhabi T10 League 2026 - 22nd Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 08:59 PM",
+      "match_start_local": "2026-11-16 09:00 PM",
+      "send_at_utc": "2026-11-16T14:59:00+00:00",
+      "match_start_utc": "2026-11-16T15:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Somalia vs Ghana · Africa Cup of Nations Qualification\n⚽ Faroe Islands vs Moldova · UEFA Nations League\n⚽ Kazakhstan vs Slovakia · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2705",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Somalia",
+          "team2": "Ghana",
+          "hot": false,
+          "display": "⚽ Somalia vs Ghana · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2713",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Faroe Islands",
+          "team2": "Moldova",
+          "hot": false,
+          "display": "⚽ Faroe Islands vs Moldova · UEFA Nations League"
+        },
+        {
+          "id": "2712",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Kazakhstan",
+          "team2": "Slovakia",
+          "hot": false,
+          "display": "⚽ Kazakhstan vs Slovakia · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 09:59 PM",
+      "match_start_local": "2026-11-16 10:00 PM",
+      "send_at_utc": "2026-11-16T15:59:00+00:00",
+      "match_start_utc": "2026-11-16T16:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "🏏 Emirates Eagles vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 23rd Match\n⚽ Central African Republic vs Benin · Africa Cup of Nations Qualification\n⚽ Eritrea vs Guinea · Africa Cup of Nations Qualification"
+      },
+      "matches": [
+        {
+          "id": "2721",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 23rd Match",
+          "team1": "Emirates Eagles",
+          "team2": "Royal Desert Champions",
+          "hot": false,
+          "display": "🏏 Emirates Eagles vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 23rd Match"
+        },
+        {
+          "id": "2707",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Central African Republic",
+          "team2": "Benin",
+          "hot": false,
+          "display": "⚽ Central African Republic vs Benin · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2706",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Eritrea",
+          "team2": "Guinea",
+          "hot": false,
+          "display": "⚽ Eritrea vs Guinea · Africa Cup of Nations Qualification"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 10:59 PM",
+      "match_start_local": "2026-11-16 11:00 PM",
+      "send_at_utc": "2026-11-16T16:59:00+00:00",
+      "match_start_utc": "2026-11-16T17:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Estonia vs Bulgaria · UEFA Nations League\n⚽ Iceland vs Luxembourg · UEFA Nations League\n⚽ Lithuania vs Liechtenstein · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2715",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Estonia",
+          "team2": "Bulgaria",
+          "hot": false,
+          "display": "⚽ Estonia vs Bulgaria · UEFA Nations League"
+        },
+        {
+          "id": "2716",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Iceland",
+          "team2": "Luxembourg",
+          "hot": false,
+          "display": "⚽ Iceland vs Luxembourg · UEFA Nations League"
+        },
+        {
+          "id": "2714",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Lithuania",
+          "team2": "Liechtenstein",
+          "hot": false,
+          "display": "⚽ Lithuania vs Liechtenstein · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-16 11:59 PM",
+      "match_start_local": "2026-11-17 12:00 AM",
+      "send_at_utc": "2026-11-16T17:59:00+00:00",
+      "match_start_utc": "2026-11-16T18:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Andorra vs Azerbaijan",
+        "body": "Friendly International · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2740",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Andorra",
+          "team2": "Azerbaijan",
+          "hot": false,
+          "display": "⚽ Andorra vs Azerbaijan · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-17 12:59 AM",
+      "match_start_local": "2026-11-17 01:00 AM",
+      "send_at_utc": "2026-11-16T18:59:00+00:00",
+      "match_start_utc": "2026-11-16T19:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Mauritania vs Burkina Faso",
+        "body": "Africa Cup of Nations Qualification · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2722",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Mauritania",
+          "team2": "Burkina Faso",
+          "hot": false,
+          "display": "⚽ Mauritania vs Burkina Faso · Africa Cup of Nations Qualification"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-17 01:29 AM",
+      "match_start_local": "2026-11-17 01:30 AM",
+      "send_at_utc": "2026-11-16T19:29:00+00:00",
+      "match_start_utc": "2026-11-16T19:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Albacete vs Celta Vigo B",
+        "body": "LaLiga 2 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2755",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Albacete",
+          "team2": "Celta Vigo B",
+          "hot": false,
+          "display": "⚽ Albacete vs Celta Vigo B · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-17 01:44 AM",
+      "match_start_local": "2026-11-17 01:45 AM",
+      "send_at_utc": "2026-11-16T19:44:00+00:00",
+      "match_start_utc": "2026-11-16T19:45:00+00:00",
+      "match_count": 5,
+      "notification": {
+        "title": "⏰ 5 matches starting soon",
+        "body": "⚽ Germany vs Netherlands · UEFA Nations League\n⚽ Gibraltar vs Malta · UEFA Nations League\n⚽ Greece vs Serbia · UEFA Nations League\n⚽ North Macedonia vs Slovenia · UEFA Nations League\n⚽ Switzerland vs Scotland · UEFA Nations League"
+      },
+      "matches": [
+        {
+          "id": "2738",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Germany",
+          "team2": "Netherlands",
+          "hot": false,
+          "display": "⚽ Germany vs Netherlands · UEFA Nations League"
+        },
+        {
+          "id": "2739",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Gibraltar",
+          "team2": "Malta",
+          "hot": false,
+          "display": "⚽ Gibraltar vs Malta · UEFA Nations League"
+        },
+        {
+          "id": "2737",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Greece",
+          "team2": "Serbia",
+          "hot": false,
+          "display": "⚽ Greece vs Serbia · UEFA Nations League"
+        },
+        {
+          "id": "2735",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "North Macedonia",
+          "team2": "Slovenia",
+          "hot": false,
+          "display": "⚽ North Macedonia vs Slovenia · UEFA Nations League"
+        },
+        {
+          "id": "2736",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Switzerland",
+          "team2": "Scotland",
+          "hot": false,
+          "display": "⚽ Switzerland vs Scotland · UEFA Nations League"
+        }
+      ]
+    }
+  ]
 }
