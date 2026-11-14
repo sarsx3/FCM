@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-14T15:59:19+00:00",
+  "generated_at": "2026-11-14T16:00:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "14 Nov 2026, 09:58:17 PM BST",
-    "source_events_loaded": 304,
+    "source_last_updated": "14 Nov 2026, 09:57:15 PM BST",
+    "source_events_loaded": 305,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 49,
-    "upcoming_matches": 86,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 94,
     "next_notification_at_local": "2026-11-14 10:59 PM"
   },
   "upcoming_notifications": [
@@ -1477,6 +1477,92 @@
           "team2": "Uzbekistan",
           "hot": false,
           "display": "⚽ Saudi Arabia vs Uzbekistan · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-17 09:59 PM",
+      "match_start_local": "2026-11-17 10:00 PM",
+      "send_at_utc": "2026-11-17T15:59:00+00:00",
+      "match_start_utc": "2026-11-17T16:00:00+00:00",
+      "match_count": 8,
+      "notification": {
+        "title": "⏰ 8 matches starting soon",
+        "body": "🏏 UAE Bulls vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 25th Match\n⚽ Gambia vs Ivory Coast · Africa Cup of Nations Qualification\n⚽ Guinea-Bissau vs Madagascar · Africa Cup of Nations Qualification\n⚽ Kenya vs South Africa · Africa Cup of Nations Qualification\n⚽ Libya vs Tunisia · Africa Cup of Nations Qualification\n⚽ Sierra Leone vs DR Congo · Africa Cup of Nations Qualification\n+ 2 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "2762",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 25th Match",
+          "team1": "UAE Bulls",
+          "team2": "Royal Desert Champions",
+          "hot": false,
+          "display": "🏏 UAE Bulls vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 25th Match"
+        },
+        {
+          "id": "2731",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Gambia",
+          "team2": "Ivory Coast",
+          "hot": false,
+          "display": "⚽ Gambia vs Ivory Coast · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2734",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Guinea-Bissau",
+          "team2": "Madagascar",
+          "hot": false,
+          "display": "⚽ Guinea-Bissau vs Madagascar · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2732",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Kenya",
+          "team2": "South Africa",
+          "hot": false,
+          "display": "⚽ Kenya vs South Africa · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2733",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Libya",
+          "team2": "Tunisia",
+          "hot": false,
+          "display": "⚽ Libya vs Tunisia · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2730",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Sierra Leone",
+          "team2": "DR Congo",
+          "hot": false,
+          "display": "⚽ Sierra Leone vs DR Congo · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2729",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Togo",
+          "team2": "Algeria",
+          "hot": false,
+          "display": "⚽ Togo vs Algeria · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2750",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Jordan",
+          "team2": "Australia",
+          "hot": false,
+          "display": "⚽ Jordan vs Australia · Friendly International"
         }
       ]
     }
