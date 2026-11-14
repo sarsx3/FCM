@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T22:59:22+00:00",
+  "generated_at": "2026-11-14T23:00:54+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 48,
-    "upcoming_matches": 94,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 95,
     "next_notification_at_local": "2026-11-15 05:29 AM"
   },
   "upcoming_notifications": [
@@ -1535,6 +1535,29 @@
           "team2": "Morocco",
           "hot": false,
           "display": "⚽ Niger vs Morocco · Africa Cup of Nations Qualification"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-18 04:59 AM",
+      "match_start_local": "2026-11-18 05:00 AM",
+      "send_at_utc": "2026-11-17T22:59:00+00:00",
+      "match_start_utc": "2026-11-17T23:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Chile vs Colombia",
+        "body": "Friendly International · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2778",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Chile",
+          "team2": "Colombia",
+          "hot": false,
+          "display": "⚽ Chile vs Colombia · Friendly International"
         }
       ]
     }
