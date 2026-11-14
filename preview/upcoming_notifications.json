@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T19:59:17+00:00",
+  "generated_at": "2026-11-14T20:00:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 49,
-    "upcoming_matches": 95,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 96,
     "next_notification_at_local": "2026-11-15 03:29 AM"
   },
   "upcoming_notifications": [
@@ -1558,6 +1558,29 @@
           "team2": "Portugal",
           "hot": false,
           "display": "⚽ Wales vs Portugal · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-18 01:59 AM",
+      "match_start_local": "2026-11-18 02:00 AM",
+      "send_at_utc": "2026-11-17T19:59:00+00:00",
+      "match_start_utc": "2026-11-17T20:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Niger vs Morocco",
+        "body": "Africa Cup of Nations Qualification · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2767",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Niger",
+          "team2": "Morocco",
+          "hot": false,
+          "display": "⚽ Niger vs Morocco · Africa Cup of Nations Qualification"
         }
       ]
     }
