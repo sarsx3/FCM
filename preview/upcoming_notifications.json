@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T18:59:00+00:00",
+  "generated_at": "2026-11-14T19:00:36+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Nov 2026, 12:57:11 AM BST",
+    "source_last_updated": "15 Nov 2026, 12:56:14 AM BST",
     "source_events_loaded": 291,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 49,
-    "upcoming_matches": 91,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 95,
     "next_notification_at_local": "2026-11-15 01:44 AM"
   },
   "upcoming_notifications": [
@@ -1522,6 +1522,56 @@
           "team2": "Venezuela",
           "hot": false,
           "display": "⚽ Russia vs Venezuela · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-18 12:59 AM",
+      "match_start_local": "2026-11-18 01:00 AM",
+      "send_at_utc": "2026-11-17T18:59:00+00:00",
+      "match_start_utc": "2026-11-17T19:00:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Botswana vs Uganda · Africa Cup of Nations Qualification\n⚽ Congo vs Comoros · Africa Cup of Nations Qualification\n⚽ Liberia vs Cape Verde · Africa Cup of Nations Qualification\n⚽ Rwanda vs Mali · Africa Cup of Nations Qualification"
+      },
+      "matches": [
+        {
+          "id": "2763",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Botswana",
+          "team2": "Uganda",
+          "hot": false,
+          "display": "⚽ Botswana vs Uganda · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2766",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Congo",
+          "team2": "Comoros",
+          "hot": false,
+          "display": "⚽ Congo vs Comoros · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2765",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Liberia",
+          "team2": "Cape Verde",
+          "hot": false,
+          "display": "⚽ Liberia vs Cape Verde · Africa Cup of Nations Qualification"
+        },
+        {
+          "id": "2764",
+          "sport": "Football",
+          "league": "Africa Cup of Nations Qualification",
+          "team1": "Rwanda",
+          "team2": "Mali",
+          "hot": false,
+          "display": "⚽ Rwanda vs Mali · Africa Cup of Nations Qualification"
         }
       ]
     }
