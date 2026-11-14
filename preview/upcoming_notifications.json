@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T05:04:19+00:00",
+  "generated_at": "2026-11-14T05:05:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 52,
-    "upcoming_matches": 91,
+    "upcoming_notifications": 51,
+    "upcoming_matches": 90,
     "next_notification_at_local": "2026-11-14 11:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-14 10:59 AM",
-      "match_start_local": "2026-11-14 11:00 AM",
-      "send_at_utc": "2026-11-14T04:59:00+00:00",
-      "match_start_utc": "2026-11-14T05:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Pakistan U19 vs India U19",
-        "body": "U19 Asia Cup 2026 - Final · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2554",
-          "sport": "Cricket",
-          "league": "U19 Asia Cup 2026 - Final",
-          "team1": "Pakistan U19",
-          "team2": "India U19",
-          "hot": false,
-          "display": "🏏 Pakistan U19 vs India U19 · U19 Asia Cup 2026 - Final"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-14 11:59 AM",
