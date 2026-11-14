@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T11:23:17+00:00",
+  "generated_at": "2026-11-14T11:26:17+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "14 Nov 2026, 05:23:12 PM BST",
+    "source_last_updated": "14 Nov 2026, 05:26:14 PM BST",
     "source_events_loaded": 317,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -17,32 +17,9 @@
   "summary": {
     "upcoming_notifications": 51,
     "upcoming_matches": 91,
-    "next_notification_at_local": "2026-11-14 05:44 PM"
+    "next_notification_at_local": "2026-11-14 05:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-14 05:44 PM",
-      "match_start_local": "2026-11-14 05:45 PM",
-      "send_at_utc": "2026-11-14T11:44:00+00:00",
-      "match_start_utc": "2026-11-14T11:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Arabian Aces vs Emirates Eagles",
-        "body": "Abu Dhabi T10 League 2026 - 17th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2696",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 17th Match",
-          "team1": "Arabian Aces",
-          "team2": "Emirates Eagles",
-          "hot": false,
-          "display": "🏏 Arabian Aces vs Emirates Eagles · Abu Dhabi T10 League 2026 - 17th Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-14 05:59 PM",
@@ -127,6 +104,29 @@
           "team2": "United Tigers",
           "hot": false,
           "display": "🏏 Royal Desert Champions vs United Tigers · Abu Dhabi T10 League 2026 - 16th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-14 07:44 PM",
+      "match_start_local": "2026-11-14 07:45 PM",
+      "send_at_utc": "2026-11-14T13:44:00+00:00",
+      "match_start_utc": "2026-11-14T13:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Arabian Aces vs Emirates Eagles",
+        "body": "Abu Dhabi T10 League 2026 - 17th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2696",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 17th Match",
+          "team1": "Arabian Aces",
+          "team2": "Emirates Eagles",
+          "hot": false,
+          "display": "🏏 Arabian Aces vs Emirates Eagles · Abu Dhabi T10 League 2026 - 17th Match"
         }
       ]
     },
