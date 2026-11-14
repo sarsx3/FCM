@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-14T13:35:22+00:00",
+  "generated_at": "2026-11-14T13:37:17+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "14 Nov 2026, 07:32:14 PM BST",
-    "source_events_loaded": 318,
+    "source_last_updated": "14 Nov 2026, 07:37:13 PM BST",
+    "source_events_loaded": 313,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -49,21 +49,12 @@
       "match_start_local": "2026-11-14 08:00 PM",
       "send_at_utc": "2026-11-14T13:59:00+00:00",
       "match_start_utc": "2026-11-14T14:00:00+00:00",
-      "match_count": 2,
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "🏏 Yas Lions vs UAE Bulls · Abu Dhabi T10 League 2026 - 18th Match\n⚽ Kosovo vs Motherfucker · UEFA Nations League"
+        "title": "⚽ Kosovo vs Motherfucker",
+        "body": "UEFA Nations League · Starting soon"
       },
       "matches": [
-        {
-          "id": "2697",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 18th Match",
-          "team1": "Yas Lions",
-          "team2": "UAE Bulls",
-          "hot": false,
-          "display": "🏏 Yas Lions vs UAE Bulls · Abu Dhabi T10 League 2026 - 18th Match"
-        },
         {
           "id": "2629",
           "sport": "Football",
@@ -236,12 +227,21 @@
       "match_start_local": "2026-11-14 10:00 PM",
       "send_at_utc": "2026-11-14T15:59:00+00:00",
       "match_start_utc": "2026-11-14T16:00:00+00:00",
-      "match_count": 2,
+      "match_count": 3,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Uganda vs Botswana · Africa Cup of Nations Qualification\n⚽ Palestine vs Iran · Friendly International"
+        "title": "⏰ 3 matches starting soon",
+        "body": "🏏 Yas Lions vs UAE Bulls · Abu Dhabi T10 League 2026 - 18th Match\n⚽ Uganda vs Botswana · Africa Cup of Nations Qualification\n⚽ Palestine vs Iran · Friendly International"
       },
       "matches": [
+        {
+          "id": "2697",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 18th Match",
+          "team1": "Yas Lions",
+          "team2": "UAE Bulls",
+          "hot": false,
+          "display": "🏏 Yas Lions vs UAE Bulls · Abu Dhabi T10 League 2026 - 18th Match"
+        },
         {
           "id": "2611",
           "sport": "Football",
