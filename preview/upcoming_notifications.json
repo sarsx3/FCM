@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T13:44:22+00:00",
+  "generated_at": "2026-11-14T13:45:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 95,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 96,
     "next_notification_at_local": "2026-11-14 07:59 PM"
   },
   "upcoming_notifications": [
@@ -1586,6 +1586,29 @@
           "team2": "Paraguay",
           "hot": false,
           "display": "⚽ Japan vs Paraguay · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-17 07:44 PM",
+      "match_start_local": "2026-11-17 07:45 PM",
+      "send_at_utc": "2026-11-17T13:44:00+00:00",
+      "match_start_utc": "2026-11-17T13:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Yas Lions vs Arabian Aces",
+        "body": "Abu Dhabi T10 League 2026 - 24th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2761",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 24th Match",
+          "team1": "Yas Lions",
+          "team2": "Arabian Aces",
+          "hot": false,
+          "display": "🏏 Yas Lions vs Arabian Aces · Abu Dhabi T10 League 2026 - 24th Match"
         }
       ]
     }
