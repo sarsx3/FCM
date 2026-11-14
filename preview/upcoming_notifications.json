@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-14T19:44:19+00:00",
+  "generated_at": "2026-11-14T19:45:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Nov 2026, 01:44:13 AM BST",
-    "source_events_loaded": 287,
+    "source_last_updated": "15 Nov 2026, 01:40:19 AM BST",
+    "source_events_loaded": 289,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 49,
-    "upcoming_matches": 92,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 100,
     "next_notification_at_local": "2026-11-15 01:59 AM"
   },
   "upcoming_notifications": [
@@ -1531,6 +1531,92 @@
           "team2": "Mali",
           "hot": false,
           "display": "⚽ Rwanda vs Mali · Africa Cup of Nations Qualification"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-18 01:44 AM",
+      "match_start_local": "2026-11-18 01:45 AM",
+      "send_at_utc": "2026-11-17T19:44:00+00:00",
+      "match_start_utc": "2026-11-17T19:45:00+00:00",
+      "match_count": 8,
+      "notification": {
+        "title": "⏰ 8 matches starting soon",
+        "body": "⚽ Bosnia & Herzegovina vs Romania · UEFA Nations League\n⚽ Denmark vs Norway · UEFA Nations League\n⚽ Hungary vs Northern Ireland · UEFA Nations League\n⚽ Ireland vs Kosovo · UEFA Nations League\n⚽ Israel vs Austria · UEFA Nations League\n⚽ Poland vs Sweden · UEFA Nations League\n+ 2 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "2772",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Bosnia & Herzegovina",
+          "team2": "Romania",
+          "hot": false,
+          "display": "⚽ Bosnia & Herzegovina vs Romania · UEFA Nations League"
+        },
+        {
+          "id": "2771",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Denmark",
+          "team2": "Norway",
+          "hot": false,
+          "display": "⚽ Denmark vs Norway · UEFA Nations League"
+        },
+        {
+          "id": "2775",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Hungary",
+          "team2": "Northern Ireland",
+          "hot": false,
+          "display": "⚽ Hungary vs Northern Ireland · UEFA Nations League"
+        },
+        {
+          "id": "2768",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Ireland",
+          "team2": "Kosovo",
+          "hot": false,
+          "display": "⚽ Ireland vs Kosovo · UEFA Nations League"
+        },
+        {
+          "id": "2773",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Israel",
+          "team2": "Austria",
+          "hot": false,
+          "display": "⚽ Israel vs Austria · UEFA Nations League"
+        },
+        {
+          "id": "2769",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Poland",
+          "team2": "Sweden",
+          "hot": false,
+          "display": "⚽ Poland vs Sweden · UEFA Nations League"
+        },
+        {
+          "id": "2774",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Ukraine",
+          "team2": "Georgia",
+          "hot": false,
+          "display": "⚽ Ukraine vs Georgia · UEFA Nations League"
+        },
+        {
+          "id": "2770",
+          "sport": "Football",
+          "league": "UEFA Nations League",
+          "team1": "Wales",
+          "team2": "Portugal",
+          "hot": false,
+          "display": "⚽ Wales vs Portugal · UEFA Nations League"
         }
       ]
     }
