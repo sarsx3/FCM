@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T11:14:21+00:00",
+  "generated_at": "2026-11-14T11:15:29+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "14 Nov 2026, 05:10:21 PM BST",
+    "source_last_updated": "14 Nov 2026, 05:15:25 PM BST",
     "source_events_loaded": 317,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 91,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 92,
     "next_notification_at_local": "2026-11-14 05:44 PM"
   },
   "upcoming_notifications": [
@@ -1550,6 +1550,29 @@
           "team2": "Brazil",
           "hot": false,
           "display": "⚽ Singapore vs Brazil · Friendly International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-17 05:14 PM",
+      "match_start_local": "2026-11-17 05:15 PM",
+      "send_at_utc": "2026-11-17T11:14:00+00:00",
+      "match_start_utc": "2026-11-17T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Nepal Premier League 2026 - Qualifier 1",
+        "body": "Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2760",
+          "sport": "Cricket",
+          "league": "Nepal Premier League 2026 - Qualifier 1",
+          "team1": null,
+          "team2": null,
+          "hot": false,
+          "display": "🏏 Nepal Premier League 2026 - Qualifier 1"
         }
       ]
     }
