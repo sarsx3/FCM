@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-15T19:49:15+00:00",
+  "generated_at": "2026-11-15T19:50:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "16 Nov 2026, 01:46:15 AM BST",
+    "source_last_updated": "16 Nov 2026, 01:50:19 AM BST",
     "source_events_loaded": 346,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,61 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 43,
-    "upcoming_matches": 90,
+    "upcoming_notifications": 42,
+    "upcoming_matches": 86,
     "next_notification_at_local": "2026-11-16 11:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-16 01:44 AM",
-      "match_start_local": "2026-11-16 01:45 AM",
-      "send_at_utc": "2026-11-15T19:44:00+00:00",
-      "match_start_utc": "2026-11-15T19:45:00+00:00",
-      "match_count": 4,
-      "notification": {
-        "title": "⏰ 4 matches starting soon",
-        "body": "⚽ Belgium vs Italy · UEFA Nations League\n⚽ Croatia vs Czechia · UEFA Nations League\n⚽ France vs Turkey · UEFA Nations League\n⚽ Spain vs England · UEFA Nations League"
-      },
-      "matches": [
-        {
-          "id": "2711",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Belgium",
-          "team2": "Italy",
-          "hot": false,
-          "display": "⚽ Belgium vs Italy · UEFA Nations League"
-        },
-        {
-          "id": "2709",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Croatia",
-          "team2": "Czechia",
-          "hot": false,
-          "display": "⚽ Croatia vs Czechia · UEFA Nations League"
-        },
-        {
-          "id": "2710",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "France",
-          "team2": "Turkey",
-          "hot": false,
-          "display": "⚽ France vs Turkey · UEFA Nations League"
-        },
-        {
-          "id": "2708",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Spain",
-          "team2": "England",
-          "hot": false,
-          "display": "⚽ Spain vs England · UEFA Nations League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-16 11:59 AM",
