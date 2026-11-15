@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-15T19:59:18+00:00",
+  "generated_at": "2026-11-15T20:00:38+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "16 Nov 2026, 01:53:11 AM BST",
+    "source_last_updated": "16 Nov 2026, 02:00:29 AM BST",
     "source_events_loaded": 346,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 42,
-    "upcoming_matches": 86,
+    "upcoming_notifications": 43,
+    "upcoming_matches": 88,
     "next_notification_at_local": "2026-11-16 11:59 AM"
   },
   "upcoming_notifications": [
@@ -1379,6 +1379,38 @@
           "team2": "Barakaldo CF",
           "hot": false,
           "display": "⚽ Reus FC Reddis vs Barakaldo CF · Copa del Rey"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-19 01:59 AM",
+      "match_start_local": "2026-11-19 02:00 AM",
+      "send_at_utc": "2026-11-18T19:59:00+00:00",
+      "match_start_utc": "2026-11-18T20:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Chelsea (W) vs PSG (W) · UEFA Women's Champions League\n⚽ Juventus (W) vs Oud-Heverlee Leuven (W) · UEFA Women's Champions League"
+      },
+      "matches": [
+        {
+          "id": "2794",
+          "sport": "Football",
+          "league": "UEFA Women's Champions League",
+          "team1": "Chelsea (W)",
+          "team2": "PSG (W)",
+          "hot": false,
+          "display": "⚽ Chelsea (W) vs PSG (W) · UEFA Women's Champions League"
+        },
+        {
+          "id": "2793",
+          "sport": "Football",
+          "league": "UEFA Women's Champions League",
+          "team1": "Juventus (W)",
+          "team2": "Oud-Heverlee Leuven (W)",
+          "hot": false,
+          "display": "⚽ Juventus (W) vs Oud-Heverlee Leuven (W) · UEFA Women's Champions League"
         }
       ]
     }
