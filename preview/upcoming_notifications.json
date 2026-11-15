@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T22:29:18+00:00",
+  "generated_at": "2026-11-15T22:30:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 43,
-    "upcoming_matches": 88,
+    "upcoming_notifications": 44,
+    "upcoming_matches": 89,
     "next_notification_at_local": "2026-11-16 11:59 AM"
   },
   "upcoming_notifications": [
@@ -1411,6 +1411,29 @@
           "team2": "Oud-Heverlee Leuven (W)",
           "hot": false,
           "display": "⚽ Juventus (W) vs Oud-Heverlee Leuven (W) · UEFA Women's Champions League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-19 04:29 AM",
+      "match_start_local": "2026-11-19 04:30 AM",
+      "send_at_utc": "2026-11-18T22:29:00+00:00",
+      "match_start_utc": "2026-11-18T22:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Coritiba vs Santos",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2787",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Coritiba",
+          "team2": "Santos",
+          "hot": false,
+          "display": "⚽ Coritiba vs Santos · Brasileirão Série A"
         }
       ]
     }
