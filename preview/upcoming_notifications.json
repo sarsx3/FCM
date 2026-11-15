@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-15T17:03:18+00:00",
+  "generated_at": "2026-11-15T17:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "15 Nov 2026, 10:59:15 PM BST",
+    "source_last_updated": "15 Nov 2026, 11:05:19 PM BST",
     "source_events_loaded": 352,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 41,
-    "upcoming_matches": 86,
+    "upcoming_notifications": 40,
+    "upcoming_matches": 84,
     "next_notification_at_local": "2026-11-15 11:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-15 10:59 PM",
-      "match_start_local": "2026-11-15 11:00 PM",
-      "send_at_utc": "2026-11-15T16:59:00+00:00",
-      "match_start_utc": "2026-11-15T17:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Belarus vs Albania · UEFA Nations League\n⚽ Finland vs San Marino · UEFA Nations League"
-      },
-      "matches": [
-        {
-          "id": "2665",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Belarus",
-          "team2": "Albania",
-          "hot": false,
-          "display": "⚽ Belarus vs Albania · UEFA Nations League"
-        },
-        {
-          "id": "2664",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Finland",
-          "team2": "San Marino",
-          "hot": false,
-          "display": "⚽ Finland vs San Marino · UEFA Nations League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-15 11:29 PM",
