@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T11:44:27+00:00",
+  "generated_at": "2026-11-15T11:45:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 44,
-    "upcoming_matches": 91,
+    "upcoming_notifications": 45,
+    "upcoming_matches": 92,
     "next_notification_at_local": "2026-11-15 06:59 PM"
   },
   "upcoming_notifications": [
@@ -1452,6 +1452,29 @@
           "team2": null,
           "hot": false,
           "display": "🏏 Nepal Premier League 2026 - Eliminator"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-18 05:44 PM",
+      "match_start_local": "2026-11-18 05:45 PM",
+      "send_at_utc": "2026-11-18T11:44:00+00:00",
+      "match_start_utc": "2026-11-18T11:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 UAE Bulls vs United Tigers",
+        "body": "Abu Dhabi T10 League 2026 - 26th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2785",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 26th Match",
+          "team1": "UAE Bulls",
+          "team2": "United Tigers",
+          "hot": false,
+          "display": "🏏 UAE Bulls vs United Tigers · Abu Dhabi T10 League 2026 - 26th Match"
         }
       ]
     }
