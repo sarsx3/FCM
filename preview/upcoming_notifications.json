@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T11:44:22+00:00",
+  "generated_at": "2026-11-16T11:46:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "16 Nov 2026, 05:44:13 PM BST",
+    "source_last_updated": "16 Nov 2026, 05:45:21 PM BST",
     "source_events_loaded": 342,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 98,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 99,
     "next_notification_at_local": "2026-11-16 06:59 PM"
   },
   "upcoming_notifications": [
@@ -1613,6 +1613,29 @@
           "team2": null,
           "hot": false,
           "display": "🏏 Nepal Premier League 2026 - Qualifier 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-19 05:44 PM",
+      "match_start_local": "2026-11-19 05:45 PM",
+      "send_at_utc": "2026-11-19T11:44:00+00:00",
+      "match_start_utc": "2026-11-19T11:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Yas Lions vs Royal Desert Champions",
+        "body": "Abu Dhabi T10 League 2026 - 29th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2810",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 29th Match",
+          "team1": "Yas Lions",
+          "team2": "Royal Desert Champions",
+          "hot": false,
+          "display": "🏏 Yas Lions vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 29th Match"
         }
       ]
     }
