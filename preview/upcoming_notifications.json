@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T08:44:24+00:00",
+  "generated_at": "2026-11-16T08:51:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "16 Nov 2026, 02:44:15 PM BST",
+    "source_last_updated": "16 Nov 2026, 02:51:12 PM BST",
     "source_events_loaded": 342,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,7 +15,7 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 49,
+    "upcoming_notifications": 50,
     "upcoming_matches": 96,
     "next_notification_at_local": "2026-11-16 06:59 PM"
   },
@@ -332,6 +332,29 @@
           "team2": "Scotland",
           "hot": false,
           "display": "⚽ Switzerland vs Scotland · UEFA Nations League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-17 04:59 AM",
+      "match_start_local": "2026-11-17 05:00 AM",
+      "send_at_utc": "2026-11-16T22:59:00+00:00",
+      "match_start_utc": "2026-11-16T23:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🔥 Argentina vs Costa Rica",
+        "body": "Friendly International · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2752",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "Argentina",
+          "team2": "Costa Rica",
+          "hot": true,
+          "display": "🔥 Argentina vs Costa Rica · Friendly International"
         }
       ]
     },
@@ -821,21 +844,12 @@
       "match_start_local": "2026-11-17 11:00 PM",
       "send_at_utc": "2026-11-17T16:59:00+00:00",
       "match_start_utc": "2026-11-17T17:00:00+00:00",
-      "match_count": 3,
+      "match_count": 2,
       "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "🔥 Argentina vs Costa Rica · Friendly International\n⚽ Kuwait vs Honduras · Friendly International\n⚽ Russia vs Venezuela · Friendly International"
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Kuwait vs Honduras · Friendly International\n⚽ Russia vs Venezuela · Friendly International"
       },
       "matches": [
-        {
-          "id": "2752",
-          "sport": "Football",
-          "league": "Friendly International",
-          "team1": "Argentina",
-          "team2": "Costa Rica",
-          "hot": true,
-          "display": "🔥 Argentina vs Costa Rica · Friendly International"
-        },
         {
           "id": "2754",
           "sport": "Football",
@@ -1556,17 +1570,17 @@
       "match_count": 1,
       "notification": {
         "title": "🏏 Hobart Hurricanes Women vs Perth Scorchers Women",
-        "body": "Womens Big Bash League 2026 - 26th Match · Starting soon"
+        "body": "Womens Big Bash League · Starting soon"
       },
       "matches": [
         {
           "id": "2805",
           "sport": "Cricket",
-          "league": "Womens Big Bash League 2026 - 26th Match",
+          "league": "Womens Big Bash League",
           "team1": "Hobart Hurricanes Women",
           "team2": "Perth Scorchers Women",
           "hot": false,
-          "display": "🏏 Hobart Hurricanes Women vs Perth Scorchers Women · Womens Big Bash League 2026 - 26th Match"
+          "display": "🏏 Hobart Hurricanes Women vs Perth Scorchers Women · Womens Big Bash League"
         }
       ]
     }
