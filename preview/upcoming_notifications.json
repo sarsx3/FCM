@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T19:49:35+00:00",
+  "generated_at": "2026-11-16T19:50:32+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,70 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 47,
-    "upcoming_matches": 88,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 83,
     "next_notification_at_local": "2026-11-17 10:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-17 01:44 AM",
-      "match_start_local": "2026-11-17 01:45 AM",
-      "send_at_utc": "2026-11-16T19:44:00+00:00",
-      "match_start_utc": "2026-11-16T19:45:00+00:00",
-      "match_count": 5,
-      "notification": {
-        "title": "⏰ 5 matches starting soon",
-        "body": "⚽ Germany vs Netherlands · UEFA Nations League\n⚽ Gibraltar vs Malta · UEFA Nations League\n⚽ Greece vs Serbia · UEFA Nations League\n⚽ North Macedonia vs Slovenia · UEFA Nations League\n⚽ Switzerland vs Scotland · UEFA Nations League"
-      },
-      "matches": [
-        {
-          "id": "2738",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Germany",
-          "team2": "Netherlands",
-          "hot": false,
-          "display": "⚽ Germany vs Netherlands · UEFA Nations League"
-        },
-        {
-          "id": "2739",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Gibraltar",
-          "team2": "Malta",
-          "hot": false,
-          "display": "⚽ Gibraltar vs Malta · UEFA Nations League"
-        },
-        {
-          "id": "2737",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Greece",
-          "team2": "Serbia",
-          "hot": false,
-          "display": "⚽ Greece vs Serbia · UEFA Nations League"
-        },
-        {
-          "id": "2735",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "North Macedonia",
-          "team2": "Slovenia",
-          "hot": false,
-          "display": "⚽ North Macedonia vs Slovenia · UEFA Nations League"
-        },
-        {
-          "id": "2736",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Switzerland",
-          "team2": "Scotland",
-          "hot": false,
-          "display": "⚽ Switzerland vs Scotland · UEFA Nations League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-17 10:29 AM",
