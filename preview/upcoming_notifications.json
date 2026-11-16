@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T10:05:36+00:00",
+  "generated_at": "2026-11-16T10:07:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "16 Nov 2026, 04:02:16 PM BST",
+    "source_last_updated": "16 Nov 2026, 04:07:13 PM BST",
     "source_events_loaded": 342,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -906,7 +906,7 @@
       "match_count": 8,
       "notification": {
         "title": "⏰ 8 matches starting soon",
-        "body": "⚽ Bosnia & Herzegovina vs Romania · UEFA Nations League\n⚽ Denmark vs Norway · UEFA Nations League\n⚽ Hungary vs Northern Ireland · UEFA Nations League\n⚽ Ireland vs Kosovo · UEFA Nations League\n⚽ Israel vs Austria · UEFA Nations League\n⚽ Poland vs Sweden · UEFA Nations League\n+ 2 more matches in the app"
+        "body": "⚽ Bosnia & Herzegovina vs Romania · UEFA Nations League\n⚽ Denmark vs Norway · UEFA Nations League\n⚽ Hungary vs Northern Ireland · UEFA Nations League\n⚽ Ireland vs Kosovo · UEFA Nations League\n⚽ MotherFucker vs Austria · UEFA Nations League\n⚽ Poland vs Sweden · UEFA Nations League\n+ 2 more matches in the app"
       },
       "matches": [
         {
@@ -949,10 +949,10 @@
           "id": "2773",
           "sport": "Football",
           "league": "UEFA Nations League",
-          "team1": "Israel",
+          "team1": "MotherFucker",
           "team2": "Austria",
           "hot": false,
-          "display": "⚽ Israel vs Austria · UEFA Nations League"
+          "display": "⚽ MotherFucker vs Austria · UEFA Nations League"
         },
         {
           "id": "2769",
