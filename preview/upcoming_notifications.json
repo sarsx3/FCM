@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T10:57:20+00:00",
+  "generated_at": "2026-11-16T11:00:45+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 97,
+    "upcoming_notifications": 51,
+    "upcoming_matches": 98,
     "next_notification_at_local": "2026-11-16 06:59 PM"
   },
   "upcoming_notifications": [
@@ -1590,6 +1590,29 @@
           "team2": "Arabian Aces",
           "hot": false,
           "display": "🏏 UAE Bulls vs Arabian Aces · Abu Dhabi T10 League 2026 - 28th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-19 04:59 PM",
+      "match_start_local": "2026-11-19 05:00 PM",
+      "send_at_utc": "2026-11-19T10:59:00+00:00",
+      "match_start_utc": "2026-11-19T11:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Nepal Premier League 2026 - Qualifier 2",
+        "body": "Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2808",
+          "sport": "Cricket",
+          "league": "Nepal Premier League 2026 - Qualifier 2",
+          "team1": null,
+          "team2": null,
+          "hot": false,
+          "display": "🏏 Nepal Premier League 2026 - Qualifier 2"
         }
       ]
     }
