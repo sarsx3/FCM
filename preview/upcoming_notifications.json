@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T04:59:22+00:00",
+  "generated_at": "2026-11-16T05:00:46+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "16 Nov 2026, 10:59:19 AM BST",
+    "source_last_updated": "16 Nov 2026, 11:00:38 AM BST",
     "source_events_loaded": 346,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 97,
+    "upcoming_notifications": 51,
+    "upcoming_matches": 98,
     "next_notification_at_local": "2026-11-16 11:59 AM"
   },
   "upcoming_notifications": [
@@ -1590,6 +1590,29 @@
           "team2": "Bangladesh",
           "hot": false,
           "display": "🏏 South Africa vs Bangladesh · Bangladesh tour of South Africa, 2026 - 1st Test, Day 5"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-19 10:59 AM",
+      "match_start_local": "2026-11-19 11:00 AM",
+      "send_at_utc": "2026-11-19T04:59:00+00:00",
+      "match_start_utc": "2026-11-19T05:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 New Zealand vs India",
+        "body": "India tour of New Zealand 2026 - 1st Test, Day 1 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2803",
+          "sport": "Cricket",
+          "league": "India tour of New Zealand 2026 - 1st Test, Day 1",
+          "team1": "New Zealand",
+          "team2": "India",
+          "hot": false,
+          "display": "🏏 New Zealand vs India · India tour of New Zealand 2026 - 1st Test, Day 1"
         }
       ]
     }
