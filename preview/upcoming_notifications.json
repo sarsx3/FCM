@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-16T17:26:24+00:00",
+  "generated_at": "2026-11-16T17:27:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "16 Nov 2026, 11:23:14 PM BST",
-    "source_events_loaded": 408,
+    "source_last_updated": "16 Nov 2026, 11:27:14 PM BST",
+    "source_events_loaded": 423,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -289,18 +289,18 @@
       "match_start_utc": "2026-11-17T11:15:00+00:00",
       "match_count": 1,
       "notification": {
-        "title": "🏏 Nepal Premier League 2026 - Qualifier 1",
-        "body": "Starting soon"
+        "title": "🏏 Lumbini Lions vs Sudurpaschim Royals",
+        "body": "Nepal Premier League 2026 - Qualifier 1 · Starting soon"
       },
       "matches": [
         {
           "id": "2760",
           "sport": "Cricket",
           "league": "Nepal Premier League 2026 - Qualifier 1",
-          "team1": null,
-          "team2": null,
+          "team1": "Lumbini Lions",
+          "team2": "Sudurpaschim Royals",
           "hot": false,
-          "display": "🏏 Nepal Premier League 2026 - Qualifier 1"
+          "display": "🏏 Lumbini Lions vs Sudurpaschim Royals · Nepal Premier League 2026 - Qualifier 1"
         }
       ]
     },
@@ -960,18 +960,18 @@
       "match_start_utc": "2026-11-18T11:00:00+00:00",
       "match_count": 1,
       "notification": {
-        "title": "🏏 Nepal Premier League 2026 - Eliminator",
-        "body": "Starting soon"
+        "title": "🏏 Kathmandu Gurkhas vs Chitwan Rhinos",
+        "body": "Nepal Premier League 2026 - Eliminator · Starting soon"
       },
       "matches": [
         {
           "id": "2784",
           "sport": "Cricket",
           "league": "Nepal Premier League 2026 - Eliminator",
-          "team1": null,
-          "team2": null,
+          "team1": "Kathmandu Gurkhas",
+          "team2": "Chitwan Rhinos",
           "hot": false,
-          "display": "🏏 Nepal Premier League 2026 - Eliminator"
+          "display": "🏏 Kathmandu Gurkhas vs Chitwan Rhinos · Nepal Premier League 2026 - Eliminator"
         }
       ]
     },
