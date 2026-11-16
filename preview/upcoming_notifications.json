@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T08:38:27+00:00",
+  "generated_at": "2026-11-16T08:40:29+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 48,
-    "upcoming_matches": 95,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 96,
     "next_notification_at_local": "2026-11-16 06:59 PM"
   },
   "upcoming_notifications": [
@@ -1544,6 +1544,29 @@
           "team2": "India",
           "hot": false,
           "display": "🏏 New Zealand vs India · India tour of New Zealand 2026 - 1st Test, Day 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-19 02:39 PM",
+      "match_start_local": "2026-11-19 02:40 PM",
+      "send_at_utc": "2026-11-19T08:39:00+00:00",
+      "match_start_utc": "2026-11-19T08:40:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Hobart Hurricanes Women vs Perth Scorchers Women",
+        "body": "Womens Big Bash League 2026 - 26th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2805",
+          "sport": "Cricket",
+          "league": "Womens Big Bash League 2026 - 26th Match",
+          "team1": "Hobart Hurricanes Women",
+          "team2": "Perth Scorchers Women",
+          "hot": false,
+          "display": "🏏 Hobart Hurricanes Women vs Perth Scorchers Women · Womens Big Bash League 2026 - 26th Match"
         }
       ]
     }
