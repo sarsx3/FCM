@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T17:04:22+00:00",
+  "generated_at": "2026-11-16T17:05:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 91,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 88,
     "next_notification_at_local": "2026-11-16 11:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-16 10:59 PM",
-      "match_start_local": "2026-11-16 11:00 PM",
-      "send_at_utc": "2026-11-16T16:59:00+00:00",
-      "match_start_utc": "2026-11-16T17:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Estonia vs Bulgaria · UEFA Nations League\n⚽ Iceland vs Luxembourg · UEFA Nations League\n⚽ Lithuania vs Liechtenstein · UEFA Nations League"
-      },
-      "matches": [
-        {
-          "id": "2715",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Estonia",
-          "team2": "Bulgaria",
-          "hot": false,
-          "display": "⚽ Estonia vs Bulgaria · UEFA Nations League"
-        },
-        {
-          "id": "2716",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Iceland",
-          "team2": "Luxembourg",
-          "hot": false,
-          "display": "⚽ Iceland vs Luxembourg · UEFA Nations League"
-        },
-        {
-          "id": "2714",
-          "sport": "Football",
-          "league": "UEFA Nations League",
-          "team1": "Lithuania",
-          "team2": "Liechtenstein",
-          "hot": false,
-          "display": "⚽ Lithuania vs Liechtenstein · UEFA Nations League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-16 11:59 PM",
