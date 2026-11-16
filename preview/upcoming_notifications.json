@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T00:26:20+00:00",
+  "generated_at": "2026-11-16T00:30:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 46,
-    "upcoming_matches": 92,
+    "upcoming_notifications": 47,
+    "upcoming_matches": 94,
     "next_notification_at_local": "2026-11-16 11:59 AM"
   },
   "upcoming_notifications": [
@@ -1489,6 +1489,38 @@
           "team2": "Athletico Paranaense",
           "hot": false,
           "display": "⚽ Flamengo vs Athletico Paranaense · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-19 06:29 AM",
+      "match_start_local": "2026-11-19 06:30 AM",
+      "send_at_utc": "2026-11-19T00:29:00+00:00",
+      "match_start_utc": "2026-11-19T00:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Corinthians vs Botafogo · Brasileirão Série A\n⚽ Gremio vs Bahia · Brasileirão Série A"
+      },
+      "matches": [
+        {
+          "id": "2792",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Corinthians",
+          "team2": "Botafogo",
+          "hot": false,
+          "display": "⚽ Corinthians vs Botafogo · Brasileirão Série A"
+        },
+        {
+          "id": "2791",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Gremio",
+          "team2": "Bahia",
+          "hot": false,
+          "display": "⚽ Gremio vs Bahia · Brasileirão Série A"
         }
       ]
     }
