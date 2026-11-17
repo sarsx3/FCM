@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-17T16:31:16+00:00",
+  "generated_at": "2026-11-17T16:32:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "17 Nov 2026, 10:26:15 PM BST",
-    "source_events_loaded": 390,
+    "source_last_updated": "17 Nov 2026, 10:31:13 PM BST",
+    "source_events_loaded": 389,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,20 +16,20 @@
   },
   "summary": {
     "upcoming_notifications": 40,
-    "upcoming_matches": 66,
-    "next_notification_at_local": "2026-11-17 10:59 PM"
+    "upcoming_matches": 65,
+    "next_notification_at_local": "2026-11-18 12:59 AM"
   },
   "upcoming_notifications": [
     {
-      "status": "scheduled",
-      "send_at_local": "2026-11-17 10:59 PM",
-      "match_start_local": "2026-11-17 11:00 PM",
-      "send_at_utc": "2026-11-17T16:59:00+00:00",
-      "match_start_utc": "2026-11-17T17:00:00+00:00",
-      "match_count": 2,
+      "status": "sent",
+      "send_at_local": "2026-11-17 10:29 PM",
+      "match_start_local": "2026-11-17 10:30 PM",
+      "send_at_utc": "2026-11-17T16:29:00+00:00",
+      "match_start_utc": "2026-11-17T16:30:00+00:00",
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Kuwait vs Honduras · Friendly International\n⚽ Russia vs Venezuela · Friendly International"
+        "title": "⚽ Kuwait vs Honduras",
+        "body": "Friendly International · Starting soon"
       },
       "matches": [
         {
@@ -40,15 +40,6 @@
           "team2": "Honduras",
           "hot": false,
           "display": "⚽ Kuwait vs Honduras · Friendly International"
-        },
-        {
-          "id": "2753",
-          "sport": "Football",
-          "league": "Friendly International",
-          "team1": "Russia",
-          "team2": "Venezuela",
-          "hot": false,
-          "display": "⚽ Russia vs Venezuela · Friendly International"
         }
       ]
     },
