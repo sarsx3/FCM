@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T13:04:21+00:00",
+  "generated_at": "2026-11-17T13:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,88 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 47,
-    "upcoming_matches": 86,
+    "upcoming_notifications": 46,
+    "upcoming_matches": 79,
     "next_notification_at_local": "2026-11-17 07:09 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-17 06:59 PM",
-      "match_start_local": "2026-11-17 07:00 PM",
-      "send_at_utc": "2026-11-17T12:59:00+00:00",
-      "match_start_utc": "2026-11-17T13:00:00+00:00",
-      "match_count": 7,
-      "notification": {
-        "title": "⏰ 7 matches starting soon",
-        "body": "⚽ Burundi vs Zambia · Africa Cup of Nations Qualification\n⚽ Ethiopia vs Mozambique · Africa Cup of Nations Qualification\n⚽ Lesotho vs Gabon · Africa Cup of Nations Qualification\n⚽ Malawi vs Egypt · Africa Cup of Nations Qualification\n⚽ South Sudan vs Angola · Africa Cup of Nations Qualification\n⚽ Tanzania vs Nigeria · Africa Cup of Nations Qualification\n+ 1 more match in the app"
-      },
-      "matches": [
-        {
-          "id": "2726",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "Burundi",
-          "team2": "Zambia",
-          "hot": false,
-          "display": "⚽ Burundi vs Zambia · Africa Cup of Nations Qualification"
-        },
-        {
-          "id": "2727",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "Ethiopia",
-          "team2": "Mozambique",
-          "hot": false,
-          "display": "⚽ Ethiopia vs Mozambique · Africa Cup of Nations Qualification"
-        },
-        {
-          "id": "2724",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "Lesotho",
-          "team2": "Gabon",
-          "hot": false,
-          "display": "⚽ Lesotho vs Gabon · Africa Cup of Nations Qualification"
-        },
-        {
-          "id": "2723",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "Malawi",
-          "team2": "Egypt",
-          "hot": false,
-          "display": "⚽ Malawi vs Egypt · Africa Cup of Nations Qualification"
-        },
-        {
-          "id": "2725",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "South Sudan",
-          "team2": "Angola",
-          "hot": false,
-          "display": "⚽ South Sudan vs Angola · Africa Cup of Nations Qualification"
-        },
-        {
-          "id": "2728",
-          "sport": "Football",
-          "league": "Africa Cup of Nations Qualification",
-          "team1": "Tanzania",
-          "team2": "Nigeria",
-          "hot": false,
-          "display": "⚽ Tanzania vs Nigeria · Africa Cup of Nations Qualification"
-        },
-        {
-          "id": "2745",
-          "sport": "Football",
-          "league": "Friendly International",
-          "team1": "Lebanon",
-          "team2": "Palestine",
-          "hot": false,
-          "display": "⚽ Lebanon vs Palestine · Friendly International"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-17 07:09 PM",
