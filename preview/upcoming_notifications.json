@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-17T05:43:30+00:00",
+  "generated_at": "2026-11-17T05:45:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "17 Nov 2026, 11:43:19 AM BST",
+    "source_last_updated": "17 Nov 2026, 11:40:22 AM BST",
     "source_events_loaded": 410,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -26,10 +26,10 @@
       "match_start_local": "2026-11-17 12:00 PM",
       "send_at_utc": "2026-11-17T05:59:00+00:00",
       "match_start_utc": "2026-11-17T06:00:00+00:00",
-      "match_count": 2,
+      "match_count": 3,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM in UAE, 2026 - 2nd Test, Day 5\n⚽ Malaysia vs Yemen · Friendly International"
+        "title": "⏰ 3 matches starting soon",
+        "body": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM in UAE, 2026 - 2nd Test, Day 5\n⚽ China vs Bahrain · Friendly International\n⚽ Malaysia vs Yemen · Friendly International"
       },
       "matches": [
         {
@@ -40,6 +40,15 @@
           "team2": "Zimbabwe",
           "hot": false,
           "display": "🏏 Afghanistan vs Zimbabwe · AFG vs ZIM in UAE, 2026 - 2nd Test, Day 5"
+        },
+        {
+          "id": "2742",
+          "sport": "Football",
+          "league": "Friendly International",
+          "team1": "China",
+          "team2": "Bahrain",
+          "hot": false,
+          "display": "⚽ China vs Bahrain · Friendly International"
         },
         {
           "id": "2741",
@@ -150,21 +159,12 @@
       "match_start_local": "2026-11-17 06:00 PM",
       "send_at_utc": "2026-11-17T11:59:00+00:00",
       "match_start_utc": "2026-11-17T12:00:00+00:00",
-      "match_count": 2,
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ China vs Bahrain · Friendly International\n⚽ Kyrgyzstan vs Vietnam · Friendly International"
+        "title": "⚽ Kyrgyzstan vs Vietnam",
+        "body": "Friendly International · Starting soon"
       },
       "matches": [
-        {
-          "id": "2742",
-          "sport": "Football",
-          "league": "Friendly International",
-          "team1": "China",
-          "team2": "Bahrain",
-          "hot": false,
-          "display": "⚽ China vs Bahrain · Friendly International"
-        },
         {
           "id": "2744",
           "sport": "Football",
