@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T00:28:29+00:00",
+  "generated_at": "2026-11-17T00:30:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 48,
-    "upcoming_matches": 88,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 90,
     "next_notification_at_local": "2026-11-17 10:29 AM"
   },
   "upcoming_notifications": [
@@ -1481,6 +1481,38 @@
           "team2": "Red Bull Bragantino",
           "hot": false,
           "display": "⚽ Vitoria vs Red Bull Bragantino · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-20 06:29 AM",
+      "match_start_local": "2026-11-20 06:30 AM",
+      "send_at_utc": "2026-11-20T00:29:00+00:00",
+      "match_start_utc": "2026-11-20T00:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ São Paulo vs Fluminense · Brasileirão Série A\n⚽ Orlando City vs FC Cincinnati · MLS"
+      },
+      "matches": [
+        {
+          "id": "2814",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "São Paulo",
+          "team2": "Fluminense",
+          "hot": false,
+          "display": "⚽ São Paulo vs Fluminense · Brasileirão Série A"
+        },
+        {
+          "id": "2829",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Orlando City",
+          "team2": "FC Cincinnati",
+          "hot": false,
+          "display": "⚽ Orlando City vs FC Cincinnati · MLS"
         }
       ]
     }
