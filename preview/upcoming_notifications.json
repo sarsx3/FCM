@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-17T15:19:20+00:00",
+  "generated_at": "2026-11-17T15:22:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "17 Nov 2026, 09:19:12 PM BST",
-    "source_events_loaded": 394,
+    "source_last_updated": "17 Nov 2026, 09:22:14 PM BST",
+    "source_events_loaded": 393,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -418,10 +418,10 @@
     },
     {
       "status": "scheduled",
-      "send_at_local": "2026-11-18 09:29 AM",
-      "match_start_local": "2026-11-18 09:30 AM",
-      "send_at_utc": "2026-11-18T03:29:00+00:00",
-      "match_start_utc": "2026-11-18T03:30:00+00:00",
+      "send_at_local": "2026-11-18 10:29 AM",
+      "match_start_local": "2026-11-18 10:30 AM",
+      "send_at_utc": "2026-11-18T04:29:00+00:00",
+      "match_start_utc": "2026-11-18T04:30:00+00:00",
       "match_count": 1,
       "notification": {
         "title": "🏏 Pakistan vs Sri Lanka",
@@ -826,29 +826,6 @@
     },
     {
       "status": "scheduled",
-      "send_at_local": "2026-11-19 09:29 AM",
-      "match_start_local": "2026-11-19 09:30 AM",
-      "send_at_utc": "2026-11-19T03:29:00+00:00",
-      "match_start_utc": "2026-11-19T03:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Pakistan vs Sri Lanka",
-        "body": "SL vs PAK, 2026 - 2nd Test, Day 3 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2804",
-          "sport": "Cricket",
-          "league": "SL vs PAK, 2026 - 2nd Test, Day 3",
-          "team1": "Pakistan",
-          "team2": "Sri Lanka",
-          "hot": false,
-          "display": "🏏 Pakistan vs Sri Lanka · SL vs PAK, 2026 - 2nd Test, Day 3"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
       "send_at_local": "2026-11-19 09:59 AM",
       "match_start_local": "2026-11-19 10:00 AM",
       "send_at_utc": "2026-11-19T03:59:00+00:00",
@@ -867,6 +844,29 @@
           "team2": "Bangladesh",
           "hot": false,
           "display": "🏏 South Africa vs Bangladesh · Bangladesh tour of South Africa, 2026 - 1st Test, Day 5"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-19 10:29 AM",
+      "match_start_local": "2026-11-19 10:30 AM",
+      "send_at_utc": "2026-11-19T04:29:00+00:00",
+      "match_start_utc": "2026-11-19T04:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Pakistan vs Sri Lanka",
+        "body": "SL vs PAK, 2026 - 2nd Test, Day 3 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2804",
+          "sport": "Cricket",
+          "league": "SL vs PAK, 2026 - 2nd Test, Day 3",
+          "team1": "Pakistan",
+          "team2": "Sri Lanka",
+          "hot": false,
+          "display": "🏏 Pakistan vs Sri Lanka · SL vs PAK, 2026 - 2nd Test, Day 3"
         }
       ]
     },
