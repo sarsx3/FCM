@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T11:58:22+00:00",
+  "generated_at": "2026-11-18T12:00:42+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 49,
-    "upcoming_matches": 74,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 77,
     "next_notification_at_local": "2026-11-18 07:44 PM"
   },
   "upcoming_notifications": [
@@ -1369,6 +1369,47 @@
           "team2": null,
           "hot": false,
           "display": "🏏 Nepal Premier League 2026 - Final"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-21 05:59 PM",
+      "match_start_local": "2026-11-21 06:00 PM",
+      "send_at_utc": "2026-11-21T11:59:00+00:00",
+      "match_start_utc": "2026-11-21T12:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Hannover vs Greuther Fürth · Bundesliga 2\n⚽ Nurnberg vs Braunschweig · Bundesliga 2\n⚽ Wolfsburg vs Holstein Kiel · Bundesliga 2"
+      },
+      "matches": [
+        {
+          "id": "2879",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Hannover",
+          "team2": "Greuther Fürth",
+          "hot": false,
+          "display": "⚽ Hannover vs Greuther Fürth · Bundesliga 2"
+        },
+        {
+          "id": "2878",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Nurnberg",
+          "team2": "Braunschweig",
+          "hot": false,
+          "display": "⚽ Nurnberg vs Braunschweig · Bundesliga 2"
+        },
+        {
+          "id": "2880",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Wolfsburg",
+          "team2": "Holstein Kiel",
+          "hot": false,
+          "display": "⚽ Wolfsburg vs Holstein Kiel · Bundesliga 2"
         }
       ]
     }
