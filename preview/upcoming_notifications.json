@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T22:34:21+00:00",
+  "generated_at": "2026-11-18T22:35:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "19 Nov 2026, 04:34:14 AM BST",
+    "source_last_updated": "19 Nov 2026, 04:35:17 AM BST",
     "source_events_loaded": 343,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 63,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 62,
+    "upcoming_matches": 133,
     "next_notification_at_local": "2026-11-19 04:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-19 04:29 AM",
-      "match_start_local": "2026-11-19 04:30 AM",
-      "send_at_utc": "2026-11-18T22:29:00+00:00",
-      "match_start_utc": "2026-11-18T22:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Coritiba vs Santos",
-        "body": "Brasileirão Série A · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2787",
-          "sport": "Football",
-          "league": "Brasileirão Série A",
-          "team1": "Coritiba",
-          "team2": "Santos",
-          "hot": false,
-          "display": "⚽ Coritiba vs Santos · Brasileirão Série A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-19 04:59 AM",
