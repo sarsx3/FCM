@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T14:29:19+00:00",
+  "generated_at": "2026-11-18T14:30:44+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 52,
-    "upcoming_matches": 88,
+    "upcoming_notifications": 53,
+    "upcoming_matches": 93,
     "next_notification_at_local": "2026-11-18 09:59 PM"
   },
   "upcoming_notifications": [
@@ -1537,6 +1537,65 @@
           "team2": "Lecce",
           "hot": false,
           "display": "⚽ Lazio vs Lecce · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-21 08:29 PM",
+      "match_start_local": "2026-11-21 08:30 PM",
+      "send_at_utc": "2026-11-21T14:29:00+00:00",
+      "match_start_utc": "2026-11-21T14:30:00+00:00",
+      "match_count": 5,
+      "notification": {
+        "title": "⏰ 5 matches starting soon",
+        "body": "⚽ Eintracht vs Hoffenheim · Bundesliga\n⚽ Elversberg vs Freiburg · Bundesliga\n⚽ Gladbach vs Dortmund · Bundesliga\n⚽ Leverkusen vs SC Paderborn · Bundesliga\n⚽ Union Berlin vs RB Leipzig · Bundesliga"
+      },
+      "matches": [
+        {
+          "id": "2875",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Eintracht",
+          "team2": "Hoffenheim",
+          "hot": false,
+          "display": "⚽ Eintracht vs Hoffenheim · Bundesliga"
+        },
+        {
+          "id": "2872",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Elversberg",
+          "team2": "Freiburg",
+          "hot": false,
+          "display": "⚽ Elversberg vs Freiburg · Bundesliga"
+        },
+        {
+          "id": "2873",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Gladbach",
+          "team2": "Dortmund",
+          "hot": false,
+          "display": "⚽ Gladbach vs Dortmund · Bundesliga"
+        },
+        {
+          "id": "2876",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Leverkusen",
+          "team2": "SC Paderborn",
+          "hot": false,
+          "display": "⚽ Leverkusen vs SC Paderborn · Bundesliga"
+        },
+        {
+          "id": "2874",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Union Berlin",
+          "team2": "RB Leipzig",
+          "hot": false,
+          "display": "⚽ Union Berlin vs RB Leipzig · Bundesliga"
         }
       ]
     }
