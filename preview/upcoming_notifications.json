@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T12:58:23+00:00",
+  "generated_at": "2026-11-18T13:00:40+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "18 Nov 2026, 06:58:14 PM BST",
+    "source_last_updated": "18 Nov 2026, 06:59:12 PM BST",
     "source_events_loaded": 357,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 51,
-    "upcoming_matches": 83,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 87,
     "next_notification_at_local": "2026-11-18 07:44 PM"
   },
   "upcoming_notifications": [
@@ -1478,6 +1478,56 @@
           "team2": "Fulham",
           "hot": false,
           "display": "⚽ Man City vs Fulham · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-21 06:59 PM",
+      "match_start_local": "2026-11-21 07:00 PM",
+      "send_at_utc": "2026-11-21T12:59:00+00:00",
+      "match_start_utc": "2026-11-21T13:00:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Alaves vs Deportivo · LaLiga\n⚽ Sabadell vs Granada · LaLiga 2\n⚽ Amed SK vs Caykur Rizespor · Super Lig\n⚽ Galatasaray vs Samsunspor · Super Lig"
+      },
+      "matches": [
+        {
+          "id": "2890",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Alaves",
+          "team2": "Deportivo",
+          "hot": false,
+          "display": "⚽ Alaves vs Deportivo · LaLiga"
+        },
+        {
+          "id": "2894",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Sabadell",
+          "team2": "Granada",
+          "hot": false,
+          "display": "⚽ Sabadell vs Granada · LaLiga 2"
+        },
+        {
+          "id": "2899",
+          "sport": "Football",
+          "league": "Super Lig",
+          "team1": "Amed SK",
+          "team2": "Caykur Rizespor",
+          "hot": false,
+          "display": "⚽ Amed SK vs Caykur Rizespor · Super Lig"
+        },
+        {
+          "id": "2898",
+          "sport": "Football",
+          "league": "Super Lig",
+          "team1": "Galatasaray",
+          "team2": "Samsunspor",
+          "hot": false,
+          "display": "⚽ Galatasaray vs Samsunspor · Super Lig"
         }
       ]
     }
