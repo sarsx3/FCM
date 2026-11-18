@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T12:00:42+00:00",
+  "generated_at": "2026-11-18T12:02:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "18 Nov 2026, 05:57:11 PM BST",
+    "source_last_updated": "18 Nov 2026, 06:02:20 PM BST",
     "source_events_loaded": 358,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -228,6 +228,29 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-11-19 03:59 AM",
+      "match_start_local": "2026-11-19 04:00 AM",
+      "send_at_utc": "2026-11-18T21:59:00+00:00",
+      "match_start_utc": "2026-11-18T22:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 New Zealand vs India",
+        "body": "IND vs NZ, 2026 - 1st Test, Day 1 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2803",
+          "sport": "Cricket",
+          "league": "IND vs NZ, 2026 - 1st Test, Day 1",
+          "team1": "New Zealand",
+          "team2": "India",
+          "hot": false,
+          "display": "🏏 New Zealand vs India · IND vs NZ, 2026 - 1st Test, Day 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-11-19 04:29 AM",
       "match_start_local": "2026-11-19 04:30 AM",
       "send_at_utc": "2026-11-18T22:29:00+00:00",
@@ -379,29 +402,6 @@
           "team2": "Sri Lanka",
           "hot": false,
           "display": "🏏 Pakistan vs Sri Lanka · SL vs PAK, 2026 - 2nd Test, Day 3"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-19 10:59 AM",
-      "match_start_local": "2026-11-19 11:00 AM",
-      "send_at_utc": "2026-11-19T04:59:00+00:00",
-      "match_start_utc": "2026-11-19T05:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 New Zealand vs India",
-        "body": "India tour of New Zealand 2026 - 1st Test, Day 1 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2803",
-          "sport": "Cricket",
-          "league": "India tour of New Zealand 2026 - 1st Test, Day 1",
-          "team1": "New Zealand",
-          "team2": "India",
-          "hot": false,
-          "display": "🏏 New Zealand vs India · India tour of New Zealand 2026 - 1st Test, Day 1"
         }
       ]
     },
@@ -671,17 +671,17 @@
       "match_count": 1,
       "notification": {
         "title": "🏏 New Zealand vs India",
-        "body": "India tour of New Zealand 2026 - 1st Test, Day 2 · Starting soon"
+        "body": "IND vs NZ, 2026 - 1st Test, Day 2 · Starting soon"
       },
       "matches": [
         {
           "id": "2831",
           "sport": "Cricket",
-          "league": "India tour of New Zealand 2026 - 1st Test, Day 2",
+          "league": "IND vs NZ, 2026 - 1st Test, Day 2",
           "team1": "New Zealand",
           "team2": "India",
           "hot": false,
-          "display": "🏏 New Zealand vs India · India tour of New Zealand 2026 - 1st Test, Day 2"
+          "display": "🏏 New Zealand vs India · IND vs NZ, 2026 - 1st Test, Day 2"
         }
       ]
     },
@@ -1156,17 +1156,17 @@
       "match_count": 1,
       "notification": {
         "title": "🏏 New Zealand vs India",
-        "body": "India tour of New Zealand 2026 - 1st Test, Day 3 · Starting soon"
+        "body": "IND vs NZ, 2026 - 1st Test, Day 3 · Starting soon"
       },
       "matches": [
         {
           "id": "2901",
           "sport": "Cricket",
-          "league": "India tour of New Zealand 2026 - 1st Test, Day 3",
+          "league": "IND vs NZ, 2026 - 1st Test, Day 3",
           "team1": "New Zealand",
           "team2": "India",
           "hot": false,
-          "display": "🏏 New Zealand vs India · India tour of New Zealand 2026 - 1st Test, Day 3"
+          "display": "🏏 New Zealand vs India · IND vs NZ, 2026 - 1st Test, Day 3"
         }
       ]
     },
