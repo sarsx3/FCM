@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:04:23+00:00",
+  "generated_at": "2026-11-18T16:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 57,
-    "upcoming_matches": 119,
+    "upcoming_notifications": 56,
+    "upcoming_matches": 118,
     "next_notification_at_local": "2026-11-18 11:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-18 09:59 PM",
-      "match_start_local": "2026-11-18 10:00 PM",
-      "send_at_utc": "2026-11-18T15:59:00+00:00",
-      "match_start_utc": "2026-11-18T16:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Emirates Eagles vs Yas Lions",
-        "body": "Abu Dhabi T10 League 2026 - 27th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2786",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 27th Match",
-          "team1": "Emirates Eagles",
-          "team2": "Yas Lions",
-          "hot": false,
-          "display": "🏏 Emirates Eagles vs Yas Lions · Abu Dhabi T10 League 2026 - 27th Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-18 11:44 PM",
