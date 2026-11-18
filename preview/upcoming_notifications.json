@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T18:59:23+00:00",
+  "generated_at": "2026-11-18T19:00:42+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "19 Nov 2026, 12:59:14 AM BST",
+    "source_last_updated": "19 Nov 2026, 12:57:19 AM BST",
     "source_events_loaded": 354,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 59,
-    "upcoming_matches": 123,
+    "upcoming_notifications": 60,
+    "upcoming_matches": 125,
     "next_notification_at_local": "2026-11-19 01:29 AM"
   },
   "upcoming_notifications": [
@@ -1950,6 +1950,38 @@
           "team2": "Barracas Central",
           "hot": false,
           "display": "⚽ Defensa Y Justicia vs Barracas Central · Liga Profesional"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-22 12:59 AM",
+      "match_start_local": "2026-11-22 01:00 AM",
+      "send_at_utc": "2026-11-21T18:59:00+00:00",
+      "match_start_utc": "2026-11-21T19:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Tecnico Universitario vs Deportivo Cuenca · Liga Pro\n⚽ Revolution vs Philadelphia Union · MLS"
+      },
+      "matches": [
+        {
+          "id": "2912",
+          "sport": "Football",
+          "league": "Liga Pro",
+          "team1": "Tecnico Universitario",
+          "team2": "Deportivo Cuenca",
+          "hot": false,
+          "display": "⚽ Tecnico Universitario vs Deportivo Cuenca · Liga Pro"
+        },
+        {
+          "id": "2954",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Revolution",
+          "team2": "Philadelphia Union",
+          "hot": false,
+          "display": "⚽ Revolution vs Philadelphia Union · MLS"
         }
       ]
     }
