@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T17:29:17+00:00",
+  "generated_at": "2026-11-18T17:30:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 58,
-    "upcoming_matches": 120,
+    "upcoming_notifications": 59,
+    "upcoming_matches": 124,
     "next_notification_at_local": "2026-11-18 11:44 PM"
   },
   "upcoming_notifications": [
@@ -1909,6 +1909,56 @@
           "team2": "AS Roma",
           "hot": false,
           "display": "⚽ Parma vs AS Roma · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-21 11:29 PM",
+      "match_start_local": "2026-11-21 11:30 PM",
+      "send_at_utc": "2026-11-21T17:29:00+00:00",
+      "match_start_utc": "2026-11-21T17:30:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Schalke 04 vs Stuttgart · Bundesliga\n⚽ Sevilla vs Real Betis · LaLiga\n⚽ Castellon vs CD Eldense · LaLiga 2\n⚽ Newcastle Utd vs Arsenal · Premier League"
+      },
+      "matches": [
+        {
+          "id": "2877",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Schalke 04",
+          "team2": "Stuttgart",
+          "hot": false,
+          "display": "⚽ Schalke 04 vs Stuttgart · Bundesliga"
+        },
+        {
+          "id": "2892",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Sevilla",
+          "team2": "Real Betis",
+          "hot": false,
+          "display": "⚽ Sevilla vs Real Betis · LaLiga"
+        },
+        {
+          "id": "2896",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Castellon",
+          "team2": "CD Eldense",
+          "hot": false,
+          "display": "⚽ Castellon vs CD Eldense · LaLiga 2"
+        },
+        {
+          "id": "2845",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Newcastle Utd",
+          "team2": "Arsenal",
+          "hot": false,
+          "display": "⚽ Newcastle Utd vs Arsenal · Premier League"
         }
       ]
     }
