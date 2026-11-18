@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T05:55:32+00:00",
+  "generated_at": "2026-11-18T06:00:49+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 46,
-    "upcoming_matches": 71,
+    "upcoming_notifications": 47,
+    "upcoming_matches": 72,
     "next_notification_at_local": "2026-11-18 01:59 PM"
   },
   "upcoming_notifications": [
@@ -1300,6 +1300,29 @@
           "team2": "Perth Scorchers Women",
           "hot": false,
           "display": "🏏 Sydney Sixers Women vs Perth Scorchers Women · Womens Big Bash League 2026 - 30th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-21 11:59 AM",
+      "match_start_local": "2026-11-21 12:00 PM",
+      "send_at_utc": "2026-11-21T05:59:00+00:00",
+      "match_start_utc": "2026-11-21T06:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Sri Lanka A vs Hong Kong, China",
+        "body": "ACC Emerging Teams Asia Cup · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3131",
+          "sport": "Cricket",
+          "league": "ACC Emerging Teams Asia Cup",
+          "team1": "Sri Lanka A",
+          "team2": "Hong Kong, China",
+          "hot": false,
+          "display": "🏏 Sri Lanka A vs Hong Kong, China · ACC Emerging Teams Asia Cup"
         }
       ]
     }
