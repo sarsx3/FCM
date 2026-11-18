@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-18T11:46:28+00:00",
+  "generated_at": "2026-11-18T11:48:32+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "18 Nov 2026, 05:46:17 PM BST",
-    "source_events_loaded": 358,
+    "source_last_updated": "18 Nov 2026, 05:45:21 PM BST",
+    "source_events_loaded": 359,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -17,15 +17,15 @@
   "summary": {
     "upcoming_notifications": 49,
     "upcoming_matches": 74,
-    "next_notification_at_local": "2026-11-18 07:44 PM"
+    "next_notification_at_local": "2026-11-18 07:59 PM"
   },
   "upcoming_notifications": [
     {
-      "status": "scheduled",
-      "send_at_local": "2026-11-18 07:44 PM",
-      "match_start_local": "2026-11-18 07:45 PM",
-      "send_at_utc": "2026-11-18T13:44:00+00:00",
-      "match_start_utc": "2026-11-18T13:45:00+00:00",
+      "status": "sent",
+      "send_at_local": "2026-11-18 05:44 PM",
+      "match_start_local": "2026-11-18 05:45 PM",
+      "send_at_utc": "2026-11-18T11:44:00+00:00",
+      "match_start_utc": "2026-11-18T11:45:00+00:00",
       "match_count": 1,
       "notification": {
         "title": "🏏 UAE Bulls vs United Tigers",
