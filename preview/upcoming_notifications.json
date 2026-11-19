@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T11:29:21+00:00",
+  "generated_at": "2026-11-19T11:30:37+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 60,
-    "upcoming_matches": 129,
+    "upcoming_notifications": 61,
+    "upcoming_matches": 130,
     "next_notification_at_local": "2026-11-19 07:44 PM"
   },
   "upcoming_notifications": [
@@ -2018,6 +2018,29 @@
           "team2": "Willem II",
           "hot": false,
           "display": "⚽ Twente vs Willem II · Eredivisie"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-22 05:29 PM",
+      "match_start_local": "2026-11-22 05:30 PM",
+      "send_at_utc": "2026-11-22T11:29:00+00:00",
+      "match_start_utc": "2026-11-22T11:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Juventus vs Venezia",
+        "body": "Serie A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2931",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Juventus",
+          "team2": "Venezia",
+          "hot": false,
+          "display": "⚽ Juventus vs Venezia · Serie A"
         }
       ]
     }
