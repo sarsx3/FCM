@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T08:09:21+00:00",
+  "generated_at": "2026-11-19T08:10:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "19 Nov 2026, 02:05:17 PM BST",
+    "source_last_updated": "19 Nov 2026, 02:09:15 PM BST",
     "source_events_loaded": 336,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 59,
-    "upcoming_matches": 128,
+    "upcoming_notifications": 60,
+    "upcoming_matches": 129,
     "next_notification_at_local": "2026-11-19 03:29 PM"
   },
   "upcoming_notifications": [
@@ -1995,6 +1995,29 @@
           "team2": "Nepal",
           "hot": false,
           "display": "🏏 United Arab Emirates vs Nepal · ACC Emerging Teams Asia Cup"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-22 02:09 PM",
+      "match_start_local": "2026-11-22 02:10 PM",
+      "send_at_utc": "2026-11-22T08:09:00+00:00",
+      "match_start_utc": "2026-11-22T08:10:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Melbourne Stars Women vs Melbourne Renegades Women",
+        "body": "Womens Big Bash League 2026 - 32nd Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2959",
+          "sport": "Cricket",
+          "league": "Womens Big Bash League 2026 - 32nd Match",
+          "team1": "Melbourne Stars Women",
+          "team2": "Melbourne Renegades Women",
+          "hot": false,
+          "display": "🏏 Melbourne Stars Women vs Melbourne Renegades Women · Womens Big Bash League 2026 - 32nd Match"
         }
       ]
     }
