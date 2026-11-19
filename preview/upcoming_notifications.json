@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T11:14:23+00:00",
+  "generated_at": "2026-11-19T11:15:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 60,
-    "upcoming_matches": 129,
+    "upcoming_notifications": 61,
+    "upcoming_matches": 130,
     "next_notification_at_local": "2026-11-19 05:29 PM"
   },
   "upcoming_notifications": [
@@ -2018,6 +2018,29 @@
           "team2": "Goztepe",
           "hot": false,
           "display": "⚽ Erzurumspor FK vs Goztepe · Super Lig"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-22 05:14 PM",
+      "match_start_local": "2026-11-22 05:15 PM",
+      "send_at_utc": "2026-11-22T11:14:00+00:00",
+      "match_start_utc": "2026-11-22T11:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Twente vs Willem II",
+        "body": "Eredivisie · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2937",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Twente",
+          "team2": "Willem II",
+          "hot": false,
+          "display": "⚽ Twente vs Willem II · Eredivisie"
         }
       ]
     }
