@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T09:04:21+00:00",
+  "generated_at": "2026-11-19T09:05:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "19 Nov 2026, 03:02:17 PM BST",
+    "source_last_updated": "19 Nov 2026, 03:05:20 PM BST",
     "source_events_loaded": 336,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -17,32 +17,9 @@
   "summary": {
     "upcoming_notifications": 60,
     "upcoming_matches": 129,
-    "next_notification_at_local": "2026-11-19 03:29 PM"
+    "next_notification_at_local": "2026-11-19 03:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-19 03:29 PM",
-      "match_start_local": "2026-11-19 03:30 PM",
-      "send_at_utc": "2026-11-19T09:29:00+00:00",
-      "match_start_utc": "2026-11-19T09:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 UAE Bulls vs Arabian Aces",
-        "body": "Abu Dhabi T10 League 2026 - 28th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2809",
-          "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 28th Match",
-          "team1": "UAE Bulls",
-          "team2": "Arabian Aces",
-          "hot": false,
-          "display": "🏏 UAE Bulls vs Arabian Aces · Abu Dhabi T10 League 2026 - 28th Match"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-19 03:59 PM",
@@ -91,24 +68,24 @@
     },
     {
       "status": "scheduled",
-      "send_at_local": "2026-11-19 05:44 PM",
-      "match_start_local": "2026-11-19 05:45 PM",
-      "send_at_utc": "2026-11-19T11:44:00+00:00",
-      "match_start_utc": "2026-11-19T11:45:00+00:00",
+      "send_at_local": "2026-11-19 05:29 PM",
+      "match_start_local": "2026-11-19 05:30 PM",
+      "send_at_utc": "2026-11-19T11:29:00+00:00",
+      "match_start_utc": "2026-11-19T11:30:00+00:00",
       "match_count": 1,
       "notification": {
-        "title": "🏏 Yas Lions vs Royal Desert Champions",
-        "body": "Abu Dhabi T10 League 2026 - 29th Match · Starting soon"
+        "title": "🏏 UAE Bulls vs Arabian Aces",
+        "body": "Abu Dhabi T10 League 2026 - 28th Match · Starting soon"
       },
       "matches": [
         {
-          "id": "2810",
+          "id": "2809",
           "sport": "Cricket",
-          "league": "Abu Dhabi T10 League 2026 - 29th Match",
-          "team1": "Yas Lions",
-          "team2": "Royal Desert Champions",
+          "league": "Abu Dhabi T10 League 2026 - 28th Match",
+          "team1": "UAE Bulls",
+          "team2": "Arabian Aces",
           "hot": false,
-          "display": "🏏 Yas Lions vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 29th Match"
+          "display": "🏏 UAE Bulls vs Arabian Aces · Abu Dhabi T10 League 2026 - 28th Match"
         }
       ]
     },
@@ -137,10 +114,33 @@
     },
     {
       "status": "scheduled",
-      "send_at_local": "2026-11-19 07:59 PM",
-      "match_start_local": "2026-11-19 08:00 PM",
-      "send_at_utc": "2026-11-19T13:59:00+00:00",
-      "match_start_utc": "2026-11-19T14:00:00+00:00",
+      "send_at_local": "2026-11-19 07:44 PM",
+      "match_start_local": "2026-11-19 07:45 PM",
+      "send_at_utc": "2026-11-19T13:44:00+00:00",
+      "match_start_utc": "2026-11-19T13:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Yas Lions vs Royal Desert Champions",
+        "body": "Abu Dhabi T10 League 2026 - 29th Match · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2810",
+          "sport": "Cricket",
+          "league": "Abu Dhabi T10 League 2026 - 29th Match",
+          "team1": "Yas Lions",
+          "team2": "Royal Desert Champions",
+          "hot": false,
+          "display": "🏏 Yas Lions vs Royal Desert Champions · Abu Dhabi T10 League 2026 - 29th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-19 09:59 PM",
+      "match_start_local": "2026-11-19 10:00 PM",
+      "send_at_utc": "2026-11-19T15:59:00+00:00",
+      "match_start_utc": "2026-11-19T16:00:00+00:00",
       "match_count": 1,
       "notification": {
         "title": "🏏 Emirates Eagles vs United Tigers",
