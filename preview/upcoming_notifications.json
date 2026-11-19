@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:58:21+00:00",
+  "generated_at": "2026-11-19T19:00:41+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 70,
-    "upcoming_matches": 152,
+    "upcoming_notifications": 71,
+    "upcoming_matches": 155,
     "next_notification_at_local": "2026-11-20 01:59 AM"
   },
   "upcoming_notifications": [
@@ -2365,6 +2365,47 @@
           "team2": "Eibar",
           "hot": false,
           "display": "⚽ Girona vs Eibar · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-23 12:59 AM",
+      "match_start_local": "2026-11-23 01:00 AM",
+      "send_at_utc": "2026-11-22T18:59:00+00:00",
+      "match_start_utc": "2026-11-22T19:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Athletico-PR vs Remo · Brasileirão Série A\n⚽ Orense vs Mushuc Runa · Liga Pro\n⚽ Rosario Central vs Gimnasia Mendoza · Liga Profesional"
+      },
+      "matches": [
+        {
+          "id": "2967",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Athletico-PR",
+          "team2": "Remo",
+          "hot": false,
+          "display": "⚽ Athletico-PR vs Remo · Brasileirão Série A"
+        },
+        {
+          "id": "2970",
+          "sport": "Football",
+          "league": "Liga Pro",
+          "team1": "Orense",
+          "team2": "Mushuc Runa",
+          "hot": false,
+          "display": "⚽ Orense vs Mushuc Runa · Liga Pro"
+        },
+        {
+          "id": "2960",
+          "sport": "Football",
+          "league": "Liga Profesional",
+          "team1": "Rosario Central",
+          "team2": "Gimnasia Mendoza",
+          "hot": false,
+          "display": "⚽ Rosario Central vs Gimnasia Mendoza · Liga Profesional"
         }
       ]
     }
