@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T05:59:18+00:00",
+  "generated_at": "2026-11-19T06:00:41+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 130,
+    "upcoming_notifications": 62,
+    "upcoming_matches": 131,
     "next_notification_at_local": "2026-11-19 01:59 PM"
   },
   "upcoming_notifications": [
@@ -2041,6 +2041,29 @@
           "team2": "Adelaide Strikers Women",
           "hot": false,
           "display": "🏏 Brisbane Heat Women vs Adelaide Strikers Women · Womens Big Bash League 2026 - 31st Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-22 11:59 AM",
+      "match_start_local": "2026-11-22 12:00 PM",
+      "send_at_utc": "2026-11-22T05:59:00+00:00",
+      "match_start_utc": "2026-11-22T06:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 United Arab Emirates vs Nepal",
+        "body": "ACC Emerging Teams Asia Cup · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3133",
+          "sport": "Cricket",
+          "league": "ACC Emerging Teams Asia Cup",
+          "team1": "United Arab Emirates",
+          "team2": "Nepal",
+          "hot": false,
+          "display": "🏏 United Arab Emirates vs Nepal · ACC Emerging Teams Asia Cup"
         }
       ]
     }
