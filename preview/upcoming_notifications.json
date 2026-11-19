@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T20:02:28+00:00",
+  "generated_at": "2026-11-19T20:05:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "20 Nov 2026, 02:00:35 AM BST",
+    "source_last_updated": "20 Nov 2026, 02:05:21 AM BST",
     "source_events_loaded": 326,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 73,
-    "upcoming_matches": 159,
+    "upcoming_notifications": 72,
+    "upcoming_matches": 156,
     "next_notification_at_local": "2026-11-20 03:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-20 01:59 AM",
-      "match_start_local": "2026-11-20 02:00 AM",
-      "send_at_utc": "2026-11-19T19:59:00+00:00",
-      "match_start_utc": "2026-11-19T20:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Arsenal (W) vs Olympique Lyonnais (W) · UEFA Women's Champions League\n⚽ Barcelona (W) vs Servette (W) · UEFA Women's Champions League\n⚽ Benfica (W) vs Roma (W) · UEFA Women's Champions League"
-      },
-      "matches": [
-        {
-          "id": "2817",
-          "sport": "Football",
-          "league": "UEFA Women's Champions League",
-          "team1": "Arsenal (W)",
-          "team2": "Olympique Lyonnais (W)",
-          "hot": false,
-          "display": "⚽ Arsenal (W) vs Olympique Lyonnais (W) · UEFA Women's Champions League"
-        },
-        {
-          "id": "2816",
-          "sport": "Football",
-          "league": "UEFA Women's Champions League",
-          "team1": "Barcelona (W)",
-          "team2": "Servette (W)",
-          "hot": false,
-          "display": "⚽ Barcelona (W) vs Servette (W) · UEFA Women's Champions League"
-        },
-        {
-          "id": "2815",
-          "sport": "Football",
-          "league": "UEFA Women's Champions League",
-          "team1": "Benfica (W)",
-          "team2": "Roma (W)",
-          "hot": false,
-          "display": "⚽ Benfica (W) vs Roma (W) · UEFA Women's Champions League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-20 03:59 AM",
