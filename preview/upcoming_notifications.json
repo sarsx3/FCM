@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T13:59:22+00:00",
+  "generated_at": "2026-11-19T14:00:43+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "19 Nov 2026, 07:59:16 PM BST",
+    "source_last_updated": "19 Nov 2026, 07:56:19 PM BST",
     "source_events_loaded": 330,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 63,
-    "upcoming_matches": 138,
+    "upcoming_notifications": 64,
+    "upcoming_matches": 142,
     "next_notification_at_local": "2026-11-19 09:59 PM"
   },
   "upcoming_notifications": [
@@ -2141,6 +2141,56 @@
           "team2": "AZ Alkmaar",
           "hot": false,
           "display": "⚽ Sparta Rotterdam vs AZ Alkmaar · Eredivisie"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-22 07:59 PM",
+      "match_start_local": "2026-11-22 08:00 PM",
+      "send_at_utc": "2026-11-22T13:59:00+00:00",
+      "match_start_utc": "2026-11-22T14:00:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Paris FC vs Angers · Ligue 1\n⚽ Hull City vs Brighton · Premier League\n⚽ Bologna vs Udinese · Serie A\n⚽ Sassuolo vs Genoa · Serie A"
+      },
+      "matches": [
+        {
+          "id": "2922",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Paris FC",
+          "team2": "Angers",
+          "hot": false,
+          "display": "⚽ Paris FC vs Angers · Ligue 1"
+        },
+        {
+          "id": "2915",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Hull City",
+          "team2": "Brighton",
+          "hot": false,
+          "display": "⚽ Hull City vs Brighton · Premier League"
+        },
+        {
+          "id": "2933",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Bologna",
+          "team2": "Udinese",
+          "hot": false,
+          "display": "⚽ Bologna vs Udinese · Serie A"
+        },
+        {
+          "id": "2932",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Sassuolo",
+          "team2": "Genoa",
+          "hot": false,
+          "display": "⚽ Sassuolo vs Genoa · Serie A"
         }
       ]
     }
