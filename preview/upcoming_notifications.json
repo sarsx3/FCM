@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T23:28:22+00:00",
+  "generated_at": "2026-11-19T23:30:49+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "20 Nov 2026, 05:24:16 AM BST",
+    "source_last_updated": "20 Nov 2026, 05:27:13 AM BST",
     "source_events_loaded": 321,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 74,
-    "upcoming_matches": 160,
+    "upcoming_notifications": 75,
+    "upcoming_matches": 161,
     "next_notification_at_local": "2026-11-20 06:29 AM"
   },
   "upcoming_notifications": [
@@ -2493,6 +2493,29 @@
           "team2": "Vasco da Gama",
           "hot": false,
           "display": "⚽ Bragantino vs Vasco da Gama · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-23 05:29 AM",
+      "match_start_local": "2026-11-23 05:30 AM",
+      "send_at_utc": "2026-11-22T23:29:00+00:00",
+      "match_start_utc": "2026-11-22T23:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Chicago Fire vs Charlotte FC",
+        "body": "MLS · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2979",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Chicago Fire",
+          "team2": "Charlotte FC",
+          "hot": false,
+          "display": "⚽ Chicago Fire vs Charlotte FC · MLS"
         }
       ]
     }
