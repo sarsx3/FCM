@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T21:27:19+00:00",
+  "generated_at": "2026-11-19T21:30:44+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "20 Nov 2026, 03:27:14 AM BST",
+    "source_last_updated": "20 Nov 2026, 03:30:27 AM BST",
     "source_events_loaded": 326,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 73,
-    "upcoming_matches": 158,
+    "upcoming_notifications": 74,
+    "upcoming_matches": 160,
     "next_notification_at_local": "2026-11-20 03:59 AM"
   },
   "upcoming_notifications": [
@@ -2461,6 +2461,38 @@
           "team2": "Libertad PY",
           "hot": false,
           "display": "⚽ Rubio Ñu vs Libertad PY · Copa de Primera"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-23 03:29 AM",
+      "match_start_local": "2026-11-23 03:30 AM",
+      "send_at_utc": "2026-11-22T21:29:00+00:00",
+      "match_start_utc": "2026-11-22T21:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Fluminense vs Mirassol Futebol Clube · Brasileirão Série A\n⚽ LDU vs SD Aucas · Liga Pro"
+      },
+      "matches": [
+        {
+          "id": "2968",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Fluminense",
+          "team2": "Mirassol Futebol Clube",
+          "hot": false,
+          "display": "⚽ Fluminense vs Mirassol Futebol Clube · Brasileirão Série A"
+        },
+        {
+          "id": "2971",
+          "sport": "Football",
+          "league": "Liga Pro",
+          "team1": "LDU",
+          "team2": "SD Aucas",
+          "hot": false,
+          "display": "⚽ LDU vs SD Aucas · Liga Pro"
         }
       ]
     }
