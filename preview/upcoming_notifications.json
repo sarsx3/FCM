@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-19T09:11:26+00:00",
+  "generated_at": "2026-11-19T09:12:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "19 Nov 2026, 03:09:14 PM BST",
-    "source_events_loaded": 336,
+    "source_last_updated": "19 Nov 2026, 03:11:14 PM BST",
+    "source_events_loaded": 335,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 60,
-    "upcoming_matches": 129,
+    "upcoming_notifications": 59,
+    "upcoming_matches": 128,
     "next_notification_at_local": "2026-11-19 03:59 PM"
   },
   "upcoming_notifications": [
@@ -86,29 +86,6 @@
           "team2": "Arabian Aces",
           "hot": false,
           "display": "🏏 UAE Bulls vs Arabian Aces · Abu Dhabi T10 League 2026 - 28th Match"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-19 06:09 PM",
-      "match_start_local": "2026-11-19 06:10 PM",
-      "send_at_utc": "2026-11-19T12:09:00+00:00",
-      "match_start_utc": "2026-11-19T12:10:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Brisbane Heat Women vs Sydney Thunder Women",
-        "body": "Womens Big Bash League 2026 - 27th Match · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2806",
-          "sport": "Cricket",
-          "league": "Womens Big Bash League 2026 - 27th Match",
-          "team1": "Brisbane Heat Women",
-          "team2": "Sydney Thunder Women",
-          "hot": false,
-          "display": "🏏 Brisbane Heat Women vs Sydney Thunder Women · Womens Big Bash League 2026 - 27th Match"
         }
       ]
     },
