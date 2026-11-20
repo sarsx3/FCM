@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:04:19+00:00",
+  "generated_at": "2026-11-20T20:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 83,
-    "upcoming_matches": 182,
+    "upcoming_notifications": 82,
+    "upcoming_matches": 180,
     "next_notification_at_local": "2026-11-21 02:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-21 01:59 AM",
-      "match_start_local": "2026-11-21 02:00 AM",
-      "send_at_utc": "2026-11-20T19:59:00+00:00",
-      "match_start_utc": "2026-11-20T20:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Ath. Bilbao vs Espanyol · LaLiga\n⚽ Barnsley vs Sheffield Wed · League One"
-      },
-      "matches": [
-        {
-          "id": "2889",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Ath. Bilbao",
-          "team2": "Espanyol",
-          "hot": false,
-          "display": "⚽ Ath. Bilbao vs Espanyol · LaLiga"
-        },
-        {
-          "id": "2857",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Barnsley",
-          "team2": "Sheffield Wed",
-          "hot": false,
-          "display": "⚽ Barnsley vs Sheffield Wed · League One"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-21 02:29 AM",
