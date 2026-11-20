@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-20T17:01:19+00:00",
+  "generated_at": "2026-11-20T17:02:20+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "20 Nov 2026, 10:57:14 PM BST",
-    "source_events_loaded": 363,
+    "source_last_updated": "20 Nov 2026, 11:02:15 PM BST",
+    "source_events_loaded": 362,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -28,7 +28,7 @@
       "match_start_utc": "2026-11-20T17:00:00+00:00",
       "match_count": 1,
       "notification": {
-        "title": "⚽ Al-Nassr vs Al Qadsiah",
+        "title": "⚽ Al-Nassr vs Al-Ahli",
         "body": "Saudi League · Starting soon"
       },
       "matches": [
@@ -37,9 +37,9 @@
           "sport": "Football",
           "league": "Saudi League",
           "team1": "Al-Nassr",
-          "team2": "Al Qadsiah",
+          "team2": "Al-Ahli",
           "hot": false,
-          "display": "⚽ Al-Nassr vs Al Qadsiah · Saudi League"
+          "display": "⚽ Al-Nassr vs Al-Ahli · Saudi League"
         }
       ]
     },
