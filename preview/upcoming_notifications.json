@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T20:34:25+00:00",
+  "generated_at": "2026-11-20T20:35:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Nov 2026, 02:34:18 AM BST",
+    "source_last_updated": "21 Nov 2026, 02:33:13 AM BST",
     "source_events_loaded": 354,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 82,
-    "upcoming_matches": 180,
+    "upcoming_notifications": 81,
+    "upcoming_matches": 179,
     "next_notification_at_local": "2026-11-21 03:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-21 02:29 AM",
-      "match_start_local": "2026-11-21 02:30 AM",
-      "send_at_utc": "2026-11-20T20:29:00+00:00",
-      "match_start_utc": "2026-11-20T20:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Sportivo Ameliano vs Sportivo Luqueño",
-        "body": "Copa de Primera · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2887",
-          "sport": "Football",
-          "league": "Copa de Primera",
-          "team1": "Sportivo Ameliano",
-          "team2": "Sportivo Luqueño",
-          "hot": false,
-          "display": "⚽ Sportivo Ameliano vs Sportivo Luqueño · Copa de Primera"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-21 03:59 AM",
