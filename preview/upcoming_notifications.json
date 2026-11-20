@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-20T11:38:22+00:00",
+  "generated_at": "2026-11-20T11:39:19+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "20 Nov 2026, 05:33:12 PM BST",
-    "source_events_loaded": 369,
+    "source_last_updated": "20 Nov 2026, 05:38:16 PM BST",
+    "source_events_loaded": 368,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -344,17 +344,17 @@
       "match_count": 1,
       "notification": {
         "title": "🏏 Hobart Hurricanes Women vs Sydney Thunder Women",
-        "body": "Womens Big Bash League 2026 - 29th Match · Starting soon"
+        "body": "Womens Big Bash League · Starting soon"
       },
       "matches": [
         {
           "id": "2902",
           "sport": "Cricket",
-          "league": "Womens Big Bash League 2026 - 29th Match",
+          "league": "Womens Big Bash League",
           "team1": "Hobart Hurricanes Women",
           "team2": "Sydney Thunder Women",
           "hot": false,
-          "display": "🏏 Hobart Hurricanes Women vs Sydney Thunder Women · Womens Big Bash League 2026 - 29th Match"
+          "display": "🏏 Hobart Hurricanes Women vs Sydney Thunder Women · Womens Big Bash League"
         }
       ]
     },
@@ -367,7 +367,7 @@
       "match_count": 2,
       "notification": {
         "title": "⏰ 2 matches starting soon",
-        "body": "🏏 Pakistan vs Sri Lanka · SL vs PAK, 2026 - 2nd Test, Day 5\n🏏 Sydney Sixers Women vs Perth Scorchers Women · Womens Big Bash League 2026 - 30th Match"
+        "body": "🏏 Pakistan vs Sri Lanka · SL vs PAK, 2026 - 2nd Test, Day 5\n🏏 Sydney Sixers Women vs Perth Scorchers Women · Womens Big Bash League"
       },
       "matches": [
         {
@@ -382,11 +382,11 @@
         {
           "id": "2903",
           "sport": "Cricket",
-          "league": "Womens Big Bash League 2026 - 30th Match",
+          "league": "Womens Big Bash League",
           "team1": "Sydney Sixers Women",
           "team2": "Perth Scorchers Women",
           "hot": false,
-          "display": "🏏 Sydney Sixers Women vs Perth Scorchers Women · Womens Big Bash League 2026 - 30th Match"
+          "display": "🏏 Sydney Sixers Women vs Perth Scorchers Women · Womens Big Bash League"
         }
       ]
     },
@@ -1525,17 +1525,17 @@
       "match_count": 1,
       "notification": {
         "title": "🏏 Brisbane Heat Women vs Adelaide Strikers Women",
-        "body": "Womens Big Bash League 2026 - 31st Match · Starting soon"
+        "body": "Womens Big Bash League · Starting soon"
       },
       "matches": [
         {
           "id": "2958",
           "sport": "Cricket",
-          "league": "Womens Big Bash League 2026 - 31st Match",
+          "league": "Womens Big Bash League",
           "team1": "Brisbane Heat Women",
           "team2": "Adelaide Strikers Women",
           "hot": false,
-          "display": "🏏 Brisbane Heat Women vs Adelaide Strikers Women · Womens Big Bash League 2026 - 31st Match"
+          "display": "🏏 Brisbane Heat Women vs Adelaide Strikers Women · Womens Big Bash League"
         }
       ]
     },
@@ -1571,17 +1571,17 @@
       "match_count": 1,
       "notification": {
         "title": "🏏 Melbourne Stars Women vs Melbourne Renegades Women",
-        "body": "Womens Big Bash League 2026 - 32nd Match · Starting soon"
+        "body": "Womens Big Bash League · Starting soon"
       },
       "matches": [
         {
           "id": "2959",
           "sport": "Cricket",
-          "league": "Womens Big Bash League 2026 - 32nd Match",
+          "league": "Womens Big Bash League",
           "team1": "Melbourne Stars Women",
           "team2": "Melbourne Renegades Women",
           "hot": false,
-          "display": "🏏 Melbourne Stars Women vs Melbourne Renegades Women · Womens Big Bash League 2026 - 32nd Match"
+          "display": "🏏 Melbourne Stars Women vs Melbourne Renegades Women · Womens Big Bash League"
         }
       ]
     },
