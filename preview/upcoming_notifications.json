@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-20T11:27:20+00:00",
+  "generated_at": "2026-11-20T11:29:19+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "20 Nov 2026, 05:24:14 PM BST",
-    "source_events_loaded": 313,
+    "source_last_updated": "20 Nov 2026, 05:28:15 PM BST",
+    "source_events_loaded": 369,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -490,18 +490,18 @@
       "match_start_utc": "2026-11-21T11:15:00+00:00",
       "match_count": 1,
       "notification": {
-        "title": "🏏 Nepal Premier League 2026 - Final",
-        "body": "Starting soon"
+        "title": "🏏 Lumbini Lions vs Sudurpaschim Royals",
+        "body": "Nepal Premier League  - Final · Starting soon"
       },
       "matches": [
         {
           "id": "2906",
           "sport": "Cricket",
-          "league": "Nepal Premier League 2026 - Final",
-          "team1": null,
-          "team2": null,
+          "league": "Nepal Premier League  - Final",
+          "team1": "Lumbini Lions",
+          "team2": "Sudurpaschim Royals",
           "hot": false,
-          "display": "🏏 Nepal Premier League 2026 - Final"
+          "display": "🏏 Lumbini Lions vs Sudurpaschim Royals · Nepal Premier League  - Final"
         }
       ]
     },
