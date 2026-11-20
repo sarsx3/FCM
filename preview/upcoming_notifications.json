@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T15:59:00+00:00",
+  "generated_at": "2026-11-20T16:00:42+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "20 Nov 2026, 09:54:14 PM BST",
+    "source_last_updated": "20 Nov 2026, 10:00:34 PM BST",
     "source_events_loaded": 372,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 82,
-    "upcoming_matches": 183,
+    "upcoming_notifications": 83,
+    "upcoming_matches": 190,
     "next_notification_at_local": "2026-11-20 10:59 PM"
   },
   "upcoming_notifications": [
@@ -761,10 +761,10 @@
       "match_start_local": "2026-11-21 08:30 PM",
       "send_at_utc": "2026-11-21T14:29:00+00:00",
       "match_start_utc": "2026-11-21T14:30:00+00:00",
-      "match_count": 6,
+      "match_count": 7,
       "notification": {
-        "title": "⏰ 6 matches starting soon",
-        "body": "⚽ Eintracht vs Hoffenheim · Bundesliga\n⚽ Elversberg vs Freiburg · Bundesliga\n⚽ Gladbach vs Dortmund · Bundesliga\n⚽ Leverkusen vs SC Paderborn · Bundesliga\n⚽ Union Berlin vs RB Leipzig · Bundesliga\n⚽ Dom Rep U20 vs Montenegro U17 · U17 World Championship"
+        "title": "⏰ 7 matches starting soon",
+        "body": "⚽ Eintracht vs Hoffenheim · Bundesliga\n⚽ Elversberg vs Freiburg · Bundesliga\n⚽ Gladbach vs Dortmund · Bundesliga\n⚽ Leverkusen vs SC Paderborn · Bundesliga\n⚽ Union Berlin vs RB Leipzig · Bundesliga\n🏏 Desert Vipers vs MI Emirates · ILT20 2026\n+ 1 more match in the app"
       },
       "matches": [
         {
@@ -811,6 +811,15 @@
           "team2": "RB Leipzig",
           "hot": false,
           "display": "⚽ Union Berlin vs RB Leipzig · Bundesliga"
+        },
+        {
+          "id": "3198",
+          "sport": "Cricket",
+          "league": "ILT20 2026",
+          "team1": "Desert Vipers",
+          "team2": "MI Emirates",
+          "hot": false,
+          "display": "🏏 Desert Vipers vs MI Emirates · ILT20 2026"
         },
         {
           "id": "3154",
@@ -1686,10 +1695,10 @@
       "match_start_local": "2026-11-22 04:00 PM",
       "send_at_utc": "2026-11-22T09:59:00+00:00",
       "match_start_utc": "2026-11-22T10:00:00+00:00",
-      "match_count": 1,
+      "match_count": 2,
       "notification": {
-        "title": "🏏 India A vs Pakistan A",
-        "body": "ACC Emerging Teams Asia Cup · Starting soon"
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 India A vs Pakistan A · ACC Emerging Teams Asia Cup\n🏏 Sharjah Warriorz vs Gulf Giants · ILT20 2026"
       },
       "matches": [
         {
@@ -1700,6 +1709,15 @@
           "team2": "Pakistan A",
           "hot": false,
           "display": "🏏 India A vs Pakistan A · ACC Emerging Teams Asia Cup"
+        },
+        {
+          "id": "3199",
+          "sport": "Cricket",
+          "league": "ILT20 2026",
+          "team1": "Sharjah Warriorz",
+          "team2": "Gulf Giants",
+          "hot": false,
+          "display": "🏏 Sharjah Warriorz vs Gulf Giants · ILT20 2026"
         }
       ]
     },
@@ -2001,10 +2019,10 @@
       "match_start_local": "2026-11-22 08:30 PM",
       "send_at_utc": "2026-11-22T14:29:00+00:00",
       "match_start_utc": "2026-11-22T14:30:00+00:00",
-      "match_count": 2,
+      "match_count": 3,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Augsburg vs Mainz · Bundesliga\n⚽ South Korea U17 vs New Caledonia U17 · U17 World Championship"
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Augsburg vs Mainz · Bundesliga\n🏏 Dubai Capitals vs Abu Dhabi Knight Riders · ILT20 2026\n⚽ South Korea U17 vs New Caledonia U17 · U17 World Championship"
       },
       "matches": [
         {
@@ -2015,6 +2033,15 @@
           "team2": "Mainz",
           "hot": false,
           "display": "⚽ Augsburg vs Mainz · Bundesliga"
+        },
+        {
+          "id": "3200",
+          "sport": "Cricket",
+          "league": "ILT20 2026",
+          "team1": "Dubai Capitals",
+          "team2": "Abu Dhabi Knight Riders",
+          "hot": false,
+          "display": "🏏 Dubai Capitals vs Abu Dhabi Knight Riders · ILT20 2026"
         },
         {
           "id": "3161",
@@ -2743,12 +2770,21 @@
       "match_start_local": "2026-11-23 08:30 PM",
       "send_at_utc": "2026-11-23T14:29:00+00:00",
       "match_start_utc": "2026-11-23T14:30:00+00:00",
-      "match_count": 1,
+      "match_count": 2,
       "notification": {
-        "title": "⚽ Italy U17 vs Ivory Coast U17",
-        "body": "U17 World Championship · Starting soon"
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 Sharjah Warriorz vs Desert Vipers · ILT20 2026\n⚽ Italy U17 vs Ivory Coast U17 · U17 World Championship"
       },
       "matches": [
+        {
+          "id": "3201",
+          "sport": "Cricket",
+          "league": "ILT20 2026",
+          "team1": "Sharjah Warriorz",
+          "team2": "Desert Vipers",
+          "hot": false,
+          "display": "🏏 Sharjah Warriorz vs Desert Vipers · ILT20 2026"
+        },
         {
           "id": "3170",
           "sport": "Football",
@@ -2812,6 +2848,47 @@
           "team2": "New Zealand U17",
           "hot": false,
           "display": "⚽ Vietnam U17 vs New Zealand U17 · U17 World Championship"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-23 09:59 PM",
+      "match_start_local": "2026-11-23 10:00 PM",
+      "send_at_utc": "2026-11-23T15:59:00+00:00",
+      "match_start_utc": "2026-11-23T16:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Al Ain vs Esteghlal FC Tehran · AFC Champions League Elite\n⚽ Al Shamal vs Al Ahli Jeddah · AFC Champions League Elite\n⚽ Tractor FC vs Al Wasl · AFC Champions League Elite"
+      },
+      "matches": [
+        {
+          "id": "2964",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Al Ain",
+          "team2": "Esteghlal FC Tehran",
+          "hot": false,
+          "display": "⚽ Al Ain vs Esteghlal FC Tehran · AFC Champions League Elite"
+        },
+        {
+          "id": "2966",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Al Shamal",
+          "team2": "Al Ahli Jeddah",
+          "hot": false,
+          "display": "⚽ Al Shamal vs Al Ahli Jeddah · AFC Champions League Elite"
+        },
+        {
+          "id": "2965",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Tractor FC",
+          "team2": "Al Wasl",
+          "hot": false,
+          "display": "⚽ Tractor FC vs Al Wasl · AFC Champions League Elite"
         }
       ]
     }
