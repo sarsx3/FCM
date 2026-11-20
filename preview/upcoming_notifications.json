@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T06:05:26+00:00",
+  "generated_at": "2026-11-20T06:08:21+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "20 Nov 2026, 12:05:17 PM BST",
+    "source_last_updated": "20 Nov 2026, 12:08:14 PM BST",
     "source_events_loaded": 315,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 72,
-    "upcoming_matches": 157,
+    "upcoming_notifications": 73,
+    "upcoming_matches": 158,
     "next_notification_at_local": "2026-11-20 03:59 PM"
   },
   "upcoming_notifications": [
@@ -346,6 +346,29 @@
           "team2": "Sportivo Luqueño",
           "hot": false,
           "display": "⚽ Sportivo Ameliano vs Sportivo Luqueño · Copa de Primera"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-21 03:59 AM",
+      "match_start_local": "2026-11-21 04:00 AM",
+      "send_at_utc": "2026-11-20T21:59:00+00:00",
+      "match_start_utc": "2026-11-20T22:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 New Zealand vs India",
+        "body": "IND vs NZ, 2026 - 1st Test, Day 3 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2803",
+          "sport": "Cricket",
+          "league": "IND vs NZ, 2026 - 1st Test, Day 3",
+          "team1": "New Zealand",
+          "team2": "India",
+          "hot": false,
+          "display": "🏏 New Zealand vs India · IND vs NZ, 2026 - 1st Test, Day 3"
         }
       ]
     },
