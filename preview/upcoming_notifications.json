@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T17:02:20+00:00",
+  "generated_at": "2026-11-20T17:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "20 Nov 2026, 11:02:15 PM BST",
+    "source_last_updated": "20 Nov 2026, 11:05:19 PM BST",
     "source_events_loaded": 362,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,44 +15,21 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 74,
-    "upcoming_matches": 153,
+    "upcoming_notifications": 82,
+    "upcoming_matches": 181,
     "next_notification_at_local": "2026-11-20 11:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-20 10:59 PM",
-      "match_start_local": "2026-11-20 11:00 PM",
-      "send_at_utc": "2026-11-20T16:59:00+00:00",
-      "match_start_utc": "2026-11-20T17:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Al-Nassr vs Al-Ahli",
-        "body": "Saudi League · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2824",
-          "sport": "Football",
-          "league": "Saudi League",
-          "team1": "Al-Nassr",
-          "team2": "Al-Ahli",
-          "hot": false,
-          "display": "⚽ Al-Nassr vs Al-Ahli · Saudi League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-20 11:29 PM",
       "match_start_local": "2026-11-20 11:30 PM",
       "send_at_utc": "2026-11-20T17:29:00+00:00",
       "match_start_utc": "2026-11-20T17:30:00+00:00",
-      "match_count": 2,
+      "match_count": 3,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Arminia vs FC Magdeburg · Bundesliga 2\n⚽ Darmstadt 98 vs 1. FC Heidenheim · Bundesliga 2"
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Arminia vs FC Magdeburg · Bundesliga 2\n⚽ Darmstadt 98 vs 1. FC Heidenheim · Bundesliga 2\n⚽ Al-Nassr vs Al-Ahli · Saudi League"
       },
       "matches": [
         {
@@ -72,6 +49,15 @@
           "team2": "1. FC Heidenheim",
           "hot": false,
           "display": "⚽ Darmstadt 98 vs 1. FC Heidenheim · Bundesliga 2"
+        },
+        {
+          "id": "2824",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al-Nassr",
+          "team2": "Al-Ahli",
+          "hot": false,
+          "display": "⚽ Al-Nassr vs Al-Ahli · Saudi League"
         }
       ]
     },
@@ -457,10 +443,10 @@
       "match_start_local": "2026-11-21 06:30 PM",
       "send_at_utc": "2026-11-21T12:29:00+00:00",
       "match_start_utc": "2026-11-21T12:30:00+00:00",
-      "match_count": 6,
+      "match_count": 8,
       "notification": {
-        "title": "⏰ 6 matches starting soon",
-        "body": "⚽ Millwall vs QPR · Championship\n⚽ Norwich vs Cardiff · Championship\n⚽ Southampton vs Derby · Championship\n⚽ Blackpool vs Wigan · League One\n⚽ Reading vs Bromley · League One\n⚽ Man City vs Fulham · Premier League"
+        "title": "⏰ 8 matches starting soon",
+        "body": "⚽ Millwall vs QPR · Championship\n⚽ Norwich vs Cardiff · Championship\n⚽ Southampton vs Derby · Championship\n⚽ Blackpool vs Wigan · League One\n⚽ Reading vs Bromley · League One\n⚽ Man City vs Fulham · Premier League\n+ 2 more matches in the app"
       },
       "matches": [
         {
@@ -516,6 +502,24 @@
           "team2": "Fulham",
           "hot": false,
           "display": "⚽ Man City vs Fulham · Premier League"
+        },
+        {
+          "id": "3151",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Japan U17",
+          "team2": "Colombia U17",
+          "hot": false,
+          "display": "⚽ Japan U17 vs Colombia U17 · U17 World Championship"
+        },
+        {
+          "id": "3150",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Serbia U17",
+          "team2": "Honduras U17",
+          "hot": false,
+          "display": "⚽ Serbia U17 vs Honduras U17 · U17 World Championship"
         }
       ]
     },
@@ -525,10 +529,10 @@
       "match_start_local": "2026-11-21 07:00 PM",
       "send_at_utc": "2026-11-21T12:59:00+00:00",
       "match_start_utc": "2026-11-21T13:00:00+00:00",
-      "match_count": 4,
+      "match_count": 5,
       "notification": {
-        "title": "⏰ 4 matches starting soon",
-        "body": "⚽ Alaves vs Deportivo · LaLiga\n⚽ Sabadell vs Granada · LaLiga 2\n⚽ Amed SK vs Caykur Rizespor · Super Lig\n⚽ Galatasaray vs Samsunspor · Super Lig"
+        "title": "⏰ 5 matches starting soon",
+        "body": "⚽ Alaves vs Deportivo · LaLiga\n⚽ Sabadell vs Granada · LaLiga 2\n⚽ Amed SK vs Caykur Rizespor · Super Lig\n⚽ Galatasaray vs Samsunspor · Super Lig\n⚽ Tanzania U17 vs Costa Rica U17 · U17 World Championship"
       },
       "matches": [
         {
@@ -566,6 +570,38 @@
           "team2": "Samsunspor",
           "hot": false,
           "display": "⚽ Galatasaray vs Samsunspor · Super Lig"
+        },
+        {
+          "id": "3152",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Tanzania U17",
+          "team2": "Costa Rica U17",
+          "hot": false,
+          "display": "⚽ Tanzania U17 vs Costa Rica U17 · U17 World Championship"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-21 07:29 PM",
+      "match_start_local": "2026-11-21 07:30 PM",
+      "send_at_utc": "2026-11-21T13:29:00+00:00",
+      "match_start_utc": "2026-11-21T13:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Cameroon U17 vs Venezuela U17",
+        "body": "U17 World Championship · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3153",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Cameroon U17",
+          "team2": "Venezuela U17",
+          "hot": false,
+          "display": "⚽ Cameroon U17 vs Venezuela U17 · U17 World Championship"
         }
       ]
     },
@@ -607,10 +643,10 @@
       "match_start_local": "2026-11-21 08:30 PM",
       "send_at_utc": "2026-11-21T14:29:00+00:00",
       "match_start_utc": "2026-11-21T14:30:00+00:00",
-      "match_count": 5,
+      "match_count": 7,
       "notification": {
-        "title": "⏰ 5 matches starting soon",
-        "body": "⚽ Eintracht vs Hoffenheim · Bundesliga\n⚽ Elversberg vs Freiburg · Bundesliga\n⚽ Gladbach vs Dortmund · Bundesliga\n⚽ Leverkusen vs SC Paderborn · Bundesliga\n⚽ Union Berlin vs RB Leipzig · Bundesliga"
+        "title": "⏰ 7 matches starting soon",
+        "body": "⚽ Eintracht vs Hoffenheim · Bundesliga\n⚽ Elversberg vs Freiburg · Bundesliga\n⚽ Gladbach vs Dortmund · Bundesliga\n⚽ Leverkusen vs SC Paderborn · Bundesliga\n⚽ Union Berlin vs RB Leipzig · Bundesliga\n🏏 Desert Vipers vs MI Emirates · ILT20 2026\n+ 1 more match in the app"
       },
       "matches": [
         {
@@ -657,6 +693,24 @@
           "team2": "RB Leipzig",
           "hot": false,
           "display": "⚽ Union Berlin vs RB Leipzig · Bundesliga"
+        },
+        {
+          "id": "3198",
+          "sport": "Cricket",
+          "league": "ILT20 2026",
+          "team1": "Desert Vipers",
+          "team2": "MI Emirates",
+          "hot": false,
+          "display": "🏏 Desert Vipers vs MI Emirates · ILT20 2026"
+        },
+        {
+          "id": "3154",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Dom Rep U20",
+          "team2": "Montenegro U17",
+          "hot": false,
+          "display": "⚽ Dom Rep U20 vs Montenegro U17 · U17 World Championship"
         }
       ]
     },
@@ -666,10 +720,10 @@
       "match_start_local": "2026-11-21 09:00 PM",
       "send_at_utc": "2026-11-21T14:59:00+00:00",
       "match_start_utc": "2026-11-21T15:00:00+00:00",
-      "match_count": 22,
+      "match_count": 23,
       "notification": {
-        "title": "⏰ 22 matches starting soon",
-        "body": "⚽ Bolton vs Portsmouth · Championship\n⚽ Lincoln vs Wrexham · Championship\n⚽ Middlesbrough vs Bristol City · Championship\n⚽ Sheff Utd vs Watford · Championship\n⚽ Stoke City vs Birmingham · Championship\n⚽ Swansea vs West Brom · Championship\n+ 16 more matches in the app"
+        "title": "⏰ 23 matches starting soon",
+        "body": "⚽ Bolton vs Portsmouth · Championship\n⚽ Lincoln vs Wrexham · Championship\n⚽ Middlesbrough vs Bristol City · Championship\n⚽ Sheff Utd vs Watford · Championship\n⚽ Stoke City vs Birmingham · Championship\n⚽ Swansea vs West Brom · Championship\n+ 17 more matches in the app"
       },
       "matches": [
         {
@@ -869,6 +923,15 @@
           "team2": "Ipswich",
           "hot": false,
           "display": "⚽ Tottenham vs Ipswich · Premier League"
+        },
+        {
+          "id": "3155",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Brazil U17",
+          "team2": "Ireland U17",
+          "hot": false,
+          "display": "⚽ Brazil U17 vs Ireland U17 · U17 World Championship"
         }
       ]
     },
@@ -910,10 +973,10 @@
       "match_start_local": "2026-11-21 09:30 PM",
       "send_at_utc": "2026-11-21T15:29:00+00:00",
       "match_start_utc": "2026-11-21T15:30:00+00:00",
-      "match_count": 1,
+      "match_count": 3,
       "notification": {
-        "title": "⚽ N.E.C. vs PSV",
-        "body": "Eredivisie · Starting soon"
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ N.E.C. vs PSV · Eredivisie\n⚽ Chile U17 vs Algeria U17 · U17 World Championship\n⚽ Mexico U17 vs Romania U17 · U17 World Championship"
       },
       "matches": [
         {
@@ -924,6 +987,24 @@
           "team2": "PSV",
           "hot": false,
           "display": "⚽ N.E.C. vs PSV · Eredivisie"
+        },
+        {
+          "id": "3157",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Chile U17",
+          "team2": "Algeria U17",
+          "hot": false,
+          "display": "⚽ Chile U17 vs Algeria U17 · U17 World Championship"
+        },
+        {
+          "id": "3156",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Mexico U17",
+          "team2": "Romania U17",
+          "hot": false,
+          "display": "⚽ Mexico U17 vs Romania U17 · U17 World Championship"
         }
       ]
     },
@@ -1496,10 +1577,10 @@
       "match_start_local": "2026-11-22 04:00 PM",
       "send_at_utc": "2026-11-22T09:59:00+00:00",
       "match_start_utc": "2026-11-22T10:00:00+00:00",
-      "match_count": 1,
+      "match_count": 2,
       "notification": {
-        "title": "🏏 India A vs Pakistan A",
-        "body": "ACC Emerging Teams Asia Cup · Starting soon"
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 India A vs Pakistan A · ACC Emerging Teams Asia Cup\n🏏 Sharjah Warriorz vs Gulf Giants · ILT20 2026"
       },
       "matches": [
         {
@@ -1510,6 +1591,15 @@
           "team2": "Pakistan A",
           "hot": false,
           "display": "🏏 India A vs Pakistan A · ACC Emerging Teams Asia Cup"
+        },
+        {
+          "id": "3199",
+          "sport": "Cricket",
+          "league": "ILT20 2026",
+          "team1": "Sharjah Warriorz",
+          "team2": "Gulf Giants",
+          "hot": false,
+          "display": "🏏 Sharjah Warriorz vs Gulf Giants · ILT20 2026"
         }
       ]
     },
@@ -1611,10 +1701,10 @@
       "match_start_local": "2026-11-22 06:30 PM",
       "send_at_utc": "2026-11-22T12:29:00+00:00",
       "match_start_utc": "2026-11-22T12:30:00+00:00",
-      "match_count": 3,
+      "match_count": 5,
       "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Energie Cottbus vs Hertha BSC · Bundesliga 2\n⚽ FC Kaiserslautern vs Dynamo Dresden · Bundesliga 2\n⚽ Karlsruher vs Osnabrück · Bundesliga 2"
+        "title": "⏰ 5 matches starting soon",
+        "body": "⚽ Energie Cottbus vs Hertha BSC · Bundesliga 2\n⚽ FC Kaiserslautern vs Dynamo Dresden · Bundesliga 2\n⚽ Karlsruher vs Osnabrück · Bundesliga 2\n⚽ Denmark U17 vs Australia U17 · U17 World Championship\n⚽ Greece U17 vs Panama U17 · U17 World Championship"
       },
       "matches": [
         {
@@ -1643,6 +1733,24 @@
           "team2": "Osnabrück",
           "hot": false,
           "display": "⚽ Karlsruher vs Osnabrück · Bundesliga 2"
+        },
+        {
+          "id": "3159",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Denmark U17",
+          "team2": "Australia U17",
+          "hot": false,
+          "display": "⚽ Denmark U17 vs Australia U17 · U17 World Championship"
+        },
+        {
+          "id": "3158",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Greece U17",
+          "team2": "Panama U17",
+          "hot": false,
+          "display": "⚽ Greece U17 vs Panama U17 · U17 World Championship"
         }
       ]
     },
@@ -1702,10 +1810,10 @@
       "match_start_local": "2026-11-22 07:30 PM",
       "send_at_utc": "2026-11-22T13:29:00+00:00",
       "match_start_utc": "2026-11-22T13:30:00+00:00",
-      "match_count": 2,
+      "match_count": 3,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Ajax vs ADO Den Haag · Eredivisie\n⚽ Sparta Rotterdam vs AZ Alkmaar · Eredivisie"
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Ajax vs ADO Den Haag · Eredivisie\n⚽ Sparta Rotterdam vs AZ Alkmaar · Eredivisie\n⚽ France U17 vs Saudi Arabia U17 · U17 World Championship"
       },
       "matches": [
         {
@@ -1725,6 +1833,15 @@
           "team2": "AZ Alkmaar",
           "hot": false,
           "display": "⚽ Sparta Rotterdam vs AZ Alkmaar · Eredivisie"
+        },
+        {
+          "id": "3160",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "France U17",
+          "team2": "Saudi Arabia U17",
+          "hot": false,
+          "display": "⚽ France U17 vs Saudi Arabia U17 · U17 World Championship"
         }
       ]
     },
@@ -1784,10 +1901,10 @@
       "match_start_local": "2026-11-22 08:30 PM",
       "send_at_utc": "2026-11-22T14:29:00+00:00",
       "match_start_utc": "2026-11-22T14:30:00+00:00",
-      "match_count": 1,
+      "match_count": 3,
       "notification": {
-        "title": "⚽ Augsburg vs Mainz",
-        "body": "Bundesliga · Starting soon"
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Augsburg vs Mainz · Bundesliga\n🏏 Dubai Capitals vs Abu Dhabi Knight Riders · ILT20 2026\n⚽ South Korea U17 vs New Caledonia U17 · U17 World Championship"
       },
       "matches": [
         {
@@ -1798,6 +1915,47 @@
           "team2": "Mainz",
           "hot": false,
           "display": "⚽ Augsburg vs Mainz · Bundesliga"
+        },
+        {
+          "id": "3200",
+          "sport": "Cricket",
+          "league": "ILT20 2026",
+          "team1": "Dubai Capitals",
+          "team2": "Abu Dhabi Knight Riders",
+          "hot": false,
+          "display": "🏏 Dubai Capitals vs Abu Dhabi Knight Riders · ILT20 2026"
+        },
+        {
+          "id": "3161",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "South Korea U17",
+          "team2": "New Caledonia U17",
+          "hot": false,
+          "display": "⚽ South Korea U17 vs New Caledonia U17 · U17 World Championship"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-22 08:59 PM",
+      "match_start_local": "2026-11-22 09:00 PM",
+      "send_at_utc": "2026-11-22T14:59:00+00:00",
+      "match_start_utc": "2026-11-22T15:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Qatar U17 vs Egypt U17",
+        "body": "U17 World Championship · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3162",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Qatar U17",
+          "team2": "Egypt U17",
+          "hot": false,
+          "display": "⚽ Qatar U17 vs Egypt U17 · U17 World Championship"
         }
       ]
     },
@@ -1830,6 +1988,29 @@
           "team2": "Las Palmas",
           "hot": false,
           "display": "⚽ Sporting Gijon vs Las Palmas · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-22 09:29 PM",
+      "match_start_local": "2026-11-22 09:30 PM",
+      "send_at_utc": "2026-11-22T15:29:00+00:00",
+      "match_start_utc": "2026-11-22T15:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Uruguay U17 vs Haiti U17",
+        "body": "U17 World Championship · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3163",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Uruguay U17",
+          "team2": "Haiti U17",
+          "hot": false,
+          "display": "⚽ Uruguay U17 vs Haiti U17 · U17 World Championship"
         }
       ]
     },
@@ -1949,10 +2130,10 @@
       "match_start_local": "2026-11-22 11:00 PM",
       "send_at_utc": "2026-11-22T16:59:00+00:00",
       "match_start_utc": "2026-11-22T17:00:00+00:00",
-      "match_count": 1,
+      "match_count": 3,
       "notification": {
-        "title": "⚽ AC Milan vs Frosinone",
-        "body": "Serie A · Starting soon"
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ AC Milan vs Frosinone · Serie A\n⚽ Argentina U17 vs Uganda U17 · U17 World Championship\n⚽ Ecuador U17 vs Mozambique U17 · U17 World Championship"
       },
       "matches": [
         {
@@ -1963,6 +2144,24 @@
           "team2": "Frosinone",
           "hot": false,
           "display": "⚽ AC Milan vs Frosinone · Serie A"
+        },
+        {
+          "id": "3165",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Argentina U17",
+          "team2": "Uganda U17",
+          "hot": false,
+          "display": "⚽ Argentina U17 vs Uganda U17 · U17 World Championship"
+        },
+        {
+          "id": "3164",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Ecuador U17",
+          "team2": "Mozambique U17",
+          "hot": false,
+          "display": "⚽ Ecuador U17 vs Mozambique U17 · U17 World Championship"
         }
       ]
     },
@@ -2348,6 +2547,84 @@
     },
     {
       "status": "scheduled",
+      "send_at_local": "2026-11-23 06:29 PM",
+      "match_start_local": "2026-11-23 06:30 PM",
+      "send_at_utc": "2026-11-23T12:29:00+00:00",
+      "match_start_utc": "2026-11-23T12:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Spain U17 vs Fiji U17 · U17 World Championship\n⚽ Tajikistan U17 vs Croatia U17 · U17 World Championship"
+      },
+      "matches": [
+        {
+          "id": "3167",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Spain U17",
+          "team2": "Fiji U17",
+          "hot": false,
+          "display": "⚽ Spain U17 vs Fiji U17 · U17 World Championship"
+        },
+        {
+          "id": "3166",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Tajikistan U17",
+          "team2": "Croatia U17",
+          "hot": false,
+          "display": "⚽ Tajikistan U17 vs Croatia U17 · U17 World Championship"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-23 06:59 PM",
+      "match_start_local": "2026-11-23 07:00 PM",
+      "send_at_utc": "2026-11-23T12:59:00+00:00",
+      "match_start_utc": "2026-11-23T13:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Uzbekistan U17 vs Jamaica U17",
+        "body": "U17 World Championship · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3168",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Uzbekistan U17",
+          "team2": "Jamaica U17",
+          "hot": false,
+          "display": "⚽ Uzbekistan U17 vs Jamaica U17 · U17 World Championship"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-23 07:29 PM",
+      "match_start_local": "2026-11-23 07:30 PM",
+      "send_at_utc": "2026-11-23T13:29:00+00:00",
+      "match_start_utc": "2026-11-23T13:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Senegal U17 vs Cuba U17",
+        "body": "U17 World Championship · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3169",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Senegal U17",
+          "team2": "Cuba U17",
+          "hot": false,
+          "display": "⚽ Senegal U17 vs Cuba U17 · U17 World Championship"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
       "send_at_local": "2026-11-23 07:44 PM",
       "match_start_local": "2026-11-23 07:45 PM",
       "send_at_utc": "2026-11-23T13:44:00+00:00",
@@ -2366,6 +2643,93 @@
           "team2": "Al Hilal Riyadh",
           "hot": false,
           "display": "⚽ Neftchi Fargona vs Al Hilal Riyadh · AFC Champions League Elite"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-23 08:29 PM",
+      "match_start_local": "2026-11-23 08:30 PM",
+      "send_at_utc": "2026-11-23T14:29:00+00:00",
+      "match_start_utc": "2026-11-23T14:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 Sharjah Warriorz vs Desert Vipers · ILT20 2026\n⚽ Italy U17 vs Ivory Coast U17 · U17 World Championship"
+      },
+      "matches": [
+        {
+          "id": "3201",
+          "sport": "Cricket",
+          "league": "ILT20 2026",
+          "team1": "Sharjah Warriorz",
+          "team2": "Desert Vipers",
+          "hot": false,
+          "display": "🏏 Sharjah Warriorz vs Desert Vipers · ILT20 2026"
+        },
+        {
+          "id": "3170",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Italy U17",
+          "team2": "Ivory Coast U17",
+          "hot": false,
+          "display": "⚽ Italy U17 vs Ivory Coast U17 · U17 World Championship"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-23 08:59 PM",
+      "match_start_local": "2026-11-23 09:00 PM",
+      "send_at_utc": "2026-11-23T14:59:00+00:00",
+      "match_start_utc": "2026-11-23T15:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Morocco U17 vs China U17",
+        "body": "U17 World Championship · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3171",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Morocco U17",
+          "team2": "China U17",
+          "hot": false,
+          "display": "⚽ Morocco U17 vs China U17 · U17 World Championship"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-23 09:29 PM",
+      "match_start_local": "2026-11-23 09:30 PM",
+      "send_at_utc": "2026-11-23T15:29:00+00:00",
+      "match_start_utc": "2026-11-23T15:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Mali U17 vs Belgium U17 · U17 World Championship\n⚽ Vietnam U17 vs New Zealand U17 · U17 World Championship"
+      },
+      "matches": [
+        {
+          "id": "3172",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Mali U17",
+          "team2": "Belgium U17",
+          "hot": false,
+          "display": "⚽ Mali U17 vs Belgium U17 · U17 World Championship"
+        },
+        {
+          "id": "3173",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Vietnam U17",
+          "team2": "New Zealand U17",
+          "hot": false,
+          "display": "⚽ Vietnam U17 vs New Zealand U17 · U17 World Championship"
         }
       ]
     },
