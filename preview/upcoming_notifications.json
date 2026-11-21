@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T13:04:24+00:00",
+  "generated_at": "2026-11-21T13:05:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Nov 2026, 07:02:13 PM BST",
+    "source_last_updated": "21 Nov 2026, 07:00:29 PM BST",
     "source_events_loaded": 340,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,70 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 84,
-    "upcoming_matches": 176,
+    "upcoming_notifications": 83,
+    "upcoming_matches": 171,
     "next_notification_at_local": "2026-11-21 07:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-21 06:59 PM",
-      "match_start_local": "2026-11-21 07:00 PM",
-      "send_at_utc": "2026-11-21T12:59:00+00:00",
-      "match_start_utc": "2026-11-21T13:00:00+00:00",
-      "match_count": 5,
-      "notification": {
-        "title": "⏰ 5 matches starting soon",
-        "body": "⚽ Alaves vs Deportivo · LaLiga\n⚽ Sabadell vs Granada · LaLiga 2\n⚽ Amed SK vs Caykur Rizespor · Super Lig\n⚽ Galatasaray vs Samsunspor · Super Lig\n⚽ Tanzania U17 vs Costa Rica U17 · U17 World Championship"
-      },
-      "matches": [
-        {
-          "id": "2890",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Alaves",
-          "team2": "Deportivo",
-          "hot": false,
-          "display": "⚽ Alaves vs Deportivo · LaLiga"
-        },
-        {
-          "id": "2894",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Sabadell",
-          "team2": "Granada",
-          "hot": false,
-          "display": "⚽ Sabadell vs Granada · LaLiga 2"
-        },
-        {
-          "id": "2899",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Amed SK",
-          "team2": "Caykur Rizespor",
-          "hot": false,
-          "display": "⚽ Amed SK vs Caykur Rizespor · Super Lig"
-        },
-        {
-          "id": "2898",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Galatasaray",
-          "team2": "Samsunspor",
-          "hot": false,
-          "display": "⚽ Galatasaray vs Samsunspor · Super Lig"
-        },
-        {
-          "id": "3152",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Tanzania U17",
-          "team2": "Costa Rica U17",
-          "hot": false,
-          "display": "⚽ Tanzania U17 vs Costa Rica U17 · U17 World Championship"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-21 07:29 PM",
