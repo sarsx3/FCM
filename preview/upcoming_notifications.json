@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T12:34:21+00:00",
+  "generated_at": "2026-11-21T12:35:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Nov 2026, 06:33:12 PM BST",
+    "source_last_updated": "21 Nov 2026, 06:32:15 PM BST",
     "source_events_loaded": 341,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,97 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 84,
-    "upcoming_matches": 183,
+    "upcoming_notifications": 83,
+    "upcoming_matches": 175,
     "next_notification_at_local": "2026-11-21 06:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-21 06:29 PM",
-      "match_start_local": "2026-11-21 06:30 PM",
-      "send_at_utc": "2026-11-21T12:29:00+00:00",
-      "match_start_utc": "2026-11-21T12:30:00+00:00",
-      "match_count": 8,
-      "notification": {
-        "title": "⏰ 8 matches starting soon",
-        "body": "⚽ Millwall vs QPR · Championship\n⚽ Norwich vs Cardiff · Championship\n⚽ Southampton vs Derby · Championship\n⚽ Blackpool vs Wigan · League One\n⚽ Reading vs Bromley · League One\n⚽ Man City vs Fulham · Premier League\n+ 2 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "2848",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Millwall",
-          "team2": "QPR",
-          "hot": false,
-          "display": "⚽ Millwall vs QPR · Championship"
-        },
-        {
-          "id": "2847",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Norwich",
-          "team2": "Cardiff",
-          "hot": false,
-          "display": "⚽ Norwich vs Cardiff · Championship"
-        },
-        {
-          "id": "2846",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Southampton",
-          "team2": "Derby",
-          "hot": false,
-          "display": "⚽ Southampton vs Derby · Championship"
-        },
-        {
-          "id": "2859",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Blackpool",
-          "team2": "Wigan",
-          "hot": false,
-          "display": "⚽ Blackpool vs Wigan · League One"
-        },
-        {
-          "id": "2858",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Reading",
-          "team2": "Bromley",
-          "hot": false,
-          "display": "⚽ Reading vs Bromley · League One"
-        },
-        {
-          "id": "2839",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Man City",
-          "team2": "Fulham",
-          "hot": false,
-          "display": "⚽ Man City vs Fulham · Premier League"
-        },
-        {
-          "id": "3151",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Japan U17",
-          "team2": "Colombia U17",
-          "hot": false,
-          "display": "⚽ Japan U17 vs Colombia U17 · U17 World Championship"
-        },
-        {
-          "id": "3150",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Serbia U17",
-          "team2": "Honduras U17",
-          "hot": false,
-          "display": "⚽ Serbia U17 vs Honduras U17 · U17 World Championship"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-21 06:59 PM",
