@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T12:29:00+00:00",
+  "generated_at": "2026-11-21T12:30:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 83,
-    "upcoming_matches": 181,
+    "upcoming_notifications": 84,
+    "upcoming_matches": 183,
     "next_notification_at_local": "2026-11-21 06:59 PM"
   },
   "upcoming_notifications": [
@@ -2808,6 +2808,38 @@
           "team2": "Buriram United",
           "hot": false,
           "display": "⚽ Shanghai Port vs Buriram United · AFC Champions League Elite"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-24 06:29 PM",
+      "match_start_local": "2026-11-24 06:30 PM",
+      "send_at_utc": "2026-11-24T12:29:00+00:00",
+      "match_start_utc": "2026-11-24T12:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Costa Rica U17 vs Ireland U17 · U17 World Championship\n⚽ Venezuela U17 vs Romania U17 · U17 World Championship"
+      },
+      "matches": [
+        {
+          "id": "3174",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Costa Rica U17",
+          "team2": "Ireland U17",
+          "hot": false,
+          "display": "⚽ Costa Rica U17 vs Ireland U17 · U17 World Championship"
+        },
+        {
+          "id": "3175",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Venezuela U17",
+          "team2": "Romania U17",
+          "hot": false,
+          "display": "⚽ Venezuela U17 vs Romania U17 · U17 World Championship"
         }
       ]
     }
