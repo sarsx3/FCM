@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T23:56:20+00:00",
+  "generated_at": "2026-11-21T00:00:39+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Nov 2026, 05:55:16 AM BST",
+    "source_last_updated": "21 Nov 2026, 06:00:30 AM BST",
     "source_events_loaded": 351,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 83,
-    "upcoming_matches": 180,
+    "upcoming_notifications": 84,
+    "upcoming_matches": 181,
     "next_notification_at_local": "2026-11-21 06:59 AM"
   },
   "upcoming_notifications": [
@@ -2799,6 +2799,29 @@
           "team2": "Cerro Porteño",
           "hot": false,
           "display": "⚽ Club Nacional vs Cerro Porteño · Copa de Primera"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-24 05:59 AM",
+      "match_start_local": "2026-11-24 06:00 AM",
+      "send_at_utc": "2026-11-23T23:59:00+00:00",
+      "match_start_utc": "2026-11-24T00:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Santos vs Gremio",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2998",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Santos",
+          "team2": "Gremio",
+          "hot": false,
+          "display": "⚽ Santos vs Gremio · Brasileirão Série A"
         }
       ]
     }
