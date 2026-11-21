@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T01:03:32+00:00",
+  "generated_at": "2026-11-21T01:05:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 85,
-    "upcoming_matches": 182,
+    "upcoming_notifications": 84,
+    "upcoming_matches": 181,
     "next_notification_at_local": "2026-11-21 10:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-21 06:59 AM",
-      "match_start_local": "2026-11-21 07:00 AM",
-      "send_at_utc": "2026-11-21T00:59:00+00:00",
-      "match_start_utc": "2026-11-21T01:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 Hobart Hurricanes Women vs Sydney Thunder Women",
-        "body": "Womens Big Bash League · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2902",
-          "sport": "Cricket",
-          "league": "Womens Big Bash League",
-          "team1": "Hobart Hurricanes Women",
-          "team2": "Sydney Thunder Women",
-          "hot": false,
-          "display": "🏏 Hobart Hurricanes Women vs Sydney Thunder Women · Womens Big Bash League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-21 10:29 AM",
