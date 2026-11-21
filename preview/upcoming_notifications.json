@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T07:44:31+00:00",
+  "generated_at": "2026-11-21T07:45:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Nov 2026, 01:40:24 PM BST",
+    "source_last_updated": "21 Nov 2026, 01:45:20 PM BST",
     "source_events_loaded": 343,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 83,
-    "upcoming_matches": 179,
+    "upcoming_notifications": 84,
+    "upcoming_matches": 180,
     "next_notification_at_local": "2026-11-21 02:14 PM"
   },
   "upcoming_notifications": [
@@ -2790,6 +2790,29 @@
           "team2": "United Arab Emirates",
           "hot": false,
           "display": "🏏 India A vs United Arab Emirates · ACC Emerging Teams Asia Cup"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-24 01:44 PM",
+      "match_start_local": "2026-11-24 01:45 PM",
+      "send_at_utc": "2026-11-24T07:44:00+00:00",
+      "match_start_utc": "2026-11-24T07:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Newcastle Jets vs Kashiwa Reysol",
+        "body": "AFC Champions League Elite · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "2987",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Newcastle Jets",
+          "team2": "Kashiwa Reysol",
+          "hot": false,
+          "display": "⚽ Newcastle Jets vs Kashiwa Reysol · AFC Champions League Elite"
         }
       ]
     }
