@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-21T04:13:24+00:00",
+  "generated_at": "2026-11-21T04:15:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "21 Nov 2026, 10:11:13 AM BST",
-    "source_events_loaded": 346,
+    "source_last_updated": "21 Nov 2026, 10:15:21 AM BST",
+    "source_events_loaded": 344,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 84,
-    "upcoming_matches": 181,
+    "upcoming_matches": 180,
     "next_notification_at_local": "2026-11-21 10:29 AM"
   },
   "upcoming_notifications": [
@@ -26,21 +26,12 @@
       "match_start_local": "2026-11-21 10:30 AM",
       "send_at_utc": "2026-11-21T04:29:00+00:00",
       "match_start_utc": "2026-11-21T04:30:00+00:00",
-      "match_count": 2,
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "🏏 Pakistan vs Sri Lanka · SL vs PAK, 2026 - 2nd Test, Day 5\n🏏 Sydney Sixers Women vs Perth Scorchers Women · Womens Big Bash League"
+        "title": "🏏 Sydney Sixers Women vs Perth Scorchers Women",
+        "body": "Womens Big Bash League · Starting soon"
       },
       "matches": [
-        {
-          "id": "2904",
-          "sport": "Cricket",
-          "league": "SL vs PAK, 2026 - 2nd Test, Day 5",
-          "team1": "Pakistan",
-          "team2": "Sri Lanka",
-          "hot": false,
-          "display": "🏏 Pakistan vs Sri Lanka · SL vs PAK, 2026 - 2nd Test, Day 5"
-        },
         {
           "id": "2903",
           "sport": "Cricket",
