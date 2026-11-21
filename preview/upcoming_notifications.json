@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-21T18:40:31+00:00",
+  "generated_at": "2026-11-21T18:42:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Nov 2026, 12:40:25 AM BST",
-    "source_events_loaded": 282,
+    "source_last_updated": "22 Nov 2026, 12:42:13 AM BST",
+    "source_events_loaded": 281,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 79,
-    "upcoming_matches": 135,
+    "upcoming_matches": 134,
     "next_notification_at_local": "2026-11-22 12:59 AM"
   },
   "upcoming_notifications": [
@@ -26,21 +26,12 @@
       "match_start_local": "2026-11-22 01:00 AM",
       "send_at_utc": "2026-11-21T18:59:00+00:00",
       "match_start_utc": "2026-11-21T19:00:00+00:00",
-      "match_count": 2,
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Tecnico Universitario vs Deportivo Cuenca · Liga Pro\n⚽ Revolution vs Philadelphia Union · MLS"
+        "title": "⚽ Revolution vs Philadelphia Union",
+        "body": "MLS · Starting soon"
       },
       "matches": [
-        {
-          "id": "2912",
-          "sport": "Football",
-          "league": "Liga Pro",
-          "team1": "Tecnico Universitario",
-          "team2": "Deportivo Cuenca",
-          "hot": false,
-          "display": "⚽ Tecnico Universitario vs Deportivo Cuenca · Liga Pro"
-        },
         {
           "id": "2954",
           "sport": "Football",
