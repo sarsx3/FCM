@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T20:59:00+00:00",
+  "generated_at": "2026-11-21T21:00:39+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 76,
-    "upcoming_matches": 139,
+    "upcoming_notifications": 77,
+    "upcoming_matches": 140,
     "next_notification_at_local": "2026-11-22 03:29 AM"
   },
   "upcoming_notifications": [
@@ -2332,6 +2332,29 @@
           "team2": "Real Betis Balompié",
           "hot": false,
           "display": "⚽ Slovan Bratislava vs Real Betis Balompié · UEFA Champions League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-25 02:59 AM",
+      "match_start_local": "2026-11-25 03:00 AM",
+      "send_at_utc": "2026-11-24T20:59:00+00:00",
+      "match_start_utc": "2026-11-24T21:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Chapecoense vs Palmeiras",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3027",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Chapecoense",
+          "team2": "Palmeiras",
+          "hot": false,
+          "display": "⚽ Chapecoense vs Palmeiras · Brasileirão Série A"
         }
       ]
     }
