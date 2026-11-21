@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T19:49:20+00:00",
+  "generated_at": "2026-11-21T19:50:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Nov 2026, 01:48:14 AM BST",
+    "source_last_updated": "22 Nov 2026, 01:45:20 AM BST",
     "source_events_loaded": 275,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,70 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 78,
-    "upcoming_matches": 142,
+    "upcoming_notifications": 77,
+    "upcoming_matches": 137,
     "next_notification_at_local": "2026-11-22 01:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-22 01:44 AM",
-      "match_start_local": "2026-11-22 01:45 AM",
-      "send_at_utc": "2026-11-21T19:44:00+00:00",
-      "match_start_utc": "2026-11-21T19:45:00+00:00",
-      "match_count": 5,
-      "notification": {
-        "title": "⏰ 5 matches starting soon",
-        "body": "⚽ Lens vs Toulouse · Ligue 1\n⚽ Lille vs Lyon · Ligue 1\n⚽ Monaco vs Auxerre · Ligue 1\n⚽ Strasbourg vs Brest · Ligue 1\n⚽ Napoli vs Torino · Serie A"
-      },
-      "matches": [
-        {
-          "id": "2921",
-          "sport": "Football",
-          "league": "Ligue 1",
-          "team1": "Lens",
-          "team2": "Toulouse",
-          "hot": false,
-          "display": "⚽ Lens vs Toulouse · Ligue 1"
-        },
-        {
-          "id": "2920",
-          "sport": "Football",
-          "league": "Ligue 1",
-          "team1": "Lille",
-          "team2": "Lyon",
-          "hot": false,
-          "display": "⚽ Lille vs Lyon · Ligue 1"
-        },
-        {
-          "id": "2919",
-          "sport": "Football",
-          "league": "Ligue 1",
-          "team1": "Monaco",
-          "team2": "Auxerre",
-          "hot": false,
-          "display": "⚽ Monaco vs Auxerre · Ligue 1"
-        },
-        {
-          "id": "2918",
-          "sport": "Football",
-          "league": "Ligue 1",
-          "team1": "Strasbourg",
-          "team2": "Brest",
-          "hot": false,
-          "display": "⚽ Strasbourg vs Brest · Ligue 1"
-        },
-        {
-          "id": "2930",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Napoli",
-          "team2": "Torino",
-          "hot": false,
-          "display": "⚽ Napoli vs Torino · Serie A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-22 01:59 AM",
