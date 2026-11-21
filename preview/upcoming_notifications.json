@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T18:04:22+00:00",
+  "generated_at": "2026-11-21T18:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Nov 2026, 12:04:15 AM BST",
+    "source_last_updated": "22 Nov 2026, 12:05:16 AM BST",
     "source_events_loaded": 284,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 79,
-    "upcoming_matches": 135,
+    "upcoming_notifications": 78,
+    "upcoming_matches": 134,
     "next_notification_at_local": "2026-11-22 12:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-21 11:59 PM",
-      "match_start_local": "2026-11-22 12:00 AM",
-      "send_at_utc": "2026-11-21T17:59:00+00:00",
-      "match_start_utc": "2026-11-21T18:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Defensa Y Justicia vs Barracas Central",
-        "body": "Liga Profesional · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2907",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "Defensa Y Justicia",
-          "team2": "Barracas Central",
-          "hot": false,
-          "display": "⚽ Defensa Y Justicia vs Barracas Central · Liga Profesional"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-22 12:59 AM",
