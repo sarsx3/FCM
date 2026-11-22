@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T07:44:19+00:00",
+  "generated_at": "2026-11-22T07:45:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 72,
-    "upcoming_matches": 135,
+    "upcoming_notifications": 73,
+    "upcoming_matches": 136,
     "next_notification_at_local": "2026-11-22 02:09 PM"
   },
   "upcoming_notifications": [
@@ -2240,6 +2240,29 @@
           "team2": "Brisbane Heat Women",
           "hot": false,
           "display": "🏏 Melbourne Renegades Women vs Brisbane Heat Women · WBBL 2026 - 33rd Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-25 01:44 PM",
+      "match_start_local": "2026-11-25 01:45 PM",
+      "send_at_utc": "2026-11-25T07:44:00+00:00",
+      "match_start_utc": "2026-11-25T07:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Melbourne Victory vs Viettel",
+        "body": "AFC Champions League Two · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3020",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Melbourne Victory",
+          "team2": "Viettel",
+          "hot": false,
+          "display": "⚽ Melbourne Victory vs Viettel · AFC Champions League Two"
         }
       ]
     }
