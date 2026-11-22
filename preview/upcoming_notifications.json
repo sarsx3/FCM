@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T22:04:19+00:00",
+  "generated_at": "2026-11-22T22:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 62,
-    "upcoming_matches": 122,
+    "upcoming_notifications": 61,
+    "upcoming_matches": 120,
     "next_notification_at_local": "2026-11-23 04:29 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-23 03:59 AM",
-      "match_start_local": "2026-11-23 04:00 AM",
-      "send_at_utc": "2026-11-22T21:59:00+00:00",
-      "match_start_utc": "2026-11-22T22:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "🏏 New Zealand vs India · IND vs NZ, 2026 - 1st Test, Day 5\n⚽ River vs Lanus · Liga Profesional"
-      },
-      "matches": [
-        {
-          "id": "2803",
-          "sport": "Cricket",
-          "league": "IND vs NZ, 2026 - 1st Test, Day 5",
-          "team1": "New Zealand",
-          "team2": "India",
-          "hot": false,
-          "display": "🏏 New Zealand vs India · IND vs NZ, 2026 - 1st Test, Day 5"
-        },
-        {
-          "id": "2961",
-          "sport": "Football",
-          "league": "Liga Profesional",
-          "team1": "River",
-          "team2": "Lanus",
-          "hot": false,
-          "display": "⚽ River vs Lanus · Liga Profesional"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-23 04:29 AM",
