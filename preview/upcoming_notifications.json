@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T13:04:20+00:00",
+  "generated_at": "2026-11-22T13:05:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,61 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 70,
-    "upcoming_matches": 129,
+    "upcoming_notifications": 69,
+    "upcoming_matches": 125,
     "next_notification_at_local": "2026-11-22 07:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-22 06:59 PM",
-      "match_start_local": "2026-11-22 07:00 PM",
-      "send_at_utc": "2026-11-22T12:59:00+00:00",
-      "match_start_utc": "2026-11-22T13:00:00+00:00",
-      "match_count": 4,
-      "notification": {
-        "title": "⏰ 4 matches starting soon",
-        "body": "⚽ Barcelona vs Villarreal · LaLiga\n⚽ Cordoba vs Real Oviedo · LaLiga 2\n⚽ Kasimpasa vs Alanyaspor · Super Lig\n⚽ Konyaspor vs Besiktas · Super Lig"
-      },
-      "matches": [
-        {
-          "id": "2942",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Barcelona",
-          "team2": "Villarreal",
-          "hot": false,
-          "display": "⚽ Barcelona vs Villarreal · LaLiga"
-        },
-        {
-          "id": "2946",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Cordoba",
-          "team2": "Real Oviedo",
-          "hot": false,
-          "display": "⚽ Cordoba vs Real Oviedo · LaLiga 2"
-        },
-        {
-          "id": "2952",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Kasimpasa",
-          "team2": "Alanyaspor",
-          "hot": false,
-          "display": "⚽ Kasimpasa vs Alanyaspor · Super Lig"
-        },
-        {
-          "id": "2951",
-          "sport": "Football",
-          "league": "Super Lig",
-          "team1": "Konyaspor",
-          "team2": "Besiktas",
-          "hot": false,
-          "display": "⚽ Konyaspor vs Besiktas · Super Lig"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-22 07:29 PM",
