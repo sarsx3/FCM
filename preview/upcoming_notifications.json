@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-22T07:09:27+00:00",
+  "generated_at": "2026-11-22T07:10:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Nov 2026, 01:08:20 PM BST",
-    "source_events_loaded": 254,
+    "source_last_updated": "22 Nov 2026, 01:10:23 PM BST",
+    "source_events_loaded": 253,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -856,9 +856,18 @@
       "match_count": 2,
       "notification": {
         "title": "⏰ 2 matches starting soon",
-        "body": "⚽ River vs Lanus · Liga Profesional\n🏏 New Zealand vs India · NZ vs IND in NZ, 2026 - 1st Test, Day 5"
+        "body": "🏏 New Zealand vs India · IND vs NZ, 2026 - 1st Test, Day 5\n⚽ River vs Lanus · Liga Profesional"
       },
       "matches": [
+        {
+          "id": "2803",
+          "sport": "Cricket",
+          "league": "IND vs NZ, 2026 - 1st Test, Day 5",
+          "team1": "New Zealand",
+          "team2": "India",
+          "hot": false,
+          "display": "🏏 New Zealand vs India · IND vs NZ, 2026 - 1st Test, Day 5"
+        },
         {
           "id": "2961",
           "sport": "Football",
@@ -867,15 +876,6 @@
           "team2": "Lanus",
           "hot": false,
           "display": "⚽ River vs Lanus · Liga Profesional"
-        },
-        {
-          "id": "2980",
-          "sport": "Cricket",
-          "league": "NZ vs IND in NZ, 2026 - 1st Test, Day 5",
-          "team1": "New Zealand",
-          "team2": "India",
-          "hot": false,
-          "display": "🏏 New Zealand vs India · NZ vs IND in NZ, 2026 - 1st Test, Day 5"
         }
       ]
     },
