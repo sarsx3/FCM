@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T09:59:24+00:00",
+  "generated_at": "2026-11-22T10:00:34+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 73,
-    "upcoming_matches": 136,
+    "upcoming_notifications": 74,
+    "upcoming_matches": 138,
     "next_notification_at_local": "2026-11-22 04:29 PM"
   },
   "upcoming_notifications": [
@@ -2263,6 +2263,38 @@
           "team2": "Bangladesh",
           "hot": false,
           "display": "🏏 South Africa vs Bangladesh · SA vs BAN in SA, 2026 - 2nd Test, Day 3"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-25 03:59 PM",
+      "match_start_local": "2026-11-25 04:00 PM",
+      "send_at_utc": "2026-11-25T09:59:00+00:00",
+      "match_start_utc": "2026-11-25T10:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Gamba Osaka vs Thai Port FC · AFC Champions League Elite\n⚽ Kashima Antlers vs Jeonbuk Hyundai Motors · AFC Champions League Elite"
+      },
+      "matches": [
+        {
+          "id": "3018",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Gamba Osaka",
+          "team2": "Thai Port FC",
+          "hot": false,
+          "display": "⚽ Gamba Osaka vs Thai Port FC · AFC Champions League Elite"
+        },
+        {
+          "id": "3019",
+          "sport": "Football",
+          "league": "AFC Champions League Elite",
+          "team1": "Kashima Antlers",
+          "team2": "Jeonbuk Hyundai Motors",
+          "hot": false,
+          "display": "⚽ Kashima Antlers vs Jeonbuk Hyundai Motors · AFC Champions League Elite"
         }
       ]
     }
