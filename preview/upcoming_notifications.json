@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T15:34:19+00:00",
+  "generated_at": "2026-11-22T15:35:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Nov 2026, 09:30:28 PM BST",
+    "source_last_updated": "22 Nov 2026, 09:31:13 PM BST",
     "source_events_loaded": 236,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 68,
-    "upcoming_matches": 119,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 117,
     "next_notification_at_local": "2026-11-22 09:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-22 09:29 PM",
-      "match_start_local": "2026-11-22 09:30 PM",
-      "send_at_utc": "2026-11-22T15:29:00+00:00",
-      "match_start_utc": "2026-11-22T15:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Argentina U17 vs Mozambique U17 · U17 World Championship\n⚽ Uruguay U17 vs Haiti U17 · U17 World Championship"
-      },
-      "matches": [
-        {
-          "id": "3165",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Argentina U17",
-          "team2": "Mozambique U17",
-          "hot": false,
-          "display": "⚽ Argentina U17 vs Mozambique U17 · U17 World Championship"
-        },
-        {
-          "id": "3163",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Uruguay U17",
-          "team2": "Haiti U17",
-          "hot": false,
-          "display": "⚽ Uruguay U17 vs Haiti U17 · U17 World Championship"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-22 09:44 PM",
