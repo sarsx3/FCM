@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T16:59:00+00:00",
+  "generated_at": "2026-11-22T17:00:45+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Nov 2026, 10:58:16 PM BST",
+    "source_last_updated": "22 Nov 2026, 10:56:17 PM BST",
     "source_events_loaded": 224,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 64,
-    "upcoming_matches": 114,
+    "upcoming_notifications": 65,
+    "upcoming_matches": 123,
     "next_notification_at_local": "2026-11-22 11:29 PM"
   },
   "upcoming_notifications": [
@@ -1939,6 +1939,101 @@
           "team2": "Arkadag",
           "hot": false,
           "display": "⚽ Muharraq SC vs Arkadag · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-25 10:59 PM",
+      "match_start_local": "2026-11-25 11:00 PM",
+      "send_at_utc": "2026-11-25T16:59:00+00:00",
+      "match_start_utc": "2026-11-25T17:00:00+00:00",
+      "match_count": 9,
+      "notification": {
+        "title": "⏰ 9 matches starting soon",
+        "body": "⚽ Barcelona SC vs Independiente del Valle · Liga Pro\n⚽ CS San Lorenzo vs Sportivo Ameliano · Primera Division, Clausura\n⚽ Cerro Porteño vs Club Guarani · Primera Division, Clausura\n⚽ Club Nacional vs Rubio Ñu · Primera Division, Clausura\n⚽ Libertad vs 2 de Mayo · Primera Division, Clausura\n⚽ Sportivo Luqueño vs Olimpia · Primera Division, Clausura\n+ 3 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "3028",
+          "sport": "Football",
+          "league": "Liga Pro",
+          "team1": "Barcelona SC",
+          "team2": "Independiente del Valle",
+          "hot": false,
+          "display": "⚽ Barcelona SC vs Independiente del Valle · Liga Pro"
+        },
+        {
+          "id": "3044",
+          "sport": "Football",
+          "league": "Primera Division, Clausura",
+          "team1": "CS San Lorenzo",
+          "team2": "Sportivo Ameliano",
+          "hot": false,
+          "display": "⚽ CS San Lorenzo vs Sportivo Ameliano · Primera Division, Clausura"
+        },
+        {
+          "id": "3041",
+          "sport": "Football",
+          "league": "Primera Division, Clausura",
+          "team1": "Cerro Porteño",
+          "team2": "Club Guarani",
+          "hot": false,
+          "display": "⚽ Cerro Porteño vs Club Guarani · Primera Division, Clausura"
+        },
+        {
+          "id": "3046",
+          "sport": "Football",
+          "league": "Primera Division, Clausura",
+          "team1": "Club Nacional",
+          "team2": "Rubio Ñu",
+          "hot": false,
+          "display": "⚽ Club Nacional vs Rubio Ñu · Primera Division, Clausura"
+        },
+        {
+          "id": "3045",
+          "sport": "Football",
+          "league": "Primera Division, Clausura",
+          "team1": "Libertad",
+          "team2": "2 de Mayo",
+          "hot": false,
+          "display": "⚽ Libertad vs 2 de Mayo · Primera Division, Clausura"
+        },
+        {
+          "id": "3042",
+          "sport": "Football",
+          "league": "Primera Division, Clausura",
+          "team1": "Sportivo Luqueño",
+          "team2": "Olimpia",
+          "hot": false,
+          "display": "⚽ Sportivo Luqueño vs Olimpia · Primera Division, Clausura"
+        },
+        {
+          "id": "3043",
+          "sport": "Football",
+          "league": "Primera Division, Clausura",
+          "team1": "Sportivo Trinidense",
+          "team2": "Recoleta FC",
+          "hot": false,
+          "display": "⚽ Sportivo Trinidense vs Recoleta FC · Primera Division, Clausura"
+        },
+        {
+          "id": "3188",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Australia U17",
+          "team2": "Uganda U17",
+          "hot": false,
+          "display": "⚽ Australia U17 vs Uganda U17 · U17 World Championship"
+        },
+        {
+          "id": "3189",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Mozambique U17",
+          "team2": "New Caledonia U17",
+          "hot": false,
+          "display": "⚽ Mozambique U17 vs New Caledonia U17 · U17 World Championship"
         }
       ]
     }
