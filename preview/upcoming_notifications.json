@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T17:34:18+00:00",
+  "generated_at": "2026-11-22T17:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Nov 2026, 11:30:25 PM BST",
+    "source_last_updated": "22 Nov 2026, 11:35:16 PM BST",
     "source_events_loaded": 223,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 64,
-    "upcoming_matches": 122,
+    "upcoming_notifications": 63,
+    "upcoming_matches": 119,
     "next_notification_at_local": "2026-11-23 12:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-22 11:29 PM",
-      "match_start_local": "2026-11-22 11:30 PM",
-      "send_at_utc": "2026-11-22T17:29:00+00:00",
-      "match_start_utc": "2026-11-22T17:30:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Osasuna vs Malaga · LaLiga\n⚽ Celta Vigo B vs Valladolid · LaLiga 2\n⚽ Girona vs Eibar · LaLiga 2"
-      },
-      "matches": [
-        {
-          "id": "2944",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Osasuna",
-          "team2": "Malaga",
-          "hot": false,
-          "display": "⚽ Osasuna vs Malaga · LaLiga"
-        },
-        {
-          "id": "2948",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Celta Vigo B",
-          "team2": "Valladolid",
-          "hot": false,
-          "display": "⚽ Celta Vigo B vs Valladolid · LaLiga 2"
-        },
-        {
-          "id": "2949",
-          "sport": "Football",
-          "league": "LaLiga 2",
-          "team1": "Girona",
-          "team2": "Eibar",
-          "hot": false,
-          "display": "⚽ Girona vs Eibar · LaLiga 2"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-23 12:59 AM",
