@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-22T16:24:29+00:00",
+  "generated_at": "2026-11-22T16:25:28+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Nov 2026, 10:20:23 PM BST",
-    "source_events_loaded": 228,
+    "source_last_updated": "22 Nov 2026, 10:25:16 PM BST",
+    "source_events_loaded": 227,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -16,7 +16,7 @@
   },
   "summary": {
     "upcoming_notifications": 65,
-    "upcoming_matches": 117,
+    "upcoming_matches": 116,
     "next_notification_at_local": "2026-11-22 10:29 PM"
   },
   "upcoming_notifications": [
@@ -58,10 +58,10 @@
       "match_start_local": "2026-11-22 11:00 PM",
       "send_at_utc": "2026-11-22T16:59:00+00:00",
       "match_start_utc": "2026-11-22T17:00:00+00:00",
-      "match_count": 2,
+      "match_count": 1,
       "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ AC Milan vs Frosinone · Serie A\n⚽ Ecuador U17 vs Mozambique U17 · U17 World Championship"
+        "title": "⚽ AC Milan vs Frosinone",
+        "body": "Serie A · Starting soon"
       },
       "matches": [
         {
@@ -72,15 +72,6 @@
           "team2": "Frosinone",
           "hot": false,
           "display": "⚽ AC Milan vs Frosinone · Serie A"
-        },
-        {
-          "id": "3164",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Ecuador U17",
-          "team2": "Mozambique U17",
-          "hot": false,
-          "display": "⚽ Ecuador U17 vs Mozambique U17 · U17 World Championship"
         }
       ]
     },
