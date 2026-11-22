@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T12:34:18+00:00",
+  "generated_at": "2026-11-22T12:35:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Nov 2026, 06:34:13 PM BST",
+    "source_last_updated": "22 Nov 2026, 06:35:17 PM BST",
     "source_events_loaded": 249,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,70 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 71,
-    "upcoming_matches": 134,
+    "upcoming_notifications": 70,
+    "upcoming_matches": 129,
     "next_notification_at_local": "2026-11-22 06:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-22 06:29 PM",
-      "match_start_local": "2026-11-22 06:30 PM",
-      "send_at_utc": "2026-11-22T12:29:00+00:00",
-      "match_start_utc": "2026-11-22T12:30:00+00:00",
-      "match_count": 5,
-      "notification": {
-        "title": "⏰ 5 matches starting soon",
-        "body": "⚽ Energie Cottbus vs Hertha BSC · Bundesliga 2\n⚽ FC Kaiserslautern vs Dynamo Dresden · Bundesliga 2\n⚽ Karlsruher vs Osnabrück · Bundesliga 2\n⚽ Denmark U17 vs Australia U17 · U17 World Championship\n⚽ Greece U17 vs Panama U17 · U17 World Championship"
-      },
-      "matches": [
-        {
-          "id": "2927",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "Energie Cottbus",
-          "team2": "Hertha BSC",
-          "hot": false,
-          "display": "⚽ Energie Cottbus vs Hertha BSC · Bundesliga 2"
-        },
-        {
-          "id": "2929",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "FC Kaiserslautern",
-          "team2": "Dynamo Dresden",
-          "hot": false,
-          "display": "⚽ FC Kaiserslautern vs Dynamo Dresden · Bundesliga 2"
-        },
-        {
-          "id": "2928",
-          "sport": "Football",
-          "league": "Bundesliga 2",
-          "team1": "Karlsruher",
-          "team2": "Osnabrück",
-          "hot": false,
-          "display": "⚽ Karlsruher vs Osnabrück · Bundesliga 2"
-        },
-        {
-          "id": "3159",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Denmark U17",
-          "team2": "Australia U17",
-          "hot": false,
-          "display": "⚽ Denmark U17 vs Australia U17 · U17 World Championship"
-        },
-        {
-          "id": "3158",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Greece U17",
-          "team2": "Panama U17",
-          "hot": false,
-          "display": "⚽ Greece U17 vs Panama U17 · U17 World Championship"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-22 06:59 PM",
