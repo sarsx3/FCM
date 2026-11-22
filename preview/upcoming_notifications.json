@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T19:44:20+00:00",
+  "generated_at": "2026-11-22T19:45:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "23 Nov 2026, 01:44:13 AM BST",
+    "source_last_updated": "23 Nov 2026, 01:43:12 AM BST",
     "source_events_loaded": 209,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 64,
-    "upcoming_matches": 119,
+    "upcoming_notifications": 65,
+    "upcoming_matches": 122,
     "next_notification_at_local": "2026-11-23 01:59 AM"
   },
   "upcoming_notifications": [
@@ -1984,6 +1984,47 @@
           "team2": "Al Nahda",
           "hot": false,
           "display": "⚽ Al-Taawon vs Al Nahda · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-26 01:44 AM",
+      "match_start_local": "2026-11-26 01:45 AM",
+      "send_at_utc": "2026-11-25T19:44:00+00:00",
+      "match_start_utc": "2026-11-25T19:45:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Bolton vs West Brom · England Championship\n⚽ Burnley vs Birmingham · England Championship\n⚽ Watford vs Blackburn · England Championship"
+      },
+      "matches": [
+        {
+          "id": "3077",
+          "sport": "Football",
+          "league": "England Championship",
+          "team1": "Bolton",
+          "team2": "West Brom",
+          "hot": false,
+          "display": "⚽ Bolton vs West Brom · England Championship"
+        },
+        {
+          "id": "3076",
+          "sport": "Football",
+          "league": "England Championship",
+          "team1": "Burnley",
+          "team2": "Birmingham",
+          "hot": false,
+          "display": "⚽ Burnley vs Birmingham · England Championship"
+        },
+        {
+          "id": "3075",
+          "sport": "Football",
+          "league": "England Championship",
+          "team1": "Watford",
+          "team2": "Blackburn",
+          "hot": false,
+          "display": "⚽ Watford vs Blackburn · England Championship"
         }
       ]
     }
