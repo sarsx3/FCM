@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T13:34:19+00:00",
+  "generated_at": "2026-11-22T13:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 70,
-    "upcoming_matches": 127,
+    "upcoming_notifications": 69,
+    "upcoming_matches": 124,
     "next_notification_at_local": "2026-11-22 07:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-22 07:29 PM",
-      "match_start_local": "2026-11-22 07:30 PM",
-      "send_at_utc": "2026-11-22T13:29:00+00:00",
-      "match_start_utc": "2026-11-22T13:30:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Ajax vs ADO Den Haag · Eredivisie\n⚽ Sparta Rotterdam vs AZ Alkmaar · Eredivisie\n⚽ France U17 vs Saudi Arabia U17 · U17 World Championship"
-      },
-      "matches": [
-        {
-          "id": "2939",
-          "sport": "Football",
-          "league": "Eredivisie",
-          "team1": "Ajax",
-          "team2": "ADO Den Haag",
-          "hot": false,
-          "display": "⚽ Ajax vs ADO Den Haag · Eredivisie"
-        },
-        {
-          "id": "2938",
-          "sport": "Football",
-          "league": "Eredivisie",
-          "team1": "Sparta Rotterdam",
-          "team2": "AZ Alkmaar",
-          "hot": false,
-          "display": "⚽ Sparta Rotterdam vs AZ Alkmaar · Eredivisie"
-        },
-        {
-          "id": "3160",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "France U17",
-          "team2": "Saudi Arabia U17",
-          "hot": false,
-          "display": "⚽ France U17 vs Saudi Arabia U17 · U17 World Championship"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-22 07:59 PM",
