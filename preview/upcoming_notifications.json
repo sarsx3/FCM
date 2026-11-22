@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T13:29:19+00:00",
+  "generated_at": "2026-11-22T13:30:34+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Nov 2026, 07:25:15 PM BST",
+    "source_last_updated": "22 Nov 2026, 07:30:30 PM BST",
     "source_events_loaded": 249,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 69,
-    "upcoming_matches": 125,
+    "upcoming_notifications": 70,
+    "upcoming_matches": 127,
     "next_notification_at_local": "2026-11-22 07:59 PM"
   },
   "upcoming_notifications": [
@@ -2108,6 +2108,38 @@
           "team2": "South Korea U17",
           "hot": false,
           "display": "⚽ Ecuador U17 vs South Korea U17 · U17 World Championship"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-25 07:29 PM",
+      "match_start_local": "2026-11-25 07:30 PM",
+      "send_at_utc": "2026-11-25T13:29:00+00:00",
+      "match_start_utc": "2026-11-25T13:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Haiti U17 vs Saudi Arabia U17 · U17 World Championship\n⚽ Uruguay U17 vs France U17 · U17 World Championship"
+      },
+      "matches": [
+        {
+          "id": "3183",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Haiti U17",
+          "team2": "Saudi Arabia U17",
+          "hot": false,
+          "display": "⚽ Haiti U17 vs Saudi Arabia U17 · U17 World Championship"
+        },
+        {
+          "id": "3184",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Uruguay U17",
+          "team2": "France U17",
+          "hot": false,
+          "display": "⚽ Uruguay U17 vs France U17 · U17 World Championship"
         }
       ]
     }
