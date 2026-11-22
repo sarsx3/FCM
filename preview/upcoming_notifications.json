@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T18:14:22+00:00",
+  "generated_at": "2026-11-22T18:15:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 64,
-    "upcoming_matches": 121,
+    "upcoming_notifications": 65,
+    "upcoming_matches": 122,
     "next_notification_at_local": "2026-11-23 12:59 AM"
   },
   "upcoming_notifications": [
@@ -2002,6 +2002,29 @@
           "team2": "Villarreal",
           "hot": false,
           "display": "⚽ Slavia Praha vs Villarreal · UEFA Champions League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-26 12:14 AM",
+      "match_start_local": "2026-11-26 12:15 AM",
+      "send_at_utc": "2026-11-25T18:14:00+00:00",
+      "match_start_utc": "2026-11-25T18:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Al-Taawon vs Al Nahda",
+        "body": "AFC Champions League Two · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3067",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Al-Taawon",
+          "team2": "Al Nahda",
+          "hot": false,
+          "display": "⚽ Al-Taawon vs Al Nahda · AFC Champions League Two"
         }
       ]
     }
