@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-22T16:18:24+00:00",
+  "generated_at": "2026-11-22T16:20:35+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "22 Nov 2026, 10:15:19 PM BST",
-    "source_events_loaded": 229,
+    "source_last_updated": "22 Nov 2026, 10:20:23 PM BST",
+    "source_events_loaded": 228,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,44 +15,21 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 119,
+    "upcoming_notifications": 65,
+    "upcoming_matches": 117,
     "next_notification_at_local": "2026-11-22 10:29 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-22 10:14 PM",
-      "match_start_local": "2026-11-22 10:15 PM",
-      "send_at_utc": "2026-11-22T16:14:00+00:00",
-      "match_start_utc": "2026-11-22T16:15:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Lorient vs Rennes",
-        "body": "Ligue 1 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "2923",
-          "sport": "Football",
-          "league": "Ligue 1",
-          "team1": "Lorient",
-          "team2": "Rennes",
-          "hot": false,
-          "display": "⚽ Lorient vs Rennes · Ligue 1"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-22 10:29 PM",
       "match_start_local": "2026-11-22 10:30 PM",
       "send_at_utc": "2026-11-22T16:29:00+00:00",
       "match_start_utc": "2026-11-22T16:30:00+00:00",
-      "match_count": 3,
+      "match_count": 2,
       "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Werder Bremen vs Hamburger SV · Bundesliga\n⚽ Manta vs Dep. Macara · Liga Pro\n⚽ Liverpool vs Man Utd · Premier League"
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Werder Bremen vs Hamburger SV · Bundesliga\n⚽ Liverpool vs Man Utd · Premier League"
       },
       "matches": [
         {
@@ -63,15 +40,6 @@
           "team2": "Hamburger SV",
           "hot": false,
           "display": "⚽ Werder Bremen vs Hamburger SV · Bundesliga"
-        },
-        {
-          "id": "2914",
-          "sport": "Football",
-          "league": "Liga Pro",
-          "team1": "Manta",
-          "team2": "Dep. Macara",
-          "hot": false,
-          "display": "⚽ Manta vs Dep. Macara · Liga Pro"
         },
         {
           "id": "2916",
