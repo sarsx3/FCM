@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T16:33:25+00:00",
+  "generated_at": "2026-11-22T16:35:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 65,
-    "upcoming_matches": 116,
+    "upcoming_notifications": 64,
+    "upcoming_matches": 114,
     "next_notification_at_local": "2026-11-22 10:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-22 10:29 PM",
-      "match_start_local": "2026-11-22 10:30 PM",
-      "send_at_utc": "2026-11-22T16:29:00+00:00",
-      "match_start_utc": "2026-11-22T16:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Werder Bremen vs Hamburger SV · Bundesliga\n⚽ Liverpool vs Man Utd · Premier League"
-      },
-      "matches": [
-        {
-          "id": "2925",
-          "sport": "Football",
-          "league": "Bundesliga",
-          "team1": "Werder Bremen",
-          "team2": "Hamburger SV",
-          "hot": false,
-          "display": "⚽ Werder Bremen vs Hamburger SV · Bundesliga"
-        },
-        {
-          "id": "2916",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Liverpool",
-          "team2": "Man Utd",
-          "hot": false,
-          "display": "⚽ Liverpool vs Man Utd · Premier League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-22 10:59 PM",
