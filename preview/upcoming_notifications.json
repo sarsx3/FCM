@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:59:00+00:00",
+  "generated_at": "2026-11-22T16:00:39+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 66,
-    "upcoming_matches": 116,
+    "upcoming_notifications": 67,
+    "upcoming_matches": 120,
     "next_notification_at_local": "2026-11-22 10:14 PM"
   },
   "upcoming_notifications": [
@@ -1985,6 +1985,56 @@
           "team2": "Argentina U17",
           "hot": false,
           "display": "⚽ Denmark U17 vs Argentina U17 · U17 World Championship"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-25 09:59 PM",
+      "match_start_local": "2026-11-25 10:00 PM",
+      "send_at_utc": "2026-11-25T15:59:00+00:00",
+      "match_start_utc": "2026-11-25T16:00:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "⚽ Al Faisaly vs Al Rayyan · AFC Champions League Two\n⚽ Al-Jazira vs Gol Gohar · AFC Champions League Two\n⚽ Kuwait SC vs Wahda Abu Dhabi · AFC Champions League Two\n⚽ Muharraq SC vs Arkadag · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "3024",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Al Faisaly",
+          "team2": "Al Rayyan",
+          "hot": false,
+          "display": "⚽ Al Faisaly vs Al Rayyan · AFC Champions League Two"
+        },
+        {
+          "id": "3026",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Al-Jazira",
+          "team2": "Gol Gohar",
+          "hot": false,
+          "display": "⚽ Al-Jazira vs Gol Gohar · AFC Champions League Two"
+        },
+        {
+          "id": "3023",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Kuwait SC",
+          "team2": "Wahda Abu Dhabi",
+          "hot": false,
+          "display": "⚽ Kuwait SC vs Wahda Abu Dhabi · AFC Champions League Two"
+        },
+        {
+          "id": "3025",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Muharraq SC",
+          "team2": "Arkadag",
+          "hot": false,
+          "display": "⚽ Muharraq SC vs Arkadag · AFC Champions League Two"
         }
       ]
     }
