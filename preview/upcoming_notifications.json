@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-23T09:59:20+00:00",
+  "generated_at": "2026-11-23T10:00:51+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "23 Nov 2026, 03:54:13 PM BST",
+    "source_last_updated": "23 Nov 2026, 04:00:32 PM BST",
     "source_events_loaded": 193,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 120,
+    "upcoming_notifications": 62,
+    "upcoming_matches": 124,
     "next_notification_at_local": "2026-11-23 06:29 PM"
   },
   "upcoming_notifications": [
@@ -1951,6 +1951,56 @@
           "team2": "Melbourne Stars Women",
           "hot": false,
           "display": "🏏 Sydney Sixers Women vs Melbourne Stars Women · WBBL 2026 - 35th Match"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-26 03:59 PM",
+      "match_start_local": "2026-11-26 04:00 PM",
+      "send_at_utc": "2026-11-26T09:59:00+00:00",
+      "match_start_utc": "2026-11-26T10:00:00+00:00",
+      "match_count": 4,
+      "notification": {
+        "title": "⏰ 4 matches starting soon",
+        "body": "🏏 ACC Emerging Teams Asia Cup\n⚽ Gangwon FC vs Kitchee · AFC Champions League Two\n⚽ Kuching City FC vs Phnom Penh Crown · AFC Champions League Two\n⚽ Tampines Rovers vs Shanghai Shenhua · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "3139",
+          "sport": "Cricket",
+          "league": "ACC Emerging Teams Asia Cup",
+          "team1": null,
+          "team2": null,
+          "hot": false,
+          "display": "🏏 ACC Emerging Teams Asia Cup"
+        },
+        {
+          "id": "3069",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Gangwon FC",
+          "team2": "Kitchee",
+          "hot": false,
+          "display": "⚽ Gangwon FC vs Kitchee · AFC Champions League Two"
+        },
+        {
+          "id": "3068",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Kuching City FC",
+          "team2": "Phnom Penh Crown",
+          "hot": false,
+          "display": "⚽ Kuching City FC vs Phnom Penh Crown · AFC Champions League Two"
+        },
+        {
+          "id": "3070",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Tampines Rovers",
+          "team2": "Shanghai Shenhua",
+          "hot": false,
+          "display": "⚽ Tampines Rovers vs Shanghai Shenhua · AFC Champions League Two"
         }
       ]
     }
