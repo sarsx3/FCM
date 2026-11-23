@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T19:47:19+00:00",
+  "generated_at": "2026-11-23T19:50:30+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 139,
+    "upcoming_notifications": 60,
+    "upcoming_matches": 138,
     "next_notification_at_local": "2026-11-24 01:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-24 01:44 AM",
-      "match_start_local": "2026-11-24 01:45 AM",
-      "send_at_utc": "2026-11-23T19:44:00+00:00",
-      "match_start_utc": "2026-11-23T19:45:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Monza vs Fiorentina",
-        "body": "Serie A · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "3000",
-          "sport": "Football",
-          "league": "Serie A",
-          "team1": "Monza",
-          "team2": "Fiorentina",
-          "hot": false,
-          "display": "⚽ Monza vs Fiorentina · Serie A"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-24 01:59 AM",
