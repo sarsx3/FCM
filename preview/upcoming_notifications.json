@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-23T16:37:28+00:00",
+  "generated_at": "2026-11-23T16:38:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "23 Nov 2026, 10:32:15 PM BST",
-    "source_events_loaded": 186,
+    "source_last_updated": "23 Nov 2026, 10:37:17 PM BST",
+    "source_events_loaded": 184,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -359,7 +359,7 @@
       },
       "matches": [
         {
-          "id": "3006",
+          "id": "2981",
           "sport": "Cricket",
           "league": "SA vs BAN in SA, 2026 - 2nd Test, Day 2",
           "team1": "South Africa",
