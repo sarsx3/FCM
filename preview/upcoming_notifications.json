@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-23T13:58:22+00:00",
+  "generated_at": "2026-11-23T14:00:52+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "23 Nov 2026, 07:58:13 PM BST",
+    "source_last_updated": "23 Nov 2026, 08:00:35 PM BST",
     "source_events_loaded": 192,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 59,
-    "upcoming_matches": 123,
+    "upcoming_notifications": 60,
+    "upcoming_matches": 125,
     "next_notification_at_local": "2026-11-23 08:29 PM"
   },
   "upcoming_notifications": [
@@ -1950,6 +1950,38 @@
           "team2": "Mali U17",
           "hot": false,
           "display": "⚽ Vietnam U17 vs Mali U17 · U17 World Championship"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-26 07:59 PM",
+      "match_start_local": "2026-11-26 08:00 PM",
+      "send_at_utc": "2026-11-26T13:59:00+00:00",
+      "match_start_utc": "2026-11-26T14:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Jamaica U17 vs Ivory Coast U17 · U17 World Championship\n⚽ Uzbekistan U17 vs Italy U17 · U17 World Championship"
+      },
+      "matches": [
+        {
+          "id": "3193",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Jamaica U17",
+          "team2": "Ivory Coast U17",
+          "hot": false,
+          "display": "⚽ Jamaica U17 vs Ivory Coast U17 · U17 World Championship"
+        },
+        {
+          "id": "3192",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Uzbekistan U17",
+          "team2": "Italy U17",
+          "hot": false,
+          "display": "⚽ Uzbekistan U17 vs Italy U17 · U17 World Championship"
         }
       ]
     }
