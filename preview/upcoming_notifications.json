@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-23T20:39:18+00:00",
+  "generated_at": "2026-11-23T20:40:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Nov 2026, 02:39:12 AM BST",
-    "source_events_loaded": 174,
+    "source_last_updated": "24 Nov 2026, 02:40:21 AM BST",
+    "source_events_loaded": 173,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 60,
-    "upcoming_matches": 154,
+    "upcoming_notifications": 59,
+    "upcoming_matches": 153,
     "next_notification_at_local": "2026-11-24 02:59 AM"
   },
   "upcoming_notifications": [
@@ -86,29 +86,6 @@
           "team2": "São Paulo",
           "hot": false,
           "display": "⚽ Botafogo vs São Paulo · Brasileirão Série A"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-24 05:14 AM",
-      "match_start_local": "2026-11-24 05:15 AM",
-      "send_at_utc": "2026-11-23T23:14:00+00:00",
-      "match_start_utc": "2026-11-23T23:15:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Club Nacional vs Cerro Porteño",
-        "body": "Copa de Primera · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "3002",
-          "sport": "Football",
-          "league": "Copa de Primera",
-          "team1": "Club Nacional",
-          "team2": "Cerro Porteño",
-          "hot": false,
-          "display": "⚽ Club Nacional vs Cerro Porteño · Copa de Primera"
         }
       ]
     },
