@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-23T12:14:28+00:00",
+  "generated_at": "2026-11-23T12:15:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "23 Nov 2026, 06:14:14 PM BST",
+    "source_last_updated": "23 Nov 2026, 06:11:13 PM BST",
     "source_events_loaded": 193,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 123,
+    "upcoming_notifications": 62,
+    "upcoming_matches": 126,
     "next_notification_at_local": "2026-11-23 06:29 PM"
   },
   "upcoming_notifications": [
@@ -1978,6 +1978,47 @@
           "team2": "Shanghai Shenhua",
           "hot": false,
           "display": "⚽ Tampines Rovers vs Shanghai Shenhua · AFC Champions League Two"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-26 06:14 PM",
+      "match_start_local": "2026-11-26 06:15 PM",
+      "send_at_utc": "2026-11-26T12:14:00+00:00",
+      "match_start_utc": "2026-11-26T12:15:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Bangkok Glass vs Lion City · AFC Champions League Two\n⚽ Svay Rieng vs Machida Zelvia · AFC Champions League Two\n⚽ Tai Po FC vs Adelaide United · AFC Champions League Two"
+      },
+      "matches": [
+        {
+          "id": "3072",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Bangkok Glass",
+          "team2": "Lion City",
+          "hot": false,
+          "display": "⚽ Bangkok Glass vs Lion City · AFC Champions League Two"
+        },
+        {
+          "id": "3071",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Svay Rieng",
+          "team2": "Machida Zelvia",
+          "hot": false,
+          "display": "⚽ Svay Rieng vs Machida Zelvia · AFC Champions League Two"
+        },
+        {
+          "id": "3073",
+          "sport": "Football",
+          "league": "AFC Champions League Two",
+          "team1": "Tai Po FC",
+          "team2": "Adelaide United",
+          "hot": false,
+          "display": "⚽ Tai Po FC vs Adelaide United · AFC Champions League Two"
         }
       ]
     }
