@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T15:29:17+00:00",
+  "generated_at": "2026-11-23T15:30:36+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 62,
-    "upcoming_matches": 127,
+    "upcoming_notifications": 63,
+    "upcoming_matches": 128,
     "next_notification_at_local": "2026-11-23 09:59 PM"
   },
   "upcoming_notifications": [
@@ -2028,6 +2028,29 @@
           "team2": "Al Shabab",
           "hot": false,
           "display": "⚽ Abha Club vs Al Shabab · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-26 09:29 PM",
+      "match_start_local": "2026-11-26 09:30 PM",
+      "send_at_utc": "2026-11-26T15:29:00+00:00",
+      "match_start_utc": "2026-11-26T15:30:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Kairat Almaty vs Mjällby AIF",
+        "body": "UEFA Conference League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3079",
+          "sport": "Football",
+          "league": "UEFA Conference League",
+          "team1": "Kairat Almaty",
+          "team2": "Mjällby AIF",
+          "hot": false,
+          "display": "⚽ Kairat Almaty vs Mjällby AIF · UEFA Conference League"
         }
       ]
     }
