@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-23T14:59:00+00:00",
+  "generated_at": "2026-11-23T15:00:00+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "23 Nov 2026, 08:57:16 PM BST",
+    "source_last_updated": "23 Nov 2026, 08:59:14 PM BST",
     "source_events_loaded": 190,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 61,
-    "upcoming_matches": 125,
+    "upcoming_notifications": 62,
+    "upcoming_matches": 127,
     "next_notification_at_local": "2026-11-23 09:29 PM"
   },
   "upcoming_notifications": [
@@ -1996,6 +1996,38 @@
           "team2": "MI Emirates",
           "hot": false,
           "display": "🏏 Abu Dhabi Knight Riders vs MI Emirates · ILT20 2026"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-26 08:59 PM",
+      "match_start_local": "2026-11-26 09:00 PM",
+      "send_at_utc": "2026-11-26T14:59:00+00:00",
+      "match_start_utc": "2026-11-26T15:00:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ China U17 vs Fiji U17 · U17 World Championship\n⚽ Morocco U17 vs Spain U17 · U17 World Championship"
+      },
+      "matches": [
+        {
+          "id": "3195",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "China U17",
+          "team2": "Fiji U17",
+          "hot": false,
+          "display": "⚽ China U17 vs Fiji U17 · U17 World Championship"
+        },
+        {
+          "id": "3194",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Morocco U17",
+          "team2": "Spain U17",
+          "hot": false,
+          "display": "⚽ Morocco U17 vs Spain U17 · U17 World Championship"
         }
       ]
     }
