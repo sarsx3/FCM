@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-24T16:52:21+00:00",
+  "generated_at": "2026-11-24T16:53:19+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Nov 2026, 10:50:21 PM BST",
+    "source_last_updated": "24 Nov 2026, 10:51:12 PM BST",
     "source_events_loaded": 147,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -1814,18 +1814,18 @@
       "match_start_utc": "2026-11-27T10:00:00+00:00",
       "match_count": 1,
       "notification": {
-        "title": "🏏 ACC Emerging Teams Asia Cup",
-        "body": "Starting soon"
+        "title": "🏏 Pakistan A vs Bangladesh A",
+        "body": "ACC Emerging Teams Asia Cup · Starting soon"
       },
       "matches": [
         {
           "id": "3140",
           "sport": "Cricket",
           "league": "ACC Emerging Teams Asia Cup",
-          "team1": null,
-          "team2": null,
+          "team1": "Pakistan A",
+          "team2": "Bangladesh A",
           "hot": false,
-          "display": "🏏 ACC Emerging Teams Asia Cup"
+          "display": "🏏 Pakistan A vs Bangladesh A · ACC Emerging Teams Asia Cup"
         }
       ]
     },
