@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T17:28:19+00:00",
+  "generated_at": "2026-11-24T17:30:38+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 137,
+    "upcoming_notifications": 51,
+    "upcoming_matches": 140,
     "next_notification_at_local": "2026-11-24 11:44 PM"
   },
   "upcoming_notifications": [
@@ -1950,6 +1950,47 @@
           "team2": "Kasimpasa",
           "hot": false,
           "display": "⚽ Rizespor vs Kasimpasa · Super Lig"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-27 11:29 PM",
+      "match_start_local": "2026-11-27 11:30 PM",
+      "send_at_utc": "2026-11-27T17:29:00+00:00",
+      "match_start_utc": "2026-11-27T17:30:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Bochum vs SV Darmstadt 98 · Bundesliga 2\n⚽ FC Heidenheim vs FC Nürnberg · Bundesliga 2\n⚽ Al Ittihad vs NEOM SC · Saudi League"
+      },
+      "matches": [
+        {
+          "id": "3115",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Bochum",
+          "team2": "SV Darmstadt 98",
+          "hot": false,
+          "display": "⚽ Bochum vs SV Darmstadt 98 · Bundesliga 2"
+        },
+        {
+          "id": "3116",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "FC Heidenheim",
+          "team2": "FC Nürnberg",
+          "hot": false,
+          "display": "⚽ FC Heidenheim vs FC Nürnberg · Bundesliga 2"
+        },
+        {
+          "id": "3120",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Ittihad",
+          "team2": "NEOM SC",
+          "hot": false,
+          "display": "⚽ Al Ittihad vs NEOM SC · Saudi League"
         }
       ]
     }
