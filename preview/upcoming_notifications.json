@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T18:32:21+00:00",
+  "generated_at": "2026-11-24T18:33:19+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "25 Nov 2026, 12:31:13 AM BST",
-    "source_events_loaded": 142,
+    "source_last_updated": "25 Nov 2026, 12:33:17 AM BST",
+    "source_events_loaded": 141,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
