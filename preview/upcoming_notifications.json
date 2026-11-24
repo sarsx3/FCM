@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-24T20:02:23+00:00",
+  "generated_at": "2026-11-24T20:05:33+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "25 Nov 2026, 02:02:15 AM BST",
+    "source_last_updated": "25 Nov 2026, 02:04:21 AM BST",
     "source_events_loaded": 139,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,97 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 48,
-    "upcoming_matches": 126,
+    "upcoming_notifications": 47,
+    "upcoming_matches": 118,
     "next_notification_at_local": "2026-11-25 02:59 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-25 01:59 AM",
-      "match_start_local": "2026-11-25 02:00 AM",
-      "send_at_utc": "2026-11-24T19:59:00+00:00",
-      "match_start_utc": "2026-11-24T20:00:00+00:00",
-      "match_count": 8,
-      "notification": {
-        "title": "⏰ 8 matches starting soon",
-        "body": "⚽ Wolves vs Derby · England Championship\n⚽ Arsenal vs Borussia Dortmund · UEFA Champions League\n⚽ Como vs AEK Athens FC · UEFA Champions League\n⚽ Feyenoord vs FC Porto · UEFA Champions League\n⚽ Man City vs SSC Napoli · UEFA Champions League\n⚽ RB Leipzig vs RC Lens · UEFA Champions League\n+ 2 more matches in the app"
-      },
-      "matches": [
-        {
-          "id": "3036",
-          "sport": "Football",
-          "league": "England Championship",
-          "team1": "Wolves",
-          "team2": "Derby",
-          "hot": false,
-          "display": "⚽ Wolves vs Derby · England Championship"
-        },
-        {
-          "id": "3010",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Arsenal",
-          "team2": "Borussia Dortmund",
-          "hot": false,
-          "display": "⚽ Arsenal vs Borussia Dortmund · UEFA Champions League"
-        },
-        {
-          "id": "3008",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Como",
-          "team2": "AEK Athens FC",
-          "hot": false,
-          "display": "⚽ Como vs AEK Athens FC · UEFA Champions League"
-        },
-        {
-          "id": "3009",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Feyenoord",
-          "team2": "FC Porto",
-          "hot": false,
-          "display": "⚽ Feyenoord vs FC Porto · UEFA Champions League"
-        },
-        {
-          "id": "3012",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Man City",
-          "team2": "SSC Napoli",
-          "hot": false,
-          "display": "⚽ Man City vs SSC Napoli · UEFA Champions League"
-        },
-        {
-          "id": "3014",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "RB Leipzig",
-          "team2": "RC Lens",
-          "hot": false,
-          "display": "⚽ RB Leipzig vs RC Lens · UEFA Champions League"
-        },
-        {
-          "id": "3013",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Real Madrid",
-          "team2": "PSV Eindhoven",
-          "hot": false,
-          "display": "⚽ Real Madrid vs PSV Eindhoven · UEFA Champions League"
-        },
-        {
-          "id": "3011",
-          "sport": "Football",
-          "league": "UEFA Champions League",
-          "team1": "Slovan Bratislava",
-          "team2": "Real Betis Balompié",
-          "hot": false,
-          "display": "⚽ Slovan Bratislava vs Real Betis Balompié · UEFA Champions League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-25 02:59 AM",
