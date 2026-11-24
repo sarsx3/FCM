@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T13:34:21+00:00",
+  "generated_at": "2026-11-24T13:35:31+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 53,
-    "upcoming_matches": 142,
+    "upcoming_notifications": 52,
+    "upcoming_matches": 141,
     "next_notification_at_local": "2026-11-24 07:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-24 07:29 PM",
-      "match_start_local": "2026-11-24 07:30 PM",
-      "send_at_utc": "2026-11-24T13:29:00+00:00",
-      "match_start_utc": "2026-11-24T13:30:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ Mexico U17 vs Cameroon U17",
-        "body": "U17 World Championship · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "3177",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Mexico U17",
-          "team2": "Cameroon U17",
-          "hot": false,
-          "display": "⚽ Mexico U17 vs Cameroon U17 · U17 World Championship"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-24 07:44 PM",
