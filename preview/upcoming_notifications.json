@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T08:14:30+00:00",
+  "generated_at": "2026-11-24T08:15:29+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 54,
-    "upcoming_matches": 148,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 149,
     "next_notification_at_local": "2026-11-24 03:59 PM"
   },
   "upcoming_notifications": [
@@ -2105,6 +2105,29 @@
           "team2": "Bangladesh",
           "hot": false,
           "display": "🏏 South Africa vs Bangladesh · SA vs BAN in SA, 2026 - 2nd Test, Day 5"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-27 02:14 PM",
+      "match_start_local": "2026-11-27 02:15 PM",
+      "send_at_utc": "2026-11-27T08:14:00+00:00",
+      "match_start_utc": "2026-11-27T08:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Australia vs England",
+        "body": "AUS vs ENG in AUS, 2026 - 3rd T20I · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3125",
+          "sport": "Cricket",
+          "league": "AUS vs ENG in AUS, 2026 - 3rd T20I",
+          "team1": "Australia",
+          "team2": "England",
+          "hot": false,
+          "display": "🏏 Australia vs England · AUS vs ENG in AUS, 2026 - 3rd T20I"
         }
       ]
     }
