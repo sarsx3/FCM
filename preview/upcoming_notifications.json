@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-24T16:54:20+00:00",
+  "generated_at": "2026-11-24T16:58:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Nov 2026, 10:53:12 PM BST",
+    "source_last_updated": "24 Nov 2026, 10:58:14 PM BST",
     "source_events_loaded": 147,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -1037,18 +1037,9 @@
       "match_count": 4,
       "notification": {
         "title": "⏰ 4 matches starting soon",
-        "body": "🏏 ACC Emerging Teams Asia Cup\n⚽ Gangwon FC vs Kitchee · AFC Champions League Two\n⚽ Kuching City FC vs Phnom Penh Crown · AFC Champions League Two\n⚽ Tampines Rovers vs Shanghai Shenhua · AFC Champions League Two"
+        "body": "⚽ Gangwon FC vs Kitchee · AFC Champions League Two\n⚽ Kuching City FC vs Phnom Penh Crown · AFC Champions League Two\n⚽ Tampines Rovers vs Shanghai Shenhua · AFC Champions League Two\n🏏 Sri Lanka A vs India A · Men's Asia Cup Rising Stars"
       },
       "matches": [
-        {
-          "id": "3139",
-          "sport": "Cricket",
-          "league": "ACC Emerging Teams Asia Cup",
-          "team1": null,
-          "team2": null,
-          "hot": false,
-          "display": "🏏 ACC Emerging Teams Asia Cup"
-        },
         {
           "id": "3069",
           "sport": "Football",
@@ -1075,6 +1066,15 @@
           "team2": "Shanghai Shenhua",
           "hot": false,
           "display": "⚽ Tampines Rovers vs Shanghai Shenhua · AFC Champions League Two"
+        },
+        {
+          "id": "3139",
+          "sport": "Cricket",
+          "league": "Men's Asia Cup Rising Stars",
+          "team1": "Sri Lanka A",
+          "team2": "India A",
+          "hot": false,
+          "display": "🏏 Sri Lanka A vs India A · Men's Asia Cup Rising Stars"
         }
       ]
     },
@@ -1815,17 +1815,17 @@
       "match_count": 1,
       "notification": {
         "title": "🏏 Pakistan A vs Bangladesh A",
-        "body": "ACC Emerging Teams Asia Cup · Starting soon"
+        "body": "Men's Asia Cup Rising Stars · Starting soon"
       },
       "matches": [
         {
           "id": "3140",
           "sport": "Cricket",
-          "league": "ACC Emerging Teams Asia Cup",
+          "league": "Men's Asia Cup Rising Stars",
           "team1": "Pakistan A",
           "team2": "Bangladesh A",
           "hot": false,
-          "display": "🏏 Pakistan A vs Bangladesh A · ACC Emerging Teams Asia Cup"
+          "display": "🏏 Pakistan A vs Bangladesh A · Men's Asia Cup Rising Stars"
         }
       ]
     },
