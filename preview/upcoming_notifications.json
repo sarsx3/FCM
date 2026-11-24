@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T12:33:21+00:00",
+  "generated_at": "2026-11-24T12:35:23+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "24 Nov 2026, 06:29:11 PM BST",
-    "source_events_loaded": 161,
+    "source_last_updated": "24 Nov 2026, 06:35:19 PM BST",
+    "source_events_loaded": 159,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 55,
-    "upcoming_matches": 145,
+    "upcoming_notifications": 54,
+    "upcoming_matches": 143,
     "next_notification_at_local": "2026-11-24 06:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-24 06:29 PM",
-      "match_start_local": "2026-11-24 06:30 PM",
-      "send_at_utc": "2026-11-24T12:29:00+00:00",
-      "match_start_utc": "2026-11-24T12:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Costa Rica U17 vs Ireland U17 · U17 World Championship\n⚽ Venezuela U17 vs Romania U17 · U17 World Championship"
-      },
-      "matches": [
-        {
-          "id": "3174",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Costa Rica U17",
-          "team2": "Ireland U17",
-          "hot": false,
-          "display": "⚽ Costa Rica U17 vs Ireland U17 · U17 World Championship"
-        },
-        {
-          "id": "3175",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Venezuela U17",
-          "team2": "Romania U17",
-          "hot": false,
-          "display": "⚽ Venezuela U17 vs Romania U17 · U17 World Championship"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-24 06:59 PM",
