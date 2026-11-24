@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:04:21+00:00",
+  "generated_at": "2026-11-24T16:05:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 50,
-    "upcoming_matches": 137,
+    "upcoming_notifications": 49,
+    "upcoming_matches": 135,
     "next_notification_at_local": "2026-11-24 11:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-24 09:59 PM",
-      "match_start_local": "2026-11-24 10:00 PM",
-      "send_at_utc": "2026-11-24T15:59:00+00:00",
-      "match_start_utc": "2026-11-24T16:00:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Shabab Al Ahly vs Al Qadsiah · AFC Champions League Elite\n⚽ Al Seeb SC vs Al Shorta Baghdad · AFC Champions League Two"
-      },
-      "matches": [
-        {
-          "id": "2993",
-          "sport": "Football",
-          "league": "AFC Champions League Elite",
-          "team1": "Shabab Al Ahly",
-          "team2": "Al Qadsiah",
-          "hot": false,
-          "display": "⚽ Shabab Al Ahly vs Al Qadsiah · AFC Champions League Elite"
-        },
-        {
-          "id": "2995",
-          "sport": "Football",
-          "league": "AFC Champions League Two",
-          "team1": "Al Seeb SC",
-          "team2": "Al Shorta Baghdad",
-          "hot": false,
-          "display": "⚽ Al Seeb SC vs Al Shorta Baghdad · AFC Champions League Two"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-24 11:44 PM",
