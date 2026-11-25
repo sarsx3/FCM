@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-25T15:34:24+00:00",
+  "generated_at": "2026-11-25T15:35:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "25 Nov 2026, 09:34:16 PM BST",
-    "source_events_loaded": 109,
+    "source_last_updated": "25 Nov 2026, 09:35:16 PM BST",
+    "source_events_loaded": 107,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,43 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 36,
-    "upcoming_matches": 102,
+    "upcoming_notifications": 35,
+    "upcoming_matches": 100,
     "next_notification_at_local": "2026-11-25 09:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-25 09:29 PM",
-      "match_start_local": "2026-11-25 09:30 PM",
-      "send_at_utc": "2026-11-25T15:29:00+00:00",
-      "match_start_utc": "2026-11-25T15:30:00+00:00",
-      "match_count": 2,
-      "notification": {
-        "title": "⏰ 2 matches starting soon",
-        "body": "⚽ Australia U17 vs Mozambique U17 · U17 World Championship\n⚽ Denmark U17 vs Argentina U17 · U17 World Championship"
-      },
-      "matches": [
-        {
-          "id": "3189",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Australia U17",
-          "team2": "Mozambique U17",
-          "hot": false,
-          "display": "⚽ Australia U17 vs Mozambique U17 · U17 World Championship"
-        },
-        {
-          "id": "3187",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Denmark U17",
-          "team2": "Argentina U17",
-          "hot": false,
-          "display": "⚽ Denmark U17 vs Argentina U17 · U17 World Championship"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-25 09:59 PM",
