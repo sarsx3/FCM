@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-25T03:04:21+00:00",
+  "generated_at": "2026-11-25T03:05:26+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "25 Nov 2026, 09:03:19 AM BST",
+    "source_last_updated": "25 Nov 2026, 09:00:32 AM BST",
     "source_events_loaded": 118,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,34 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 46,
-    "upcoming_matches": 117,
+    "upcoming_notifications": 45,
+    "upcoming_matches": 116,
     "next_notification_at_local": "2026-11-25 10:39 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-25 08:59 AM",
-      "match_start_local": "2026-11-25 09:00 AM",
-      "send_at_utc": "2026-11-25T02:59:00+00:00",
-      "match_start_utc": "2026-11-25T03:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "⚽ San Jose vs Houston Dynamo FC",
-        "body": "MLS · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "3047",
-          "sport": "Football",
-          "league": "MLS",
-          "team1": "San Jose",
-          "team2": "Houston Dynamo FC",
-          "hot": false,
-          "display": "⚽ San Jose vs Houston Dynamo FC · MLS"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-25 10:39 AM",
