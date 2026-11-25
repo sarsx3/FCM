@@ -1,13 +1,4 @@
 {
-  "202611221600": {
-    "at": "2026-11-22T15:59:00+00:00",
-    "batches": 1,
-    "count": 1,
-    "ids": [
-      "2953"
-    ],
-    "title": "\u26bd Trabzonspor vs Eyupspor"
-  },
   "202611221615": {
     "at": "2026-11-22T16:14:00+00:00",
     "batches": 1,
@@ -633,5 +624,17 @@
       "3189"
     ],
     "title": "\u23f0 2 matches starting soon"
+  },
+  "202611251600": {
+    "at": "2026-11-25T16:01:25+00:00",
+    "batches": 1,
+    "count": 4,
+    "ids": [
+      "3023",
+      "3024",
+      "3025",
+      "3026"
+    ],
+    "title": "\ud83d\udd34 4 matches just kicked off"
   }
 }
