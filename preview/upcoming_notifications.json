@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-25T12:08:22+00:00",
+  "generated_at": "2026-11-25T12:09:19+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "25 Nov 2026, 06:04:16 PM BST",
+    "source_last_updated": "25 Nov 2026, 06:08:14 PM BST",
     "source_events_loaded": 113,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -49,10 +49,10 @@
       "match_start_local": "2026-11-25 06:30 PM",
       "send_at_utc": "2026-11-25T12:29:00+00:00",
       "match_start_utc": "2026-11-25T12:30:00+00:00",
-      "match_count": 1,
+      "match_count": 2,
       "notification": {
-        "title": "⚽ Ecuador U17 vs South Korea U17",
-        "body": "U17 World Championship · Starting soon"
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Ecuador U17 vs South Korea U17 · U17 World Championship\n⚽ Uganda U17 vs New Caledonia U17 · U17 World Championship"
       },
       "matches": [
         {
@@ -63,6 +63,15 @@
           "team2": "South Korea U17",
           "hot": false,
           "display": "⚽ Ecuador U17 vs South Korea U17 · U17 World Championship"
+        },
+        {
+          "id": "3188",
+          "sport": "Football",
+          "league": "U17 World Championship",
+          "team1": "Uganda U17",
+          "team2": "New Caledonia U17",
+          "hot": false,
+          "display": "⚽ Uganda U17 vs New Caledonia U17 · U17 World Championship"
         }
       ]
     },
@@ -241,10 +250,10 @@
       "match_start_local": "2026-11-25 11:00 PM",
       "send_at_utc": "2026-11-25T16:59:00+00:00",
       "match_start_utc": "2026-11-25T17:00:00+00:00",
-      "match_count": 9,
+      "match_count": 8,
       "notification": {
-        "title": "⏰ 9 matches starting soon",
-        "body": "⚽ Barcelona SC vs Independiente del Valle · Liga Pro\n⚽ CS San Lorenzo vs Sportivo Ameliano · Primera Division, Clausura\n⚽ Cerro Porteño vs Club Guarani · Primera Division, Clausura\n⚽ Club Nacional vs Rubio Ñu · Primera Division, Clausura\n⚽ Libertad vs 2 de Mayo · Primera Division, Clausura\n⚽ Sportivo Luqueño vs Olimpia · Primera Division, Clausura\n+ 3 more matches in the app"
+        "title": "⏰ 8 matches starting soon",
+        "body": "⚽ Barcelona SC vs Independiente del Valle · Liga Pro\n⚽ CS San Lorenzo vs Sportivo Ameliano · Primera Division, Clausura\n⚽ Cerro Porteño vs Club Guarani · Primera Division, Clausura\n⚽ Club Nacional vs Rubio Ñu · Primera Division, Clausura\n⚽ Libertad vs 2 de Mayo · Primera Division, Clausura\n⚽ Sportivo Luqueño vs Olimpia · Primera Division, Clausura\n+ 2 more matches in the app"
       },
       "matches": [
         {
@@ -309,15 +318,6 @@
           "team2": "Recoleta FC",
           "hot": false,
           "display": "⚽ Sportivo Trinidense vs Recoleta FC · Primera Division, Clausura"
-        },
-        {
-          "id": "3188",
-          "sport": "Football",
-          "league": "U17 World Championship",
-          "team1": "Australia U17",
-          "team2": "Uganda U17",
-          "hot": false,
-          "display": "⚽ Australia U17 vs Uganda U17 · U17 World Championship"
         },
         {
           "id": "3189",
