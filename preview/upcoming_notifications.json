@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-25T20:33:18+00:00",
+  "generated_at": "2026-11-25T20:34:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "26 Nov 2026, 02:28:15 AM BST",
-    "source_events_loaded": 156,
+    "source_last_updated": "26 Nov 2026, 02:33:13 AM BST",
+    "source_events_loaded": 154,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 29,
-    "upcoming_matches": 75,
+    "upcoming_notifications": 27,
+    "upcoming_matches": 73,
     "next_notification_at_local": "2026-11-26 04:59 AM"
   },
   "upcoming_notifications": [
@@ -86,29 +86,6 @@
           "team2": "Adelaide Strikers Women",
           "hot": false,
           "display": "🏏 Sydney Thunder Women vs Adelaide Strikers Women · WBBL 2026 - 34th Match"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-26 01:59 PM",
-      "match_start_local": "2026-11-26 02:00 PM",
-      "send_at_utc": "2026-11-26T07:59:00+00:00",
-      "match_start_utc": "2026-11-26T08:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 South Africa vs Bangladesh",
-        "body": "SA vs BAN in SA, 2026 - 2nd Test, Day 4 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "3094",
-          "sport": "Cricket",
-          "league": "SA vs BAN in SA, 2026 - 2nd Test, Day 4",
-          "team1": "South Africa",
-          "team2": "Bangladesh",
-          "hot": false,
-          "display": "🏏 South Africa vs Bangladesh · SA vs BAN in SA, 2026 - 2nd Test, Day 4"
         }
       ]
     },
@@ -864,29 +841,6 @@
           "team2": "Remo",
           "hot": false,
           "display": "⚽ São Paulo vs Remo · Brasileirão Série A"
-        }
-      ]
-    },
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-27 01:59 PM",
-      "match_start_local": "2026-11-27 02:00 PM",
-      "send_at_utc": "2026-11-27T07:59:00+00:00",
-      "match_start_utc": "2026-11-27T08:00:00+00:00",
-      "match_count": 1,
-      "notification": {
-        "title": "🏏 South Africa vs Bangladesh",
-        "body": "SA vs BAN in SA, 2026 - 2nd Test, Day 5 · Starting soon"
-      },
-      "matches": [
-        {
-          "id": "3124",
-          "sport": "Cricket",
-          "league": "SA vs BAN in SA, 2026 - 2nd Test, Day 5",
-          "team1": "South Africa",
-          "team2": "Bangladesh",
-          "hot": false,
-          "display": "🏏 South Africa vs Bangladesh · SA vs BAN in SA, 2026 - 2nd Test, Day 5"
         }
       ]
     },
