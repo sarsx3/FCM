@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-25T16:35:26+00:00",
+  "generated_at": "2026-11-25T16:38:22+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "25 Nov 2026, 10:32:15 PM BST",
-    "source_events_loaded": 106,
+    "source_last_updated": "25 Nov 2026, 10:38:13 PM BST",
+    "source_events_loaded": 97,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
   },
@@ -15,88 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 34,
-    "upcoming_matches": 96,
-    "next_notification_at_local": "2026-11-25 10:59 PM"
+    "upcoming_notifications": 33,
+    "upcoming_matches": 89,
+    "next_notification_at_local": "2026-11-25 11:44 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "scheduled",
-      "send_at_local": "2026-11-25 10:59 PM",
-      "match_start_local": "2026-11-25 11:00 PM",
-      "send_at_utc": "2026-11-25T16:59:00+00:00",
-      "match_start_utc": "2026-11-25T17:00:00+00:00",
-      "match_count": 7,
-      "notification": {
-        "title": "⏰ 7 matches starting soon",
-        "body": "⚽ Barcelona SC vs Independiente del Valle · Liga Pro\n⚽ CS San Lorenzo vs Sportivo Ameliano · Primera Division, Clausura\n⚽ Cerro Porteño vs Club Guarani · Primera Division, Clausura\n⚽ Club Nacional vs Rubio Ñu · Primera Division, Clausura\n⚽ Libertad vs 2 de Mayo · Primera Division, Clausura\n⚽ Sportivo Luqueño vs Olimpia · Primera Division, Clausura\n+ 1 more match in the app"
-      },
-      "matches": [
-        {
-          "id": "3028",
-          "sport": "Football",
-          "league": "Liga Pro",
-          "team1": "Barcelona SC",
-          "team2": "Independiente del Valle",
-          "hot": false,
-          "display": "⚽ Barcelona SC vs Independiente del Valle · Liga Pro"
-        },
-        {
-          "id": "3044",
-          "sport": "Football",
-          "league": "Primera Division, Clausura",
-          "team1": "CS San Lorenzo",
-          "team2": "Sportivo Ameliano",
-          "hot": false,
-          "display": "⚽ CS San Lorenzo vs Sportivo Ameliano · Primera Division, Clausura"
-        },
-        {
-          "id": "3041",
-          "sport": "Football",
-          "league": "Primera Division, Clausura",
-          "team1": "Cerro Porteño",
-          "team2": "Club Guarani",
-          "hot": false,
-          "display": "⚽ Cerro Porteño vs Club Guarani · Primera Division, Clausura"
-        },
-        {
-          "id": "3046",
-          "sport": "Football",
-          "league": "Primera Division, Clausura",
-          "team1": "Club Nacional",
-          "team2": "Rubio Ñu",
-          "hot": false,
-          "display": "⚽ Club Nacional vs Rubio Ñu · Primera Division, Clausura"
-        },
-        {
-          "id": "3045",
-          "sport": "Football",
-          "league": "Primera Division, Clausura",
-          "team1": "Libertad",
-          "team2": "2 de Mayo",
-          "hot": false,
-          "display": "⚽ Libertad vs 2 de Mayo · Primera Division, Clausura"
-        },
-        {
-          "id": "3042",
-          "sport": "Football",
-          "league": "Primera Division, Clausura",
-          "team1": "Sportivo Luqueño",
-          "team2": "Olimpia",
-          "hot": false,
-          "display": "⚽ Sportivo Luqueño vs Olimpia · Primera Division, Clausura"
-        },
-        {
-          "id": "3043",
-          "sport": "Football",
-          "league": "Primera Division, Clausura",
-          "team1": "Sportivo Trinidense",
-          "team2": "Recoleta FC",
-          "hot": false,
-          "display": "⚽ Sportivo Trinidense vs Recoleta FC · Primera Division, Clausura"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-25 11:44 PM",
