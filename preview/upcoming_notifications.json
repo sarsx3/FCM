@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26T05:57:24+00:00",
+  "generated_at": "2026-11-26T06:00:38+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "26 Nov 2026, 11:54:14 AM BST",
+    "source_last_updated": "26 Nov 2026, 12:00:31 PM BST",
     "source_events_loaded": 141,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,8 +15,8 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 24,
-    "upcoming_matches": 70,
+    "upcoming_notifications": 50,
+    "upcoming_matches": 139,
     "next_notification_at_local": "2026-11-26 02:09 PM"
   },
   "upcoming_notifications": [
@@ -983,6 +983,991 @@
           "team2": "NEOM SC",
           "hot": false,
           "display": "⚽ Al Ittihad vs NEOM SC · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 12:59 AM",
+      "match_start_local": "2026-11-28 01:00 AM",
+      "send_at_utc": "2026-11-27T18:59:00+00:00",
+      "match_start_utc": "2026-11-27T19:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Groningen vs Willem II",
+        "body": "Eredivisie · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3247",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Groningen",
+          "team2": "Willem II",
+          "hot": false,
+          "display": "⚽ Groningen vs Willem II · Eredivisie"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 01:29 AM",
+      "match_start_local": "2026-11-28 01:30 AM",
+      "send_at_utc": "2026-11-27T19:29:00+00:00",
+      "match_start_utc": "2026-11-27T19:30:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Werder Bremen vs Gladbach · Bundesliga\n⚽ Leganés vs Sabadell · LaLiga 2"
+      },
+      "matches": [
+        {
+          "id": "3235",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Werder Bremen",
+          "team2": "Gladbach",
+          "hot": false,
+          "display": "⚽ Werder Bremen vs Gladbach · Bundesliga"
+        },
+        {
+          "id": "3260",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Leganés",
+          "team2": "Sabadell",
+          "hot": false,
+          "display": "⚽ Leganés vs Sabadell · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 01:44 AM",
+      "match_start_local": "2026-11-28 01:45 AM",
+      "send_at_utc": "2026-11-27T19:44:00+00:00",
+      "match_start_utc": "2026-11-27T19:45:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "⚽ Brest vs Paris FC · Ligue 1\n⚽ Venezia vs Bologna · Serie A"
+      },
+      "matches": [
+        {
+          "id": "3233",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Brest",
+          "team2": "Paris FC",
+          "hot": false,
+          "display": "⚽ Brest vs Paris FC · Ligue 1"
+        },
+        {
+          "id": "3244",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Venezia",
+          "team2": "Bologna",
+          "hot": false,
+          "display": "⚽ Venezia vs Bologna · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 01:59 AM",
+      "match_start_local": "2026-11-28 02:00 AM",
+      "send_at_utc": "2026-11-27T19:59:00+00:00",
+      "match_start_utc": "2026-11-27T20:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Southampton vs Middlesbrough · Championship\n⚽ Levante vs Racing Santander · LaLiga\n⚽ Forest vs Chelsea · Premier League"
+      },
+      "matches": [
+        {
+          "id": "3211",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Southampton",
+          "team2": "Middlesbrough",
+          "hot": false,
+          "display": "⚽ Southampton vs Middlesbrough · Championship"
+        },
+        {
+          "id": "3256",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Levante",
+          "team2": "Racing Santander",
+          "hot": false,
+          "display": "⚽ Levante vs Racing Santander · LaLiga"
+        },
+        {
+          "id": "3207",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Forest",
+          "team2": "Chelsea",
+          "hot": false,
+          "display": "⚽ Forest vs Chelsea · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 02:14 AM",
+      "match_start_local": "2026-11-28 02:15 AM",
+      "send_at_utc": "2026-11-27T20:14:00+00:00",
+      "match_start_utc": "2026-11-27T20:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Maritimo vs Nacional",
+        "body": "Liga Portugal · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3250",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Maritimo",
+          "team2": "Nacional",
+          "hot": false,
+          "display": "⚽ Maritimo vs Nacional · Liga Portugal"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 03:59 AM",
+      "match_start_local": "2026-11-28 04:00 AM",
+      "send_at_utc": "2026-11-27T21:59:00+00:00",
+      "match_start_utc": "2026-11-27T22:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 New Zealand vs India",
+        "body": "International · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3270",
+          "sport": "Cricket",
+          "league": "International",
+          "team1": "New Zealand",
+          "team2": "India",
+          "hot": false,
+          "display": "🏏 New Zealand vs India · International"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 04:59 AM",
+      "match_start_local": "2026-11-28 05:00 AM",
+      "send_at_utc": "2026-11-27T22:59:00+00:00",
+      "match_start_utc": "2026-11-27T23:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Fluminense vs Cruzeiro - MG",
+        "body": "Brasileirão Série A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3206",
+          "sport": "Football",
+          "league": "Brasileirão Série A",
+          "team1": "Fluminense",
+          "team2": "Cruzeiro - MG",
+          "hot": false,
+          "display": "⚽ Fluminense vs Cruzeiro - MG · Brasileirão Série A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 06:59 AM",
+      "match_start_local": "2026-11-28 07:00 AM",
+      "send_at_utc": "2026-11-28T00:59:00+00:00",
+      "match_start_utc": "2026-11-28T01:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Columbus Crew vs Inter Miami",
+        "body": "MLS · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3267",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Columbus Crew",
+          "team2": "Inter Miami",
+          "hot": false,
+          "display": "⚽ Columbus Crew vs Inter Miami · MLS"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 08:59 AM",
+      "match_start_local": "2026-11-28 09:00 AM",
+      "send_at_utc": "2026-11-28T02:59:00+00:00",
+      "match_start_utc": "2026-11-28T03:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Real Salt Lake vs Vancouver Whitecaps",
+        "body": "MLS · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3268",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Real Salt Lake",
+          "team2": "Vancouver Whitecaps",
+          "hot": false,
+          "display": "⚽ Real Salt Lake vs Vancouver Whitecaps · MLS"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 02:09 PM",
+      "match_start_local": "2026-11-28 02:10 PM",
+      "send_at_utc": "2026-11-28T08:09:00+00:00",
+      "match_start_utc": "2026-11-28T08:10:00+00:00",
+      "match_count": 2,
+      "notification": {
+        "title": "⏰ 2 matches starting soon",
+        "body": "🏏 Melbourne Renegades Women vs Melbourne Stars Women · Women's Big Bash League\n🏏 Sydney Thunder Women vs Sydney Sixers Women · Women's Big Bash League"
+      },
+      "matches": [
+        {
+          "id": "3271",
+          "sport": "Cricket",
+          "league": "Women's Big Bash League",
+          "team1": "Melbourne Renegades Women",
+          "team2": "Melbourne Stars Women",
+          "hot": false,
+          "display": "🏏 Melbourne Renegades Women vs Melbourne Stars Women · Women's Big Bash League"
+        },
+        {
+          "id": "3272",
+          "sport": "Cricket",
+          "league": "Women's Big Bash League",
+          "team1": "Sydney Thunder Women",
+          "team2": "Sydney Sixers Women",
+          "hot": false,
+          "display": "🏏 Sydney Thunder Women vs Sydney Sixers Women · Women's Big Bash League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 03:59 PM",
+      "match_start_local": "2026-11-28 04:00 PM",
+      "send_at_utc": "2026-11-28T09:59:00+00:00",
+      "match_start_utc": "2026-11-28T10:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "🏏 Desert Vipers vs MI Emirates",
+        "body": "ILT20 2026 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3273",
+          "sport": "Cricket",
+          "league": "ILT20 2026",
+          "team1": "Desert Vipers",
+          "team2": "MI Emirates",
+          "hot": false,
+          "display": "🏏 Desert Vipers vs MI Emirates · ILT20 2026"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 05:59 PM",
+      "match_start_local": "2026-11-28 06:00 PM",
+      "send_at_utc": "2026-11-28T11:59:00+00:00",
+      "match_start_utc": "2026-11-28T12:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Dresden vs St. Pauli · Bundesliga 2\n⚽ Hertha BSC vs Karlsruher · Bundesliga 2\n⚽ Holstein Kiel vs FC Kaiserslautern · Bundesliga 2"
+      },
+      "matches": [
+        {
+          "id": "3242",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Dresden",
+          "team2": "St. Pauli",
+          "hot": false,
+          "display": "⚽ Dresden vs St. Pauli · Bundesliga 2"
+        },
+        {
+          "id": "3243",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Hertha BSC",
+          "team2": "Karlsruher",
+          "hot": false,
+          "display": "⚽ Hertha BSC vs Karlsruher · Bundesliga 2"
+        },
+        {
+          "id": "3241",
+          "sport": "Football",
+          "league": "Bundesliga 2",
+          "team1": "Holstein Kiel",
+          "team2": "FC Kaiserslautern",
+          "hot": false,
+          "display": "⚽ Holstein Kiel vs FC Kaiserslautern · Bundesliga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 06:14 PM",
+      "match_start_local": "2026-11-28 06:15 PM",
+      "send_at_utc": "2026-11-28T12:14:00+00:00",
+      "match_start_utc": "2026-11-28T12:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Al Hazm vs Al-Nassr",
+        "body": "Saudi League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3253",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Hazm",
+          "team2": "Al-Nassr",
+          "hot": false,
+          "display": "⚽ Al Hazm vs Al-Nassr · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 06:29 PM",
+      "match_start_local": "2026-11-28 06:30 PM",
+      "send_at_utc": "2026-11-28T12:29:00+00:00",
+      "match_start_utc": "2026-11-28T12:30:00+00:00",
+      "match_count": 5,
+      "notification": {
+        "title": "⏰ 5 matches starting soon",
+        "body": "⚽ Blackburn vs Charlton · Championship\n⚽ Lincoln vs Wolverhampton · Championship\n⚽ Preston vs Norwich · Championship\n⚽ MK Dons vs Notts County · League One\n⚽ Peterborough vs Cambridge · League One"
+      },
+      "matches": [
+        {
+          "id": "3214",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Blackburn",
+          "team2": "Charlton",
+          "hot": false,
+          "display": "⚽ Blackburn vs Charlton · Championship"
+        },
+        {
+          "id": "3213",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Lincoln",
+          "team2": "Wolverhampton",
+          "hot": false,
+          "display": "⚽ Lincoln vs Wolverhampton · Championship"
+        },
+        {
+          "id": "3212",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Preston",
+          "team2": "Norwich",
+          "hot": false,
+          "display": "⚽ Preston vs Norwich · Championship"
+        },
+        {
+          "id": "3223",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "MK Dons",
+          "team2": "Notts County",
+          "hot": false,
+          "display": "⚽ MK Dons vs Notts County · League One"
+        },
+        {
+          "id": "3222",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Peterborough",
+          "team2": "Cambridge",
+          "hot": false,
+          "display": "⚽ Peterborough vs Cambridge · League One"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 06:59 PM",
+      "match_start_local": "2026-11-28 07:00 PM",
+      "send_at_utc": "2026-11-28T12:59:00+00:00",
+      "match_start_utc": "2026-11-28T13:00:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Betis vs Rayo · LaLiga\n⚽ Las Palmas vs Andorra · LaLiga 2\n⚽ Samsunspor vs Genclerbirligi · Super Lig"
+      },
+      "matches": [
+        {
+          "id": "3257",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Betis",
+          "team2": "Rayo",
+          "hot": false,
+          "display": "⚽ Betis vs Rayo · LaLiga"
+        },
+        {
+          "id": "3261",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Las Palmas",
+          "team2": "Andorra",
+          "hot": false,
+          "display": "⚽ Las Palmas vs Andorra · LaLiga 2"
+        },
+        {
+          "id": "3265",
+          "sport": "Football",
+          "league": "Super Lig",
+          "team1": "Samsunspor",
+          "team2": "Genclerbirligi",
+          "hot": false,
+          "display": "⚽ Samsunspor vs Genclerbirligi · Super Lig"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 07:59 PM",
+      "match_start_local": "2026-11-28 08:00 PM",
+      "send_at_utc": "2026-11-28T13:59:00+00:00",
+      "match_start_utc": "2026-11-28T14:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Frosinone vs Parma",
+        "body": "Serie A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3245",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Frosinone",
+          "team2": "Parma",
+          "hot": false,
+          "display": "⚽ Frosinone vs Parma · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 08:19 PM",
+      "match_start_local": "2026-11-28 08:20 PM",
+      "send_at_utc": "2026-11-28T14:19:00+00:00",
+      "match_start_utc": "2026-11-28T14:20:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Al Ettifaq vs Al-Hilal",
+        "body": "Saudi League · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3254",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Ettifaq",
+          "team2": "Al-Hilal",
+          "hot": false,
+          "display": "⚽ Al Ettifaq vs Al-Hilal · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 08:29 PM",
+      "match_start_local": "2026-11-28 08:30 PM",
+      "send_at_utc": "2026-11-28T14:29:00+00:00",
+      "match_start_utc": "2026-11-28T14:30:00+00:00",
+      "match_count": 5,
+      "notification": {
+        "title": "⏰ 5 matches starting soon",
+        "body": "⚽ Hamburger SV vs Bayern München · Bundesliga\n⚽ Köln vs Elversberg · Bundesliga\n⚽ Mainz vs Union Berlin · Bundesliga\n⚽ SC Paderborn vs Schalke 04 · Bundesliga\n🏏 Dubai Capitals vs Gulf Giants · ILT20 2026"
+      },
+      "matches": [
+        {
+          "id": "3238",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Hamburger SV",
+          "team2": "Bayern München",
+          "hot": false,
+          "display": "⚽ Hamburger SV vs Bayern München · Bundesliga"
+        },
+        {
+          "id": "3237",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Köln",
+          "team2": "Elversberg",
+          "hot": false,
+          "display": "⚽ Köln vs Elversberg · Bundesliga"
+        },
+        {
+          "id": "3239",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Mainz",
+          "team2": "Union Berlin",
+          "hot": false,
+          "display": "⚽ Mainz vs Union Berlin · Bundesliga"
+        },
+        {
+          "id": "3236",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "SC Paderborn",
+          "team2": "Schalke 04",
+          "hot": false,
+          "display": "⚽ SC Paderborn vs Schalke 04 · Bundesliga"
+        },
+        {
+          "id": "3274",
+          "sport": "Cricket",
+          "league": "ILT20 2026",
+          "team1": "Dubai Capitals",
+          "team2": "Gulf Giants",
+          "hot": false,
+          "display": "🏏 Dubai Capitals vs Gulf Giants · ILT20 2026"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 08:59 PM",
+      "match_start_local": "2026-11-28 09:00 PM",
+      "send_at_utc": "2026-11-28T14:59:00+00:00",
+      "match_start_utc": "2026-11-28T15:00:00+00:00",
+      "match_count": 18,
+      "notification": {
+        "title": "⏰ 18 matches starting soon",
+        "body": "⚽ Birmingham vs Bolton · Championship\n⚽ Derby vs Watford FC · Championship\n⚽ Millwall vs Burnley · Championship\n⚽ QPR vs Sheff Utd · Championship\n⚽ West Brom vs Bristol City · Championship\n⚽ West Ham vs Stoke City · Championship\n+ 12 more matches in the app"
+      },
+      "matches": [
+        {
+          "id": "3220",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Birmingham",
+          "team2": "Bolton",
+          "hot": false,
+          "display": "⚽ Birmingham vs Bolton · Championship"
+        },
+        {
+          "id": "3221",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Derby",
+          "team2": "Watford FC",
+          "hot": false,
+          "display": "⚽ Derby vs Watford FC · Championship"
+        },
+        {
+          "id": "3219",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Millwall",
+          "team2": "Burnley",
+          "hot": false,
+          "display": "⚽ Millwall vs Burnley · Championship"
+        },
+        {
+          "id": "3218",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "QPR",
+          "team2": "Sheff Utd",
+          "hot": false,
+          "display": "⚽ QPR vs Sheff Utd · Championship"
+        },
+        {
+          "id": "3217",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "West Brom",
+          "team2": "Bristol City",
+          "hot": false,
+          "display": "⚽ West Brom vs Bristol City · Championship"
+        },
+        {
+          "id": "3216",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "West Ham",
+          "team2": "Stoke City",
+          "hot": false,
+          "display": "⚽ West Ham vs Stoke City · Championship"
+        },
+        {
+          "id": "3215",
+          "sport": "Football",
+          "league": "Championship",
+          "team1": "Wrexham",
+          "team2": "Portsmouth",
+          "hot": false,
+          "display": "⚽ Wrexham vs Portsmouth · Championship"
+        },
+        {
+          "id": "3232",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "AFC Wimbledon",
+          "team2": "Barnsley",
+          "hot": false,
+          "display": "⚽ AFC Wimbledon vs Barnsley · League One"
+        },
+        {
+          "id": "3231",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Bromley",
+          "team2": "Burton",
+          "hot": false,
+          "display": "⚽ Bromley vs Burton · League One"
+        },
+        {
+          "id": "3230",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Leicester City",
+          "team2": "Mansfield",
+          "hot": false,
+          "display": "⚽ Leicester City vs Mansfield · League One"
+        },
+        {
+          "id": "3229",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Luton",
+          "team2": "Oxford United",
+          "hot": false,
+          "display": "⚽ Luton vs Oxford United · League One"
+        },
+        {
+          "id": "3228",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Sheffield Wed",
+          "team2": "Reading",
+          "hot": false,
+          "display": "⚽ Sheffield Wed vs Reading · League One"
+        },
+        {
+          "id": "3227",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Stevenage",
+          "team2": "Blackpool",
+          "hot": false,
+          "display": "⚽ Stevenage vs Blackpool · League One"
+        },
+        {
+          "id": "3226",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Stockport",
+          "team2": "Leyton Orient",
+          "hot": false,
+          "display": "⚽ Stockport vs Leyton Orient · League One"
+        },
+        {
+          "id": "3225",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Wigan",
+          "team2": "Plymouth",
+          "hot": false,
+          "display": "⚽ Wigan vs Plymouth · League One"
+        },
+        {
+          "id": "3224",
+          "sport": "Football",
+          "league": "League One",
+          "team1": "Wycombe",
+          "team2": "Bradford",
+          "hot": false,
+          "display": "⚽ Wycombe vs Bradford · League One"
+        },
+        {
+          "id": "3209",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Leeds",
+          "team2": "Coventry",
+          "hot": false,
+          "display": "⚽ Leeds vs Coventry · Premier League"
+        },
+        {
+          "id": "3208",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Man Utd",
+          "team2": "Brentford",
+          "hot": false,
+          "display": "⚽ Man Utd vs Brentford · Premier League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 09:14 PM",
+      "match_start_local": "2026-11-28 09:15 PM",
+      "send_at_utc": "2026-11-28T15:14:00+00:00",
+      "match_start_utc": "2026-11-28T15:15:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Malaga vs Athletic Bilbao · LaLiga\n⚽ Albacete vs Tenerife · LaLiga 2\n⚽ CD Eldense vs Girona · LaLiga 2"
+      },
+      "matches": [
+        {
+          "id": "3258",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Malaga",
+          "team2": "Athletic Bilbao",
+          "hot": false,
+          "display": "⚽ Malaga vs Athletic Bilbao · LaLiga"
+        },
+        {
+          "id": "3262",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Albacete",
+          "team2": "Tenerife",
+          "hot": false,
+          "display": "⚽ Albacete vs Tenerife · LaLiga 2"
+        },
+        {
+          "id": "3263",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "CD Eldense",
+          "team2": "Girona",
+          "hot": false,
+          "display": "⚽ CD Eldense vs Girona · LaLiga 2"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 09:29 PM",
+      "match_start_local": "2026-11-28 09:30 PM",
+      "send_at_utc": "2026-11-28T15:29:00+00:00",
+      "match_start_utc": "2026-11-28T15:30:00+00:00",
+      "match_count": 3,
+      "notification": {
+        "title": "⏰ 3 matches starting soon",
+        "body": "⚽ Excelsior vs Telstar · Eredivisie\n⚽ Arouca vs Rio Ave · Liga Portugal\n⚽ Moreirense vs Santa Clara · Liga Portugal"
+      },
+      "matches": [
+        {
+          "id": "3248",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "Excelsior",
+          "team2": "Telstar",
+          "hot": false,
+          "display": "⚽ Excelsior vs Telstar · Eredivisie"
+        },
+        {
+          "id": "3251",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Arouca",
+          "team2": "Rio Ave",
+          "hot": false,
+          "display": "⚽ Arouca vs Rio Ave · Liga Portugal"
+        },
+        {
+          "id": "3252",
+          "sport": "Football",
+          "league": "Liga Portugal",
+          "team1": "Moreirense",
+          "team2": "Santa Clara",
+          "hot": false,
+          "display": "⚽ Moreirense vs Santa Clara · Liga Portugal"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 09:59 PM",
+      "match_start_local": "2026-11-28 10:00 PM",
+      "send_at_utc": "2026-11-28T15:59:00+00:00",
+      "match_start_utc": "2026-11-28T16:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Gaziantep FK vs Amed SK",
+        "body": "Super Lig · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3266",
+          "sport": "Football",
+          "league": "Super Lig",
+          "team1": "Gaziantep FK",
+          "team2": "Amed SK",
+          "hot": false,
+          "display": "⚽ Gaziantep FK vs Amed SK · Super Lig"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 10:14 PM",
+      "match_start_local": "2026-11-28 10:15 PM",
+      "send_at_utc": "2026-11-28T16:14:00+00:00",
+      "match_start_utc": "2026-11-28T16:15:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Angers vs Lens",
+        "body": "Ligue 1 · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3234",
+          "sport": "Football",
+          "league": "Ligue 1",
+          "team1": "Angers",
+          "team2": "Lens",
+          "hot": false,
+          "display": "⚽ Angers vs Lens · Ligue 1"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 10:59 PM",
+      "match_start_local": "2026-11-28 11:00 PM",
+      "send_at_utc": "2026-11-28T16:59:00+00:00",
+      "match_start_utc": "2026-11-28T17:00:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ Torino vs Lazio",
+        "body": "Serie A · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3246",
+          "sport": "Football",
+          "league": "Serie A",
+          "team1": "Torino",
+          "team2": "Lazio",
+          "hot": false,
+          "display": "⚽ Torino vs Lazio · Serie A"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 11:29 PM",
+      "match_start_local": "2026-11-28 11:30 PM",
+      "send_at_utc": "2026-11-28T17:29:00+00:00",
+      "match_start_utc": "2026-11-28T17:30:00+00:00",
+      "match_count": 6,
+      "notification": {
+        "title": "⏰ 6 matches starting soon",
+        "body": "⚽ Stuttgart vs Eintracht Frankfurt · Bundesliga\n⚽ Elche vs Atl. Madrid · LaLiga\n⚽ Eibar vs Burgos · LaLiga 2\n⚽ Charlotte FC vs Chicago Fire · MLS\n⚽ Ipswich vs Aston Villa · Premier League\n⚽ Al Ahli vs Al Taawoun · Saudi League"
+      },
+      "matches": [
+        {
+          "id": "3240",
+          "sport": "Football",
+          "league": "Bundesliga",
+          "team1": "Stuttgart",
+          "team2": "Eintracht Frankfurt",
+          "hot": false,
+          "display": "⚽ Stuttgart vs Eintracht Frankfurt · Bundesliga"
+        },
+        {
+          "id": "3259",
+          "sport": "Football",
+          "league": "LaLiga",
+          "team1": "Elche",
+          "team2": "Atl. Madrid",
+          "hot": false,
+          "display": "⚽ Elche vs Atl. Madrid · LaLiga"
+        },
+        {
+          "id": "3264",
+          "sport": "Football",
+          "league": "LaLiga 2",
+          "team1": "Eibar",
+          "team2": "Burgos",
+          "hot": false,
+          "display": "⚽ Eibar vs Burgos · LaLiga 2"
+        },
+        {
+          "id": "3269",
+          "sport": "Football",
+          "league": "MLS",
+          "team1": "Charlotte FC",
+          "team2": "Chicago Fire",
+          "hot": false,
+          "display": "⚽ Charlotte FC vs Chicago Fire · MLS"
+        },
+        {
+          "id": "3210",
+          "sport": "Football",
+          "league": "Premier League",
+          "team1": "Ipswich",
+          "team2": "Aston Villa",
+          "hot": false,
+          "display": "⚽ Ipswich vs Aston Villa · Premier League"
+        },
+        {
+          "id": "3255",
+          "sport": "Football",
+          "league": "Saudi League",
+          "team1": "Al Ahli",
+          "team2": "Al Taawoun",
+          "hot": false,
+          "display": "⚽ Al Ahli vs Al Taawoun · Saudi League"
+        }
+      ]
+    },
+    {
+      "status": "scheduled",
+      "send_at_local": "2026-11-28 11:44 PM",
+      "match_start_local": "2026-11-28 11:45 PM",
+      "send_at_utc": "2026-11-28T17:44:00+00:00",
+      "match_start_utc": "2026-11-28T17:45:00+00:00",
+      "match_count": 1,
+      "notification": {
+        "title": "⚽ PSV vs Go Ahead Eagles",
+        "body": "Eredivisie · Starting soon"
+      },
+      "matches": [
+        {
+          "id": "3249",
+          "sport": "Football",
+          "league": "Eredivisie",
+          "team1": "PSV",
+          "team2": "Go Ahead Eagles",
+          "hot": false,
+          "display": "⚽ PSV vs Go Ahead Eagles · Eredivisie"
         }
       ]
     }
