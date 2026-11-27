@@ -513,5 +513,16 @@
       "3244"
     ],
     "title": "\u23f0 2 matches starting soon"
+  },
+  "202611272000": {
+    "at": "2026-11-27T19:59:00+00:00",
+    "batches": 1,
+    "count": 3,
+    "ids": [
+      "3207",
+      "3211",
+      "3256"
+    ],
+    "title": "\u23f0 3 matches starting soon"
   }
 }
