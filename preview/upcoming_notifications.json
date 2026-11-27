@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T20:04:20+00:00",
+  "generated_at": "2026-11-27T20:05:24+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 56,
-    "upcoming_matches": 120,
+    "upcoming_notifications": 55,
+    "upcoming_matches": 117,
     "next_notification_at_local": "2026-11-28 02:14 AM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-28 01:59 AM",
-      "match_start_local": "2026-11-28 02:00 AM",
-      "send_at_utc": "2026-11-27T19:59:00+00:00",
-      "match_start_utc": "2026-11-27T20:00:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Southampton vs Middlesbrough · Championship\n⚽ Levante vs Racing Santander · LaLiga\n⚽ Forest vs Chelsea · Premier League"
-      },
-      "matches": [
-        {
-          "id": "3211",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Southampton",
-          "team2": "Middlesbrough",
-          "hot": false,
-          "display": "⚽ Southampton vs Middlesbrough · Championship"
-        },
-        {
-          "id": "3256",
-          "sport": "Football",
-          "league": "LaLiga",
-          "team1": "Levante",
-          "team2": "Racing Santander",
-          "hot": false,
-          "display": "⚽ Levante vs Racing Santander · LaLiga"
-        },
-        {
-          "id": "3207",
-          "sport": "Football",
-          "league": "Premier League",
-          "team1": "Forest",
-          "team2": "Chelsea",
-          "hot": false,
-          "display": "⚽ Forest vs Chelsea · Premier League"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-28 02:14 AM",
