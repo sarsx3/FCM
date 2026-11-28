@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-28T12:32:20+00:00",
+  "generated_at": "2026-11-28T12:35:25+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "28 Nov 2026, 06:31:13 PM BST",
+    "source_last_updated": "28 Nov 2026, 06:35:23 PM BST",
     "source_events_loaded": 145,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,70 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 46,
-    "upcoming_matches": 105,
+    "upcoming_notifications": 45,
+    "upcoming_matches": 100,
     "next_notification_at_local": "2026-11-28 06:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-28 06:29 PM",
-      "match_start_local": "2026-11-28 06:30 PM",
-      "send_at_utc": "2026-11-28T12:29:00+00:00",
-      "match_start_utc": "2026-11-28T12:30:00+00:00",
-      "match_count": 5,
-      "notification": {
-        "title": "⏰ 5 matches starting soon",
-        "body": "⚽ Blackburn vs Charlton · Championship\n⚽ Lincoln vs Wolverhampton · Championship\n⚽ Preston vs Norwich · Championship\n⚽ MK Dons vs Notts County · League One\n⚽ Peterborough vs Cambridge · League One"
-      },
-      "matches": [
-        {
-          "id": "3214",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Blackburn",
-          "team2": "Charlton",
-          "hot": false,
-          "display": "⚽ Blackburn vs Charlton · Championship"
-        },
-        {
-          "id": "3213",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Lincoln",
-          "team2": "Wolverhampton",
-          "hot": false,
-          "display": "⚽ Lincoln vs Wolverhampton · Championship"
-        },
-        {
-          "id": "3212",
-          "sport": "Football",
-          "league": "Championship",
-          "team1": "Preston",
-          "team2": "Norwich",
-          "hot": false,
-          "display": "⚽ Preston vs Norwich · Championship"
-        },
-        {
-          "id": "3223",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "MK Dons",
-          "team2": "Notts County",
-          "hot": false,
-          "display": "⚽ MK Dons vs Notts County · League One"
-        },
-        {
-          "id": "3222",
-          "sport": "Football",
-          "league": "League One",
-          "team1": "Peterborough",
-          "team2": "Cambridge",
-          "hot": false,
-          "display": "⚽ Peterborough vs Cambridge · League One"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-28 06:59 PM",
