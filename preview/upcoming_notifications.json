@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-28T15:34:22+00:00",
+  "generated_at": "2026-11-28T15:35:27+00:00",
   "sync": {
     "schedule": "every 5 minutes (GitHub Actions cron)",
     "interval_minutes": 5,
     "source": "https://raw.githubusercontent.com/sarsx3/aladin450/refs/heads/main/events.json",
-    "source_last_updated": "28 Nov 2026, 09:34:13 PM BST",
+    "source_last_updated": "28 Nov 2026, 09:30:28 PM BST",
     "source_events_loaded": 132,
     "timezone": "UTC+6 (Bangladesh time)",
     "note": "GitHub may delay scheduled runs by a few minutes at busy times."
@@ -15,52 +15,11 @@
     "preview_horizon_hours": 72
   },
   "summary": {
-    "upcoming_notifications": 60,
-    "upcoming_matches": 103,
+    "upcoming_notifications": 59,
+    "upcoming_matches": 100,
     "next_notification_at_local": "2026-11-28 09:59 PM"
   },
   "upcoming_notifications": [
-    {
-      "status": "sent",
-      "send_at_local": "2026-11-28 09:29 PM",
-      "match_start_local": "2026-11-28 09:30 PM",
-      "send_at_utc": "2026-11-28T15:29:00+00:00",
-      "match_start_utc": "2026-11-28T15:30:00+00:00",
-      "match_count": 3,
-      "notification": {
-        "title": "⏰ 3 matches starting soon",
-        "body": "⚽ Excelsior vs Telstar · Eredivisie\n⚽ Arouca vs Rio Ave · Liga Portugal\n⚽ Moreirense vs Santa Clara · Liga Portugal"
-      },
-      "matches": [
-        {
-          "id": "3248",
-          "sport": "Football",
-          "league": "Eredivisie",
-          "team1": "Excelsior",
-          "team2": "Telstar",
-          "hot": false,
-          "display": "⚽ Excelsior vs Telstar · Eredivisie"
-        },
-        {
-          "id": "3251",
-          "sport": "Football",
-          "league": "Liga Portugal",
-          "team1": "Arouca",
-          "team2": "Rio Ave",
-          "hot": false,
-          "display": "⚽ Arouca vs Rio Ave · Liga Portugal"
-        },
-        {
-          "id": "3252",
-          "sport": "Football",
-          "league": "Liga Portugal",
-          "team1": "Moreirense",
-          "team2": "Santa Clara",
-          "hot": false,
-          "display": "⚽ Moreirense vs Santa Clara · Liga Portugal"
-        }
-      ]
-    },
     {
       "status": "scheduled",
       "send_at_local": "2026-11-28 09:59 PM",
